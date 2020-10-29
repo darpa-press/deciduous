@@ -1,0 +1,66 @@
+{
+    "version": 2,
+    "alias": "deciduous.darpa.press",
+    "regions": ["syd1"],
+    "public": true,
+    "builds": [
+        {
+            "src": "backend/api/**/*.js",
+            "use": "@now/node",
+            "config": { "maxLambdaSize": "50mb" }
+        },
+        {
+            "src": "frontend/package.json",
+            "use": "@now/static-build",
+            "config": { "distDir": "build" }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "backend/api/$1"
+        },
+        {
+            "src": "/backend/(.*)",
+            "dest": "backend/$1"
+        },
+        {
+            "src": "/static/(.*)",
+            "headers": {
+                "cache-control": "s-maxage=31536000, maxage=0, stale-while-revalidate"
+            },
+            "dest": "/frontend/static/$1"
+        },
+        { "src": "/favicon.png", "dest": "/frontend/favicon.png" },
+        {
+            "src": "/asset-manifest.json",
+            "dest": "/frontend/asset-manifest.json"
+        },
+        { "src": "/manifest.json", "dest": "/frontend/manifest.json" },
+        {
+            "src": "/precache-manifest.(.*)",
+            "dest": "/frontend/precache-manifest.$1"
+        },
+        {
+            "src": "/service-worker.js",
+            "headers": { "cache-control": "s-maxage=0" },
+            "dest": "/frontend/service-worker.js"
+        },
+        {
+            "src": "/(.*)",
+            "headers": { "cache-control": "s-maxage=0" },
+            "dest": "/frontend/index.html"
+        }
+    ],
+    "env": {
+        "PORT": "80",
+        "DATABASE": "@deciduous-database",
+        "SECRET": "@deciduous-secret",
+        "KEY": "@deciduous-key",
+        "DEFAULT_USER": "@deciduous-defaultuser",
+        "DEFAULT_PASS": "@deciduous-defaultpass",
+        "DAWS_ACCESS_KEY_ID": "@deciduous-aws-key",
+        "DAWS_SECRET_ACCESS_KEY": "@deciduous-aws-secret",
+        "DAWS_STORAGE_BUCKET_NAME": "@deciduous-aws-bucket"
+    }
+}

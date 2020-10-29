@@ -1,0 +1,26 @@
+.rc-tooltip {
+    display: block;
+    font-family: "FigginsItalic", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+    visibility: visible;
+    z-index: 1070;
+}
+
+.rc-tooltip-hidden {
+    display: none;
+}
+
+.rc-tooltip-inner {
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    padding: 0 10px;
+    color: #333;
+    min-height: 29px;
+    text-align: left;
+    text-decoration: none;
+}

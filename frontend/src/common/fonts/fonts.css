@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Louize";
+    src: url("louize-regital-webfont.woff2") format("woff2"),
+        url("louize-regital-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Louize";
+    src: url("louize-reg-webfont.woff2") format("woff2"),
+        url("louize-reg-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "P22 Cezanne";
+    src: url("p22cezanne-regular-webfont.woff2") format("woff2"),
+        url("p22cezanne-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Figgins";
+    src: url("figgins-regular.woff2") format("woff2"),
+        url("figgins-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FigginsItalic";
+    src: url("figgins-italic.woff2") format("woff2"),
+        url("figgins-italic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

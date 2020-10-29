@@ -1,0 +1,48 @@
+.st0 {
+    fill: #FF1D25;
+}
+
+.st1 {
+    fill: #FFFF00;
+}
+
+.st2 {
+    fill: #0071BC;
+}
+
+.st3 {
+    fill: #F15A24;
+}
+
+.st4 {
+    fill: #8CC63F;
+}
+
+.st5 {
+    fill: #C69C6D;
+}
+
+.tree {
+    position: relative;
+    width: 100%;
+}
+
+.tree>svg {
+    position: absolute;
+    width: 100%;
+}
+
+.tree>img {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+path {
+    opacity: 0.0;
+    transition: opacity 0.2s ease;
+}
+
+.path-on {
+    opacity: 1;
+}
