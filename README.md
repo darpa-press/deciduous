@@ -1,4 +1,4 @@
-# DECIDUOUS
+![Screenshot of Deciduous](https://i.imgur.com/2NeRbn1.jpg)
 
 Deciduous is a framework for online codices of artwork.  
 It consists of a backend utilising express and mongoose, and a frontend utilising React.
