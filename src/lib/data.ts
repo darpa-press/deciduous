@@ -109,6 +109,22 @@ export async function getAllPieces({
     );
 }
 
+/**
+ * Every piece with its relations resolved, in page order. Backs the print
+ * export, which needs each card complete rather than a list of ids.
+ */
+export async function getPiecesWithRelations() {
+    await connect();
+    return plain(
+        await Piece.find()
+            .sort({ page: 1 })
+            .populate("persons")
+            .populate("parent")
+            .populate({ path: "word", model: "Word" })
+            .lean()
+    );
+}
+
 export async function getAllPersons() {
     await connect();
     return plain(await Person.find().sort({ name: 1 }).lean());

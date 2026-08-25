@@ -1,4 +1,5 @@
 import { PaneLink } from "@/components/PaneLink";
+import { CODEX_IMPRINT, CODEX_NAME, cardWordLabel, shelfMark, type CardWord } from "@/lib/card";
 
 /**
  * The catalogue card for a piece — the view behind the little card button.
@@ -7,13 +8,6 @@ import { PaneLink } from "@/components/PaneLink";
  * summary, the piece it hangs from, its words, the people in it, and a shelf
  * mark along the bottom.
  */
-
-interface CardWord {
-    word?: string;
-    gloss?: string;
-    synsetOffset?: number;
-    pos?: string;
-}
 
 interface CardPerson {
     name?: string;
@@ -28,16 +22,6 @@ export interface CardPiece {
     parent?: { page?: number; title?: string } | null;
     persons?: CardPerson[];
     word?: CardWord[];
-}
-
-/**
- * Words alternate between the synset's gloss and the word itself, by position.
- * That is what the legacy component does, and it is what gives the card its
- * half-definition, half-index reading.
- */
-function wordLabel(item: CardWord, index: number) {
-    if (index % 2 === 0 && item.gloss) return item.gloss.split(";", 1)[0].trim();
-    return item.word ? item.word.trim() : "";
 }
 
 export function PieceCard({ piece, index }: { piece: CardPiece; index: number }) {
@@ -77,7 +61,7 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
                                 contextual
                             >
                                 {i ? ", " : ""}
-                                {wordLabel(item, i)}
+                                {cardWordLabel(item, i)}
                             </PaneLink>
                         </span>
                     ))}
@@ -96,9 +80,9 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
 
             <div className="card-meta">
                 <div>
-                    <span className="card-smallcaps">Deciduous</span>/Arbes san sang
+                    <span className="card-smallcaps">{CODEX_NAME}</span>/{CODEX_IMPRINT}
                 </div>
-                <div>DC001.{page}</div>
+                <div>{shelfMark(page)}</div>
             </div>
         </div>
     );

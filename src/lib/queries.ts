@@ -60,6 +60,12 @@ export async function getAllPieces(options: { sort?: string; order?: 1 | -1; lim
     return data.getAllPieces(options);
 }
 
+export async function getPiecesWithRelations() {
+    "use cache";
+    cacheTag("pieces", "persons", "words");
+    return data.getPiecesWithRelations();
+}
+
 export async function getAllPersons() {
     "use cache";
     cacheTag("persons");
