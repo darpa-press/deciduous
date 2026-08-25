@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { usePathname } from "next/navigation";
 
-import { parseSegment } from "@/lib/panes";
+import { parseSegment, paneIdentity } from "@/lib/panes";
 import { ActionBar } from "@/components/ActionBar";
 import { renderPane } from "@/app/pane-action";
 
@@ -43,14 +43,31 @@ export function PaneHost({
     const [content, setContent] = useState<ReactNode>(children);
     const renderedFor = useRef(initialSegment);
 
+    const scrollRef = useRef<HTMLDivElement>(null);
+    // What this pane is currently showing, ignoring how. Used to decide
+    // whether new content is a new thing to read or the same thing in another
+    // form — see paneIdentity.
+    const shownIdentity = useRef(paneIdentity(initialSegment));
+
     useEffect(() => {
         if (renderedFor.current === segment) return;
 
         let cancelled = false;
         renderPane(segment, index).then((node) => {
             if (cancelled) return;
+
+            const nextIdentity = paneIdentity(segment);
+            const isDifferentThing = nextIdentity !== shownIdentity.current;
+
             renderedFor.current = segment;
+            shownIdentity.current = nextIdentity;
             setContent(node);
+
+            // A different piece starts at the top. Laying the card over the
+            // same piece does not move the reader.
+            if (isDifferentThing && scrollRef.current) {
+                scrollRef.current.scrollTop = 0;
+            }
         });
 
         return () => {
@@ -70,7 +87,9 @@ export function PaneHost({
 
     return (
         <div className="pane" data-pane={index}>
-            <div className="pane-scroll">{content}</div>
+            <div className="pane-scroll" ref={scrollRef}>
+                {content}
+            </div>
             <ActionBar index={index} cardLink={cardLink} editTarget={editTarget} loggedIn={loggedIn} />
         </div>
     );

@@ -84,5 +84,37 @@ export function buildCreateLink(pathArray: string[], index: number) {
     };
 }
 
+/**
+ * What a pane is *showing*, ignoring how it is being shown.
+ *
+ * `/2` and `/2c` are the same piece — the card is laid over it, not a
+ * different thing — so moving between them should leave the reader where they
+ * were. Moving to a different piece should not. This is the distinction a pane
+ * uses to decide whether to reset its scroll.
+ */
+export function paneIdentity(segment: string): string {
+    const pane = parseSegment(segment);
+
+    switch (pane.kind) {
+        // Deliberately ignores `card`.
+        case "piece":
+            return `piece:${pane.page}`;
+        case "person":
+            return `person:${pane.slug}`;
+        case "word":
+            return `word:${pane.id}`;
+        case "index":
+            return `index:${pane.variant}`;
+        case "edit-piece":
+            return `edit-piece:${pane.page}`;
+        case "edit-person":
+            return `edit-person:${pane.slug}`;
+        case "notfound":
+            return `notfound:${pane.segment}`;
+        default:
+            return pane.kind;
+    }
+}
+
 /** The URL the legacy app redirected `/` to. */
 export const HOME_PANES = ["2", "125"];
