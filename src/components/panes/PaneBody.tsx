@@ -3,7 +3,12 @@ import { PiecePane } from "./PiecePane";
 import { PersonPane } from "./PersonPane";
 import { WordPane } from "./WordPane";
 import { NotFoundPane } from "./NotFoundPane";
-import { PlaceholderPane } from "./PlaceholderPane";
+import {
+    PieceEditPane,
+    NewPiecePane,
+    PersonEditPane,
+    NewPersonPane,
+} from "./EditorPanes";
 import { IndexPane } from "./IndexPane";
 import { PersonsPane } from "./PersonsPane";
 import { WordsPane } from "./WordsPane";
@@ -51,11 +56,17 @@ export function PaneBody({
         // Editors are admin-only. Logged out, the segment simply does not
         // resolve — the same as any other unknown path.
         case "edit-piece":
-        case "edit-person":
+            if (!loggedIn) return <NotFoundPane segment={segment} />;
+            return <PieceEditPane page={pane.page} index={index} />;
         case "new-piece":
+            if (!loggedIn) return <NotFoundPane segment={segment} />;
+            return <NewPiecePane index={index} />;
+        case "edit-person":
+            if (!loggedIn) return <NotFoundPane segment={segment} />;
+            return <PersonEditPane slug={pane.slug} index={index} />;
         case "new-person":
             if (!loggedIn) return <NotFoundPane segment={segment} />;
-            return <PlaceholderPane label="editor" phase="Phase 5" />;
+            return <NewPersonPane index={index} />;
         case "notfound":
             return <NotFoundPane segment={pane.segment} />;
     }

@@ -870,3 +870,173 @@
     margin-top: 0.75rem;
     opacity: 0.7;
 }
+
+/* ---------------------------------------------------------------- forms */
+
+/* Ported from Components/Form. The label column is fixed so the fields line
+   up down the page. */
+
+.form-page {
+    padding: 1rem 2rem 3rem;
+    font-family: var(--font-display-italic);
+}
+
+.form-page label {
+    display: block;
+    opacity: 0.4;
+    margin-bottom: 0.1rem;
+}
+
+.form-page input[type="checkbox"] {
+    margin-right: 0.4rem;
+}
+
+.form-page input[type="text"] {
+    width: 100%;
+    padding: 0.25rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.form-page input[type="color"] {
+    position: relative;
+    top: 1px;
+    height: 1.86rem;
+    width: 1.86rem;
+    margin-right: 0.25rem;
+    padding: 0;
+    border: 1px solid var(--color-rule);
+}
+
+.form-page input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.form-page textarea {
+    border: 1px solid var(--color-rule);
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+.form-page button {
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 6px 16px;
+    font-family: var(--font-display);
+    cursor: pointer;
+}
+
+.form-page button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.edit-title {
+    width: 100%;
+    padding: 0.25rem;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+
+.form-flex {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.form-flex > label {
+    flex: 0 0 6rem;
+}
+
+.form-field {
+    flex: 1 1 100%;
+    min-width: 0;
+}
+
+.combined-input {
+    display: flex;
+    width: 100%;
+}
+
+.checkbox-label {
+    opacity: 1 !important;
+    user-select: none;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.form-buttons {
+    margin-top: 3rem;
+}
+
+.form-error {
+    color: var(--color-hazard, #b72220);
+    margin-bottom: 1rem;
+}
+
+.code-editor {
+    border: 1px solid var(--color-rule);
+    margin-bottom: 2rem;
+    font-size: 0.85rem;
+}
+
+/* Words attached to a piece, removable by clicking. */
+.word-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.word-chip {
+    background: white;
+    border: 1px solid var(--color-rule);
+    border-radius: 2px;
+    padding: 0.15rem 0.4rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 0 !important;
+}
+
+.word-chip:hover {
+    border-color: #666;
+}
+
+.relations {
+    margin-bottom: 1rem;
+}
+
+.relation-row {
+    display: flex;
+    gap: 0.4rem;
+    align-items: flex-start;
+    margin-bottom: 0.4rem;
+}
+
+.relation-row .select {
+    flex: 1 1 50%;
+}
+
+.relation-row input[type="text"] {
+    flex: 1 1 50%;
+    margin-bottom: 0;
+}
+
+/* react-select renders its own markup; keep it in the codex's type. */
+.select {
+    margin-bottom: 1rem;
+    font-family: var(--font-system);
+    font-size: 0.9rem;
+}
