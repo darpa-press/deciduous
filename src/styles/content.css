@@ -201,8 +201,18 @@
     padding: 1rem 2rem 3rem;
 }
 
+/*
+ * Everything derived from PageInside in the legacy — piece content, the forms,
+ * the person and word heads, the index toggle — dropped to this padding on a
+ * phone. 2rem of side padding on a 390px screen leaves very little line.
+ */
 @media (max-width: 767px) {
-    .pane-inside {
+    .pane-inside,
+    .piece-content,
+    .form-page,
+    .person-inside,
+    .word-head,
+    .index-types {
         padding: 0.75rem;
     }
 }
