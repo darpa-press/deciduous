@@ -12,8 +12,8 @@ export async function PersonPane({ slug, index }: { slug: string; index: number 
 
     return (
         <div>
-            <div className="pane-inside person-vitals">
-                <div className="mb-4">
+            <div className="pane-inside person-inside">
+                <div className="person-vitals">
                     <div>{person.name}</div>
                     <div className="person-years">
                         {person.birth || ""}—{person.death || ""}

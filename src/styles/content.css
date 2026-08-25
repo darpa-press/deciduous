@@ -466,9 +466,10 @@
 }
 
 /* Tooltip, replacing rc-tooltip with the same look: white, hairline border,
-   italic display face, sitting above the icon. */
-.action-icon::after {
-    content: attr(data-label);
+   italic display face, sitting above the icon. The label is real text in a
+   span rather than a data attribute, so it is available to nothing else and
+   cannot silently render empty. */
+.action-tip {
     background-color: white;
     border: 1px solid var(--color-rule);
     border-radius: 3px;
@@ -489,8 +490,16 @@
     z-index: 1070;
 }
 
+@media screen and (max-width: 767px) {
+    /* No hover to reveal it, and no room for it. */
+    .action-tip {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
-    .action-icon:hover::after {
+    .action-icon:hover .action-tip,
+    .action-icon:focus-visible .action-tip {
         opacity: 1;
     }
 }
@@ -1209,4 +1218,28 @@
 
 .index-gap {
     margin-right: 0.25rem;
+}
+
+/* ---------------------------------------------------------- person pane */
+
+.person-inside {
+    border-bottom: 1px solid var(--color-rule);
+}
+
+.person-vitals {
+    margin-bottom: 1rem;
+}
+
+/* The bio is set in italic, with emphasis inside it turning upright — the
+   same inversion the codex uses throughout its prose. */
+.person-bio {
+    font-style: italic;
+}
+
+.person-bio em {
+    font-style: normal;
+}
+
+.person-years {
+    font-family: var(--font-display-italic);
 }

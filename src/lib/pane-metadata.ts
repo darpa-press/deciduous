@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { parseSegment } from "@/lib/panes";
 import { getPieceByPage, getWordById } from "@/lib/queries";
+import { ALL_PIECES_LIMIT } from "@/components/panes/AllPiecesPane";
 
 /**
  * Document title for a pane stack.
@@ -30,6 +31,7 @@ export async function paneMetadata(segments: string[]): Promise<Metadata> {
             if (pane.kind === "persons") return "People";
             if (pane.kind === "words") return "Words";
             if (pane.kind === "graph") return "Graph";
+            if (pane.kind === "all") return `Last ${ALL_PIECES_LIMIT}`;
             return segment;
         })
     );

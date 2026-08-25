@@ -25,8 +25,8 @@ function Action({
 }) {
     return (
         <PaneLink target={target} index={index} className="action-icon" aria-label={label}>
-            {/* The tooltip is CSS-driven off this attribute; see content.css. */}
-            <span className="action-tip" data-label={label} />
+            {/* Shown on hover; see .action-tip in content.css. */}
+            <span className="action-tip">{label}</span>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/img/action/${icon}.png`} alt="" className="action-image" />
         </PaneLink>
