@@ -24,4 +24,8 @@ yarn-error.log*
 /out/
 *.tsbuildinfo
 next-env.d.ts
-.env*.local
+
+# Every env file is ignored, including .env.legacy (the 2020 production
+# credentials). Only the checked-in example is tracked.
+.env*
+!.env.example
