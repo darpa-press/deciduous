@@ -10,7 +10,6 @@
 // Exits non-zero if any check fails, so it can gate a deploy script.
 //
 import { readFileSync } from "node:fs";
-import { createHash } from "node:crypto";
 
 const args = process.argv.slice(2);
 const argOf = (name, fallback) => {
@@ -21,18 +20,6 @@ const argOf = (name, fallback) => {
 const BASE = argOf("base", "http://localhost:3100").replace(/\/$/, "");
 const CONCURRENCY = Number(argOf("concurrency", 6));
 const TIMEOUT_MS = 45000;
-
-const sha = (s) => createHash("sha256").update(s).digest("hex");
-
-function canonical(value) {
-    if (Array.isArray(value)) return value.map(canonical);
-    if (value && typeof value === "object") {
-        return Object.keys(value)
-            .sort()
-            .reduce((acc, k) => ((acc[k] = canonical(value[k])), acc), {});
-    }
-    return value;
-}
 
 async function get(path, options = {}) {
     const controller = new AbortController();
