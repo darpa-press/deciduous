@@ -5,6 +5,8 @@ import Select from "react-select";
 
 import { CodeEditor } from "./CodeEditor";
 import { Field, Checkbox, ColourField } from "./fields";
+import { FileUpload } from "./FileUpload";
+import { WordFinder } from "./WordFinder";
 import { savePiece, deletePiece, type PieceInput } from "@/app/editor-actions";
 import { buildCreateLink } from "@/lib/panes";
 import { pushPane } from "@/lib/navigate";
@@ -126,6 +128,8 @@ export function PieceEditor({
 
             <CodeEditor value={content} onChange={setContent} />
 
+            <FileUpload />
+
             <Field label="Parent">
                 <Select
                     className="select"
@@ -160,22 +164,15 @@ export function PieceEditor({
             </Field>
 
             <Field label="Words">
-                {/* Looking new words up in WordNet is still to come; existing
-                    ones can be removed here. */}
-                <div className="word-chips">
-                    {words.length === 0 && <span className="quiet">None</span>}
-                    {words.map((word) => (
-                        <button
-                            type="button"
-                            key={word.id}
-                            className="word-chip"
-                            onClick={() => setWords(words.filter((w) => w.id !== word.id))}
-                            title="Remove"
-                        >
-                            {word.label} ×
-                        </button>
-                    ))}
-                </div>
+                <WordFinder
+                    selected={words}
+                    onAdd={(word) =>
+                        setWords((current) =>
+                            current.some((w) => w.id === word.id) ? current : [...current, word]
+                        )
+                    }
+                    onRemove={(id) => setWords((current) => current.filter((w) => w.id !== id))}
+                />
             </Field>
 
             <Field label="BG colour">
