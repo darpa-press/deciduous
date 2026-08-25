@@ -18,3 +18,10 @@ yarn-error.log*
 !.elasticbeanstalk/*.global.yml
 
 .vercel
+
+# --- Next.js (migration/nextjs) ---
+/.next/
+/out/
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
