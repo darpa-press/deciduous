@@ -710,3 +710,105 @@
 .piece .indents p {
     margin: 0;
 }
+
+/* ----------------------------------------------------------------- card */
+
+/*
+ * The catalogue card, reached by the card button or the `123c` form of a
+ * segment. It lies over the piece rather than replacing it; clicking the sheet
+ * around it puts it away.
+ */
+
+.card-overlay {
+    align-content: center;
+    background: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    height: calc(100vh - 2.5rem);
+    justify-content: center;
+    left: 0;
+    line-height: 1.2rem;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+/* Slides up into place, as the legacy transition did. */
+.card-bounce {
+    animation: card-bounce-up 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes card-bounce-up {
+    from {
+        margin-top: 150%;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card-bounce {
+        animation: none;
+    }
+}
+
+.card-content {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 25vw;
+    padding: 3em 2em 1em 15%;
+    width: 100%;
+    z-index: 2;
+}
+
+.card-smallcaps {
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+}
+
+.card-title {
+    display: inline;
+    font-variant: small-caps;
+    margin-right: 0.5em;
+    letter-spacing: 0.5px;
+}
+
+.card-background {
+    text-indent: 1.5em;
+    display: inline;
+}
+
+.card-inherit {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    margin-left: 1.6666em;
+    margin-top: 0.5em;
+}
+
+.card-words {
+    text-indent: 1.5em;
+}
+
+.card-people {
+    display: flex;
+    margin: 2em 0 2em 1.5em;
+}
+
+.card-person {
+    margin-right: 1em;
+}
+
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}

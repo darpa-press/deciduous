@@ -20,7 +20,7 @@ export function PaneBody({ segment, index }: { segment: string; index: number })
 
     switch (pane.kind) {
         case "piece":
-            return <PiecePane page={pane.page} index={index} />;
+            return <PiecePane page={pane.page} index={index} card={pane.card} />;
         case "person":
             return <PersonPane slug={pane.slug} index={index} />;
         case "word":
