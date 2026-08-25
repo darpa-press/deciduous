@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Search } from "@/components/Search";
 import { LoginLink } from "@/components/LoginLink";
+import { PaneTitleSync } from "@/components/PaneTitleSync";
 
 export const metadata: Metadata = {
     // The legacy app set this via react-helmet in App.js; per-piece titles are
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 {children}
                 <Search />
                 <LoginLink loggedIn={false} />
+                <PaneTitleSync />
             </body>
         </html>
     );

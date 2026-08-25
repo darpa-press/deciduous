@@ -1,9 +1,10 @@
 "use client";
 
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import type { MouseEvent, ReactNode } from "react";
 
 import { buildCreateLink } from "@/lib/panes";
+import { pushPane, isModifiedClick } from "@/lib/navigate";
 
 /**
  * The codex's internal link. `<aa to="12,13,14">` names one *or more*
@@ -31,7 +32,6 @@ export function AALink({
     style?: React.CSSProperties;
     title?: string;
 }) {
-    const router = useRouter();
     const pathname = usePathname();
 
     const segments = pathname.split("/").filter(Boolean);
@@ -40,12 +40,9 @@ export function AALink({
     const href = hrefs[0] ?? "/";
 
     function onClick(event: MouseEvent<HTMLAnchorElement>) {
-        // Leave modified clicks to the browser.
-        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
-            return;
-        }
+        if (isModifiedClick(event)) return;
         event.preventDefault();
-        router.push(hrefs[Math.floor(Math.random() * hrefs.length)] ?? href);
+        pushPane(hrefs[Math.floor(Math.random() * hrefs.length)] ?? href);
     }
 
     return (

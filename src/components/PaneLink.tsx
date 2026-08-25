@@ -1,22 +1,18 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { ReactNode, CSSProperties } from "react";
+import type { ReactNode, CSSProperties, MouseEvent } from "react";
 
 import { buildCreateLink } from "@/lib/panes";
+import { pushPane, isModifiedClick } from "@/lib/navigate";
 
 /**
  * A link that targets a pane position.
  *
- * Every pane lives in a nested layout so that it survives navigation — which
- * means a pane cannot know what sits in the panes *after* it, and any href
- * baked in on the server would go stale as soon as a neighbour changed.
- *
- * So hrefs are resolved here instead, from the live pathname. This component
- * re-renders on navigation, but it is a leaf: the pane around it does not.
- * That is the whole trick — the links stay correct while the content stays
- * put.
+ * The href is resolved from the live pathname, and the click updates history
+ * directly rather than going through the router, so panes that did not change
+ * are left alone. The real href stays on the anchor, so middle-click, copy and
+ * no-JS all behave.
  */
 export function PaneLink({
     target,
@@ -48,9 +44,22 @@ export function PaneLink({
     const segments = pathname.split("/").filter(Boolean);
     const href = buildCreateLink(segments, index)(target, contextual);
 
+    function onClick(event: MouseEvent<HTMLAnchorElement>) {
+        if (isModifiedClick(event)) return;
+        event.preventDefault();
+        pushPane(href);
+    }
+
     return (
-        <Link href={href} className={className} style={style} title={title} aria-label={ariaLabel}>
+        <a
+            href={href}
+            onClick={onClick}
+            className={className}
+            style={style}
+            title={title}
+            aria-label={ariaLabel}
+        >
             {children}
-        </Link>
+        </a>
     );
 }

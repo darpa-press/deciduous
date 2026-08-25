@@ -2,18 +2,16 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 /**
- * Handles the two paths that cannot be expressed by the nested pane routes.
+ * Handles the two paths the pane route cannot express.
  *
  * `/` redirects to the opening spread. Doing it here rather than in the page
  * keeps it a real 307: the page streams, and a redirect issued mid-stream
  * cannot set a status code.
  *
- * `/index` is the tree index — the destination of the page-number heading
- * above every piece — but Next normalises that exact path to `/` before
- * routing, so it never reaches `[p1]`. Rewriting the path would work but would
- * leak a sentinel into the URL and into every link built from it. A request
- * header does not: the address bar still reads `/index`, and app/page.tsx
- * renders that pane when it sees this.
+ * `/index` is the tree index — where the page-number heading above every piece
+ * links — but Next normalises that exact path to `/` before routing, so it
+ * never arrives with a segment. Rewriting the path would leak a sentinel into
+ * the URL and into every link built from it; a request header does not.
  *
  * Only the exact single-segment path is affected — `/index/2`, `/2/index` and
  * `/index-a` all route normally.
