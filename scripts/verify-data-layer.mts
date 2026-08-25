@@ -25,7 +25,7 @@ import {
     getGraph,
     getAllPersons,
     searchPieces,
-} from "../src/lib/queries";
+} from "../src/lib/data";
 
 const OUT = path.resolve("baseline");
 const manifest = JSON.parse(readFileSync(path.join(OUT, "manifest.json"), "utf8"));

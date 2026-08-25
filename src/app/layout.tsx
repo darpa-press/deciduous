@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Search } from "@/components/Search";
+import { LoginLink } from "@/components/LoginLink";
 
 export const metadata: Metadata = {
     // The legacy app set this via react-helmet in App.js; per-piece titles are
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <body className="h-full">
                 {children}
                 <Search />
+                <LoginLink loggedIn={false} />
             </body>
         </html>
     );

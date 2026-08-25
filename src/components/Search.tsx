@@ -6,11 +6,12 @@ import { useRouter } from "next/navigation";
 import { search, type SearchHit } from "@/app/actions";
 
 /**
- * The search overlay. Ported from Pages/Search — a debounced input over the
- * whole viewport, with results as a plain list.
+ * Search. The trigger is the faint ⇴ in the top-left corner; activating it
+ * covers the viewport with a translucent white sheet, an input line along the
+ * top, and results as a grid of cards. Ported from Pages/Search.
  *
  * The query runs as a server action rather than an API request, so there is no
- * endpoint to expose and no client-side database access.
+ * search endpoint to expose.
  */
 export function Search() {
     const [open, setOpen] = useState(false);
@@ -26,11 +27,15 @@ export function Search() {
         });
     }
 
-    function go(page?: number) {
-        if (page == null) return;
+    function close() {
         setOpen(false);
         setTerm("");
         setHits([]);
+    }
+
+    function go(page?: number) {
+        if (page == null) return;
+        close();
         router.push(`/${page}`);
     }
 
@@ -44,37 +49,38 @@ export function Search() {
 
     return (
         <div className="search-screen">
-            <button
-                type="button"
-                className="search-dismiss"
-                onClick={() => setOpen(false)}
-                aria-label="Close search"
-            >
-                ×
-            </button>
-
-            <div className="search-inner">
+            <div className="search-input-line">
                 <input
                     autoFocus
                     className="search-input"
                     value={term}
-                    placeholder="⇴"
                     onChange={(e) => onChange(e.target.value)}
                     onKeyDown={(e) => {
-                        if (e.key === "Escape") setOpen(false);
+                        if (e.key === "Escape") close();
                         if (e.key === "Enter" && hits[0]) go(hits[0].page);
                     }}
                 />
+                <button type="button" className="search-dismiss" onClick={close} aria-label="Close search">
+                    ×
+                </button>
+            </div>
 
-                <div className="search-results">
-                    {term && !pending && hits.length === 0 && <div className="quiet">Nothing found.</div>}
-                    {hits.map((hit) => (
-                        <button type="button" key={hit.id} className="search-hit" onClick={() => go(hit.page)}>
-                            {hit.title}
-                            <span className="index-number">{hit.page}</span>
+            <div className="search-results">
+                {term && !pending && hits.length === 0 && (
+                    <div className="quiet px-2">Nothing found.</div>
+                )}
+                {hits.map((hit) => (
+                    <div className="search-result" key={hit.id}>
+                        <button type="button" className="search-card" onClick={() => go(hit.page)}>
+                            <div>
+                                <span className="search-card-title">{hit.title}</span>
+                            </div>
+                            <div className="search-card-meta">
+                                <span>{hit.page}</span>
+                            </div>
                         </button>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
         </div>
     );

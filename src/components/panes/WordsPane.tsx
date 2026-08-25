@@ -5,9 +5,17 @@ import { getWordTree } from "@/lib/queries";
 import { buildCreateLink } from "@/lib/panes";
 
 /**
- * The word index. Synsets are arranged by hypernym, and each entry shows its
- * ancestry as a dimmed breadcrumb — so a word reads as "thing · plant · tree".
- * Ported from Pages/Index/IndexWord.
+ * The word index. Synsets are arranged by hypernym, and each entry carries its
+ * ancestry as a dimmed breadcrumb — so a nested word reads as
+ * "Things · Plant · Tree" with only the last at full strength.
+ *
+ * Two details are inherited from the legacy client rather than the API:
+ *
+ *   1. The three buckets are sorted alphabetically by name — acts, qualities,
+ *      things — not left in the order /api/word returns them. The sort happens
+ *      in common/api/word.js, after the fetch.
+ *   2. A bucket is rendered as a word entry like any other, not as a heading,
+ *      so its name becomes the first crumb in every descendant's ancestry.
  */
 
 interface WordNode {
@@ -33,6 +41,8 @@ function WordEntry({
     createLink: (target: string) => string;
     ancestry: ReactNode;
 }) {
+    // The label is ancestry plus this word, and is passed down whole as the
+    // next level's ancestry — which is how the breadcrumb accumulates.
     const label = (
         <>
             {ancestry}
@@ -43,20 +53,18 @@ function WordEntry({
     return (
         <div className="word-item">
             <div className="word-name">
-                {node.id ? <Link href={createLink(`w-${node.id}`)}>{label}</Link> : <span>{label}</span>}
+                <Link href={createLink(`w-${node.id ?? ""}`)}>{label}</Link>
             </div>
-            {node.children && node.children.length > 0 && (
-                <div>
-                    {node.children.map((child) => (
-                        <WordEntry
-                            key={String(child.id ?? child._id)}
-                            node={child}
-                            createLink={createLink}
-                            ancestry={label}
-                        />
-                    ))}
-                </div>
-            )}
+            <div>
+                {(node.children ?? []).map((child) => (
+                    <WordEntry
+                        key={String(child.id ?? child._id)}
+                        node={child}
+                        createLink={createLink}
+                        ancestry={label}
+                    />
+                ))}
+            </div>
         </div>
     );
 }
@@ -66,20 +74,18 @@ export async function WordsPane({ pathArray, index }: { pathArray: string[]; ind
     const link = buildCreateLink(pathArray, index);
     const createLink = (target: string) => link(target, false);
 
+    // Matches the sort in common/api/word.js: `a.word > b.word ? 1 : -1`.
+    const sorted = [...tree].sort((a, b) => ((a.word ?? "") > (b.word ?? "") ? 1 : -1));
+
     return (
         <div className="pane-inside words-list">
-            {tree.map((bucket) => (
-                <div key={bucket.word} className="mb-6">
-                    <div className="font-display quiet mb-1">{bucket.word}</div>
-                    {(bucket.children ?? []).map((node) => (
-                        <WordEntry
-                            key={String(node.id ?? node._id)}
-                            node={node}
-                            createLink={createLink}
-                            ancestry={null}
-                        />
-                    ))}
-                </div>
+            {sorted.map((bucket) => (
+                <WordEntry
+                    key={bucket.word}
+                    node={bucket}
+                    createLink={createLink}
+                    ancestry={null}
+                />
             ))}
         </div>
     );

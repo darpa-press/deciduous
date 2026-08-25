@@ -294,22 +294,44 @@
 
 /* ---------------------------------------------------------------- people */
 
+/*
+ * Matches the look of the customised react-table stylesheet the legacy app
+ * shipped: no rules or borders anywhere, a very faint header, and a wide gap
+ * separating it from the rows. The b./d. columns were capped at 120px and the
+ * name column took the remainder.
+ */
+
 .persons-table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 2rem;
+    table-layout: fixed;
 }
 
 .persons-table th {
     text-align: left;
-    font-family: var(--font-display);
     font-weight: normal;
-    border-bottom: 1px solid var(--color-rule);
-    padding: 0.25rem 0.5rem 0.25rem 0;
+    opacity: 0.3333;
+    user-select: none;
+    line-height: normal;
+    padding: 0 0 4.45rem 0;
+    vertical-align: top;
 }
 
 .persons-table td {
-    padding: 0.125rem 0.5rem 0.125rem 0;
+    padding: 0;
     vertical-align: top;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* Years are narrow; the name column takes what is left. */
+.persons-table th:nth-child(2),
+.persons-table th:nth-child(3),
+.persons-table td:nth-child(2),
+.persons-table td:nth-child(3) {
+    width: 120px;
 }
 
 .person-link {
@@ -359,84 +381,332 @@
     min-height: calc(100vh - 2.5rem);
 }
 
+/* ------------------------------------------------------------ action bar */
+
+/*
+ * 2.5rem tall — the height .pane-scroll subtracts from the viewport. Icons sit
+ * at half opacity until the bar is hovered, so the chrome stays quiet.
+ */
+.action-bar {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+    user-select: none;
+    width: 100%;
+    z-index: 2;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .action-bar {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+    }
+}
+
+.action-bar-inside {
+    background: white;
+    border-top: 1px solid var(--color-rule);
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.action-bar-inside > * {
+    opacity: 0.5;
+    transition: all 0.2s ease;
+}
+
+@media screen and (min-width: 768px) {
+    .action-bar:hover .action-bar-inside > * {
+        opacity: 1;
+    }
+}
+
+.action-group {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .action-group {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+.action-icon {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .action-icon:hover {
+        background: #f3f3f3;
+        opacity: 1;
+    }
+}
+
+.action-image {
+    height: auto;
+    margin: 0.25rem 0.75rem;
+    max-height: 1.125rem;
+    max-width: 1.125rem;
+    vertical-align: bottom;
+    width: auto;
+}
+
+/* Tooltip, replacing rc-tooltip with the same look: white, hairline border,
+   italic display face, sitting above the icon. */
+.action-icon::after {
+    content: attr(data-label);
+    background-color: white;
+    border: 1px solid var(--color-rule);
+    border-radius: 3px;
+    bottom: 100%;
+    color: var(--color-ink);
+    font-family: var(--font-display-italic);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    left: 50%;
+    margin-bottom: 4px;
+    opacity: 0;
+    padding: 0 10px;
+    pointer-events: none;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: opacity 0.2s ease 0.3s;
+    white-space: nowrap;
+    z-index: 1070;
+}
+
+@media screen and (min-width: 768px) {
+    .action-icon:hover::after {
+        opacity: 1;
+    }
+}
+
+/* ------------------------------------------------------------ login link */
+
+.login-link {
+    background: rgba(0, 0, 0, 0.025);
+    border-radius: 2px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    transition: all 0.2s ease;
+    z-index: 60;
+}
+
+.login-link--in {
+    background: rgba(0, 200, 130, 0.3333);
+}
+
+@media (min-width: 768px) {
+    .login-link:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    .login-link--in:hover {
+        background: rgba(0, 200, 130, 0.6);
+    }
+}
+
 /* ---------------------------------------------------------------- search */
 
+/* Top-left corner, deliberately faint. */
 .search-icon {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 0.5rem 0.75rem;
+    top: 1rem;
+    left: 1rem;
+    opacity: 0.3;
+    z-index: 60;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
     background: none;
     border: 0;
-    cursor: pointer;
-    font-size: 1.1rem;
-    z-index: 50;
-    opacity: 0.5;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    line-height: 1;
 }
 
 .search-icon:hover {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .search-screen {
-    position: fixed;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.985);
-    z-index: 100;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    overflow-y: auto;
-}
-
-.search-dismiss {
-    position: absolute;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    position: fixed;
     top: 0;
-    right: 0;
-    padding: 0.5rem 1rem;
-    background: none;
-    border: 0;
-    cursor: pointer;
-    font-size: 1.5rem;
-    opacity: 0.4;
+    width: 100%;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 100;
 }
 
-.search-inner {
-    width: 100%;
-    max-width: 32rem;
-    padding: 4rem 2rem;
+.search-input-line {
+    display: flex;
+    align-items: center;
+    flex: 0 0 25px;
+    user-select: none;
+    margin-right: 2rem;
+    padding: 1.75rem 1rem 1rem;
 }
 
 .search-input {
-    width: 100%;
+    background: transparent;
     border: 0;
-    border-bottom: 1px solid var(--color-rule);
-    background: none;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    flex: 1;
     font-family: var(--font-body);
-    font-size: 1.5rem;
-    padding: 0.5rem 0;
+    color: inherit;
+}
+
+.search-input:focus {
     outline: none;
 }
 
-.search-results {
-    margin-top: 2rem;
-    font-family: var(--font-display-italic);
-}
-
-.search-hit {
-    display: block;
-    width: 100%;
-    text-align: left;
+.search-dismiss {
     background: none;
     border: 0;
     cursor: pointer;
-    padding: 0.25rem 0;
-    font: inherit;
+    font-size: 1.25rem;
+    opacity: 0.4;
+    padding: 0 0.5rem;
+    line-height: 1;
+}
+
+.search-results {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 0 0.5rem 1rem;
+}
+
+.search-result {
+    padding: 0.5rem;
+    flex: 0 0 33.3333%;
+    min-width: 320px;
+    height: 22vw;
+    min-height: 240px;
+}
+
+@media screen and (max-width: 767px) {
+    .search-result {
+        flex: 0 0 100%;
+        min-width: 0;
+    }
+}
+
+/* Approximates CardContent from CardCatalogue — the card catalogue proper is
+   not ported yet, so results use its shell rather than the full card. */
+.search-card {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 3em 2em 1em 15%;
+    font-size: 0.85rem;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.1s ease;
+    overflow: auto;
+    font-family: var(--font-body);
     color: inherit;
 }
 
 @media screen and (min-width: 768px) {
-    .search-hit:hover {
-        opacity: 0.5;
+    .search-card:hover {
+        border-color: black;
     }
+}
+
+.search-card-title {
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+    margin-right: 0.5em;
+}
+
+.search-card-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    font-family: var(--font-display);
+    opacity: 0.5;
+}
+
+/* ------------------------------------------------- content element defaults
+ *
+ * The legacy app loaded normalize-css, which leaves browser defaults intact.
+ * Tailwind's preflight is a much harder reset: it zeroes every margin and
+ * strips list markers and padding. Piece content is authored as plain HTML
+ * against browser defaults, so those defaults are restored here — scoped to
+ * rendered content, leaving preflight in force everywhere else.
+ *
+ * Without this, paragraphs run together and ordered lists lose their numbers.
+ */
+
+.piece-content p,
+.person-bio p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.piece-content blockquote,
+.piece-content pre {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.piece-content ul,
+.piece-content ol,
+.person-bio ul,
+.person-bio ol {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    list-style: revert;
+}
+
+.piece-content li,
+.person-bio li {
+    list-style: revert;
+}
+
+.piece-content h1,
+.piece-content h2,
+.piece-content h3 {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+
+/* The codex indents rather than spaces these, and that rule must still win. */
+.piece .indents p {
+    margin: 0;
 }

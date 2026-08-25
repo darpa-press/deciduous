@@ -15,6 +15,8 @@ import { PersonsPane } from "@/components/panes/PersonsPane";
 import { WordsPane } from "@/components/panes/WordsPane";
 import { AllPiecesPane } from "@/components/panes/AllPiecesPane";
 import { GraphPane } from "@/components/panes/GraphPane";
+import { ActionBar } from "@/components/ActionBar";
+import { buildCreateLink } from "@/lib/panes";
 import { getPieceByPage } from "@/lib/queries";
 
 /**
@@ -30,8 +32,6 @@ import { getPieceByPage } from "@/lib/queries";
  * server component under its own Suspense boundary, so a slow pane streams in
  * without holding up its neighbour.
  */
-
-export const dynamic = "force-dynamic";
 
 function renderPane(pane: Pane, pathArray: string[], index: number) {
     switch (pane.kind) {
@@ -96,10 +96,16 @@ export async function generateMetadata({
         })
     );
 
-    return { title: titles.length ? `${titles.join(" · ")} — Deciduous` : "Deciduous" };
+    return { title: titles.length ? `${titles.join(" & ")} — Deciduous` : "Deciduous" };
 }
 
-export default async function PanesPage({ params }: PageProps<"/[[...panes]]">) {
+/**
+ * Reading `params` is dynamic, so the pane stack streams inside a Suspense
+ * boundary while the document shell prerenders. Each pane's data comes from a
+ * `use cache` boundary in lib/queries, which is what stops an unchanged pane
+ * re-querying — and visibly reloading — when its neighbour changes.
+ */
+async function PaneStack({ params }: { params: PageProps<"/[[...panes]]">["params"] }) {
     const { panes } = await params;
     const pathArray = stripSentinel(panes ?? []);
 
@@ -107,9 +113,27 @@ export default async function PanesPage({ params }: PageProps<"/[[...panes]]">) 
     if (pathArray.length === 0) redirect(`/${HOME_PANES.join("/")}`);
 
     return (
-        <div className="pane-container">
+        <>
             {pathArray.map((segment, index) => {
                 const pane = parseSegment(segment);
+                const link = buildCreateLink(pathArray, index);
+                const createLink = (target: string) => link(target, false);
+
+                // The card toggle only applies to a piece, and flips between
+                // the piece and its card form. Edit targets differ by pane.
+                const cardLink =
+                    pane.kind === "piece"
+                        ? pane.card
+                            ? String(pane.page)
+                            : `${pane.page}c`
+                        : undefined;
+                const editLink =
+                    pane.kind === "piece"
+                        ? createLink(`edit-${pane.page}`)
+                        : pane.kind === "person"
+                          ? createLink(`edit-person-${pane.slug}`)
+                          : undefined;
+
                 return (
                     // Keyed by segment so an unchanged pane is reconciled rather
                     // than remounted, preserving its scroll position.
@@ -119,9 +143,25 @@ export default async function PanesPage({ params }: PageProps<"/[[...panes]]">) 
                                 {renderPane(pane, pathArray, index)}
                             </Suspense>
                         </div>
+                        <ActionBar
+                            createLink={createLink}
+                            cardLink={cardLink}
+                            editLink={editLink}
+                            loggedIn={false}
+                        />
                     </div>
                 );
             })}
+        </>
+    );
+}
+
+export default function PanesPage({ params }: PageProps<"/[[...panes]]">) {
+    return (
+        <div className="pane-container">
+            <Suspense fallback={null}>
+                <PaneStack params={params} />
+            </Suspense>
         </div>
     );
 }
