@@ -1,0 +1,196 @@
+/*
+ * Styles for rendered piece content.
+ *
+ * These target markup that comes out of the database — `img + attr`,
+ * `.iframe-container`, `.small-images img` — so they stay a stylesheet rather
+ * than becoming utility classes. Ported from the styled-components blocks in
+ * Components/PieceDumb/PieceDumb.jsx and Components/Page/Page.jsx.
+ */
+
+.piece {
+    min-height: calc(100vh - 2.5rem);
+}
+
+.piece p {
+    margin-left: 0;
+    max-width: 25rem;
+}
+
+.piece .indents p {
+    margin: 0;
+    max-width: 30rem;
+    text-indent: 2rem;
+}
+
+.piece + div {
+    border-top: 1px solid var(--color-rule);
+}
+
+/* Pieces with a dark background get light link treatment. */
+.piece--text-light a {
+    color: #ffffff;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
+.piece--text-light a:hover {
+    text-decoration-color: white;
+}
+
+.piece-title {
+    font-family: var(--font-display-italic);
+    margin: 0 1rem 2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.piece-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 8rem);
+    padding: 1rem 2rem 3rem;
+}
+
+.piece-content > div > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piece-content a {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.1);
+}
+
+.piece-content iframe {
+    max-width: 100%;
+}
+
+.piece-content img,
+.piece-content video {
+    height: auto;
+    margin-bottom: 1.5rem;
+    max-height: 85vh;
+    max-width: 100%;
+    width: auto;
+}
+
+/* `attr` is the codex's caption element. It has no component — the legacy
+   parser had no handler for it either — and is styled purely by adjacency. */
+.piece-content img + attr,
+.piece-content video + attr {
+    display: block;
+    font-style: italic;
+    margin-bottom: 2.5rem;
+    margin-top: -1.5rem;
+}
+
+.piece-content video {
+    height: auto;
+    width: 100%;
+}
+
+.piece-content li {
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .piece-content a:hover {
+        cursor: pointer;
+        text-decoration-color: black;
+        transition: text-decoration-color 1s ease;
+    }
+}
+
+.piece-content .small-images img {
+    border-radius: 1px;
+    height: 1em;
+    margin-bottom: 0;
+    margin-left: 2px;
+    vertical-align: -0.15em;
+    width: auto;
+}
+
+.piece-content .iframe-container {
+    height: 0;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.piece-content .iframe-container iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.piece-content .full-image-overlay {
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*
+ * The pane stack. Panes sit side by side and each scrolls independently; below
+ * 768px only the first is shown. The legacy app did the mobile narrowing twice
+ * — once in CSS and again by slicing the path array in JS. Here it is CSS
+ * only, so there is no window-width read during render and nothing to
+ * hydrate-mismatch.
+ */
+
+.pane-container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.pane {
+    border-right: 1px solid var(--color-rule);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.pane:last-child {
+    border-right: 0;
+}
+
+@media (max-width: 767px) {
+    .pane {
+        display: none;
+    }
+    .pane:first-child {
+        display: flex;
+    }
+}
+
+.pane-scroll {
+    -webkit-overflow-scrolling: touch;
+    flex: 0 0 calc(100vh - 2.5rem);
+    overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+    .pane-scroll {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+}
