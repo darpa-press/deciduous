@@ -23,9 +23,6 @@ import { getPieceCount } from "@/lib/queries";
  * the genuinely interactive elements ship JavaScript.
  */
 
-/** Resolves a link target to a full pane URL — see buildCreateLink. */
-export type CreateLink = (target: string) => string;
-
 async function NumberOfDocuments() {
     // Was a client component that fetched /api/pieces?count=1 on mount and
     // showed "000" until it resolved. As a server component it is just the
@@ -34,7 +31,7 @@ async function NumberOfDocuments() {
     return <span>{count}</span>;
 }
 
-function componentsFor(createLink: CreateLink): Partial<Components> {
+function componentsFor(index: number): Partial<Components> {
     return {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         aa: ({ to, href, children, ...rest }: any) => {
@@ -42,10 +39,9 @@ function componentsFor(createLink: CreateLink): Partial<Components> {
             const targets = raw
                 .split(",")
                 .map((t) => t.trim())
-                .filter(Boolean)
-                .map(createLink);
+                .filter(Boolean);
             return (
-                <AALink targets={targets.length ? targets : ["/"]} {...rest}>
+                <AALink targets={targets} index={index} {...rest}>
                     {children}
                 </AALink>
             );
@@ -95,7 +91,7 @@ function componentsFor(createLink: CreateLink): Partial<Components> {
     };
 }
 
-export function renderContent(content: string | null | undefined, createLink: CreateLink): ReactNode {
+export function renderContent(content: string | null | undefined, index: number): ReactNode {
     const tree = unified()
         .use(rehypeParse, { fragment: true })
         .parse(normaliseContent(content)) as Root;
@@ -106,7 +102,7 @@ export function renderContent(content: string | null | undefined, createLink: Cr
         Fragment,
         jsx,
         jsxs,
-        components: componentsFor(createLink),
+        components: componentsFor(index),
         // Custom elements the codex uses that have no component — `attr` is a
         // caption element with no handler in the legacy parser either, so it
         // renders as a bare unknown element exactly as it does today.

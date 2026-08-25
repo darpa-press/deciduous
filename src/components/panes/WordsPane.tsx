@@ -1,8 +1,7 @@
-import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { getWordTree } from "@/lib/queries";
-import { buildCreateLink } from "@/lib/panes";
+import { PaneLink } from "@/components/PaneLink";
 
 /**
  * The word index. Synsets are arranged by hypernym, and each entry carries its
@@ -34,11 +33,11 @@ function formatWord(word: string) {
 
 function WordEntry({
     node,
-    createLink,
+    index,
     ancestry,
 }: {
     node: WordNode;
-    createLink: (target: string) => string;
+    index: number;
     ancestry: ReactNode;
 }) {
     // The label is ancestry plus this word, and is passed down whole as the
@@ -53,14 +52,16 @@ function WordEntry({
     return (
         <div className="word-item">
             <div className="word-name">
-                <Link href={createLink(`w-${node.id ?? ""}`)}>{label}</Link>
+                <PaneLink target={`w-${node.id ?? ""}`} index={index}>
+                    {label}
+                </PaneLink>
             </div>
             <div>
                 {(node.children ?? []).map((child) => (
                     <WordEntry
                         key={String(child.id ?? child._id)}
                         node={child}
-                        createLink={createLink}
+                        index={index}
                         ancestry={label}
                     />
                 ))}
@@ -69,10 +70,8 @@ function WordEntry({
     );
 }
 
-export async function WordsPane({ pathArray, index }: { pathArray: string[]; index: number }) {
+export async function WordsPane({ index }: { index: number }) {
     const tree = (await getWordTree()) as unknown as WordNode[];
-    const link = buildCreateLink(pathArray, index);
-    const createLink = (target: string) => link(target, false);
 
     // Matches the sort in common/api/word.js: `a.word > b.word ? 1 : -1`.
     const sorted = [...tree].sort((a, b) => ((a.word ?? "") > (b.word ?? "") ? 1 : -1));
@@ -80,12 +79,7 @@ export async function WordsPane({ pathArray, index }: { pathArray: string[]; ind
     return (
         <div className="pane-inside words-list">
             {sorted.map((bucket) => (
-                <WordEntry
-                    key={bucket.word}
-                    node={bucket}
-                    createLink={createLink}
-                    ancestry={null}
-                />
+                <WordEntry key={bucket.word} node={bucket} index={index} ancestry={null} />
             ))}
         </div>
     );

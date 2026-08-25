@@ -1,7 +1,5 @@
-import Link from "next/link";
-
 import { getAllPersons } from "@/lib/queries";
-import { buildCreateLink } from "@/lib/panes";
+import { PaneLink } from "@/components/PaneLink";
 
 /** Years are stored as signed numbers; negatives are BC. */
 function formatYear(value?: number) {
@@ -15,9 +13,8 @@ function formatYear(value?: number) {
  * table library. It is a plain table here. TanStack Table would be a
  * like-for-like replacement of something that was never needed.
  */
-export async function PersonsPane({ pathArray, index }: { pathArray: string[]; index: number }) {
+export async function PersonsPane({ index }: { index: number }) {
     const persons = await getAllPersons();
-    const link = buildCreateLink(pathArray, index);
 
     return (
         <div className="pane-inside">
@@ -33,9 +30,13 @@ export async function PersonsPane({ pathArray, index }: { pathArray: string[]; i
                     {persons.map((person) => (
                         <tr key={String(person._id)}>
                             <td>
-                                <Link href={link(`p-${person.slug}`, false)} className="person-link">
+                                <PaneLink
+                                    target={`p-${person.slug}`}
+                                    index={index}
+                                    className="person-link"
+                                >
                                     {person.name}
-                                </Link>
+                                </PaneLink>
                             </td>
                             <td>{formatYear(person.birth)}</td>
                             <td>{formatYear(person.death)}</td>

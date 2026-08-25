@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+
+import { buildCreateLink } from "@/lib/panes";
 import { Network, type Data, type Options } from "vis-network";
 
 /**
@@ -59,15 +61,16 @@ const options: Options = {
 export function GraphCanvas({
     nodes,
     edges,
-    hrefForLink,
+    index,
 }: {
     nodes: GraphNode[];
     edges: GraphEdge[];
-    /** Pane URL for each node's `link`, precomputed on the server. */
-    hrefForLink: Record<string, string>;
+    /** Which pane this graph occupies. */
+    index: number;
 }) {
     const container = useRef<HTMLDivElement>(null);
     const router = useRouter();
+    const pathname = usePathname();
 
     useEffect(() => {
         if (!container.current) return;
@@ -81,12 +84,12 @@ export function GraphCanvas({
         network.on("selectNode", (event: { nodes: string[] }) => {
             const node = nodes.find((n) => n.id === event.nodes[0]);
             if (!node) return;
-            const href = hrefForLink[String(node.link)];
-            if (href) router.push(href);
+            const segments = pathname.split("/").filter(Boolean);
+            router.push(buildCreateLink(segments, index)(String(node.link), false));
         });
 
         return () => network.destroy();
-    }, [nodes, edges, hrefForLink, router]);
+    }, [nodes, edges, index, pathname, router]);
 
     return <div ref={container} className="graph-canvas" />;
 }

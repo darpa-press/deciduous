@@ -1,6 +1,6 @@
 import fontColorContrast from "font-color-contrast";
 
-import { renderContent, type CreateLink } from "@/lib/content/render";
+import { renderContent } from "@/lib/content/render";
 import { PieceTitle } from "./PieceTitle";
 
 export interface PieceLike {
@@ -12,20 +12,22 @@ export interface PieceLike {
 }
 
 /**
- * Presentational body of a piece. Shared by the piece pane and by the person
- * pane, which lists a person's pieces inline — the same split the legacy app
- * made with PieceViewDumb.
+ * Presentational body of a piece. Shared by the piece pane and by the panes
+ * that list pieces inline — the same split the legacy app made with
+ * PieceViewDumb.
  */
 export function PieceBody({
     piece,
-    createLink,
-    titleHref,
+    index,
+    isInList = false,
 }: {
     piece: PieceLike;
-    /** Resolves an <aa> target in the content to a pane URL. */
-    createLink: CreateLink;
-    /** Where the page-number heading links to. */
-    titleHref: string;
+    index: number;
+    /**
+     * In a list, the heading links to the piece itself; standalone, it links
+     * to the index.
+     */
+    isInList?: boolean;
 }) {
     const background = piece.background;
 
@@ -45,10 +47,15 @@ export function PieceBody({
                 color: textColor || undefined,
             }}
         >
-            <PieceTitle page={piece.page} title={piece.title} href={titleHref} />
+            <PieceTitle
+                page={piece.page}
+                title={piece.title}
+                target={isInList ? String(piece.page) : "index"}
+                index={index}
+            />
 
             <div className={`piece-content ${piece.fullWidth ? "piece__full" : ""}`}>
-                <div>{renderContent(piece.content, createLink)}</div>
+                <div>{renderContent(piece.content, index)}</div>
             </div>
         </div>
     );

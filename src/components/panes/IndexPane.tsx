@@ -1,7 +1,5 @@
-import Link from "next/link";
-
 import { getPieceTree, getAllPieces } from "@/lib/queries";
-import { buildCreateLink } from "@/lib/panes";
+import { PaneLink } from "@/components/PaneLink";
 
 /**
  * The piece index, in two forms: the hierarchy (`/index`) and the alphabetical
@@ -22,11 +20,11 @@ interface TreeNode {
 
 function IndexEntry({
     node,
-    createLink,
+    index,
     loggedIn,
 }: {
     node: TreeNode;
-    createLink: (target: string) => string;
+    index: number;
     loggedIn: boolean;
 }) {
     const linkable = !node.stub || loggedIn;
@@ -42,9 +40,13 @@ function IndexEntry({
         <div className="index-item">
             <div className={`index-link ${node.stub ? "quiet" : ""}`}>
                 {linkable ? (
-                    <Link href={createLink(String(node.page))} style={{ opacity: node.stub ? 0.5 : 1 }}>
+                    <PaneLink
+                        target={String(node.page)}
+                        index={index}
+                        style={{ opacity: node.stub ? 0.5 : 1 }}
+                    >
                         {label}
-                    </Link>
+                    </PaneLink>
                 ) : (
                     <span>{label}</span>
                 )}
@@ -56,7 +58,7 @@ function IndexEntry({
                         <IndexEntry
                             key={String(child._id)}
                             node={child}
-                            createLink={createLink}
+                            index={index}
                             loggedIn={loggedIn}
                         />
                     ))}
@@ -66,18 +68,18 @@ function IndexEntry({
     );
 }
 
-async function IndexTree({ createLink, loggedIn }: { createLink: (t: string) => string; loggedIn: boolean }) {
+async function IndexTree({ index, loggedIn }: { index: number; loggedIn: boolean }) {
     const tree = (await getPieceTree()) as unknown as TreeNode[];
     return (
         <div className="pane-inside">
             {tree.map((node) => (
-                <IndexEntry key={String(node._id)} node={node} createLink={createLink} loggedIn={loggedIn} />
+                <IndexEntry key={String(node._id)} node={node} index={index} loggedIn={loggedIn} />
             ))}
         </div>
     );
 }
 
-async function IndexAlpha({ createLink }: { createLink: (t: string) => string }) {
+async function IndexAlpha({ index }: { index: number }) {
     const pieces = await getAllPieces({ sort: "title", order: 1 });
 
     // Grouped by first letter of the title, in the order the sorted list
@@ -98,7 +100,9 @@ async function IndexAlpha({ createLink }: { createLink: (t: string) => string })
                     <div>
                         {group.map((piece) => (
                             <div className="index-alpha-piece" key={String(piece._id)}>
-                                <Link href={createLink(String(piece.page))}>{piece.title}</Link>
+                                <PaneLink target={String(piece.page)} index={index}>
+                                    {piece.title}
+                                </PaneLink>
                             </div>
                         ))}
                     </div>
@@ -110,43 +114,40 @@ async function IndexAlpha({ createLink }: { createLink: (t: string) => string })
 
 export async function IndexPane({
     variant,
-    pathArray,
     index,
     loggedIn = false,
 }: {
     variant: "tree" | "alpha";
-    pathArray: string[];
     index: number;
     loggedIn?: boolean;
 }) {
-    const link = buildCreateLink(pathArray, index);
-    const createLink = (target: string) => link(target, false);
-
     return (
         <div>
             <div className="index-types">
-                <Link
-                    href={createLink("index")}
+                <PaneLink
+                    target="index"
+                    index={index}
                     className={variant === "tree" ? "" : "quiet"}
                     aria-label="Tree index"
                 >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="/img/icon-tree.svg" alt="tree" className="index-type-icon" />
-                </Link>
-                <Link
-                    href={createLink("index-a")}
+                </PaneLink>
+                <PaneLink
+                    target="index-a"
+                    index={index}
                     className={variant === "alpha" ? "" : "quiet"}
                     aria-label="Alphabetical index"
                 >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="/img/icon-alpha.svg" alt="alpha" className="index-type-icon" />
-                </Link>
+                </PaneLink>
             </div>
 
             {variant === "tree" ? (
-                <IndexTree createLink={createLink} loggedIn={loggedIn} />
+                <IndexTree index={index} loggedIn={loggedIn} />
             ) : (
-                <IndexAlpha createLink={createLink} />
+                <IndexAlpha index={index} />
             )}
         </div>
     );
