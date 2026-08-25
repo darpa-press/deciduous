@@ -1,0 +1,1641 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "14806838n",
+      "def": "material produced by or used in a reaction involving changes in atoms or molecules  ",
+      "exp": [],
+      "gloss": "material produced by or used in a reaction involving changes in atoms or molecules  ",
+      "lemma": "chemical",
+      "lexFilenum": 27,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580897
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2692966
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3304730
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14694765
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14708531
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14727153
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14772185
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14798331
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14800842
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14818238
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14845383
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14859344
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14860102
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14876206
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14906850
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14921272
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14922107
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14930073
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14980215
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14983143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14997699
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15004874
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15052667
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15055936
+        }
+      ],
+      "synonyms": [
+        "chemical",
+        "chemical_substance"
+      ],
+      "synsetOffset": 14806838,
+      "wCnt": 2
+    },
+    {
+      "_id": "14580897n",
+      "def": "the tangible substance that goes into the makeup of a physical object",
+      "exp": [
+        "coal is a hard black material",
+        "wheat is the stuff they use to make bread"
+      ],
+      "gloss": "the tangible substance that goes into the makeup of a physical object; \"coal is a hard black material\"; \"wheat is the stuff they use to make bread\"  ",
+      "lemma": "material",
+      "lexFilenum": 27,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 19613
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2779845
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2820432
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7670731
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14583066
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14585519
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14585808
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14585960
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14586119
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14594925
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14596700
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14596956
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14597158
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14604763
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14662574
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14696793
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14702416
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14705533
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14755804
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14757754
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14776237
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14799244
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14806838
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14817783
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14821043
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14821590
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14821984
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14839439
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14840092
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14840583
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14842992
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14852450
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14856134
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14856263
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14866889
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14868243
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14872697
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14908422
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14908977
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14916796
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14974264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14976448
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14984973
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14991712
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15002233
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15069820
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15075867
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15078550
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15083974
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15097209
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15112425
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15112702
+        }
+      ],
+      "synonyms": [
+        "material",
+        "stuff"
+      ],
+      "synsetOffset": 14580897,
+      "wCnt": 2
+    },
+    {
+      "_id": "19613n",
+      "def": "the real physical matter of which a person or thing consists",
+      "exp": [
+        "DNA is the substance of our genes"
+      ],
+      "gloss": "the real physical matter of which a person or thing consists; \"DNA is the substance of our genes\"  ",
+      "lemma": "substance",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13809207
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 625393
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5263850
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5432736
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580752
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580897
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14583228
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14586258
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14619225
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14622893
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14723079
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14738892
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14840755
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14899152
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14899530
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14939900
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15093735
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15110096
+        }
+      ],
+      "synonyms": [
+        "substance"
+      ],
+      "synsetOffset": 19613,
+      "wCnt": 1
+    },
+    {
+      "_id": "13809207n",
+      "def": "something determined in relation to something that includes it",
+      "exp": [
+        "he wanted to feel a part of something bigger than himself",
+        "I read a portion of the manuscript",
+        "the smaller component is hard to reach",
+        "the animal constituent of plankton"
+      ],
+      "gloss": "something determined in relation to something that includes it; \"he wanted to feel a part of something bigger than himself\"; \"I read a portion of the manuscript\"; \"the smaller component is hard to reach\"; \"the animal constituent of plankton\"  ",
+      "lemma": "part",
+      "lexFilenum": 24,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13808708
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 524693
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 19613
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6284225
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6482401
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13124855
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13809769
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13809920
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13810323
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13810615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13810818
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13811340
+        }
+      ],
+      "synonyms": [
+        "part",
+        "portion",
+        "component_part",
+        "component",
+        "constituent"
+      ],
+      "synsetOffset": 13809207,
+      "wCnt": 5
+    },
+    {
+      "_id": "31921n",
+      "def": "an abstraction belonging to or characteristic of two entities or parts together  ",
+      "exp": [],
+      "gloss": "an abstraction belonging to or characteristic of two entities or parts together  ",
+      "lemma": "relation",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 13928388
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 13812607
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 13780719
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2724417
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 713167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 32613
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 32823
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5074774
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13240514
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13780606
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13780719
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13781164
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13782769
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13783038
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13783581
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13790712
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13791389
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13794226
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13797142
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13809207
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13811410
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13812607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13815152
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13827205
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13836841
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13841213
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13844212
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13844690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13853808
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13854649
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13859043
+        }
+      ],
+      "synonyms": [
+        "relation"
+      ],
+      "synsetOffset": 31921,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "14818238n",
+    "def": "(chemistry) a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight  ",
+    "exp": [],
+    "gloss": "(chemistry) a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight  ",
+    "lemma": "compound",
+    "lexFilenum": 27,
+    "lexId": "0",
+    "parent": "14806838n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5f2387050f088d0008ebb0d3",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14806838
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0d2",
+        "pointerSymbol": ";c",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6084469
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0d1",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1657828
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0d0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12087032
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0cf",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14583843
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ce",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14584016
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0cd",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14585223
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0cc",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14607521
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0cb",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14610443
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ca",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14613368
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c9",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14617944
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c8",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14618253
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c7",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14618834
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c6",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14656926
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14671253
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14680963
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14682963
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14684427
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14727670
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0c0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14743727
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0bf",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14767291
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0be",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14770248
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0bd",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14776523
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0bc",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14785941
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0bb",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14789220
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ba",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14790526
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b9",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14797436
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b8",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14800706
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b7",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14805145
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b6",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14810168
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14817592
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14819856
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14823788
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14824140
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14828927
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0b0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14833729
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0af",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14833885
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ae",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14835569
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ad",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14869327
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ac",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14869513
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0ab",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14873641
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0aa",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14883766
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a9",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14883954
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a8",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14889728
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a7",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14898101
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a6",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14901959
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14910440
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14914670
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14918994
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14919511
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14920388
+      },
+      {
+        "_id": "5f2387050f088d0008ebb0a0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14920586
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14922529
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14924188
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14935555
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14950394
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14957649
+      },
+      {
+        "_id": "5f2387050f088d0008ebb09a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14963317
+      },
+      {
+        "_id": "5f2387050f088d0008ebb099",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14971519
+      },
+      {
+        "_id": "5f2387050f088d0008ebb098",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14994328
+      },
+      {
+        "_id": "5f2387050f088d0008ebb097",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14997529
+      },
+      {
+        "_id": "5f2387050f088d0008ebb096",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15000973
+      },
+      {
+        "_id": "5f2387050f088d0008ebb095",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15010703
+      },
+      {
+        "_id": "5f2387050f088d0008ebb094",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15014529
+      },
+      {
+        "_id": "5f2387050f088d0008ebb093",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15015501
+      },
+      {
+        "_id": "5f2387050f088d0008ebb092",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15017604
+      },
+      {
+        "_id": "5f2387050f088d0008ebb091",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15025397
+      },
+      {
+        "_id": "5f2387050f088d0008ebb090",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15040129
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15040899
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15047988
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15057558
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15061550
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15063699
+      },
+      {
+        "_id": "5f2387050f088d0008ebb08a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15068134
+      },
+      {
+        "_id": "5f2387050f088d0008ebb089",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15068436
+      },
+      {
+        "_id": "5f2387050f088d0008ebb088",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15068754
+      },
+      {
+        "_id": "5f2387050f088d0008ebb087",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15079030
+      },
+      {
+        "_id": "5f2387050f088d0008ebb086",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15106529
+      },
+      {
+        "_id": "5f2387050f088d0008ebb085",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15110454
+      },
+      {
+        "_id": "5f2387050f088d0008ebb084",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15111437
+      }
+    ],
+    "synonyms": [
+      "compound",
+      "chemical_compound"
+    ],
+    "synsetOffset": 14818238,
+    "wCnt": 2,
+    "word": "compound"
+  }
+}

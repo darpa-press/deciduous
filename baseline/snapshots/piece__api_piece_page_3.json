@@ -1,0 +1,382 @@
+{
+  "__v": 3,
+  "_id": "599bade62d4c7455551c4efa",
+  "background": "",
+  "content": "<div style=\"display:flex;\">\n    <p style=\"margin-right:0.75rem; text-align:justify;\">I heard about a passage that said something I had been trying to say and could not. I asked for the passage and you gave me the passage. At least, you gave me a pointer to the passage. You gave over where to find it. It was in a book in a big cylindrical library with ribs like a oil drum. I went and found it and used it up. Later when I went back it wasn't there any more. It became a wild pointer. A wild pointer is a cat. I took the cat home and fed it anchovies. While I understood you giving over where to find something one day and the possibility of it being there the day after that is no more a promise than me using up something by saying something and not being able to say it again still I was jealous because in asking for the passage it revealed what I had been trying to say and could not.</p>\n    <p style=\"margin-left:0.75rem; text-align:justify;\">You asked for the passage and I gave you the passage. At least, I gave you a pointer to the passage. I gave over where to find it. It was in a book in a big cylindrical library with ribs like an oil drum. You might have went and found it and you might have used it up. If you went back later, it might not have been there any more. If this was so, it would have become a wild pointer. You might have not needed it anymore or you might have killed yourself or you might have asked someone else somewhere else where to find it and they might not have known or they might have told you another place to find it and you might have went and found it or you might not have needed it anymore or you might have went to look for it but it wasn't there anymore in which case it would have become a wild pointer and you might have <aa href=\"41,40\">killed yourself</aa>.</p>\n</div>",
+  "created": "2017-08-22T04:07:02.301Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a3892dd9eba100763a0f57"
+  ],
+  "page": 3,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38775d9eba100763a0f4b",
+    "background": "#feecd8",
+    "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+    "created": "2017-08-28T03:01:09.985Z",
+    "fullWidth": false,
+    "lovers": [
+      "59f6f5084a45830075b62638"
+    ],
+    "page": 40,
+    "parent": "599ed1833b4eef3a304462b8",
+    "persons": [
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+    "slug": "dressing-like-the-same-person",
+    "stub": false,
+    "themes": [],
+    "title": "Same dressing",
+    "word": [
+      "3051540n",
+      "7543288n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59e047149ab1b7008c024d16",
+      "bio": "Awarded a literary prize to her lover.",
+      "birth": 1950,
+      "created": "2017-10-13T04:54:44.502Z",
+      "death": null,
+      "name": "Jorie Graham",
+      "relation": [],
+      "slug": "jorie-graham"
+    },
+    {
+      "__v": 0,
+      "_id": "59e047369ab1b7008c024d17",
+      "bio": "",
+      "birth": 1890,
+      "created": "2017-10-13T04:55:18.825Z",
+      "death": 1974,
+      "name": "Vannevar Bush",
+      "relation": [],
+      "slug": "vannevar-bush"
+    }
+  ],
+  "readme": "Two stories at once about how to think or find a particular idea and how easy it is to fall in love with someone who can find or think a particular idea.",
+  "slug": "passage",
+  "stub": false,
+  "themes": [],
+  "title": "Passage finding",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "3660664n",
+      "def": "a depository built to contain books and other materials for reading and study  ",
+      "exp": [],
+      "gloss": "a depository built to contain books and other materials for reading and study  ",
+      "lemma": "library",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "parent": "3177349n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6b04",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3177349
+        },
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6b03",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2752199
+        },
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6b02",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2968333
+        },
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6b01",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3656091
+        },
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6b00",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4058096
+        },
+        {
+          "_id": "5ba1ea0c7eefb32d4a2b6aff",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4295571
+        }
+      ],
+      "synonyms": [
+        "library",
+        "depository_library"
+      ],
+      "synsetOffset": 3660664,
+      "wCnt": 2,
+      "word": "library"
+    },
+    {
+      "__v": 0,
+      "_id": "2937534a",
+      "def": "of or relating to or serving as an index  ",
+      "exp": [],
+      "gloss": "of or relating to or serving as an index  ",
+      "lemma": "indexical",
+      "lexFilenum": 1,
+      "lexId": "0",
+      "parent": null,
+      "pos": "a",
+      "ptrs": [
+        {
+          "_id": "5ba1e9fe7eefb32d4a2b69f8",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6491786
+        },
+        {
+          "_id": "5ba1e9fe7eefb32d4a2b69f7",
+          "pointerSymbol": "\\",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6639674
+        }
+      ],
+      "synonyms": [
+        "indexical"
+      ],
+      "synsetOffset": 2937534,
+      "wCnt": 1,
+      "word": "indexical"
+    },
+    {
+      "__v": 0,
+      "_id": "6818121n",
+      "def": "a mark to indicate a direction or relation  ",
+      "exp": [],
+      "gloss": "a mark to indicate a direction or relation  ",
+      "lemma": "arrow",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6817782n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ada",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6817782
+        },
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ad9",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 2713184
+        },
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ad8",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1152670
+        },
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ad7",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 923793
+        },
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ad6",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6821770
+        },
+        {
+          "_id": "5ba1eb217eefb32d4a2b7ad5",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6822034
+        }
+      ],
+      "synonyms": [
+        "arrow",
+        "pointer"
+      ],
+      "synsetOffset": 6818121,
+      "wCnt": 2,
+      "word": "pointer"
+    },
+    {
+      "__v": 0,
+      "_id": "6398401n",
+      "def": "the last section of a communication",
+      "exp": [
+        "in conclusion I want to say..."
+      ],
+      "gloss": "the last section of a communication; \"in conclusion I want to say...\"  ",
+      "lemma": "conclusion",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6392001n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59ab",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392001
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59aa",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7220773
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a9",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7238694
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a8",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0402",
+          "synsetOffset": 2610628
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a7",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 2735418
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a6",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1620854
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a5",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 2609764
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a4",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6373991
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6398760
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6398963
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6399126
+        },
+        {
+          "_id": "5ba1e93e7eefb32d4a2b59a0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7039478
+        }
+      ],
+      "synonyms": [
+        "conclusion",
+        "end",
+        "close",
+        "closing",
+        "ending"
+      ],
+      "synsetOffset": 6398401,
+      "wCnt": 5,
+      "word": "close"
+    },
+    {
+      "__v": 0,
+      "_id": "2121620n",
+      "def": "feline mammal usually having thick soft fur and no ability to roar: domestic cats",
+      "exp": [
+        "wildcats"
+      ],
+      "gloss": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats  ",
+      "lemma": "cat",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "2120997n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e92d7eefb32d4a2b5732",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2120997
+        },
+        {
+          "_id": "5ba1e92d7eefb32d4a2b5731",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2121808
+        },
+        {
+          "_id": "5ba1e92d7eefb32d4a2b5730",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2124623
+        }
+      ],
+      "synonyms": [
+        "cat",
+        "true_cat"
+      ],
+      "synsetOffset": 2121620,
+      "wCnt": 2,
+      "word": "cat"
+    }
+  ]
+}

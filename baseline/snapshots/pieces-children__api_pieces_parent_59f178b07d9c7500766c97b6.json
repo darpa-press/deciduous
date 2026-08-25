@@ -1,0 +1,43 @@
+[
+  {
+    "__v": 0,
+    "_id": "59f6f5084a45830075b62638",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509356754371-ant-to-plane.png\" width=\"2332\" height=\"2116\" bg=\"white\"></lightimg>",
+    "created": "2017-10-30T09:46:48.324Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a38775d9eba100763a0f4b"
+    ],
+    "page": 72,
+    "parent": "59f178b07d9c7500766c97b6",
+    "persons": null,
+    "readme": "",
+    "slug": "piles-of-clothing",
+    "stub": false,
+    "themes": [],
+    "title": "Piled clothing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "59ffb87b0d38e60074a75114",
+    "background": "#333333",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931092947-serpentine2.jpg\" bg=\"#333\" width=\"1280\" height=\"1024\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931381386-serpentine3.jpg\" bg=\"#333\" width=\"1300\" height=\"730\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931087269-serpentine.jpg\" bg=\"#333\" width=\"1280\" height=\"960\"></lightimg>",
+    "created": "2017-11-06T01:18:51.373Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 75,
+    "parent": "59f178b07d9c7500766c97b6",
+    "persons": null,
+    "readme": "",
+    "slug": "serpentine-mining",
+    "stub": false,
+    "themes": [],
+    "title": "Serpentine mining",
+    "word": [
+      "2190166n",
+      "6646628n"
+    ]
+  }
+]

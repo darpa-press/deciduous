@@ -1,0 +1,249 @@
+{
+  "__v": 0,
+  "_id": "59a7a64ea692ea00760b7977",
+  "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+  "birth": 1868,
+  "created": "2017-08-31T06:01:50.823Z",
+  "death": 1944,
+  "name": "Paul Otlet",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599baddb2d4c7455551c4ef9",
+      "background": "",
+      "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+      "created": "2017-08-22T04:06:51.565Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 2,
+      "parent": null,
+      "persons": [
+        "59a7a64ea692ea00760b7977"
+      ],
+      "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+      "slug": "edition",
+      "stub": false,
+      "themes": [],
+      "title": "Edition placing",
+      "word": [
+        "13912260n",
+        "96239s",
+        "9466280n",
+        "1640855v"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "599badb12d4c7455551c4ef7",
+      "background": "#333",
+      "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+      "created": "2017-08-22T04:06:09.167Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 0,
+      "parent": "599e1db3dcc19f2b4b6aa573",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "59e0451bf883dc0ea56ac6c7",
+        "59a7a5eba692ea00760b7974"
+      ],
+      "readme": "",
+      "slug": "ark",
+      "stub": false,
+      "themes": [],
+      "title": "Ark refactoring",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "59a388f6d9eba100763a0f56",
+      "background": "",
+      "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/strife-full.png\" width=\"1568\" height=\"1920\" bg=\"white\"></lightimg>\n\n<div class=\"indents\">\n    <P>\n        \"Not only that, but this instantaneous ruin presents whole new vistas to the imagination. Let me show you what I mean. Suppose you walk to another section while your lover waits for God. <aa href=\"39,152,127\">In this state,</aa> you no longer need to know what you think is important; you don’t need to know how the buildings here came together. And your shoes are too tight.\"\n    </p>\n</div>",
+      "created": "2017-08-28T03:07:34.606Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a0fe283d55a8200722c03d8",
+        "5a0ccb40fd301d0072232e19",
+        "59a3874bd9eba100763a0f4a"
+      ],
+      "page": 51,
+      "parent": "59a388b9d9eba100763a0f54",
+      "persons": [
+        "59e0451bf883dc0ea56ac6c7",
+        "59a7a64ea692ea00760b7977"
+      ],
+      "readme": "The appearance in a strife of love of a disc which parses information-places.",
+      "slug": "waiting-for-documentation",
+      "stub": false,
+      "themes": [],
+      "title": "Documentation waiting",
+      "word": [
+        "13466312n",
+        "1398199a",
+        "9622302n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b481fa59cf63f004fdf9cc2",
+      "background": "#f5e9dd",
+      "content": "<div style=\"text-align:center; margin-bottom:6rem;\">\n    <img style=\"max-width: 95%; height: auto; width:420px\" width=\"1920\" height=\"808\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531453270053-rmhs.png\"/>\n</div>\n\n<div>\n    Yes art should be like a <aa to=\"49,56,54,78\">dream</aa>, she said. But<br/>\n    the kind of dream where you are doing chores or, <br/>\n    better, inventing a new way to keep things tidy.<br/>\n    And no idea is inlaid, all <aa to=\"132\">clouds</aa> have pants,<br/>\n    you and I are especially alike. \n</div>",
+      "created": "2018-07-13T03:42:29.748Z",
+      "fullWidth": false,
+      "lovers": [
+        "599badb12d4c7455551c4ef7"
+      ],
+      "page": 113,
+      "parent": "5b39cabd1c76e00054b5f2f8",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b63dadcb5cc9a3899d7b5c4"
+      ],
+      "readme": "Two items: a simulation of Otlet writing Briet's name in a conveyer or canon loop; and a transcript of a discussion had with Suzanne Briet in the kitchen at a party.",
+      "slug": "antelope-dream",
+      "stub": false,
+      "themes": [],
+      "title": "Dream anteloping",
+      "word": [
+        "6403393n",
+        "7484547n",
+        "7996149n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b39cabd1c76e00054b5f2f8",
+      "background": "",
+      "content": "<p style=\"max-width:none\">Dear Cato I am still yours, a peak body<br/>\nor <em>Union of International Associations</em><br/>and \nyour distant honest Fruit Tree of <br/>\nprotected tended order and your buffer overrun<br/>\nand will you need me any more? once <br/>\nthe new editions of the <em>word en-Masse</em><br/>\nare in harmony? Dear Cato I am inlaid<br/>\nwith business documents and <aa href=\"88,140,34\">school-books</aa>.\n</p>\n<p style=\"max-width:none\">▧▧</p>",
+      "created": "2018-07-02T06:48:29.058Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a387b4d9eba100763a0f4d"
+      ],
+      "page": 107,
+      "parent": "599bade62d4c7455551c4efa",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b63d89837a764004e2b7a1e"
+      ],
+      "readme": "What Paul Otlet might have worried about, when he was trying to hold it together.",
+      "slug": "dearestness",
+      "stub": false,
+      "themes": [],
+      "title": "Dearness massing",
+      "word": [
+        "96239s",
+        "9604981n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b31f5aa1c76e00054b5f2f2",
+      "background": "",
+      "content": "<p>Our mascot is a Bell frog<br/>\nin the eye of the bole of a tree.<br/>\nAnd each part a ghost. You can tell<br/>\njust by the way their edges dash.</p>\n\n<p>The <aa to=\"102,103,99\">Bell frog</aa> is ringing like a web-<br/>\nsocket—every three seconds—<br/>\n\"be see, be see,\" on it rings. And<br/>\nwe chose their metatarsal hop.</p>\n\n<p>You, trance-ending particle. You<br/>\namphibious service call.</p>",
+      "created": "2018-06-26T08:13:30.441Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a38965d9eba100763a0f59",
+        "5b31fd271c76e00054b5f2f3"
+      ],
+      "page": 101,
+      "parent": "5a13c2c6de1f950071ab6547",
+      "persons": [
+        "59a7a64ea692ea00760b7977"
+      ],
+      "readme": "",
+      "slug": "a-mascot",
+      "stub": false,
+      "themes": [],
+      "title": "Mascot shaping",
+      "word": [
+        "10297234n",
+        "1639765n",
+        "5833840n",
+        "6757891n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b7abfca07dc7028fe08a4cc",
+      "background": "",
+      "content": "<aa href=\"49,2,147\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534770986243-abyme.png\" width=\"2211\" height=\"2211\" /></aa>",
+      "created": "2018-08-20T13:19:06.804Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3874bd9eba100763a0f4a",
+        "5b48187eef732e0054886ac2"
+      ],
+      "page": 139,
+      "parent": "599badb12d4c7455551c4ef7",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5cdf162405823b0062ac920c"
+      ],
+      "readme": "Falling helplessly into the borders of a categorisation system. ",
+      "slug": "abyss",
+      "stub": false,
+      "themes": [],
+      "title": "Abyss abyssing",
+      "word": [
+        "9186359n",
+        "1021119n",
+        "3224032n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b35ea261c76e00054b5f2f4",
+      "background": "#191919",
+      "content": "<aa to=\"146,119\">\n    <video autoPlay autoplay loop muted>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530259913695-no.mp4\" type=\"video/mp4\">\n    </video>\n</aa>",
+      "created": "2018-06-29T08:13:26.369Z",
+      "fullWidth": true,
+      "lovers": [
+        "59a38829d9eba100763a0f50",
+        "59a387fad9eba100763a0f4f"
+      ],
+      "page": 103,
+      "parent": "5b31f5aa1c76e00054b5f2f2",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b7a3e0ec5894d0053bc013f"
+      ],
+      "readme": "Not the News and Observer!  A knife-grinder!",
+      "slug": "ah-and-no",
+      "stub": false,
+      "themes": [],
+      "title": "Ah! declining",
+      "word": [
+        "7205104n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b31fd271c76e00054b5f2f3",
+      "background": "",
+      "content": "<div style=\"margin:3rem 0;\">\n    <aa to=\"0,124\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530002078966-Frog.png\" style=\"max-width:300px;\" width=\"1784\" height=\"1600\" /></aa>\n</div>",
+      "created": "2018-06-26T08:45:27.594Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a38965d9eba100763a0f59",
+        "5b31f5aa1c76e00054b5f2f2"
+      ],
+      "page": 102,
+      "parent": "5a13c2c6de1f950071ab6547",
+      "persons": [
+        "59a7a64ea692ea00760b7977"
+      ],
+      "readme": "",
+      "slug": "a-mascot-2",
+      "stub": false,
+      "themes": [],
+      "title": "Mascot appearing",
+      "word": []
+    }
+  ],
+  "relation": [],
+  "slug": "paul-otlet"
+}

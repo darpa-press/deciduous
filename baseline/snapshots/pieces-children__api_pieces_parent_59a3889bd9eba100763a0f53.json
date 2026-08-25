@@ -1,0 +1,44 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a3892dd9eba100763a0f57",
+    "background": "#3a3a3a",
+    "content": "<LightImg \n    bg=\"#3a3a3a\"\n    src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/memex.png\"\n    width=\"3200\"\n    height=\"2456\"\n></LightImg>\n<div class=\"indents\">\n    <p>\n        <span style=\"font-size:0.68em;letter-spacing:1px;\">BUT WHAT ABOUT THE NATURAL SCIENCES</span>, I would ask. Six weeks later, <span  style=\"font-size:0.68em;letter-spacing:1px;\">WE HAVE 4.530 ENTRIES ON THIS IN 190 SUBDIVISIONS</span>, came the reply. I would think about you and the natural sciences. Your response—a mute bond—would be already out-of-date, new entries inhaled through the <aa to=\"101,67,100\">breath of the telegraph</aa>. I would sit on top of my card cabinet fluttering the to date seventeen responses I had received, and kicking my legs.\n        <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">I WANT TO KNOCK THE CEILING WITH THE TOP OF MY HEAD</span>, I then sent. <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">THAT IS NOT HOW HEADS WORK. THEY ARE TOO COMPACT</span>, in response.</p>\n        <p>The operator on this end had drawn three question marks, under the message, on the card, in disbelief. The operator on this end had black hair and green eyes. With all who had taken part, I would not know where to focus my attention within the relay or as we may think. ∎\n    </p>\n</div>",
+    "created": "2017-08-28T03:08:29.184Z",
+    "fullWidth": false,
+    "lovers": [
+      "599bade62d4c7455551c4efa"
+    ],
+    "page": 52,
+    "parent": "59a3889bd9eba100763a0f53",
+    "persons": [
+      "59e047369ab1b7008c024d17"
+    ],
+    "readme": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you. ",
+    "slug": "using-the-library",
+    "stub": false,
+    "themes": [],
+    "title": "Library using",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "59a388b9d9eba100763a0f54",
+    "background": "",
+    "content": "<div class=\"indents\" style=\"margin-bottom:2rem\"><p>\n    In a hallway with the door open, a Honeywell T87 will attempt to equalise the temperature of the continuous (available) world. It sits between the mirror-dresser and the coat-hook which resembles two of four talons of a lived-in bird, like a Fiji or an Imitator goshawk. The Honeywell has the brain of a bird but no mouth or Nest. In this arrangement and when you’re cold you might catch sight of the consternation of yourself in the mirror-dresser when you run around the corner of the living room to adjust the temperature. At least. Or the top of your head or your apparently open mouth. What you can’t see is the outcasting belly of the change in the air as it flushes through a white flyscreen: the plastic or enamel white an extruded quatrefoil egg which flauntingly comes off in drying and which the Honeywell is doomed to face. If you could see the change in the air, it’d spill like the extra-amniotic puff of the wind in 1362. The thermostat is a lens perplexing the evidence of environmental warmth upside-down and inside-out and dreaming and as percussive as the feet of the continuous (available) world.\n</p></div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/thermo2.jpg\" bg=\"white\" width=\"1804\" height=\"1200\"></lightimg>",
+    "created": "2017-08-28T03:06:33.162Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 49,
+    "parent": "59a3889bd9eba100763a0f53",
+    "persons": null,
+    "readme": "",
+    "slug": "dreaming-thermostat",
+    "stub": false,
+    "themes": [],
+    "title": "Thermo easing",
+    "word": [
+      "7484547n"
+    ]
+  }
+]

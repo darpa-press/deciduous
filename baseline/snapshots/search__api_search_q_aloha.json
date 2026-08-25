@@ -1,0 +1,283 @@
+[
+  {
+    "__v": 9,
+    "_id": "59a38829d9eba100763a0f50",
+    "background": "",
+    "content": "<lightimg bg=\"#e3e2e2\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/tree-codex-169.png\" width=\"1920\" height=\"1080\"></lightimg><attr style=\"position: relative; top:-3rem; opacity: 0.5;\">A sample of the wallpaper in lift <em style=\"letter-spacing:0.5px; margin-left:2px\">b</em></attr>\n\n<div class=\"indents\">\n    <p>\n    Get in the lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!</em> It will take you where you need<em style=\"letter-spacing:0.5px; margin-left:2px\">!!</em> Take a look<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!</em> There are 13 lifts to choose from<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!</em> They are <aa to=\"104\">labeled ‘a’ to ‘m’</aa> and are based in different countries<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!</em> Their pits are deep, and their overhead is tall<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!</em> The pit of ‘b’ connects to the overhead of ‘a’, and so on<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Inside the ‘e’ car is like a rectory and so is quite comfortable<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> It’s really something to behold<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Hello<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!</em> Some of the lifts still need configuring<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!</em> Don’t use those ones yet<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!</em> But if you zoom in on one of the lifts it splits into a consortium of lifts, so you’ll find one that works for you<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!</em> And don’t worry<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!</em> I guarantee you’ll never meet anyone in a lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!</em> The routing and transferring of persons by means of addressed lift cars so that a lift is occupied during the transmission of the person only and upon completion of the transmission the lift is made available for the transfer of other persons<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!</em> You should really see for yourself the way that the <aa to=\"127\">wysteria</aa> climbs the mirror in ‘e’<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!!</em>\n</p>\n</div>",
+    "created": "2017-08-28T03:04:09.491Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 45,
+    "parent": {
+      "__v": 0,
+      "_id": "59a387fad9eba100763a0f4f",
+      "background": "",
+      "content": "<div>\n    <video autoplay muted autoPlay loop>\n       <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/0_90_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+      "created": "2017-08-28T03:03:22.975Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 44,
+      "parent": "59a38793d9eba100763a0f4c",
+      "persons": null,
+      "readme": "",
+      "slug": "uncloseable-sockets",
+      "stub": false,
+      "themes": [],
+      "title": "Socket unclosing",
+      "word": []
+    },
+    "persons": [
+      {
+        "__v": 0,
+        "_id": "5cdf10f705823b0062ac9009",
+        "bio": "A kind of lambda; invented packet switching independently (i.e., with redundancy) of Daniel Davies.",
+        "birth": 1926,
+        "created": "2019-05-17T19:52:23.363Z",
+        "death": 2011,
+        "name": "Paul Baran",
+        "relation": [],
+        "slug": "paul-baran"
+      }
+    ],
+    "readme": "A hotel with a country style that has lifts working like packet switching. Your lift operator is trying to console you.",
+    "slug": "aloha-building",
+    "stub": false,
+    "themes": [],
+    "title": "ALOHA building",
+    "word": [
+      {
+        "__v": 0,
+        "_id": "3281145n",
+        "def": "lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building  ",
+        "exp": [],
+        "gloss": "lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building  ",
+        "lemma": "elevator",
+        "lexFilenum": 6,
+        "lexId": "0",
+        "parent": "3664675n",
+        "pos": "n",
+        "ptrs": [
+          {
+            "_id": "5cdf0fe705823b0062ac8ce0",
+            "pointerSymbol": "@",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 3664675
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cdf",
+            "pointerSymbol": "#p",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 2913152
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cde",
+            "pointerSymbol": "+",
+            "pos": "v",
+            "sourceTarget": "0202",
+            "synsetOffset": 1455184
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cdd",
+            "pointerSymbol": "+",
+            "pos": "v",
+            "sourceTarget": "0202",
+            "synsetOffset": 1974062
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cdc",
+            "pointerSymbol": "+",
+            "pos": "v",
+            "sourceTarget": "0103",
+            "synsetOffset": 1974062
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cdb",
+            "pointerSymbol": "%p",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 2960352
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cda",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 3255322
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cd9",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 3394149
+          },
+          {
+            "_id": "5cdf0fe705823b0062ac8cd8",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 3899100
+          }
+        ],
+        "synonyms": [
+          "elevator",
+          "lift"
+        ],
+        "synsetOffset": 3281145,
+        "wCnt": 2,
+        "word": "elevator"
+      },
+      {
+        "__v": 0,
+        "_id": "12580457n",
+        "def": "any flowering vine of the genus Wisteria  ",
+        "exp": [],
+        "gloss": "any flowering vine of the genus Wisteria  ",
+        "lemma": "wisteria",
+        "lexFilenum": 20,
+        "lexId": "0",
+        "parent": "13100677n",
+        "pos": "n",
+        "ptrs": [
+          {
+            "_id": "5cdf0fee05823b0062ac8ded",
+            "pointerSymbol": "@",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 13100677
+          },
+          {
+            "_id": "5cdf0fee05823b0062ac8dec",
+            "pointerSymbol": "#m",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 12580204
+          },
+          {
+            "_id": "5cdf0fee05823b0062ac8deb",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 12580654
+          },
+          {
+            "_id": "5cdf0fee05823b0062ac8dea",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 12580786
+          },
+          {
+            "_id": "5cdf0fee05823b0062ac8de9",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 12580896
+          },
+          {
+            "_id": "5cdf0fee05823b0062ac8de8",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 12581110
+          }
+        ],
+        "synonyms": [
+          "wisteria",
+          "wistaria"
+        ],
+        "synsetOffset": 12580457,
+        "wCnt": 2,
+        "word": "wisteria"
+      },
+      {
+        "__v": 0,
+        "_id": "7281099n",
+        "def": "(computer science) a message or message fragment  ",
+        "exp": [],
+        "gloss": "(computer science) a message or message fragment  ",
+        "lemma": "packet",
+        "lexFilenum": 10,
+        "lexId": "0",
+        "parent": "6253690n",
+        "pos": "n",
+        "ptrs": [
+          {
+            "_id": "5cdf0ff405823b0062ac8f46",
+            "pointerSymbol": "@",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 6253690
+          },
+          {
+            "_id": "5cdf0ff405823b0062ac8f45",
+            "pointerSymbol": ";c",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 6128570
+          }
+        ],
+        "synonyms": [
+          "packet"
+        ],
+        "synsetOffset": 7281099,
+        "wCnt": 1,
+        "word": "packet"
+      },
+      {
+        "__v": 0,
+        "_id": "8236438n",
+        "def": "an association of companies for some definite purpose  ",
+        "exp": [],
+        "gloss": "an association of companies for some definite purpose  ",
+        "lemma": "consortium",
+        "lexFilenum": 14,
+        "lexId": "0",
+        "parent": "8049401n",
+        "pos": "n",
+        "ptrs": [
+          {
+            "_id": "5cdf0ffc05823b0062ac8f7c",
+            "pointerSymbol": "@",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 8049401
+          },
+          {
+            "_id": "5cdf0ffc05823b0062ac8f7b",
+            "pointerSymbol": "+",
+            "pos": "v",
+            "sourceTarget": "0301",
+            "synsetOffset": 2449011
+          },
+          {
+            "_id": "5cdf0ffc05823b0062ac8f7a",
+            "pointerSymbol": "+",
+            "pos": "v",
+            "sourceTarget": "0301",
+            "synsetOffset": 2449183
+          },
+          {
+            "_id": "5cdf0ffc05823b0062ac8f79",
+            "pointerSymbol": "~",
+            "pos": "n",
+            "sourceTarget": "0000",
+            "synsetOffset": 8236621
+          }
+        ],
+        "synonyms": [
+          "consortium",
+          "pool",
+          "syndicate"
+        ],
+        "synsetOffset": 8236438,
+        "wCnt": 3,
+        "word": "consortium"
+      }
+    ]
+  }
+]

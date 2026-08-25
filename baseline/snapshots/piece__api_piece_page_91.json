@@ -1,0 +1,50 @@
+{
+  "__v": 0,
+  "_id": "5a4366f1f5051f0071438a4b",
+  "background": "",
+  "content": "<div class=\"indents\">\n    <p style=\"font-size:1rem; font-family:'Anonymous Pro', monospace\">3.4.65</p>\n<p>As nodes in the graph fail, the other nodes stand in for them and answer as if they’re still around. This is to prevent the discomfort of the idea of lost nodes, but this is a phantom limb manuever; the remaining nodes only remember the traceback efflorescence of the failing itself (its noisy dwindling) until the graph might be all phantom no limb. I can’t synthesise the sound of your voice in my mind anymore. No talk is possible. Remembering others is a physical solution without a physicality. The problem is spread across the […] altogether, being, as always as it is, a decimation. A friend tells me you were never there to begin with, and so your voice could not be synthesised at all, and with the right amount of water sedge turns into heather into straw</p>\n</div>\n<link href=\"https://fonts.googleapis.com/css?family=Anonymous+Pro:400\" rel=\"stylesheet\">",
+  "created": "2017-12-27T09:25:05.242Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 91,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38864d9eba100763a0f52",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/Artboard+3.png\" width=\"1025\" height=\"1229\" bg=\"white\"></lightimg>",
+    "created": "2017-08-28T03:05:08.425Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 47,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "59e046d19ab1b7008c024d15",
+      "59a7a5ffa692ea00760b7975"
+    ],
+    "readme": "",
+    "slug": "heather-to-straw",
+    "stub": false,
+    "themes": [],
+    "title": "Straw heathering",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5b67cd82287895004ddc06c0",
+      "bio": "",
+      "birth": 1905,
+      "created": "2018-08-06T04:24:34.099Z",
+      "death": 1988,
+      "name": "Bernard Rudofksy",
+      "relation": [],
+      "slug": "bernard-rudofksy"
+    }
+  ],
+  "readme": "Many proxy servers operate regardless of the status of their proxied, especially in some peer-to-peer networks, which involve the recollection and retransmission of the world as each element encounters it.",
+  "slug": "error-handling",
+  "stub": false,
+  "themes": [],
+  "title": "Error handling",
+  "word": []
+}

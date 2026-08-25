@@ -1,0 +1,1004 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "2231661v",
+      "def": "transfer to another",
+      "exp": [
+        "communicate a disease"
+      ],
+      "gloss": "transfer to another; \"communicate a disease\"  ",
+      "lemma": "convey",
+      "lexFilenum": 40,
+      "lexId": "a",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232190
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0206",
+          "synsetOffset": 1314537
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0205",
+          "synsetOffset": 1303042
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0203",
+          "synsetOffset": 7360647
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 9469285
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 742320
+        }
+      ],
+      "synonyms": [
+        "convey",
+        "transmit",
+        "communicate"
+      ],
+      "synsetOffset": 2231661,
+      "wCnt": 3
+    },
+    {
+      "_id": "2232190v",
+      "def": "move from one place to another",
+      "exp": [
+        "transfer the data",
+        "transmit the news",
+        "transfer the patient to another hospital"
+      ],
+      "gloss": "move from one place to another; \"transfer the data\"; \"transmit the news\"; \"transfer the patient to another hospital\"  ",
+      "lemma": "transfer",
+      "lexFilenum": 40,
+      "lexId": "1",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1850315
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 315986
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 201671
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 10724699
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0104",
+          "synsetOffset": 315986
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1031256
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1062555
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2231661
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2231910
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232044
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232722
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232877
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233081
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233195
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233352
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233533
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233704
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2233898
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2348568
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2362130
+        }
+      ],
+      "synonyms": [
+        "transfer"
+      ],
+      "synsetOffset": 2232190,
+      "wCnt": 1
+    },
+    {
+      "_id": "1850315v",
+      "def": "cause to move or shift into a new position or place, both in a concrete and in an abstract sense",
+      "exp": [
+        "Move those boxes into the corner, please",
+        "I'm moving my money to another bank",
+        "The director moved more responsibilities onto his new assistant"
+      ],
+      "gloss": "cause to move or shift into a new position or place, both in a concrete and in an abstract sense; \"Move those boxes into the corner, please\"; \"I'm moving my money to another bank\"; \"The director moved more responsibilities onto his new assistant\"  ",
+      "lemma": "move",
+      "lexFilenum": 38,
+      "lexId": "1",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": ">",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1831531
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0102",
+          "synsetOffset": 1523724
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1526062
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1523724
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 279835
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 279835
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 280586
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10336234
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 8478482
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 270005
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 414409
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 465762
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 522441
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1088923
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1419473
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1435380
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1444146
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1446901
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1448100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1449974
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1453256
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1466733
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1494310
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1510827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1511706
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1515196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1522276
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1523654
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1527271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1541231
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1541579
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1542207
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1544445
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1556921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1566916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1574766
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1579153
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1591357
+        },
+        {
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1835496
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1852468
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1852591
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1852701
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1853192
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1855447
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1865051
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1865726
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1866610
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1871979
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1876028
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1877204
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1879777
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1883344
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1887901
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1894320
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1903562
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1909978
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1950798
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1951480
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1953810
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1965654
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1973125
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1973759
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1974062
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1977701
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1986869
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1993926
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2002720
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2012344
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2013571
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2028722
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2042843
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2043190
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2056466
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2056971
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2059462
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2069120
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2069551
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2076501
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2084104
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2086100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2087745
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2089420
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2089984
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2090435
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2090990
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2092309
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2093234
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2093610
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2095696
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2096312
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2098179
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2099669
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2100632
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2101789
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2103162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2103781
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2103925
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2104161
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2105340
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2221959
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232190
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2501738
+        }
+      ],
+      "synonyms": [
+        "move",
+        "displace"
+      ],
+      "synsetOffset": 1850315,
+      "wCnt": 2
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "742320v",
+    "def": "transmit information ",
+    "exp": [
+      "Please communicate this message to all employees",
+      "pass along the good news"
+    ],
+    "gloss": "transmit information ; \"Please communicate this message to all employees\"; \"pass along the good news\"  ",
+    "lemma": "communicate",
+    "lexFilenum": 32,
+    "lexId": "1",
+    "parent": "2231661v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53fb",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2231661
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53fa",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 2956371
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f9",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 494907
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f8",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 494907
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f7",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13792842
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f6",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 6252138
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f5",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 33020
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f4",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 9610660
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f3",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 6252138
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f2",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 734790
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f1",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 742865
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53f0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 743082
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53ef",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 744904
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53ee",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 752764
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53ed",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 892698
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53ec",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1061320
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53eb",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1062253
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53ea",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1071474
+      },
+      {
+        "_id": "5ba1e8d37eefb32d4a2b53e9",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1071632
+      }
+    ],
+    "synonyms": [
+      "communicate",
+      "pass_on",
+      "pass",
+      "pass_along",
+      "put_across"
+    ],
+    "synsetOffset": 742320,
+    "wCnt": 5,
+    "word": "communicate"
+  }
+}

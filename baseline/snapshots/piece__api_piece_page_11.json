@@ -1,0 +1,230 @@
+{
+  "__v": 8,
+  "_id": "599e21ad47523e2cdaeb345f",
+  "background": "",
+  "content": "<div style=\"width:100%\">\n    <iframe \n        src=\"//www.youtube.com/embed/fEMA3DkG8lA?vq=hd1080&showinfo=0&rel=0&modestbranding=1\" \n        height=\"1080\" \n        width=\"1920\"\n        frameborder=\"0\"\n    ></iframe>\n\n<ol>\n    <li>\n        <a href=\"http://www.wikiart.org/en/about\" target=\"_blank\">Wikiart</a> is asleep.\n    <li>\n        <a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">Neural-style</a> is <aa href=\"113,49\">asleep and iterating</aa>.\n    <li>\n        They are together in the back seat of an <a href=\"https://brand.uber.com/#our-new-look\" target=\"_blank\">uber</a>.\n    <li>\n        The car of the uber is on a <a href=\"http://www.mapitokinawa.com/2013/01/melody-road-futami-nago-city.html\" target=\"_blank\">Okinawan melody road</a>.\n</ol>\n\n<p>\n    <small>\n        (<a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">utilises »</a> by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge)\n    </small>\n</p>",
+  "created": "2017-08-24T00:45:33.663Z",
+  "fullWidth": true,
+  "lovers": [
+    "5ae0f217b7de96005451ccdd"
+  ],
+  "page": 11,
+  "parent": {
+    "__v": 0,
+    "_id": "599baf932982115d5e2ba994",
+    "background": "",
+    "content": "<iframe src=\"//www.youtube.com/embed/COjSzL38cEs?loop=1&vq=hd1080&showinfo=0&rel=0&modestbranding=1&playlist=COjSzL38cEs\" height=\"1080\" width=\"1920\" frameborder=\"0\"></iframe>\n\n<p>\n    \n    In solresol, synonyms are suppressed: \"there is just one word, <em>solla</em>, to express <em>always</em>, <em>without ceasing</em>, <em>perpetually</em>, <em>without end</em>\".\n    Also, the grammar \"expresses the opposite meaning by reversing the word, syllable by syllable\" — <em>fala</em>, good; <em>lafa</em>, bad. (<a href=\"http://www.ifost.org.au/~gregb/solresol/sorsoeng.htm\">via</a>)\n    \n</p>",
+    "created": "2017-08-22T04:14:11.909Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 4,
+    "parent": null,
+    "persons": [
+      "59dff0bfb9789b6225c9049e"
+    ],
+    "readme": "Short video—full of mistakes—spoken in Solresol.",
+    "slug": "practice-sentence",
+    "stub": false,
+    "themes": [],
+    "title": "Practice sentencing",
+    "word": [
+      "5682570n",
+      "13858604n",
+      "6303682n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5cecc58b745abbd427af7761",
+      "bio": "A kind of scouring function or a dark pattern.",
+      "birth": 1976,
+      "created": "2019-05-28T05:22:19.465Z",
+      "death": null,
+      "name": "Travis Kalanick",
+      "relation": [],
+      "slug": "travis-kalanick"
+    }
+  ],
+  "readme": "A set of sets (bits and atoms) subjected to another set of sets (an art database), set to bumpy music.",
+  "slug": "a-vision",
+  "stub": false,
+  "themes": [],
+  "title": "Roads singing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "7392483n",
+      "def": "a loud low dull continuous noise",
+      "exp": [
+        "they heard the rumbling of thunder"
+      ],
+      "gloss": "a loud low dull continuous noise; \"they heard the rumbling of thunder\"  ",
+      "lemma": "rumble",
+      "lexFilenum": 11,
+      "lexId": "0",
+      "parent": "7387509n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cecc5128b28ddf6d1166e69",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7387509
+        },
+        {
+          "_id": "5cecc5128b28dd3cce166e68",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0402",
+          "synsetOffset": 2187320
+        },
+        {
+          "_id": "5cecc5128b28dd1e31166e67",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0401",
+          "synsetOffset": 1045719
+        },
+        {
+          "_id": "5cecc5128b28dd4f55166e66",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0302",
+          "synsetOffset": 2187320
+        },
+        {
+          "_id": "5cecc5128b28dd67b4166e65",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0301",
+          "synsetOffset": 1045719
+        },
+        {
+          "_id": "5cecc5128b28dd2093166e64",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 2187320
+        },
+        {
+          "_id": "5cecc5128b28dd8673166e63",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0203",
+          "synsetOffset": 1045719
+        },
+        {
+          "_id": "5cecc5128b28dd41d0166e62",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1045719
+        },
+        {
+          "_id": "5cecc5128b28dd04c7166e61",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2187320
+        }
+      ],
+      "synonyms": [
+        "rumble",
+        "rumbling",
+        "grumble",
+        "grumbling"
+      ],
+      "synsetOffset": 7392483,
+      "wCnt": 4,
+      "word": "rumble"
+    },
+    {
+      "__v": 0,
+      "_id": "5700925n",
+      "def": "a state of mind characterized by abstraction and release from reality",
+      "exp": [
+        "he went about his work as if in a dream"
+      ],
+      "gloss": "a state of mind characterized by abstraction and release from reality; \"he went about his work as if in a dream\"  ",
+      "lemma": "dream",
+      "lexFilenum": 9,
+      "lexId": "4",
+      "parent": "5700793n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cecc5198b28dd03bd166f2c",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5700793
+        },
+        {
+          "_id": "5cecc5198b28dd256f166f2b",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 165585
+        }
+      ],
+      "synonyms": [
+        "dream"
+      ],
+      "synsetOffset": 5700925,
+      "wCnt": 1,
+      "word": "dream"
+    },
+    {
+      "__v": 0,
+      "_id": "343600v",
+      "def": "run or be performed again",
+      "exp": [
+        "the function iterates"
+      ],
+      "gloss": "run or be performed again; \"the function iterates\"  ",
+      "lemma": "iterate",
+      "lexFilenum": 30,
+      "lexId": "1",
+      "parent": "343334v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5cecc5238b28dd1ab1167043",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 343334
+        },
+        {
+          "_id": "5cecc5238b28dd4930167042",
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6128570
+        },
+        {
+          "_id": "5cecc5238b28dd2a08167041",
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6000644
+        },
+        {
+          "_id": "5cecc5238b28dd1af8167040",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1964632
+        }
+      ],
+      "synonyms": [
+        "iterate"
+      ],
+      "synsetOffset": 343600,
+      "wCnt": 1,
+      "word": "iterate"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "__v": 0,
+  "_id": "59dfea2fb9789b6225c9049c",
+  "bio": "",
+  "birth": 1973,
+  "created": "2017-10-12T22:18:23.999Z",
+  "death": null,
+  "name": "Anne Boyer",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a7e1ba7a541d009e8a53e5",
+      "background": "",
+      "content": "<div style=\"margin: 0 auto; text-align:center;\"><lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531461507189-Untitled-3.jpg\" width=\"1920\" height=\"2482\" bg=\"#333\"></lightimg></div>\n<div class=\"indents\">\n    <p>\n    You envy all people. Luckily, it’s not as impossible to now be them as it was to once be them. Being enough of another person requires a decorator function and a cryptographic key and some capacity for deviation. Well, you can get this all in time; watch how their hands are moving on glass and just wait ‘til they’re away.\n    </p>\n    <p>You read about how historical birth certificates are kept in the library. You read about what goes inside the hemisphere of a tennis ball. You saw the picture of a yellow canary load up downward and who you are is stored against your body. You can’t be two people at once except if in secret.\n</p>\n</div>",
+      "created": "2017-08-31T10:15:22.344Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 66,
+      "parent": "59a38775d9eba100763a0f4b",
+      "persons": [
+        "59dfea2fb9789b6225c9049c",
+        "59dfeff5b9789b6225c9049d"
+      ],
+      "readme": "How to download a how to guide about becoming an off-the-shelf person.",
+      "slug": "impersonation",
+      "stub": false,
+      "themes": [],
+      "title": "Stock impersonating",
+      "word": []
+    }
+  ],
+  "relation": [],
+  "slug": "anne-boyer"
+}

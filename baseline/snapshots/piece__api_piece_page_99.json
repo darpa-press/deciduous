@@ -1,0 +1,55 @@
+{
+  "__v": 0,
+  "_id": "5afa3abaeed0630053d7180b",
+  "background": "",
+  "content": "<aa to=\"94\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1526348448736-kaneda.jpg\" width=\"1512\" height=\"1819\" bg=\"white\"/></aa>",
+  "created": "2018-05-15T01:41:14.508Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 99,
+  "parent": {
+    "__v": 0,
+    "_id": "5a5d8c954a37f20073ff929b",
+    "background": "#191919",
+    "content": "<aa href=\"83,49,99\"><video src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1516080245016-turtle.mp4\" style=\"margin-bottom:0\" autoplay loop muted /></a>",
+    "created": "2018-01-16T05:24:37.668Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 94,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": [
+      "5a5d8ccb4a37f20073ff929c",
+      "59a7a725a692ea00760b797c"
+    ],
+    "readme": "Why is there a turtle in the fall of my clinamen? When will it stop raining?",
+    "slug": "swerving",
+    "stub": false,
+    "themes": [],
+    "title": "Nothing swerving",
+    "word": [
+      "29378n",
+      "1903756n",
+      "14585519n",
+      "342164v"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a547a692ea00760b7970",
+      "bio": "",
+      "birth": 1632,
+      "created": "2017-08-31T05:57:27.462Z",
+      "death": 1677,
+      "name": "Baruch Spinoza",
+      "relation": [],
+      "slug": "baruch-spinoza"
+    }
+  ],
+  "readme": "(Who left this on my table?) A note about an atom eater on what appears to be a take-away form. ",
+  "slug": "kaneda",
+  "stub": false,
+  "themes": [],
+  "title": "Anu rumbling",
+  "word": []
+}

@@ -1,0 +1,373 @@
+{
+  "__v": 0,
+  "_id": "5a5d8c954a37f20073ff929b",
+  "background": "#191919",
+  "content": "<aa href=\"83,49,99\"><video src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1516080245016-turtle.mp4\" style=\"margin-bottom:0\" autoplay loop muted /></a>",
+  "created": "2018-01-16T05:24:37.668Z",
+  "fullWidth": true,
+  "lovers": null,
+  "page": 94,
+  "parent": {
+    "__v": 0,
+    "_id": "5a0fe283d55a8200722c03d8",
+    "background": "",
+    "content": "<div style=\"color:#3d3e3d\">\n    <p>\n        Turtles are under water, and<br/>\n        some turtle is punctured right through by a line.<br/>\n        The line had gone through through the turtle colony. <br/>\n        This turtle moved <aa href=\"67\">on the line</aa>, as if hosting an intestine,<br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;as if moving left when the line moved left. <br/>\n        It could see an independent turtle on another intestine <br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;and spiralled regularly around it. \n     </p>\n     <p>\n        We are we, and <br/>\n        we think of water as moving on a 3D conveyor belt, and<br/>\n        we think of turtles underwater as entangled with us priorly, and<br/>\n        we think of Hermes as an entangled line and a turtle, and<br/>\n        we think of fibrous light as an opening.\n    </p>\n    <p>\n        <aa href=\"115\">I am yours</aa>, and <br/>\n        the body part of the turtle urges itself around the line.<br/>\n        This roulette of turtles spirals around us syntotically now.<br/>\n        Intraction swings under water into info.<br/>\n        We tell turtles what to do.<br/>\n        We spill our guts.\n    </p>\n</div>",
+    "created": "2017-11-18T07:34:27.801Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a388d7d9eba100763a0f55"
+    ],
+    "page": 83,
+    "parent": "59a9696bec58b8007f5d501f",
+    "persons": [
+      "5a5d8ccb4a37f20073ff929c",
+      "59a7a50ea692ea00760b796f",
+      "5af8f4edeb5ad30054055e0c",
+      "59a7a547a692ea00760b7970"
+    ],
+    "readme": "The aim of the Logo programming language was to help children imagine 'what they would do if they were the turtle'. (If only Logo were more informal; if only the turtles could meet.)",
+    "slug": "turtle-graphics",
+    "stub": false,
+    "themes": [],
+    "title": "Graphics turning",
+    "word": [
+      "13841213n",
+      "13792842n",
+      "795264v"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5a5d8ccb4a37f20073ff929c",
+      "bio": "",
+      "birth": -341,
+      "created": "2018-01-16T05:25:31.377Z",
+      "death": -270,
+      "name": "Epicurus",
+      "relation": [],
+      "slug": "epicurus"
+    },
+    {
+      "__v": 0,
+      "_id": "59a7a725a692ea00760b797c",
+      "bio": "",
+      "birth": 1924,
+      "created": "2017-08-31T06:05:25.233Z",
+      "death": 1994,
+      "name": "Paul Feyerabend",
+      "relation": [],
+      "slug": "paul-feyerabend"
+    }
+  ],
+  "readme": "Why is there a turtle in the fall of my clinamen? When will it stop raining?",
+  "slug": "swerving",
+  "stub": false,
+  "themes": [],
+  "title": "Nothing swerving",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "29378n",
+      "def": "something that happens at a given place and time  ",
+      "exp": [],
+      "gloss": "something that happens at a given place and time  ",
+      "lemma": "event",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "parent": "23100n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5d91abb6cbe96fc7308399c0",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "_id": "5d91abb6cbe96f7cc78399bf",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 30358
+        },
+        {
+          "_id": "5d91abb6cbe96f856f8399be",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1080366
+        },
+        {
+          "_id": "5d91abb6cbe96f4e158399bd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283364
+        },
+        {
+          "_id": "5d91abb6cbe96f35278399bc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283473
+        },
+        {
+          "_id": "5d91abb6cbe96f34078399bb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283608
+        },
+        {
+          "_id": "5d91abb6cbe96fe41c8399ba",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7288639
+        },
+        {
+          "_id": "5d91abb6cbe96f16b18399b9",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7288801
+        },
+        {
+          "_id": "5d91abb6cbe96ff22b8399b8",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7312829
+        },
+        {
+          "_id": "5d91abb6cbe96fe9bb8399b7",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7322769
+        },
+        {
+          "_id": "5d91abb6cbe96f5ca88399b6",
+          "pointerSymbol": "~i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7478531
+        },
+        {
+          "_id": "5d91abb6cbe96f31868399b5",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7479628
+        }
+      ],
+      "synonyms": [
+        "event"
+      ],
+      "synsetOffset": 29378,
+      "wCnt": 1,
+      "word": "event"
+    },
+    {
+      "__v": 0,
+      "_id": "1903756n",
+      "def": "hard outer covering or case of certain organisms such as arthropods and turtles  ",
+      "exp": [],
+      "gloss": "hard outer covering or case of certain organisms such as arthropods and turtles  ",
+      "lemma": "carapace",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "1903346n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad92",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1903346
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad91",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1940736
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad90",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1767661
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad8f",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1662784
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad8e",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 2876088
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad8d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1895630
+        },
+        {
+          "_id": "5ce3199bfef2fb4e3c89ad8c",
+          "pointerSymbol": "%s",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14758536
+        }
+      ],
+      "synonyms": [
+        "carapace",
+        "shell",
+        "cuticle",
+        "shield"
+      ],
+      "synsetOffset": 1903756,
+      "wCnt": 4,
+      "word": "shell"
+    },
+    {
+      "__v": 0,
+      "_id": "14585519n",
+      "def": "(nontechnical usage) a tiny piece of anything  ",
+      "exp": [],
+      "gloss": "(nontechnical usage) a tiny piece of anything  ",
+      "lemma": "atom",
+      "lexFilenum": 27,
+      "lexId": "1",
+      "parent": "14580897n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ce319b0a2ba044e2aadcca6",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580897
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca5",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 1542252
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca4",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 330144
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca3",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1392071
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9290777
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9294716
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcca0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14812359
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcc9f",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14869975
+        },
+        {
+          "_id": "5ce319b0a2ba044e2aadcc9e",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14916185
+        }
+      ],
+      "synonyms": [
+        "atom",
+        "molecule",
+        "particle",
+        "corpuscle",
+        "mote",
+        "speck"
+      ],
+      "synsetOffset": 14585519,
+      "wCnt": 6,
+      "word": "atom"
+    },
+    {
+      "__v": 0,
+      "_id": "342164v",
+      "def": "come as if by falling",
+      "exp": [
+        "Night fell",
+        "Silence fell"
+      ],
+      "gloss": "come as if by falling; \"Night fell\"; \"Silence fell\"  ",
+      "lemma": "fall",
+      "lexFilenum": 30,
+      "lexId": "d",
+      "parent": "341917v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5cea3c90c0cb7f30c412fea2",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341917
+        },
+        {
+          "_id": "5cea3c90c0cb7fa23f12fea1",
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 342314
+        }
+      ],
+      "synonyms": [
+        "fall",
+        "descend",
+        "settle"
+      ],
+      "synsetOffset": 342164,
+      "wCnt": 3,
+      "word": "fall"
+    }
+  ]
+}

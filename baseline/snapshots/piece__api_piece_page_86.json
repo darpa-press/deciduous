@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "5a18b826de1f950071ab6549",
+  "background": "",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1515385489593-demons%402x.png\" bg=\"white\" width=\"3200\" height=\"2607\"></lightimg>",
+  "created": "2017-11-25T00:24:06.386Z",
+  "fullWidth": true,
+  "lovers": null,
+  "page": 86,
+  "parent": {
+    "__v": 0,
+    "_id": "59a3898ed9eba100763a0f5a",
+    "background": "",
+    "content": "<div className=\"indents small-images\">\n    <p>Two scapegoats bounded up underneath the footbridge. They locked horns. They ate food—seagrass and walnuts—from each other's mouths. They had tested and chewed through fences opportunistically and were now here. Their left eyes were foggy, like an old person's. The irises of these eyes bloomed. <img src=\"//placehold.it/20x20\" /> In lieu of any other type of routine, the food that they ate from each other's mouths helped to make their circulatory systems go.</p>\n\n    <p>Visitors on the footbridge looked down and could see parts of the scapegoats. The visitors would have liked to repurpose them, but it is tricky to get down where the scapegoats are. The visitors wore white jeans and carried big white plastic bags. The scapegoats were naked.</p>\n\n    <p>Each animal with a brain inherits and does work on a four-dimensional taxonomic tree of the available forms of animal and their features. Efforts are underway to externalise these via the use of a <img src=\"//placehold.it/20x20\" /> neural scanner, <img src=\"//placehold.it/20x20\" /> grid paper, and a series of printed images of available animals. While the animal—such as a scapegoat—has a circulatory system which is going, the taxonomic tree is oriented on polar coordinates. At the moment that this isn't so, an organisational downward wave rattles through the brain of the animal, restructuring the tree into a proper <img src=\"//placehold.it/20x20\" /> Cartesian setup. This is felt as a brief <em>thinking-of-all-animals</em> and their features.</p>\n</div>\n\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/goat.png\" width=\"1920\" height=\"1920\"></lightimg>",
+    "created": "2017-08-28T03:10:06.288Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 55,
+    "parent": "59a38965d9eba100763a0f59",
+    "persons": [
+      "59a7a687a692ea00760b797a",
+      "59a7a6c2a692ea00760b797b"
+    ],
+    "readme": "",
+    "slug": "scapegoats",
+    "stub": false,
+    "themes": [],
+    "title": "Scape goating",
+    "word": [
+      "10555311n",
+      "5611302n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "microservice-demons",
+  "stub": false,
+  "themes": [],
+  "title": "Micro servicing",
+  "word": []
+}

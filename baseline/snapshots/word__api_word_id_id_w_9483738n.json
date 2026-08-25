@@ -1,0 +1,802 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "5625465n",
+      "def": "the formation of a mental image of something that is not perceived as real and is not present to the senses",
+      "exp": [
+        "popular imagination created a world of demons",
+        "imagination reveals what the world could be"
+      ],
+      "gloss": "the formation of a mental image of something that is not perceived as real and is not present to the senses; \"popular imagination created a world of demons\"; \"imagination reveals what the world could be\"  ",
+      "lemma": "imagination",
+      "lexFilenum": 9,
+      "lexId": "1",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5624700
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 643863
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1636397
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5625879
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5632272
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5632446
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5768806
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9483738
+        }
+      ],
+      "synonyms": [
+        "imagination",
+        "imaginativeness",
+        "vision"
+      ],
+      "synsetOffset": 5625465,
+      "wCnt": 3
+    },
+    {
+      "_id": "5624700n",
+      "def": "the ability to create  ",
+      "exp": [],
+      "gloss": "the ability to create  ",
+      "lemma": "creativity",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616246
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 585202
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 643250
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5649385
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 585202
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 643250
+        },
+        {
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 643250
+        },
+        {
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 644372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5625066
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5625210
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5625373
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5625465
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5633385
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5633672
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5797177
+        }
+      ],
+      "synonyms": [
+        "creativity",
+        "creativeness",
+        "creative_thinking"
+      ],
+      "synsetOffset": 5624700,
+      "wCnt": 3
+    },
+    {
+      "_id": "5616246n",
+      "def": "possession of the qualities (especially mental qualities) required to do something or get something done",
+      "exp": [
+        "danger heightened his powers of discrimination"
+      ],
+      "gloss": "possession of the qualities (especially mental qualities) required to do something or get something done; \"danger heightened his powers of discrimination\"  ",
+      "lemma": "ability",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 510348
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 306663
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5644922
+        },
+        {
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616786
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5617310
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5617606
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5622456
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5622617
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5622956
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5624700
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5634613
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5636887
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5637558
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5637965
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5638882
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5650329
+        }
+      ],
+      "synonyms": [
+        "ability",
+        "power"
+      ],
+      "synsetOffset": 5616246,
+      "wCnt": 2
+    },
+    {
+      "_id": "23271n",
+      "def": "the psychological result of perception and learning and reasoning  ",
+      "exp": [],
+      "gloss": "the psychological result of perception and learning and reasoning  ",
+      "lemma": "cognition",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0303",
+          "synsetOffset": 1780343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611302
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611822
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612067
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612358
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616246
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5644922
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651068
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651242
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5667196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5686481
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5695554
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701363
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5710020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5726345
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5816287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6156752
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6193203
+        }
+      ],
+      "synonyms": [
+        "cognition",
+        "knowledge",
+        "noesis"
+      ],
+      "synsetOffset": 23271,
+      "wCnt": 3
+    },
+    {
+      "_id": "23100n",
+      "def": "a feature of the mental life of a living organism  ",
+      "exp": [],
+      "gloss": "a feature of the mental life of a living organism  ",
+      "lemma": "psychological_feature",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23773
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        }
+      ],
+      "synonyms": [
+        "psychological_feature"
+      ],
+      "synsetOffset": 23100,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "9483738n",
+    "def": "a creature of the imagination",
+    "exp": [
+      "a person that exists only in legends or myths or fiction"
+    ],
+    "gloss": "a creature of the imagination; a person that exists only in legends or myths or fiction  ",
+    "lemma": "imaginary_being",
+    "lexFilenum": 18,
+    "lexId": "0",
+    "parent": "5625465n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e6de3529022caafac413",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5625465
+      },
+      {
+        "_id": "5ba1e6de3529022caafac412",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9484313
+      },
+      {
+        "_id": "5ba1e6de3529022caafac411",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9484664
+      },
+      {
+        "_id": "5ba1e6de3529022caafac410",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9488259
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40f",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9488448
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9488711
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9488995
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40c",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9489146
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9489601
+      },
+      {
+        "_id": "5ba1e6de3529022caafac40a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9489697
+      },
+      {
+        "_id": "5ba1e6de3529022caafac409",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9489790
+      },
+      {
+        "_id": "5ba1e6de3529022caafac408",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9490054
+      },
+      {
+        "_id": "5ba1e6de3529022caafac407",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9491038
+      },
+      {
+        "_id": "5ba1e6de3529022caafac406",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9491222
+      },
+      {
+        "_id": "5ba1e6de3529022caafac405",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9491324
+      },
+      {
+        "_id": "5ba1e6de3529022caafac404",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9491966
+      },
+      {
+        "_id": "5ba1e6de3529022caafac403",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9503282
+      },
+      {
+        "_id": "5ba1e6de3529022caafac402",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9587565
+      },
+      {
+        "_id": "5ba1e6de3529022caafac401",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10489818
+      },
+      {
+        "_id": "5ba1e6de3529022caafac400",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10550673
+      },
+      {
+        "_id": "5ba1e6de3529022caafac3ff",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10685300
+      },
+      {
+        "_id": "5ba1e6de3529022caafac3fe",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10715211
+      },
+      {
+        "_id": "5ba1e6de3529022caafac3fd",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10737964
+      }
+    ],
+    "synonyms": [
+      "imaginary_being",
+      "imaginary_creature"
+    ],
+    "synsetOffset": 9483738,
+    "wCnt": 2,
+    "word": "imaginary_being"
+  }
+}

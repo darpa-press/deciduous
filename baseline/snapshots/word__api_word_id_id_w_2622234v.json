@@ -1,0 +1,288 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5ae0f217b7de96005451ccdd",
+      "background": "",
+      "content": "<aa href=\"154,82\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1524691707571-screen2.jpg\" bg=\"white\" width=\"1920\" height=\"1423\"></img></aa>",
+      "created": "2018-04-25T21:24:39.961Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 96,
+      "parent": {
+        "__v": 0,
+        "_id": "5a0ccb40fd301d0072232e19",
+        "background": "#fff4f4",
+        "content": "<p>\n   Hi and thanks for talking to support. Please know,<br/>\nthe faces of others are kept in the Secure Enclave.<br/>\nThese are available to you only and where you are.<br/>\nNot their bodies. Their faces beamed. We regret<br/>that you have had a terrible dream.</p>",
+        "created": "2017-11-15T23:18:24.893Z",
+        "fullWidth": false,
+        "lovers": [
+          "59a388b9d9eba100763a0f54"
+        ],
+        "page": 78,
+        "parent": "5a010b5d0d38e60074a75115",
+        "persons": null,
+        "readme": "A support line for those terrified by face-blindness. \"Would you like a transcript of today's interaction emailed to you? (Y/N)\"",
+        "slug": "secure-enclave",
+        "stub": false,
+        "themes": [],
+        "title": "Secure enclaving",
+        "word": [
+          "7484547n",
+          "8553132n",
+          "2735897v"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a7d5a692ea00760b7980",
+          "bio": "",
+          "birth": 1937,
+          "created": "2017-08-31T06:08:21.430Z",
+          "death": null,
+          "name": "Theodore Nelson",
+          "relation": [],
+          "slug": "theodore-nelson"
+        }
+      ],
+      "readme": "Something of a lost cause spotted 'in the wild'.",
+      "slug": "abilities-to-see",
+      "stub": false,
+      "themes": [],
+      "title": "Ability seeing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "2622234v",
+          "def": "be or become joined or united or linked",
+          "exp": [
+            "The two streets connect to become a highway",
+            "Our paths joined",
+            "The travelers linked up again at the airport"
+          ],
+          "gloss": "be or become joined or united or linked; \"The two streets connect to become a highway\"; \"Our paths joined\"; \"The travelers linked up again at the airport\"  ",
+          "lemma": "connect",
+          "lexFilenum": 42,
+          "lexId": "2",
+          "parent": null,
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5cecc6478b28dd6753167071",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0405",
+              "synsetOffset": 381680
+            },
+            {
+              "_id": "5cecc6478b28dd6a4b167070",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0404",
+              "synsetOffset": 13911151
+            },
+            {
+              "_id": "5cecc6478b28dd619c16706f",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0401",
+              "synsetOffset": 145218
+            },
+            {
+              "_id": "5cecc6478b28dd5c1d16706e",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0202",
+              "synsetOffset": 14419164
+            },
+            {
+              "_id": "5cecc6478b28ddeaef16706d",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0201",
+              "synsetOffset": 3674440
+            },
+            {
+              "_id": "5cecc6478b28dd78de16706c",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 563980
+            },
+            {
+              "_id": "5cecc6478b28dd85f216706b",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2449183
+            },
+            {
+              "_id": "5cecc6478b28dd573016706a",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2622637
+            },
+            {
+              "_id": "5cecc6478b28ddd694167069",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2622969
+            }
+          ],
+          "synonyms": [
+            "connect",
+            "link",
+            "link_up",
+            "join",
+            "unite"
+          ],
+          "synsetOffset": 2622234,
+          "wCnt": 5,
+          "word": "link"
+        },
+        {
+          "__v": 0,
+          "_id": "1083044v",
+          "def": "give up in the face of defeat of lacking hope",
+          "exp": [
+            "admit defeat",
+            "In the second round, the challenger gave up"
+          ],
+          "gloss": "give up in the face of defeat of lacking hope; admit defeat; \"In the second round, the challenger gave up\"  ",
+          "lemma": "drop_out",
+          "lexFilenum": 33,
+          "lexId": "0",
+          "parent": null,
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5cecc6618b28dd7e8d167073",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0701",
+              "synsetOffset": 10502046
+            },
+            {
+              "_id": "5cecc6618b28dd66c6167072",
+              "pointerSymbol": "!",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 1082606
+            }
+          ],
+          "synonyms": [
+            "drop_out",
+            "give_up",
+            "fall_by_the_wayside",
+            "drop_by_the_wayside",
+            "throw_in",
+            "throw_in_the_towel",
+            "quit",
+            "chuck_up_the_sponge"
+          ],
+          "synsetOffset": 1083044,
+          "wCnt": 8,
+          "word": "give up"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "2622234v",
+    "def": "be or become joined or united or linked",
+    "exp": [
+      "The two streets connect to become a highway",
+      "Our paths joined",
+      "The travelers linked up again at the airport"
+    ],
+    "gloss": "be or become joined or united or linked; \"The two streets connect to become a highway\"; \"Our paths joined\"; \"The travelers linked up again at the airport\"  ",
+    "lemma": "connect",
+    "lexFilenum": 42,
+    "lexId": "2",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5cecc6478b28dd6753167071",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0405",
+        "synsetOffset": 381680
+      },
+      {
+        "_id": "5cecc6478b28dd6a4b167070",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0404",
+        "synsetOffset": 13911151
+      },
+      {
+        "_id": "5cecc6478b28dd619c16706f",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0401",
+        "synsetOffset": 145218
+      },
+      {
+        "_id": "5cecc6478b28dd5c1d16706e",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 14419164
+      },
+      {
+        "_id": "5cecc6478b28ddeaef16706d",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 3674440
+      },
+      {
+        "_id": "5cecc6478b28dd78de16706c",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 563980
+      },
+      {
+        "_id": "5cecc6478b28dd85f216706b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2449183
+      },
+      {
+        "_id": "5cecc6478b28dd573016706a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2622637
+      },
+      {
+        "_id": "5cecc6478b28ddd694167069",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2622969
+      }
+    ],
+    "synonyms": [
+      "connect",
+      "link",
+      "link_up",
+      "join",
+      "unite"
+    ],
+    "synsetOffset": 2622234,
+    "wCnt": 5,
+    "word": "link"
+  }
+}

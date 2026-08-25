@@ -1,0 +1,1480 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "4076846n",
+      "def": "a creation that is a visual or tangible rendering of someone or something  ",
+      "exp": [],
+      "gloss": "a creation that is a visual or tangible rendering of someone or something  ",
+      "lemma": "representation",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3129123
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1686132
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2682207
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2757211
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3104594
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3113337
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3129636
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3152951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3210940
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3217458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3234306
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3263206
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3265874
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3561345
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3720163
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3777283
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3827716
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3838160
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3925226
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3931044
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3934656
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4009382
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4116744
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4181983
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4297476
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4306454
+        }
+      ],
+      "synonyms": [
+        "representation"
+      ],
+      "synsetOffset": 4076846,
+      "wCnt": 1
+    },
+    {
+      "_id": "3129123n",
+      "def": "an artifact that has been brought into existence by someone  ",
+      "exp": [],
+      "gloss": "an artifact that has been brought into existence by someone  ",
+      "lemma": "creation",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 21939
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1621555
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1753788
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2743547
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3038595
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3081660
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3565402
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3582658
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3727274
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3816849
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4007894
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4074329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4076846
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6269396
+        }
+      ],
+      "synonyms": [
+        "creation"
+      ],
+      "synsetOffset": 3129123,
+      "wCnt": 1
+    },
+    {
+      "_id": "21939n",
+      "def": "a man-made object taken as a whole  ",
+      "exp": [],
+      "gloss": "a man-made object taken as a whole  ",
+      "lemma": "artifact",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3553
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0202",
+          "synsetOffset": 2986740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2986740
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 19128
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 22903
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 585406
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2701393
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2707036
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2724026
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2852523
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2928841
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3076708
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3089348
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3122748
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3129123
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3168364
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3169390
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3280064
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3302121
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3307981
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3309808
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3315023
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3354613
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3364340
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3573282
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3575240
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3650173
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3655838
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3670849
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3721797
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3803911
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3848729
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3873064
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3964744
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4058921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4083468
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4188643
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4274530
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4291511
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4292733
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4339291
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4341686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4362025
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424218
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4463983
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4564698
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4571088
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14786479
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14977504
+        }
+      ],
+      "synonyms": [
+        "artifact",
+        "artefact"
+      ],
+      "synsetOffset": 21939,
+      "wCnt": 2
+    },
+    {
+      "_id": "3553n",
+      "def": "an assemblage of parts that is regarded as a single entity",
+      "exp": [
+        "how big is that part compared to the whole?",
+        "the team is a unit"
+      ],
+      "gloss": "an assemblage of parts that is regarded as a single entity; \"how big is that part compared to the whole?\"; \"the team is a unit\"  ",
+      "lemma": "whole",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0204",
+          "synsetOffset": 1462005
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 367685
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1385458
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 368109
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 784215
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3993
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4258
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 19128
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 21939
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2749953
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3588414
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3892891
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4164989
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4353803
+        }
+      ],
+      "synonyms": [
+        "whole",
+        "unit"
+      ],
+      "synsetOffset": 3553,
+      "wCnt": 2
+    },
+    {
+      "_id": "2684n",
+      "def": "a tangible and visible entity",
+      "exp": [
+        "an entity that can cast a shadow",
+        "it was full of rackets, balls and other objects"
+      ],
+      "gloss": "a tangible and visible entity; an entity that can cast a shadow; \"it was full of rackets, balls and other objects\"  ",
+      "lemma": "object",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0105",
+          "synsetOffset": 532607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3553
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3009633
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3149951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3233423
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3338648
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3532080
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3595179
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3610270
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3714721
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3892891
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4012260
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4248010
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4345288
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4486445
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7851054
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9238143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9251689
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9267490
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9279458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9281777
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9283193
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9287968
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9295338
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9300905
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9302031
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9308398
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9334396
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9335240
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9358550
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9368224
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9407346
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9409203
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9432990
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9468237
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9474162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9477037
+        }
+      ],
+      "synonyms": [
+        "object",
+        "physical_object"
+      ],
+      "synsetOffset": 2684,
+      "wCnt": 2
+    },
+    {
+      "_id": "1930n",
+      "def": "an entity that has physical existence  ",
+      "exp": [],
+      "gloss": "an entity that has physical existence  ",
+      "lemma": "physical_entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580597
+        }
+      ],
+      "synonyms": [
+        "physical_entity"
+      ],
+      "synsetOffset": 1930,
+      "wCnt": 1
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b48187eef732e0054886ac2",
+      "background": "#fffcfa",
+      "content": "<div style=\"display:flex;flex-direction:column; align-items:center; margin:0 auto; max-width: 800px;\">\n    <aa to=\"76,104,47,91\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452498471-v1.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452501051-v2.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452504585-v3.png\" width=\"1280\" height=\"1280\"/>\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452508614-v4.png\" width=\"1280\" height=\"1280\"/></aa>\n</div>",
+      "created": "2018-07-13T03:11:58.622Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a52ceb9f5051f0071438a4c"
+      ],
+      "page": 112,
+      "parent": {
+        "__v": 0,
+        "_id": "5b35f11d1c76e00054b5f2f5",
+        "background": "",
+        "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530261768802-schema.png\" style=\"max-width:95%; width: 500px\" width=\"500\" height=\"389\" />\n<p>\n    This document is a class. It describes a connecting urge and provides a swaddled toolset to satisfy that urge. The swaddled toolset is initially inoperative; it's set to <aa href=\"138\">False</aa>. There is one comment in the body of the class (see below). This document was written by a blemmyae, one who gave up the Hill of Being Documented to be a computer programmer.\n<p>\n    Only <aa to=\"91\">Blemmyes</aa> can write documents I think. There is a permanent cyclonic gale across the surface of the earth at a height of our heads that makes it impossible to write documents. The gale contains what words refer to. Some of what words refer to swerve out of the permanent gale at the height of our heads. They fall like <aa href=\"112\">lepidoptera</aa> on the knees of the blemmyes underneath the gale, otherwise lounging. Blemmyes take and order the swerved what-words-refer-to on the floor of the world like mosaic or thatch. You cannot become a blemmyae after the fact, not even if you cut off your head. \n</p>\n</p>\n<p><em>\n    # TODO: <aa to=\"113\">In my head</aa>, I want you to be able to have and use this book-thing, too, and to share it with you it has to have <span style=\"opacity:0.1\">AN INTERNAL REPRESENTATION OF THE WORLD; AN <aa to=\"118\">ORGANIZATION</aa> OF CONCEPTS AND ACTIONS THAT CAN BE REVISED BY NEW INFORMATION ABOUT THE WORLD</span>; (👆) because that is the only place open at this hour (11:53pm) but within such a setup let's counter those [...] by stopping the use of [...] which hold a particular type of unanalogical water. Until at least the concept doesn't prop itself up. I mean [...]. And keep going until [...] get to nothing and its joints—like this: [...], [...] [...] [...] [...] <em>!!</em>\n</em></p>",
+        "created": "2018-06-29T08:43:09.417Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 104,
+        "parent": "599baddb2d4c7455551c4ef9",
+        "persons": null,
+        "readme": "The chest-of-drawers or the shape of a document within the codex; where things are weighted; how they should slide; what contents are expected.",
+        "slug": "schema",
+        "stub": false,
+        "themes": [],
+        "title": "Schema calling",
+        "word": [
+          "3217458n",
+          "5927813n",
+          "4677385n",
+          "293253r",
+          "3660664n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59dff0bfb9789b6225c9049e",
+          "bio": "French violinist, composer and music teacher.",
+          "birth": 1787,
+          "created": "2017-10-12T22:46:23.600Z",
+          "death": 1862,
+          "name": "François Sudre",
+          "relation": [],
+          "slug": "franois-sudre-17871862"
+        },
+        {
+          "__v": 0,
+          "_id": "5b63c8ea0cf98533b527784d",
+          "bio": "Inside the Vienna circle.",
+          "birth": 1882,
+          "created": "2018-08-03T03:15:54.314Z",
+          "death": 1945,
+          "name": "Otto Neurath",
+          "relation": [],
+          "slug": "otto-neurath"
+        }
+      ],
+      "readme": "Overlaid and outlined silhouettes of the icons used in this user interface to move between sections.",
+      "slug": "icons",
+      "stub": false,
+      "themes": [],
+      "title": "Icon shaping",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "3931044n",
+          "def": "a visual representation (of an object or scene or person or abstraction) produced on a surface",
+          "exp": [
+            "they showed us the pictures of their wedding",
+            "a movie is a series of images projected so rapidly that the eye integrates them"
+          ],
+          "gloss": "a visual representation (of an object or scene or person or abstraction) produced on a surface; \"they showed us the pictures of their wedding\"; \"a movie is a series of images projected so rapidly that the eye integrates them\"  ",
+          "lemma": "picture",
+          "lexFilenum": 6,
+          "lexId": "0",
+          "parent": "4076846n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e9f17eefb32d4a2b685a",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4076846
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6859",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 2851550
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6858",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0209",
+              "synsetOffset": 1635432
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6857",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0102",
+              "synsetOffset": 2861617
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6856",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 1686956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6855",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0102",
+              "synsetOffset": 1686956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6854",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2845425
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6853",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3016056
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6852",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3067912
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6851",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3375956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6850",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3453696
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3559144
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3573464
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3668642
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3884072
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684b",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4068976
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684a",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4142549
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6849",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4260364
+            }
+          ],
+          "synonyms": [
+            "picture",
+            "image",
+            "icon",
+            "ikon"
+          ],
+          "synsetOffset": 3931044,
+          "wCnt": 4,
+          "word": "icon"
+        },
+        {
+          "__v": 0,
+          "_id": "5764779n",
+          "def": "the overlap where two theories or phenomena affect each other or have links with each other",
+          "exp": [
+            "the interface between chemistry and biology"
+          ],
+          "gloss": "the overlap where two theories or phenomena affect each other or have links with each other; \"the interface between chemistry and biology\"  ",
+          "lemma": "interface",
+          "lexFilenum": 9,
+          "lexId": "0",
+          "parent": "5764365n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ea037eefb32d4a2b69f9",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5764365
+            }
+          ],
+          "synonyms": [
+            "interface"
+          ],
+          "synsetOffset": 5764779,
+          "wCnt": 1,
+          "word": "interface"
+        },
+        {
+          "__v": 0,
+          "_id": "6407514n",
+          "def": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+          "exp": [],
+          "gloss": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+          "lemma": "palimpsest",
+          "lexFilenum": 10,
+          "lexId": "0",
+          "parent": "6407221n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eb137eefb32d4a2b77ff",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6407221
+            }
+          ],
+          "synonyms": [
+            "palimpsest"
+          ],
+          "synsetOffset": 6407514,
+          "wCnt": 1,
+          "word": "palimpsest"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "3931044n",
+    "def": "a visual representation (of an object or scene or person or abstraction) produced on a surface",
+    "exp": [
+      "they showed us the pictures of their wedding",
+      "a movie is a series of images projected so rapidly that the eye integrates them"
+    ],
+    "gloss": "a visual representation (of an object or scene or person or abstraction) produced on a surface; \"they showed us the pictures of their wedding\"; \"a movie is a series of images projected so rapidly that the eye integrates them\"  ",
+    "lemma": "picture",
+    "lexFilenum": 6,
+    "lexId": "0",
+    "parent": "4076846n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e9f17eefb32d4a2b685a",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4076846
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6859",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0301",
+        "synsetOffset": 2851550
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6858",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0209",
+        "synsetOffset": 1635432
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6857",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 2861617
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6856",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1686956
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6855",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 1686956
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6854",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2845425
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6853",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3016056
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6852",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3067912
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6851",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3375956
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6850",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3453696
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3559144
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3573464
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3668642
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3884072
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4068976
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b684a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4142549
+      },
+      {
+        "_id": "5ba1e9f17eefb32d4a2b6849",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4260364
+      }
+    ],
+    "synonyms": [
+      "picture",
+      "image",
+      "icon",
+      "ikon"
+    ],
+    "synsetOffset": 3931044,
+    "wCnt": 4,
+    "word": "icon"
+  }
+}

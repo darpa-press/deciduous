@@ -1,0 +1,46 @@
+{
+  "__v": 0,
+  "_id": "5a0cee82e02797007142f5f2",
+  "background": "#e2e1e1",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534472827108-take-2.jpg\" width=\"2000\" height=\"2000\"></lightimg>",
+  "created": "2017-11-16T01:48:50.504Z",
+  "fullWidth": false,
+  "lovers": [
+    "5a0cde7bfd301d0072232e1a"
+  ],
+  "page": 80,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38842d9eba100763a0f51",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/google-layers.png\" bg=\"white\" width=\"1920\" height=\"1624\"></lightimg>",
+    "created": "2017-08-28T03:04:34.633Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 46,
+    "parent": "59a38829d9eba100763a0f50",
+    "persons": null,
+    "readme": "In technology colours, a rising abstraction of abstraction layers.",
+    "slug": "transport-control",
+    "stub": false,
+    "themes": [],
+    "title": "Transport controlling",
+    "word": [
+      "6394701n",
+      "6570110n",
+      "1894649v",
+      "13479380n",
+      "3580615n",
+      "8478018n",
+      "3674270n",
+      "4981941n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "air-network-exercise",
+  "stub": false,
+  "themes": [],
+  "title": "Exercise airing",
+  "word": []
+}

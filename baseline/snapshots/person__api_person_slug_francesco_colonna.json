@@ -1,0 +1,64 @@
+{
+  "__v": 0,
+  "_id": "59e0451bf883dc0ea56ac6c7",
+  "bio": "",
+  "birth": 1433,
+  "created": "2017-10-13T04:46:19.587Z",
+  "death": 1527,
+  "name": "Francesco Colonna",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599badb12d4c7455551c4ef7",
+      "background": "#333",
+      "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+      "created": "2017-08-22T04:06:09.167Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 0,
+      "parent": "599e1db3dcc19f2b4b6aa573",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "59e0451bf883dc0ea56ac6c7",
+        "59a7a5eba692ea00760b7974"
+      ],
+      "readme": "",
+      "slug": "ark",
+      "stub": false,
+      "themes": [],
+      "title": "Ark refactoring",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "59a388f6d9eba100763a0f56",
+      "background": "",
+      "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/strife-full.png\" width=\"1568\" height=\"1920\" bg=\"white\"></lightimg>\n\n<div class=\"indents\">\n    <P>\n        \"Not only that, but this instantaneous ruin presents whole new vistas to the imagination. Let me show you what I mean. Suppose you walk to another section while your lover waits for God. <aa href=\"39,152,127\">In this state,</aa> you no longer need to know what you think is important; you don’t need to know how the buildings here came together. And your shoes are too tight.\"\n    </p>\n</div>",
+      "created": "2017-08-28T03:07:34.606Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a0fe283d55a8200722c03d8",
+        "5a0ccb40fd301d0072232e19",
+        "59a3874bd9eba100763a0f4a"
+      ],
+      "page": 51,
+      "parent": "59a388b9d9eba100763a0f54",
+      "persons": [
+        "59e0451bf883dc0ea56ac6c7",
+        "59a7a64ea692ea00760b7977"
+      ],
+      "readme": "The appearance in a strife of love of a disc which parses information-places.",
+      "slug": "waiting-for-documentation",
+      "stub": false,
+      "themes": [],
+      "title": "Documentation waiting",
+      "word": [
+        "13466312n",
+        "1398199a",
+        "9622302n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "francesco-colonna"
+}

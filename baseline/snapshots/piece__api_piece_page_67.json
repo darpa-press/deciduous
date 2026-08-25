@@ -1,0 +1,150 @@
+{
+  "__v": 0,
+  "_id": "59a9696bec58b8007f5d501f",
+  "background": "",
+  "content": "<div>     <img          src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507840379253-water2.png\" width=\"1281\" height=\"1615\" />     <div class=\"indents\">         <p>I placed the call to you, from Argyll to I think Caen —— it rang, went through, but was otherwise soundless —— I could have known that you were there —– but the cable was dropped to connect in the ocean too long ago —— falling sharks in the channel had             bitten into it in parts —— salinity wore through it in parts —— engineers who in the first place on each part on either side disagreed on every standard of voltage and who couldn't talk in a Seaspeak anyway —— in channels the draghead and davits of dredging machines had torn or tangled the             manila yarn which insulated a connection —— turned dark blue from holding its breath —— taking into account the way that with every word in a rail crash across a language barrier the situation worsens —— and again with the channel sharks falling —— there was enough of an edge left for the format but not the consignment —— no <em> gentle wires to the word en-Masse</em> —— so no capacitive sense —— no your voice </p>     </div> </div>",
+  "created": "2017-09-01T14:06:35.362Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a3892dd9eba100763a0f57"
+  ],
+  "page": 67,
+  "parent": {
+    "__v": 0,
+    "_id": "59a387fad9eba100763a0f4f",
+    "background": "",
+    "content": "<div>\n    <video autoplay muted autoPlay loop>\n       <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/0_90_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2017-08-28T03:03:22.975Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 44,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "",
+    "slug": "uncloseable-sockets",
+    "stub": false,
+    "themes": [],
+    "title": "Socket unclosing",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "underwater-cables",
+  "stub": false,
+  "themes": [],
+  "title": "Underwater cabling",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "6272290n",
+      "def": "transmitting speech at a distance  ",
+      "exp": [],
+      "gloss": "transmitting speech at a distance  ",
+      "lemma": "telephone",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6271778n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eba87eefb32d4a2b826c",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6271778
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b826b",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 3123434
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b826a",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 10698064
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8269",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 789448
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8268",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6272612
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8267",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6272803
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8266",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6273414
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8265",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6273743
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8264",
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 789448
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8263",
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 789934
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8262",
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 790135
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8261",
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 790308
+        },
+        {
+          "_id": "5ba1eba87eefb32d4a2b8260",
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 790509
+        }
+      ],
+      "synonyms": [
+        "telephone",
+        "telephony"
+      ],
+      "synsetOffset": 6272290,
+      "wCnt": 2,
+      "word": "telephone"
+    }
+  ]
+}

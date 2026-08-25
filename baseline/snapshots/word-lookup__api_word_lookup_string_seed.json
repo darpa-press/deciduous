@@ -1,0 +1,642 @@
+[
+  {
+    "def": "remove the seeds from",
+    "exp": [
+      "seed grapes"
+    ],
+    "gloss": "remove the seeds from; \"seed grapes\"  ",
+    "lemma": "seed",
+    "lexFilenum": 30,
+    "lexId": "1",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 173338
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13135832
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 4167228
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 179718,
+    "wCnt": 1
+  },
+  {
+    "def": "inoculate with microorganisms  ",
+    "exp": [],
+    "gloss": "inoculate with microorganisms  ",
+    "lemma": "seed",
+    "lexFilenum": 30,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 188252
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 188375,
+    "wCnt": 1
+  },
+  {
+    "def": "sprinkle with silver iodide particles to disperse and cause rain",
+    "exp": [
+      "seed clouds"
+    ],
+    "gloss": "sprinkle with silver iodide particles to disperse and cause rain; \"seed clouds\"  ",
+    "lemma": "seed",
+    "lexFilenum": 30,
+    "lexId": "2",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 515154
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10575594
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 516425,
+    "wCnt": 1
+  },
+  {
+    "def": "distribute (players or teams) so that outstanding teams or players will not meet in the early rounds  ",
+    "exp": [],
+    "gloss": "distribute (players or teams) so that outstanding teams or players will not meet in the early rounds  ",
+    "lemma": "seed",
+    "lexFilenum": 31,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 658052
+      },
+      {
+        "pointerSymbol": ";c",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 523513
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 10575463
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 658913,
+    "wCnt": 1
+  },
+  {
+    "def": "place (seeds) in or on the ground for future growth",
+    "exp": [
+      "She sowed sunflower seeds"
+    ],
+    "gloss": "place (seeds) in or on the ground for future growth; \"She sowed sunflower seeds\"  ",
+    "lemma": "sow",
+    "lexFilenum": 35,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1501347
+      },
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1494310
+      },
+      {
+        "pointerSymbol": ";c",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 916464
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 11683989
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 13135832
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 4167346
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10629020
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1501184
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1501347
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1501676
+      }
+    ],
+    "synonyms": [
+      "sow",
+      "seed"
+    ],
+    "synsetOffset": 1500873,
+    "wCnt": 2
+  },
+  {
+    "def": "bear seeds  ",
+    "exp": [],
+    "gloss": "bear seeds  ",
+    "lemma": "seed",
+    "lexFilenum": 36,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1652139
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 11683989
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13135832
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 1652429,
+    "wCnt": 1
+  },
+  {
+    "def": "help (an enterprise) in its early stages of development by providing seed money  ",
+    "exp": [],
+    "gloss": "help (an enterprise) in its early stages of development by providing seed money  ",
+    "lemma": "seed",
+    "lexFilenum": 40,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2217266
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 2217546,
+    "wCnt": 1
+  },
+  {
+    "def": "go to seed",
+    "exp": [
+      "shed seeds",
+      "The dandelions went to seed"
+    ],
+    "gloss": "go to seed; shed seeds; \"The dandelions went to seed\"  ",
+    "lemma": "seed",
+    "lexFilenum": 35,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1541579
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 11683989
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1501575
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 1542056,
+    "wCnt": 1
+  },
+  {
+    "def": "the thick white fluid containing spermatozoa that is ejaculated by the male genital tract  ",
+    "exp": [],
+    "gloss": "the thick white fluid containing spermatozoa that is ejaculated by the male genital tract  ",
+    "lemma": "semen",
+    "lexFilenum": 8,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5397468
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0401",
+        "synsetOffset": 55010
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 52548
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2322712
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5457469
+      }
+    ],
+    "synonyms": [
+      "semen",
+      "seed",
+      "seminal_fluid",
+      "ejaculate",
+      "cum",
+      "come"
+    ],
+    "synsetOffset": 5404336,
+    "wCnt": 6
+  },
+  {
+    "def": "anything that provides inspiration for later work  ",
+    "exp": [],
+    "gloss": "anything that provides inspiration for later work  ",
+    "lemma": "source",
+    "lexFilenum": 9,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5834567
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0301",
+        "synsetOffset": 1687363
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0302",
+        "synsetOffset": 1738597
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5834946
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5835162
+      }
+    ],
+    "synonyms": [
+      "source",
+      "seed",
+      "germ"
+    ],
+    "synsetOffset": 5834758,
+    "wCnt": 3
+  },
+  {
+    "def": "one of the outstanding players in a tournament  ",
+    "exp": [],
+    "gloss": "one of the outstanding players in a tournament  ",
+    "lemma": "seeded_player",
+    "lexFilenum": 18,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10439851
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 658913
+      }
+    ],
+    "synonyms": [
+      "seeded_player",
+      "seed"
+    ],
+    "synsetOffset": 10575463,
+    "wCnt": 2
+  },
+  {
+    "def": "a mature fertilized plant ovule consisting of an embryo and its food source and having a protective coat or testa  ",
+    "exp": [],
+    "gloss": "a mature fertilized plant ovule consisting of an embryo and its food source and having a protective coat or testa  ",
+    "lemma": "seed",
+    "lexFilenum": 20,
+    "lexId": "2",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11678768
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 1500873
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1652429
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1542056
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11682349
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11682512
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11684264
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 11683989,
+    "wCnt": 1
+  },
+  {
+    "def": "a small hard fruit  ",
+    "exp": [],
+    "gloss": "a small hard fruit  ",
+    "lemma": "seed",
+    "lexFilenum": 20,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13134947
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 2255069
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 179718
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 1500873
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1652429
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7770571
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7929351
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11685091
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11689197
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11689367
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11689483
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11946313
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12156819
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12306419
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12585373
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12592839
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12593341
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12594533
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12696830
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12768682
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12928819
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13136316
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13136556
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13137010
+      }
+    ],
+    "synonyms": [
+      "seed"
+    ],
+    "synsetOffset": 13135832,
+    "wCnt": 1
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a38a10d9eba100763a0f5f",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/noun.png\" bg=\"white\" width=\"2560\" height=\"1867\"></lightimg>\n\n<p>When we were married, I demanded that the archways of the temporary pavilion were modelled on the syntactic hops of the sentence, <em>I don’t understand at all</em>.</p>",
+    "created": "2017-08-28T03:12:16.556Z",
+    "fullWidth": false,
+    "lovers": [
+      "599badcb2d4c7455551c4ef8"
+    ],
+    "page": 60,
+    "parent": "59a389fbd9eba100763a0f5e",
+    "persons": [
+      "59e046d19ab1b7008c024d15",
+      "59a7a738a692ea00760b797d"
+    ],
+    "readme": "A temporary architectural proposal for the natural surrounds of a celebration.",
+    "slug": "pavilion",
+    "stub": false,
+    "themes": [],
+    "title": "What pavilioning",
+    "word": [
+      "6770275n",
+      "14421585n",
+      "8436203n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "59f80c9a4a45830075b62639",
+    "background": "#f9f9f9",
+    "content": "<div style=\"transform:rotate(1deg);letter-spacing:0.5px\">\n    <a href=\"https://www.w3.org/TR/2017/REC-owl-time-20171019/#time:Instant\" target=\"_blank\">OWL-TIME,</a><br/>\nNOT CLOCKS:<br/>\nHIGHER-ORDER<br/>\nTHAN THAT<BR/>\n(ZERO IN TIME)\n</div>\n<p>[seen carved<br/>\ninto a tree]</p>",
+    "created": "2017-10-31T05:39:38.101Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 73,
+    "parent": "59a389fbd9eba100763a0f5e",
+    "persons": null,
+    "readme": "",
+    "slug": "ot",
+    "stub": false,
+    "themes": [],
+    "title": "Exactly zeroing",
+    "word": [
+      "6000644n",
+      "15121625n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "59a38a32d9eba100763a0f61",
+    "background": "",
+    "content": "<p>⁂</p>",
+    "created": "2017-08-28T03:12:50.161Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 62,
+    "parent": "59a389fbd9eba100763a0f5e",
+    "persons": null,
+    "readme": "",
+    "slug": "surplus-of-oracles",
+    "stub": true,
+    "themes": [],
+    "title": "Oracles surplusing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b67cd6b287895004ddc06bf",
+    "background": "red",
+    "content": "<p></p>",
+    "created": "2018-08-06T04:24:11.907Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 134,
+    "parent": "59a389fbd9eba100763a0f5e",
+    "persons": null,
+    "readme": "(Programming without programmers)",
+    "slug": "programming-without-programmers",
+    "stub": true,
+    "themes": [],
+    "title": "Never coding",
+    "word": []
+  }
+]

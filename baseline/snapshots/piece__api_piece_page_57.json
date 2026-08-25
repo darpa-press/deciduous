@@ -1,0 +1,170 @@
+{
+  "__v": 0,
+  "_id": "59a389cad9eba100763a0f5c",
+  "background": "",
+  "content": "<p>⁂</p>",
+  "created": "2017-08-28T03:11:06.500Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 57,
+  "parent": {
+    "__v": 0,
+    "_id": "59a389add9eba100763a0f5b",
+    "background": "#fafafa",
+    "content": "<style type=\"text/css\">\n    .forum-reply {\n    display: flex;\n    margin-bottom: 1rem;\n}\n\n.forum-reply__person {\n    align-items: center;\n    color: #666;\n    display: flex;\n    flex: 0 0 90px;\n    flex-direction: column;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.65rem;\n    font-weight: 600;\n    margin-right: 2rem;\n}\n\n@media (max-width: 767px) {\n    .forum-reply {\n        flex-direction: column;\n    }\n    .forum-reply__person {\n        display:none;\n    }\n}\n\n.forum-reply__person img {\n    border-radius: 50%;\n    height: auto;\n    margin: 0;\n    margin-bottom: 0.65rem;\n    width: 90px;\n}\n\n.forum-reply__content {\n    background: white;\n    border-radius: 2px;\n    box-shadow: 0 0 4px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.08);\n    color: #444;\n    flex: 1 0 120px;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.8rem;\n    line-height: 1.4;\n    padding: 1rem;\n}\n\n.forum-reply__content p:first-child {\n    margin-top: 0;\n}\n\n.forum-reply__content p:last-child {\n    margin-bottom: 0;\n}\n</style>\n<lightimg class=\"shadow\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/magoo-thing-2.jpg\" width=\"1280\" height=\"624\"></lightimg>\n\n<div className=\"forum\">\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            QuincyAgain\n        </div>\n        <div className=\"forum-reply__content\">\n            <p>\n                Hey Magoovians,\n            </p>\n            <p>\n                Does anyone remember seeing the episode where our man-in-common befriends a bowerbird? I would be grateful if anyone had a copy to share or just an idea about it. Someone told me 'it does not exist', but I saw it when I was a boy in circa 1956, I think. We had an Emerson. Emerson produces a lot of manganese. In the show, Magoo couldn’t work out what kind of bird his friend was. When it brought him a dried lilypad, he thought it was a dragonfly. When it brought him a sheaf of buckwheat, he thought it was a sparrow. When it brought him a piece of a cast-off buoy, he thought it was a seagull. (When he caught the red blur of the bowerbird’s crest, he became suspicious.)\n            </p>\n            <p>\n                Anyway, these gifts were of use to Magoo—I think he used the lilypad to shore up an umbrella—and the bird appreciated Magoo’s unpredictable movements, and the way he would back and front into the walls of his small room. I laughed at this setup of mutual support. He was stoutly tender, as depicted in his hands. The bird laid out the objects that it would offer into a plan with wings. Each had a distinct capacity for sound: some loud, some soft. In the plan, interpersonal use-cases would form around such levels. It brought a mirrorball for the left wing. It was the first time I had seen a mirrorball, and I wondered at it—even if only on TV and even though was drawn poorly.\n            <p>\n                Magoo saw in a blear the stupid plan that the bird was building—its plastic, limbs, eggshell, and drinking cups—and started to figure it was a social model. He tried to talk to his neighbour about it, but the neighbour told him 'it does not exist'. The gall!, addressed Magoo to the imaginary frame of the audience, before tripping on the sprocket of a motorcycle, which the bird had newly augured as a caravansary.\n            <p>\n                There followed a nauseous dream sequence where the social model of the passerine-type thing's nest came to be. The dream broke out of the cartoon format and was shot on film, though Magoo and encounters between people were rendered on cels above places. This part was not funny. After his dream, Magoo was certain that the plan was a 'fall-and-stir', after his dream. Eventually the bird moved on. Magoo starts to eat the objects.\n            </p>\n        </div>\n    </div>\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            GammaRho\n        </div>\n        <div className=\"forum-reply__content\">\n            <p className=\"quiet\">\n                [reply removed]\n            </p>\n        </div>\n    </div>\n</div>\n<!-- <div className=\"full-image-overlay\" style=\"background-image: url('//content.deciduous.site/uploads/images/mirrorball2.gif'); opacity:0.2;\"></div> -->",
+    "created": "2017-08-28T03:10:37.123Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 56,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": [
+      "59a7a677a692ea00760b7979",
+      "59a7a74ba692ea00760b797e"
+    ],
+    "readme": "",
+    "slug": "mr-magoo-and-the-phalanstere",
+    "stub": false,
+    "themes": [],
+    "title": "Bird fooling",
+    "word": [
+      "7484547n",
+      "2734725n"
+    ]
+  },
+  "persons": null,
+  "readme": "You are stopped on the thing on which you go.",
+  "slug": "abstraction-layer-turnpike",
+  "stub": true,
+  "themes": [],
+  "title": "Alayer turnpiking",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5700625n",
+      "def": "preoccupation with something to the exclusion of all else  ",
+      "exp": [],
+      "gloss": "preoccupation with something to the exclusion of all else  ",
+      "lemma": "abstractedness",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5700087n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cecc5198b28dd5a1f166f32",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5700087
+        },
+        {
+          "_id": "5cecc5198b28dd7f80166f31",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 165171
+        },
+        {
+          "_id": "5cecc5198b28dd7263166f30",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5700793
+        }
+      ],
+      "synonyms": [
+        "abstractedness",
+        "abstraction"
+      ],
+      "synsetOffset": 5700625,
+      "wCnt": 2,
+      "word": "abstractedness"
+    },
+    {
+      "__v": 0,
+      "_id": "5854150n",
+      "def": "a concept or idea not associated with any specific instance",
+      "exp": [
+        "he loved her only in the abstract--not in person"
+      ],
+      "gloss": "a concept or idea not associated with any specific instance; \"he loved her only in the abstract--not in person\"  ",
+      "lemma": "abstraction",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5835747n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf134a05823b0062ac9122",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835747
+        },
+        {
+          "_id": "5cdf134a05823b0062ac9121",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 11757
+        },
+        {
+          "_id": "5cdf134a05823b0062ac9120",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 734587
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911f",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 692329
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911e",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5174653
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911c",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5854474
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911b",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5854812
+        },
+        {
+          "_id": "5cdf134a05823b0062ac911a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5855004
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract"
+      ],
+      "synsetOffset": 5854150,
+      "wCnt": 2,
+      "word": "abstraction"
+    }
+  ]
+}

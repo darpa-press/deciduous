@@ -1,0 +1,53 @@
+{
+  "__v": 0,
+  "_id": "5a386c71f5051f0071438a4a",
+  "background": "#242022",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1521977879907-glow.jpg\" bg=\"#242022\" width=\"2236\" height=\"1258\"></lightimg>\n<div class='indents'>\n    <p style=\"color:white;\">\n        Over time my toes became my eyes.<br/>\n        My arms became my eyes. My abdomen<br/>\n        became my eyes. My hair fell out. <br/>\n        My knees became my eyes.\n    </p>\n</div>",
+  "created": "2017-12-19T01:33:37.704Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 90,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38946d9eba100763a0f58",
+    "background": "#eaede4",
+    "content": "<div class=\"indents\" style=\"margin-bottom:1.5rem;\">\n    <p>\n        You belong to the internet or at least an excess of you is handed over. In return, you're given a coat which when on takes up a convex drape. Ok, I imagine you put on the coat, a kind of technical clay to limit your around receptivity. It is blue on the outside and goes together with a yellow inner.\n    </p>\n</div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/clay-coat.png\" bg=\"#ebede4\" width=\"2001\" height=\"1929\"></lightimg>\n<div class=\"indents\">\n    <p>\n        The coat at first goes over your head. You’re a small car through a bored tunnel. The hairs on your arms have nowhere to stand up to cold or a fright. You have a garment sitting on top of you. This entitles an impossible alertness in signal and sense. Yet it’s brief. The clay of the coat itches and vexes. You flop in a loss. \n    </p>\n    <p>\n        You are soft enough and in a complicated-enough scenario now to meet others, forget their names, dodge their eyes.\n    </p>\n</div>",
+    "created": "2017-08-28T03:08:54.665Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a38775d9eba100763a0f4b"
+    ],
+    "page": 53,
+    "parent": "59a3892dd9eba100763a0f57",
+    "persons": [
+      "59a7a5b2a692ea00760b7972",
+      "5a601f813a3529634a567bc0",
+      "5b67cd82287895004ddc06c0"
+    ],
+    "readme": "A redesign of a garment I since can't find which you wear to see only the computer monitor—now including both the TuTa and Werther's coat.",
+    "slug": "coat",
+    "stub": false,
+    "themes": [],
+    "title": "Wear coating",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a725a692ea00760b797c",
+      "bio": "",
+      "birth": 1924,
+      "created": "2017-08-31T06:05:25.233Z",
+      "death": 1994,
+      "name": "Paul Feyerabend",
+      "relation": [],
+      "slug": "paul-feyerabend"
+    }
+  ],
+  "readme": "",
+  "slug": "convergence",
+  "stub": false,
+  "themes": [],
+  "title": "Lip converging",
+  "word": []
+}

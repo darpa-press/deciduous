@@ -1,0 +1,703 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "794981v",
+      "def": "make a schedule",
+      "exp": [
+        "plan the time and place for events",
+        "I scheduled an exam for this afternoon"
+      ],
+      "gloss": "make a schedule; plan the time and place for events; \"I scheduled an exam for this afternoon\"  ",
+      "lemma": "schedule",
+      "lexFilenum": 32,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 704690
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6495328
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 5910940
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 4145417
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 1144355
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 795264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 795475
+        }
+      ],
+      "synonyms": [
+        "schedule"
+      ],
+      "synsetOffset": 794981,
+      "wCnt": 1
+    },
+    {
+      "_id": "704690v",
+      "def": "make plans for something",
+      "exp": [
+        "He is planning a trip with his family"
+      ],
+      "gloss": "make plans for something; \"He is planning a trip with his family\"  ",
+      "lemma": "plan",
+      "lexFilenum": 31,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 628491
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 5728678
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5898568
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 3956785
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10438172
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 1144133
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 678282
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 705095
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 706243
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 706804
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 708128
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 708376
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 709379
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 710005
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 711040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 794981
+        }
+      ],
+      "synonyms": [
+        "plan"
+      ],
+      "synsetOffset": 704690,
+      "wCnt": 1
+    },
+    {
+      "_id": "628491v",
+      "def": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",
+      "exp": [
+        "I've been thinking all day and getting nowhere"
+      ],
+      "gloss": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments; \"I've been thinking all day and getting nowhere\"  ",
+      "lemma": "think",
+      "lexFilenum": 31,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0304",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 2419933
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 2898433
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5784242
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5786372
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10708292
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10708454
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 630380
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 629889
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1634142
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 621653
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 629257
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 629738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630026
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630223
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630380
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 632627
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 634472
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 670261
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 704388
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 704690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 713167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 722232
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 732224
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 734348
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 739082
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 739340
+        }
+      ],
+      "synonyms": [
+        "think",
+        "cogitate",
+        "cerebrate"
+      ],
+      "synsetOffset": 628491,
+      "wCnt": 3
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a0fe283d55a8200722c03d8",
+      "background": "",
+      "content": "<div style=\"color:#3d3e3d\">\n    <p>\n        Turtles are under water, and<br/>\n        some turtle is punctured right through by a line.<br/>\n        The line had gone through through the turtle colony. <br/>\n        This turtle moved <aa href=\"67\">on the line</aa>, as if hosting an intestine,<br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;as if moving left when the line moved left. <br/>\n        It could see an independent turtle on another intestine <br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;and spiralled regularly around it. \n     </p>\n     <p>\n        We are we, and <br/>\n        we think of water as moving on a 3D conveyor belt, and<br/>\n        we think of turtles underwater as entangled with us priorly, and<br/>\n        we think of Hermes as an entangled line and a turtle, and<br/>\n        we think of fibrous light as an opening.\n    </p>\n    <p>\n        <aa href=\"115\">I am yours</aa>, and <br/>\n        the body part of the turtle urges itself around the line.<br/>\n        This roulette of turtles spirals around us syntotically now.<br/>\n        Intraction swings under water into info.<br/>\n        We tell turtles what to do.<br/>\n        We spill our guts.\n    </p>\n</div>",
+      "created": "2017-11-18T07:34:27.801Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a388d7d9eba100763a0f55"
+      ],
+      "page": 83,
+      "parent": {
+        "__v": 0,
+        "_id": "59a9696bec58b8007f5d501f",
+        "background": "",
+        "content": "<div>     <img          src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507840379253-water2.png\" width=\"1281\" height=\"1615\" />     <div class=\"indents\">         <p>I placed the call to you, from Argyll to I think Caen —— it rang, went through, but was otherwise soundless —— I could have known that you were there —– but the cable was dropped to connect in the ocean too long ago —— falling sharks in the channel had             bitten into it in parts —— salinity wore through it in parts —— engineers who in the first place on each part on either side disagreed on every standard of voltage and who couldn't talk in a Seaspeak anyway —— in channels the draghead and davits of dredging machines had torn or tangled the             manila yarn which insulated a connection —— turned dark blue from holding its breath —— taking into account the way that with every word in a rail crash across a language barrier the situation worsens —— and again with the channel sharks falling —— there was enough of an edge left for the format but not the consignment —— no <em> gentle wires to the word en-Masse</em> —— so no capacitive sense —— no your voice </p>     </div> </div>",
+        "created": "2017-09-01T14:06:35.362Z",
+        "fullWidth": false,
+        "lovers": [
+          "59a3892dd9eba100763a0f57"
+        ],
+        "page": 67,
+        "parent": "59a387fad9eba100763a0f4f",
+        "persons": null,
+        "readme": "",
+        "slug": "underwater-cables",
+        "stub": false,
+        "themes": [],
+        "title": "Underwater cabling",
+        "word": [
+          "6272290n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "5a5d8ccb4a37f20073ff929c",
+          "bio": "",
+          "birth": -341,
+          "created": "2018-01-16T05:25:31.377Z",
+          "death": -270,
+          "name": "Epicurus",
+          "relation": [],
+          "slug": "epicurus"
+        },
+        {
+          "__v": 0,
+          "_id": "59a7a50ea692ea00760b796f",
+          "bio": "Wrote <em>The Mathetical Basis of the Arts</em>, released in 1948.",
+          "birth": 1895,
+          "created": "2017-08-31T05:56:30.564Z",
+          "death": 1943,
+          "name": "Joseph Schillinger",
+          "relation": [],
+          "slug": "joseph-schillinger"
+        },
+        {
+          "__v": 0,
+          "_id": "5af8f4edeb5ad30054055e0c",
+          "bio": "Rhymes,",
+          "birth": 1945,
+          "created": "2018-05-14T02:31:09.056Z",
+          "death": null,
+          "name": "Kay Ryan",
+          "relation": [],
+          "slug": "kay-ryan"
+        },
+        {
+          "__v": 0,
+          "_id": "59a7a547a692ea00760b7970",
+          "bio": "",
+          "birth": 1632,
+          "created": "2017-08-31T05:57:27.462Z",
+          "death": 1677,
+          "name": "Baruch Spinoza",
+          "relation": [],
+          "slug": "baruch-spinoza"
+        }
+      ],
+      "readme": "The aim of the Logo programming language was to help children imagine 'what they would do if they were the turtle'. (If only Logo were more informal; if only the turtles could meet.)",
+      "slug": "turtle-graphics",
+      "stub": false,
+      "themes": [],
+      "title": "Graphics turning",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13841213n",
+          "def": "a relation of mutual dependence or action or influence  ",
+          "exp": [],
+          "gloss": "a relation of mutual dependence or action or influence  ",
+          "lemma": "reciprocality",
+          "lexFilenum": 24,
+          "lexId": "0",
+          "parent": "31921n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eb297eefb32d4a2b7be4",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 31921
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7be3",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1945550
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7be2",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 1945550
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7be1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13841467
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7be0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13841651
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7bdf",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13841863
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7bde",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13843401
+            },
+            {
+              "_id": "5ba1eb297eefb32d4a2b7bdd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13843601
+            }
+          ],
+          "synonyms": [
+            "reciprocality",
+            "reciprocity"
+          ],
+          "synsetOffset": 13841213,
+          "wCnt": 2,
+          "word": "reciprocity"
+        },
+        {
+          "__v": 0,
+          "_id": "13792842n",
+          "def": "a connection allowing access between persons or places",
+          "exp": [
+            "how many lines of communication can there be among four people?",
+            "a secret passageway provided communication between the two rooms"
+          ],
+          "gloss": "a connection allowing access between persons or places; \"how many lines of communication can there be among four people?\"; \"a secret passageway provided communication between the two rooms\"  ",
+          "lemma": "communication",
+          "lexFilenum": 24,
+          "lexId": "0",
+          "parent": "13791389n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ce31a03a2ba044e2aadcd2a",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13791389
+            },
+            {
+              "_id": "5ce31a03a2ba044e2aadcd29",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 1355518
+            },
+            {
+              "_id": "5ce31a03a2ba044e2aadcd28",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 742320
+            }
+          ],
+          "synonyms": [
+            "communication"
+          ],
+          "synsetOffset": 13792842,
+          "wCnt": 1,
+          "word": "communication"
+        },
+        {
+          "__v": 0,
+          "_id": "795264v",
+          "def": "arrange a program of or for",
+          "exp": [
+            "program the 80th birthday party"
+          ],
+          "gloss": "arrange a program of or for; \"program the 80th birthday party\"  ",
+          "lemma": "program",
+          "lexFilenum": 32,
+          "lexId": "0",
+          "parent": "794981v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ce31a19fef2fb4e3c89ae3b",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 794981
+            },
+            {
+              "_id": "5ce31a19fef2fb4e3c89ae3a",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0203",
+              "synsetOffset": 5898568
+            },
+            {
+              "_id": "5ce31a19fef2fb4e3c89ae39",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0202",
+              "synsetOffset": 1144355
+            },
+            {
+              "_id": "5ce31a19fef2fb4e3c89ae38",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0102",
+              "synsetOffset": 5898568
+            },
+            {
+              "_id": "5ce31a19fef2fb4e3c89ae37",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0103",
+              "synsetOffset": 1144355
+            }
+          ],
+          "synonyms": [
+            "program",
+            "programme"
+          ],
+          "synsetOffset": 795264,
+          "wCnt": 2,
+          "word": "programme"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "795264v",
+    "def": "arrange a program of or for",
+    "exp": [
+      "program the 80th birthday party"
+    ],
+    "gloss": "arrange a program of or for; \"program the 80th birthday party\"  ",
+    "lemma": "program",
+    "lexFilenum": 32,
+    "lexId": "0",
+    "parent": "794981v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ce31a19fef2fb4e3c89ae3b",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 794981
+      },
+      {
+        "_id": "5ce31a19fef2fb4e3c89ae3a",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0203",
+        "synsetOffset": 5898568
+      },
+      {
+        "_id": "5ce31a19fef2fb4e3c89ae39",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 1144355
+      },
+      {
+        "_id": "5ce31a19fef2fb4e3c89ae38",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 5898568
+      },
+      {
+        "_id": "5ce31a19fef2fb4e3c89ae37",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0103",
+        "synsetOffset": 1144355
+      }
+    ],
+    "synonyms": [
+      "program",
+      "programme"
+    ],
+    "synsetOffset": 795264,
+    "wCnt": 2,
+    "word": "programme"
+  }
+}

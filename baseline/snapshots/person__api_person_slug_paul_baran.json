@@ -1,0 +1,40 @@
+{
+  "__v": 0,
+  "_id": "5cdf10f705823b0062ac9009",
+  "bio": "A kind of lambda; invented packet switching independently (i.e., with redundancy) of Daniel Davies.",
+  "birth": 1926,
+  "created": "2019-05-17T19:52:23.363Z",
+  "death": 2011,
+  "name": "Paul Baran",
+  "pieces": [
+    {
+      "__v": 9,
+      "_id": "59a38829d9eba100763a0f50",
+      "background": "",
+      "content": "<lightimg bg=\"#e3e2e2\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/tree-codex-169.png\" width=\"1920\" height=\"1080\"></lightimg><attr style=\"position: relative; top:-3rem; opacity: 0.5;\">A sample of the wallpaper in lift <em style=\"letter-spacing:0.5px; margin-left:2px\">b</em></attr>\n\n<div class=\"indents\">\n    <p>\n    Get in the lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!</em> It will take you where you need<em style=\"letter-spacing:0.5px; margin-left:2px\">!!</em> Take a look<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!</em> There are 13 lifts to choose from<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!</em> They are <aa to=\"104\">labeled ‘a’ to ‘m’</aa> and are based in different countries<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!</em> Their pits are deep, and their overhead is tall<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!</em> The pit of ‘b’ connects to the overhead of ‘a’, and so on<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Inside the ‘e’ car is like a rectory and so is quite comfortable<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> It’s really something to behold<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Hello<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!</em> Some of the lifts still need configuring<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!</em> Don’t use those ones yet<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!</em> But if you zoom in on one of the lifts it splits into a consortium of lifts, so you’ll find one that works for you<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!</em> And don’t worry<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!</em> I guarantee you’ll never meet anyone in a lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!</em> The routing and transferring of persons by means of addressed lift cars so that a lift is occupied during the transmission of the person only and upon completion of the transmission the lift is made available for the transfer of other persons<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!</em> You should really see for yourself the way that the <aa to=\"127\">wysteria</aa> climbs the mirror in ‘e’<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!!</em>\n</p>\n</div>",
+      "created": "2017-08-28T03:04:09.491Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a389add9eba100763a0f5b"
+      ],
+      "page": 45,
+      "parent": "59a387fad9eba100763a0f4f",
+      "persons": [
+        "5cdf10f705823b0062ac9009"
+      ],
+      "readme": "A hotel with a country style that has lifts working like packet switching. Your lift operator is trying to console you.",
+      "slug": "aloha-building",
+      "stub": false,
+      "themes": [],
+      "title": "ALOHA building",
+      "word": [
+        "3281145n",
+        "12580457n",
+        "7281099n",
+        "8236438n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "paul-baran"
+}

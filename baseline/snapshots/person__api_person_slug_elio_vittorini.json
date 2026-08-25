@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "5b7a3e0ec5894d0053bc013f",
+  "bio": "",
+  "birth": 1908,
+  "created": "2018-08-20T04:05:34.003Z",
+  "death": 1966,
+  "name": "Elio Vittorini",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b35ea261c76e00054b5f2f4",
+      "background": "#191919",
+      "content": "<aa to=\"146,119\">\n    <video autoPlay autoplay loop muted>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530259913695-no.mp4\" type=\"video/mp4\">\n    </video>\n</aa>",
+      "created": "2018-06-29T08:13:26.369Z",
+      "fullWidth": true,
+      "lovers": [
+        "59a38829d9eba100763a0f50",
+        "59a387fad9eba100763a0f4f"
+      ],
+      "page": 103,
+      "parent": "5b31f5aa1c76e00054b5f2f2",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b7a3e0ec5894d0053bc013f"
+      ],
+      "readme": "Not the News and Observer!  A knife-grinder!",
+      "slug": "ah-and-no",
+      "stub": false,
+      "themes": [],
+      "title": "Ah! declining",
+      "word": [
+        "7205104n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "elio-vittorini"
+}

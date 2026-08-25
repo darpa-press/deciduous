@@ -1,0 +1,51 @@
+[
+  {
+    "__v": 0,
+    "_id": "5a0ccb40fd301d0072232e19",
+    "background": "#fff4f4",
+    "content": "<p>\n   Hi and thanks for talking to support. Please know,<br/>\nthe faces of others are kept in the Secure Enclave.<br/>\nThese are available to you only and where you are.<br/>\nNot their bodies. Their faces beamed. We regret<br/>that you have had a terrible dream.</p>",
+    "created": "2017-11-15T23:18:24.893Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a388b9d9eba100763a0f54"
+    ],
+    "page": 78,
+    "parent": "5a010b5d0d38e60074a75115",
+    "persons": null,
+    "readme": "A support line for those terrified by face-blindness. \"Would you like a transcript of today's interaction emailed to you? (Y/N)\"",
+    "slug": "secure-enclave",
+    "stub": false,
+    "themes": [],
+    "title": "Secure enclaving",
+    "word": [
+      "7484547n",
+      "8553132n",
+      "2735897v"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5a0d0ba2e02797007142f5f4",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510804242145-mallarme.png\" width=\"2560\" height=\"2540\"></lightimg>",
+    "created": "2017-11-16T03:53:06.168Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a0cde7bfd301d0072232e1a"
+    ],
+    "page": 82,
+    "parent": "5a010b5d0d38e60074a75115",
+    "persons": [
+      "5ac345d71f51ba006fbdfd8c"
+    ],
+    "readme": "",
+    "slug": "fold-in-two",
+    "stub": false,
+    "themes": [],
+    "title": "Two folding",
+    "word": [
+      "28270n",
+      "4677385n"
+    ]
+  }
+]

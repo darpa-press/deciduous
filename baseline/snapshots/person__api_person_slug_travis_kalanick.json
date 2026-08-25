@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "5cecc58b745abbd427af7761",
+  "bio": "A kind of scouring function or a dark pattern.",
+  "birth": 1976,
+  "created": "2019-05-28T05:22:19.465Z",
+  "death": null,
+  "name": "Travis Kalanick",
+  "pieces": [
+    {
+      "__v": 8,
+      "_id": "599e21ad47523e2cdaeb345f",
+      "background": "",
+      "content": "<div style=\"width:100%\">\n    <iframe \n        src=\"//www.youtube.com/embed/fEMA3DkG8lA?vq=hd1080&showinfo=0&rel=0&modestbranding=1\" \n        height=\"1080\" \n        width=\"1920\"\n        frameborder=\"0\"\n    ></iframe>\n\n<ol>\n    <li>\n        <a href=\"http://www.wikiart.org/en/about\" target=\"_blank\">Wikiart</a> is asleep.\n    <li>\n        <a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">Neural-style</a> is <aa href=\"113,49\">asleep and iterating</aa>.\n    <li>\n        They are together in the back seat of an <a href=\"https://brand.uber.com/#our-new-look\" target=\"_blank\">uber</a>.\n    <li>\n        The car of the uber is on a <a href=\"http://www.mapitokinawa.com/2013/01/melody-road-futami-nago-city.html\" target=\"_blank\">Okinawan melody road</a>.\n</ol>\n\n<p>\n    <small>\n        (<a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">utilises »</a> by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge)\n    </small>\n</p>",
+      "created": "2017-08-24T00:45:33.663Z",
+      "fullWidth": true,
+      "lovers": [
+        "5ae0f217b7de96005451ccdd"
+      ],
+      "page": 11,
+      "parent": "599baf932982115d5e2ba994",
+      "persons": [
+        "5cecc58b745abbd427af7761"
+      ],
+      "readme": "A set of sets (bits and atoms) subjected to another set of sets (an art database), set to bumpy music.",
+      "slug": "a-vision",
+      "stub": false,
+      "themes": [],
+      "title": "Roads singing",
+      "word": [
+        "7392483n",
+        "5700925n",
+        "343600v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "travis-kalanick"
+}

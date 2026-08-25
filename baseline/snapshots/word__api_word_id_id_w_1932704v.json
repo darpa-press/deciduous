@@ -1,0 +1,689 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "1931768v",
+      "def": "direct the course",
+      "exp": [
+        "determine the direction of travelling"
+      ],
+      "gloss": "direct the course; determine the direction of travelling  ",
+      "lemma": "steer",
+      "lexFilenum": 38,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2441022
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0a02",
+          "synsetOffset": 1142519
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0802",
+          "synsetOffset": 10741821
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0801",
+          "synsetOffset": 10151570
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0702",
+          "synsetOffset": 8572467
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0701",
+          "synsetOffset": 8482271
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0702",
+          "synsetOffset": 7372779
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0702",
+          "synsetOffset": 8680888
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0402",
+          "synsetOffset": 556313
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 1523249
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 10290422
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 10169796
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 815173
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 815173
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 1144876
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1305731
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1841471
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1841591
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1932482
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1932586
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1932704
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1932834
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1932951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1933093
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1933305
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1933900
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1934205
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1934427
+        }
+      ],
+      "synonyms": [
+        "steer",
+        "maneuver",
+        "manoeuver",
+        "manoeuvre",
+        "direct",
+        "point",
+        "head",
+        "guide",
+        "channelize",
+        "channelise"
+      ],
+      "synsetOffset": 1931768,
+      "wCnt": 10
+    },
+    {
+      "_id": "2441022v",
+      "def": "exercise authoritative control or power over",
+      "exp": [
+        "control the budget",
+        "Command the military forces"
+      ],
+      "gloss": "exercise authoritative control or power over; \"control the budget\"; \"Command the military forces\"  ",
+      "lemma": "control",
+      "lexFilenum": 41,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 13953608
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5197797
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 9941964
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 9941383
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 9780828
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 9941571
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0203",
+          "synsetOffset": 9941964
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 10525134
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5196375
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1783394
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1931768
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1935104
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2433991
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2436349
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2441686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2441897
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442106
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442205
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442546
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442737
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442924
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2443609
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2539334
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2586458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2586619
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2601271
+        }
+      ],
+      "synonyms": [
+        "control",
+        "command"
+      ],
+      "synsetOffset": 2441022,
+      "wCnt": 2
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599e9f4143e237306c191af9",
+      "background": "",
+      "content": "<iframe src=\"//www.youtube.com/embed/59x21kaQXjE?vq=hd1080&showinfo=0&rel=0&modestbranding=1\" allowfullscreen=\"allowFullScreen\" height=\"1080\" width=\"1920\" frameborder=\"0\"></iframe>\n\n<div style=\"width:100%\">\n<p>How to navigate:</p>\n\n<p>With dead-reckoning,<br/>\nYou are a figure in the woods<br/>\nTilt towards the thing that you want<br/>\nYou have everything you know and have experienced</p>\n\n<p>Your heart is an inertial platform <br/>\n&nbsp;&nbsp;&nbsp;&nbsp;as far as we can tell<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;or a space-filling curve</p>\n\n<p>&nbsp;</p>\n\n<p>How to start:</p>\n\n<p>The initialisation occurs while you are moving,<br/>\nin the air or on the ground:<br/>\nHoneywell Align-in-Motion<br/>\nYou are in movement</p>\n\n<p>This tree has 拆 painted on it<br/>\nWhich means demolition<br/>\nIt is a two-storey tree with six beds</p>\n\n<p>&nbsp;</p>\n\n<p>Where to go:</p>\n\n<p>One murmur of the limb and you’re <aa href=\"10\">flung in god-knows-which direction</aa> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n</div>",
+      "created": "2017-08-24T09:41:21.086Z",
+      "fullWidth": true,
+      "lovers": null,
+      "page": 30,
+      "parent": {
+        "__v": 0,
+        "_id": "599e1df539b9802b7ddd349f",
+        "background": "#ecffec",
+        "content": "<style type=\"text/css\">\n    .green-paper {\n        /* background: #c4ffc2; */\n        border-radius: 2px;\n        color: rgba(0, 0, 0, 0.75);\n        /* filter: blur(0.25px); */\n        font-family: Futura;\n        font-size: 85%;\n        line-height: 1.25rem;\n        padding: 1rem 3rem 1rem 2rem;\n    }\n    \n    .green-paper h1,\n    .green-paper h2,\n    .green-paper h3 {\n        font-size: 1em;\n    }\n</style>\n\n<div class=\"piece__inside\">\n    <lightimg bg=\"white\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529615951938-cgensign-sm.png\" class=\"shadow\" width=\"1149\" height=\"1366\"></lightimg>\n</div>\n\n<div class=\"green-paper\" style=\"max-width:30rem;\">\n    \n    <p style=\"margin-bottom:3rem;\">Hotel College<br/>Department of something</p>\n\n    <p><em>Continuous Glossopoeia</em> is not a constructed language (how self-important your flag of a tower of Babel rising to the sun) but a gradual reconfiguration of any natural language into auxiliary new wholes —</p>\n\n    <p>(Why would you complete grammar? <br/>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(You’re giving up!) <br/>\n    And more generally: why realise anything?)</p>\n\n    <p>— and works as an approach, i.e., without specific form,  adaptable. </p>\n\n    <p>The practice of C.G. is that, when you speak, you make unannounced changes to the language a piece at a time while keeping the whole comprehensible. Each change creates a new version of the language. Limiting the extent of changes-at-a-time creates <aa href=\"56\">a self-healing intersubjectivity</aa>. We should be clear and, at the same time, make amendments. Language is vitamins and heat that we offer one another. </p>\n\n    <p>Continuous Glossopoeia is distributed and there is no centralised ‘dictionary’. Everyone keeps a working copy of the language as well as a history of their language versions. Internal inconsistencies are merged on orbit-contact-discussion-intimacy. If I catch my friends’ changes, they are threaded into my own.</p>\n\n    <p>No onset, nucleus or coda: a number of changes serve to underpin your willingness to do Continuous Glossopoeia and put you in a good frame of mind. For one, syllable weight is removed from the intrinsic character of words and instead is dictated by context. ‘Context’ is contextual and so is up to you. One sub-approach is to choose a metrical foot and speak it in a continuous flow from a milestone point (e.g., now! this moment!) onwards. When one conversation ends, say, with a friend on the street, memorise the position of your metrical feet. <aa href=\"40\">When you run into a former lover</aa> just moments later, pick up where you left off—on a long or a short syllable. But this is just one approach. Others are more collaborative; you might choose in discussion to maneuver syllabic stresses around each other like tigers in a rockpool circling in maybe play.</p>\n\n    <p>CG doesn’t get particularly mixed-up with syntactic rules, beyond recommending an additional and optional principle based on a misunderstanding of the concept of dependency grammar—the idea that skiing a sentence begins with the verb. Additional to this, Continuous Glossopoeia proposes, metaphorically, that you have no skis and are in some vehicle or basal rosette of bungee cords at the top of the mountain. One murmur of the limb and you’re flung in god-knows-which direction. This extrasyntax is a mixture of probability, imperative and doubt. Your speech should join anarchic, feeling-type construction with statistics and should rarely finish itself. Stuttering is semantic. In putting yourself together, double-back, bounce, erode, avale, wax and unbind the words that you say. </p>\n\n    <p>How things feel<br/>\n    The world is misleading. Thus, Continuous Glossopoeia shifts around you in a many-to-many fog of haar-like features, <aa href=\"77\">impelling us to stay close</aa>. What does this person mean when they say, “Gmc. root and Gk. kynein \"to kiss,\" Hittite kuwash-anzi \"they kiss,\" Skt. cumbati \"he kisses”? You catch 90%, but something sticks out. To be fine under C.G., use your own models of feeling and logic to gather what this person is saying. The motion vector of this type of thing is meteorological, not linear. Reversions are permitted: if you disagree with someone’s language-change, find a way to switch it back. </p>\n\n    <p>Proper nouns, in particular, float and bob. They can be changed whenever you like. You might say that your <em>Ford</em> is a <em>Tender</em>. You might make that in winter a <em>North Melbourne Community Pool</em> is an <em>Ashcan School</em>. This kind of change will propagate pretty simply, especially in people: you can continue to just guess the person’s name at some party: Viola? Maydt? Owen? It doesn’t matter. However, in accordance with the distributive and branching nature of C.G., it’s still polite to retain a differential history in-mind, so that you can provide it if asked. (Viola-Maydt-Owen.) </p>\n\n    <p>Some of these properties are given to Continuous Glossopoeia to the extent that it may unwind a little of the social stigma attached to conditions and disorders of memory and emotional-cognition. Instead, we float proper nouns in a lake with a pier abutting some small chalet. A speedboat comes from nowhere, doesn’t perceive the pier, hits it! Becomes a splintering 90°! The letters of the name on the speedboat in some Marine Letraset rearrange themselves unperceived, from Acapella to Palace La.</p>\n</div>",
+        "created": "2017-08-24T00:29:41.879Z",
+        "fullWidth": false,
+        "lovers": [
+          "59a389cad9eba100763a0f5c",
+          "59d56830f01881005ae5bdf8",
+          "59f80c9a4a45830075b62639"
+        ],
+        "page": 10,
+        "parent": "599baf932982115d5e2ba994",
+        "persons": [
+          "59e046d19ab1b7008c024d15",
+          "59dff0bfb9789b6225c9049e",
+          "5cdf1af905823b0062ac947c",
+          "5b5acff6cac98b004eea3d42",
+          "59a7a725a692ea00760b797c"
+        ],
+        "readme": "A proposal for constructed language. “to make unannounced \nchanges to the language a piece at a time while keeping the whole \ncomprehensible. Each change creates a new version of the language.”",
+        "slug": "cg",
+        "stub": false,
+        "themes": [],
+        "title": "Continued glossing",
+        "word": [
+          "4273569n",
+          "3002816n",
+          "13913263n",
+          "13161998n",
+          "13427078n"
+        ]
+      },
+      "persons": null,
+      "readme": "A navigation log plotting a type of shadow-agility, i.e., being lost; also ft. photos of forests curling outwards anamorphically.",
+      "slug": "wrok",
+      "stub": false,
+      "themes": [],
+      "title": "Dead reckoning",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "8438533n",
+          "def": "the trees and other plants in a large densely wooded area  ",
+          "exp": [],
+          "gloss": "the trees and other plants in a large densely wooded area  ",
+          "lemma": "forest",
+          "lexFilenum": 14,
+          "lexId": "0",
+          "parent": "8436759n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e9b97eefb32d4a2b632d",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8436759
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b632c",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0303",
+              "synsetOffset": 2573192
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b632b",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0102",
+              "synsetOffset": 1567888
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b632a",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8438840
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6329",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8438928
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6328",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8439022
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6327",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8439126
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6326",
+              "pointerSymbol": "%m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8439476
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6325",
+              "pointerSymbol": "%m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13104059
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6324",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13240025
+            },
+            {
+              "_id": "5ba1e9b97eefb32d4a2b6323",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13240203
+            }
+          ],
+          "synonyms": [
+            "forest",
+            "wood",
+            "woods"
+          ],
+          "synsetOffset": 8438533,
+          "wCnt": 3,
+          "word": "forest"
+        },
+        {
+          "__v": 0,
+          "_id": "1932704v",
+          "def": "direct carefully and safely",
+          "exp": [
+            "He navigated his way to the altar"
+          ],
+          "gloss": "direct carefully and safely; \"He navigated his way to the altar\"  ",
+          "lemma": "navigate",
+          "lexFilenum": 38,
+          "lexId": "3",
+          "parent": "1931768v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ba1eb097eefb32d4a2b7755",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1931768
+            }
+          ],
+          "synonyms": [
+            "navigate"
+          ],
+          "synsetOffset": 1932704,
+          "wCnt": 1,
+          "word": "navigate"
+        },
+        {
+          "__v": 0,
+          "_id": "1061017v",
+          "def": "serve as a means for expressing something",
+          "exp": [
+            "The painting of Mary carries motherly love",
+            "His voice carried a lot of anger"
+          ],
+          "gloss": "serve as a means for expressing something; \"The painting of Mary carries motherly love\"; \"His voice carried a lot of anger\"  ",
+          "lemma": "carry",
+          "lexFilenum": 32,
+          "lexId": "2",
+          "parent": "740577v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b95",
+              "pointerSymbol": "$",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2079933
+            },
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b94",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 740577
+            },
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b93",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 943363
+            },
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b92",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 497148
+            },
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b91",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 318735
+            },
+            {
+              "_id": "5ba1e9547eefb32d4a2b5b90",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 489837
+            }
+          ],
+          "synonyms": [
+            "carry",
+            "convey",
+            "express"
+          ],
+          "synsetOffset": 1061017,
+          "wCnt": 3,
+          "word": "convey"
+        },
+        {
+          "__v": 0,
+          "_id": "2620992a",
+          "def": "pertaining to gradual evolution from one type of organism to another  ",
+          "exp": [],
+          "gloss": "pertaining to gradual evolution from one type of organism to another  ",
+          "lemma": "anamorphic",
+          "lexFilenum": 1,
+          "lexId": "2",
+          "parent": null,
+          "pos": "a",
+          "ptrs": [
+            {
+              "_id": "5ba1e7a95298cd2d164dd8e9",
+              "pointerSymbol": "\\",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 13431221
+            }
+          ],
+          "synonyms": [
+            "anamorphic"
+          ],
+          "synsetOffset": 2620992,
+          "wCnt": 1,
+          "word": "anamorphic"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "1932704v",
+    "def": "direct carefully and safely",
+    "exp": [
+      "He navigated his way to the altar"
+    ],
+    "gloss": "direct carefully and safely; \"He navigated his way to the altar\"  ",
+    "lemma": "navigate",
+    "lexFilenum": 38,
+    "lexId": "3",
+    "parent": "1931768v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1eb097eefb32d4a2b7755",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1931768
+      }
+    ],
+    "synonyms": [
+      "navigate"
+    ],
+    "synsetOffset": 1932704,
+    "wCnt": 1,
+    "word": "navigate"
+  }
+}

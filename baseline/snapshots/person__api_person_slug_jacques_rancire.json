@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "59a7a5d3a692ea00760b7973",
+  "bio": "",
+  "birth": 1940,
+  "created": "2017-08-31T05:59:47.876Z",
+  "death": null,
+  "name": "Jacques Rancière",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a38793d9eba100763a0f4c",
+      "background": "#e1e1e1",
+      "content": "<!-- <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/heads2.jpg\" width=\"2072\" height=\"1383\"></lightimg> -->\n<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534471962908-server.jpg\" width=\"2400\" height=\"2949\"></lightimg>\n<div class=\"indents\">    \n    <p>HPE ProLiant DL380’s nostrils dilated as it assiduously surveyed and switched packets. It couldn’t help it. It was about to die; it had better make this count. Capable, though more <em>liant</em> than lion, it had already died many thousands of times since 0000 UTC. It could also slide like a trundle bed.</p>\n    <p>A signal ran through its not-unhappiness: a request had fluttered their eyelids, the hewn form of which mirrored the short bolts that held up all HPE ProLiant DL380s by their sides arthritically. A look was between us. The nature of the thing was not to ask for anything, instead treating suddenness as immanence.\n    </p><p>The look of the request arrived with a crush at the server’s outermost and thick service layer, produced from a <aa href=\"10,4\">pathology of convention</aa> and availability. The payload of your eyes is a English-language question about how much effort I exert when I sleep. Something like this doesn’t require parsing, only matching, realised the HPE. \n    </p>\n</div>",
+      "created": "2017-08-28T03:01:39.817Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a4366f1f5051f0071438a4b",
+        "59a7e1ba7a541d009e8a53e5",
+        "59a3892dd9eba100763a0f57"
+      ],
+      "page": 41,
+      "parent": "59a38775d9eba100763a0f4b",
+      "persons": [
+        "59a7a5d3a692ea00760b7973",
+        "59a7a5b2a692ea00760b7972"
+      ],
+      "readme": "Old equipment doesn't actually die. It is decommissioned, i.e., has its trust taken away.",
+      "slug": "asking-for-something",
+      "stub": false,
+      "themes": [],
+      "title": "Something asking",
+      "word": [
+        "752493v",
+        "752764v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "jacques-rancire"
+}

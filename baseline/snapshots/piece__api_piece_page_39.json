@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "59a3874bd9eba100763a0f4a",
+  "background": "",
+  "content": "<div>\n    <lightimg \n        src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1503913596452-L-enfer.png\" \n        width=\"2284\"  height=\"2412\"\n        bg=\"white\"\n        title=\"You and I fell asleep in you and I\"\n    ></lightimg>\n</div>",
+  "created": "2017-08-28T03:00:27.364Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 39,
+  "parent": {
+    "__v": 0,
+    "_id": "59a388d7d9eba100763a0f55",
+    "background": "",
+    "content": "<p>\n    <lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616882640-ctt.png\" width=\"2560\" height=\"1997\" />\n</p>\n<div class=\"indents\">\n    <p>We bought a new cat tree this weekend in the shape and format of both the Robinson Projection map of ocean movements and a chart of a social network’s database schema. The hatched basket is in the North Equatorial current, for instance. We placed the tree by our window. Cats are swept up in it clockwise, their tails diagrammatic. They get healthy as they play. One lounges inside the cylindrical User class of the social network. The cats circulate in dominance and doze in the calm of horse latitudes. We think of the ocean moving on a three-dimensional conveyor belt. Cats and masses of water have distinct densities, which separates and affects their position. In a social network database schema, my relationship with you is a material thing; it lives in its own table. Or, in the case of the cat tree, a little horizontal run like the rampart of a castle, where one of our cats meets my hand, brushing and humming with sympathetic knocks.</p>\n</div>",
+    "created": "2017-08-28T03:07:03.056Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 50,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59e0467a9ab1b7008c024d14"
+    ],
+    "readme": "",
+    "slug": "clockwise",
+    "stub": false,
+    "themes": [],
+    "title": "Clockwise drowsing",
+    "word": [
+      "2121620n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "you-and-i-fell-asleep-in-you-and-i",
+  "stub": false,
+  "themes": [],
+  "title": "Translation heating",
+  "word": []
+}

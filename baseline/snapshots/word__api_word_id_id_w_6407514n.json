@@ -1,0 +1,966 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "6407221n",
+      "def": "handwritten book or document  ",
+      "exp": [],
+      "gloss": "handwritten book or document  ",
+      "lemma": "manuscript",
+      "lexFilenum": 10,
+      "lexId": "1",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407094
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407514
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407733
+        }
+      ],
+      "synonyms": [
+        "manuscript",
+        "holograph"
+      ],
+      "synsetOffset": 6407221,
+      "wCnt": 2
+    },
+    {
+      "_id": "6407094n",
+      "def": "something written by one's own hand  ",
+      "exp": [],
+      "gloss": "something written by one's own hand  ",
+      "lemma": "autograph",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6362953
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 997133
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407221
+        }
+      ],
+      "synonyms": [
+        "autograph"
+      ],
+      "synsetOffset": 6407094,
+      "wCnt": 1
+    },
+    {
+      "_id": "6362953n",
+      "def": "the work of a writer",
+      "exp": [
+        "anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect)",
+        "the writing in her novels is excellent",
+        "that editorial was a fine piece of writing"
+      ],
+      "gloss": "the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect); \"the writing in her novels is excellent\"; \"that editorial was a fine piece of writing\"  ",
+      "lemma": "writing",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6349220
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 397191
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6346220
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6355183
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6364149
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6364329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6364641
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6365102
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6365467
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6374587
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392001
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6398760
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6399995
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6402031
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6405699
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6406979
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6407094
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6408651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6408779
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6409562
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6427831
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6429590
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6430309
+        },
+        {
+          "pointerSymbol": "~i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6466030
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6470073
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7007684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7239428
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7277158
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7277384
+        }
+      ],
+      "synonyms": [
+        "writing",
+        "written_material",
+        "piece_of_writing"
+      ],
+      "synsetOffset": 6362953,
+      "wCnt": 3
+    },
+    {
+      "_id": "6349220n",
+      "def": "communication by means of written symbols (either printed or handwritten)  ",
+      "exp": [],
+      "gloss": "communication by means of written symbols (either printed or handwritten)  ",
+      "lemma": "written_communication",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6256229
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6349597
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6359877
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6362953
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6363778
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6365808
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6366002
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6598030
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6623614
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6667317
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6678302
+        }
+      ],
+      "synonyms": [
+        "written_communication",
+        "written_language",
+        "black_and_white"
+      ],
+      "synsetOffset": 6349220,
+      "wCnt": 3
+    },
+    {
+      "_id": "33020n",
+      "def": "something that is communicated by or to or between people or groups  ",
+      "exp": [],
+      "gloss": "something that is communicated by or to or between people or groups  ",
+      "lemma": "communication",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 496670
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 2231661
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1030678
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 760402
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1070102
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 742320
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 740577
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1102436
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6253690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6282383
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6282651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6349220
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6598915
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6600421
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6791372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6793231
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6797169
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6873252
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6887726
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7066659
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7082025
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7109019
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7110615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7255791
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7277697
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13403331
+        }
+      ],
+      "synonyms": [
+        "communication"
+      ],
+      "synsetOffset": 33020,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b48187eef732e0054886ac2",
+      "background": "#fffcfa",
+      "content": "<div style=\"display:flex;flex-direction:column; align-items:center; margin:0 auto; max-width: 800px;\">\n    <aa to=\"76,104,47,91\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452498471-v1.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452501051-v2.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452504585-v3.png\" width=\"1280\" height=\"1280\"/>\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452508614-v4.png\" width=\"1280\" height=\"1280\"/></aa>\n</div>",
+      "created": "2018-07-13T03:11:58.622Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a52ceb9f5051f0071438a4c"
+      ],
+      "page": 112,
+      "parent": {
+        "__v": 0,
+        "_id": "5b35f11d1c76e00054b5f2f5",
+        "background": "",
+        "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530261768802-schema.png\" style=\"max-width:95%; width: 500px\" width=\"500\" height=\"389\" />\n<p>\n    This document is a class. It describes a connecting urge and provides a swaddled toolset to satisfy that urge. The swaddled toolset is initially inoperative; it's set to <aa href=\"138\">False</aa>. There is one comment in the body of the class (see below). This document was written by a blemmyae, one who gave up the Hill of Being Documented to be a computer programmer.\n<p>\n    Only <aa to=\"91\">Blemmyes</aa> can write documents I think. There is a permanent cyclonic gale across the surface of the earth at a height of our heads that makes it impossible to write documents. The gale contains what words refer to. Some of what words refer to swerve out of the permanent gale at the height of our heads. They fall like <aa href=\"112\">lepidoptera</aa> on the knees of the blemmyes underneath the gale, otherwise lounging. Blemmyes take and order the swerved what-words-refer-to on the floor of the world like mosaic or thatch. You cannot become a blemmyae after the fact, not even if you cut off your head. \n</p>\n</p>\n<p><em>\n    # TODO: <aa to=\"113\">In my head</aa>, I want you to be able to have and use this book-thing, too, and to share it with you it has to have <span style=\"opacity:0.1\">AN INTERNAL REPRESENTATION OF THE WORLD; AN <aa to=\"118\">ORGANIZATION</aa> OF CONCEPTS AND ACTIONS THAT CAN BE REVISED BY NEW INFORMATION ABOUT THE WORLD</span>; (👆) because that is the only place open at this hour (11:53pm) but within such a setup let's counter those [...] by stopping the use of [...] which hold a particular type of unanalogical water. Until at least the concept doesn't prop itself up. I mean [...]. And keep going until [...] get to nothing and its joints—like this: [...], [...] [...] [...] [...] <em>!!</em>\n</em></p>",
+        "created": "2018-06-29T08:43:09.417Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 104,
+        "parent": "599baddb2d4c7455551c4ef9",
+        "persons": null,
+        "readme": "The chest-of-drawers or the shape of a document within the codex; where things are weighted; how they should slide; what contents are expected.",
+        "slug": "schema",
+        "stub": false,
+        "themes": [],
+        "title": "Schema calling",
+        "word": [
+          "3217458n",
+          "5927813n",
+          "4677385n",
+          "293253r",
+          "3660664n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59dff0bfb9789b6225c9049e",
+          "bio": "French violinist, composer and music teacher.",
+          "birth": 1787,
+          "created": "2017-10-12T22:46:23.600Z",
+          "death": 1862,
+          "name": "François Sudre",
+          "relation": [],
+          "slug": "franois-sudre-17871862"
+        },
+        {
+          "__v": 0,
+          "_id": "5b63c8ea0cf98533b527784d",
+          "bio": "Inside the Vienna circle.",
+          "birth": 1882,
+          "created": "2018-08-03T03:15:54.314Z",
+          "death": 1945,
+          "name": "Otto Neurath",
+          "relation": [],
+          "slug": "otto-neurath"
+        }
+      ],
+      "readme": "Overlaid and outlined silhouettes of the icons used in this user interface to move between sections.",
+      "slug": "icons",
+      "stub": false,
+      "themes": [],
+      "title": "Icon shaping",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "3931044n",
+          "def": "a visual representation (of an object or scene or person or abstraction) produced on a surface",
+          "exp": [
+            "they showed us the pictures of their wedding",
+            "a movie is a series of images projected so rapidly that the eye integrates them"
+          ],
+          "gloss": "a visual representation (of an object or scene or person or abstraction) produced on a surface; \"they showed us the pictures of their wedding\"; \"a movie is a series of images projected so rapidly that the eye integrates them\"  ",
+          "lemma": "picture",
+          "lexFilenum": 6,
+          "lexId": "0",
+          "parent": "4076846n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e9f17eefb32d4a2b685a",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4076846
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6859",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 2851550
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6858",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0209",
+              "synsetOffset": 1635432
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6857",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0102",
+              "synsetOffset": 2861617
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6856",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 1686956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6855",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0102",
+              "synsetOffset": 1686956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6854",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2845425
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6853",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3016056
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6852",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3067912
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6851",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3375956
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6850",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3453696
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3559144
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3573464
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3668642
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3884072
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684b",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4068976
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b684a",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4142549
+            },
+            {
+              "_id": "5ba1e9f17eefb32d4a2b6849",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4260364
+            }
+          ],
+          "synonyms": [
+            "picture",
+            "image",
+            "icon",
+            "ikon"
+          ],
+          "synsetOffset": 3931044,
+          "wCnt": 4,
+          "word": "icon"
+        },
+        {
+          "__v": 0,
+          "_id": "5764779n",
+          "def": "the overlap where two theories or phenomena affect each other or have links with each other",
+          "exp": [
+            "the interface between chemistry and biology"
+          ],
+          "gloss": "the overlap where two theories or phenomena affect each other or have links with each other; \"the interface between chemistry and biology\"  ",
+          "lemma": "interface",
+          "lexFilenum": 9,
+          "lexId": "0",
+          "parent": "5764365n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ea037eefb32d4a2b69f9",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5764365
+            }
+          ],
+          "synonyms": [
+            "interface"
+          ],
+          "synsetOffset": 5764779,
+          "wCnt": 1,
+          "word": "interface"
+        },
+        {
+          "__v": 0,
+          "_id": "6407514n",
+          "def": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+          "exp": [],
+          "gloss": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+          "lemma": "palimpsest",
+          "lexFilenum": 10,
+          "lexId": "0",
+          "parent": "6407221n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eb137eefb32d4a2b77ff",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6407221
+            }
+          ],
+          "synonyms": [
+            "palimpsest"
+          ],
+          "synsetOffset": 6407514,
+          "wCnt": 1,
+          "word": "palimpsest"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "6407514n",
+    "def": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+    "exp": [],
+    "gloss": "a manuscript (usually written on papyrus or parchment) on which more than one text has been written with the earlier writing incompletely erased and still visible  ",
+    "lemma": "palimpsest",
+    "lexFilenum": 10,
+    "lexId": "0",
+    "parent": "6407221n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1eb137eefb32d4a2b77ff",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6407221
+      }
+    ],
+    "synonyms": [
+      "palimpsest"
+    ],
+    "synsetOffset": 6407514,
+    "wCnt": 1,
+    "word": "palimpsest"
+  }
+}

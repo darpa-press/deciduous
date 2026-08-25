@@ -1,0 +1,52 @@
+[
+  {
+    "__v": 0,
+    "_id": "5a057d729e8ab300727566c2",
+    "background": "",
+    "content": "<p style=\"text-align:center;margin-bottom:3rem;\">° Well I say you're full of shit! / tracking no reply! / taking care! °</p>     <div style=\"border-radius:3px\">     <img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510641219398-snowball2.jpg\" width=\"1920\" height=\"1080\" /> </div> <div class=\"indents\">     <p> We prototype a rock-spiked snowball, first scooped and proposed in 1950 (Δ67y). The snowball is bigger than the rock and goes on the outside. It is hand-scale. The rock is a dependent. Snow seems to come from nowhere. (You can dance as if you're collecting         it.) We believe the rock-spiked snowball is a discretionary item and is backwards-compatible with other versions of snow. It fits in & out. You won't realise what has happened to you if you are hit with a rock-spiked snowball, but your development         environment will <aa href=\"94\">disintegrate</aa>; along with your experience, the stairwell of the thrower, the <aa href=\"53\">Internet coats</aa>, capped tiles, etc, will be set outside, in a springy graph solution—until the ludi of community resolves and your heart is broken. </p> </div>",
+    "created": "2017-11-10T10:20:34.155Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a38946d9eba100763a0f58",
+      "5b35ea261c76e00054b5f2f4",
+      "5b4838fa9cf63f004fdf9cc5",
+      "5a057d729e8ab300727566c2"
+    ],
+    "page": 77,
+    "parent": "59a388f6d9eba100763a0f56",
+    "persons": [
+      "5cdf162405823b0062ac920c",
+      "5f238f1847d320000793fc93"
+    ],
+    "readme": "A report on a prototypical snowball with a rock in it, as if it were a perceptron.",
+    "slug": "ludus-and-paidia",
+    "stub": false,
+    "themes": [],
+    "title": "Paidia loosening",
+    "word": [
+      "455599n",
+      "9622302n",
+      "6090869n",
+      "13841213n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5cfc79e9f7359506eb111113",
+    "background": "",
+    "content": "<img src=\"https://i.imgur.com/v74TNau.png\" alt=\"\" />",
+    "created": "2019-06-09T03:15:53.291Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 155,
+    "parent": "59a388f6d9eba100763a0f56",
+    "persons": [
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "",
+    "slug": "friendly-things",
+    "stub": false,
+    "title": "Things friending",
+    "word": []
+  }
+]

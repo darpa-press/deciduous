@@ -1,0 +1,58 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a387fad9eba100763a0f4f",
+    "background": "",
+    "content": "<div>\n    <video autoplay muted autoPlay loop>\n       <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/0_90_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2017-08-28T03:03:22.975Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 44,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "",
+    "slug": "uncloseable-sockets",
+    "stub": false,
+    "themes": [],
+    "title": "Socket unclosing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "59a387b4d9eba100763a0f4d",
+    "background": "",
+    "content": "*",
+    "created": "2017-08-28T03:02:12.155Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 42,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "",
+    "slug": "no-lover-gives-you-the-universe",
+    "stub": true,
+    "themes": [],
+    "title": "Giving not-giving",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b564a91cac98b004eea3d41",
+    "background": "",
+    "content": "<div style=\"transform: rotate(-90deg)\">\n    <p style=\"font-size:2rem; margin-bottom:1rem;\">PENNY</p>\n    <p style=\"font-size:1rem; margin-bottom:1rem;\">For one penny.</p>\n    <p style=\"font-size:0.75rem; margin-bottom:1rem;\">For one penny.</p>\n    <p>\n        to be convinced by Time and Experience:<br/>\n    the True Touchstone of all Designs.\n    </p>\n</div>",
+    "created": "2018-07-23T21:37:21.955Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 126,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "A lettrist excerpt of the announcement of the Penny Post. I know this is reactionary. I'm trying to get to something here. (How did they use it?)",
+    "slug": "penny-post",
+    "stub": true,
+    "themes": [],
+    "title": "Penny posting",
+    "word": [
+      "1031256v"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "5cea3d250c713a5491be9820",
+  "bio": "Underscored a network with collisions, and retransmissions, and back-off.",
+  "birth": 1946,
+  "created": "2019-05-26T07:15:49.072Z",
+  "death": null,
+  "name": "Robert Metcalfe",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5cea3c9408f84a0c52cc66ed",
+      "background": "#0000ff",
+      "content": "It is difficult to talk and<br/>\nmaking it easier does not<br/>\nmake it any easier to<br/>\ntalk in a hoop or through an un-<br/>\nremembered or lit-up eitherware.<br/>\nThere are incorrect capital <br/>\nsoothsayers and they swerve into<br/>\nluminiferous layers and  <br/>\nthey tell you <em>it can't and won't work</em><br/>\nand they long for large fruit and<br/>\nthey are as local as can be.<br/>",
+      "created": "2019-05-26T07:13:24.770Z",
+      "fullWidth": false,
+      "lovers": [
+        "59d56830f01881005ae5bdf8"
+      ],
+      "page": 154,
+      "parent": "59a387fad9eba100763a0f4f",
+      "persons": [
+        "5cea3d250c713a5491be9820",
+        "5af8f4edeb5ad30054055e0c"
+      ],
+      "readme": "For Bob Metcalfe on what I imagine is his birthday ?",
+      "slug": "eitherware",
+      "stub": false,
+      "title": "Eitherware advancing",
+      "word": [
+        "3300216n",
+        "6254915n",
+        "342164v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "robert-metcalfe"
+}

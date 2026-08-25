@@ -1,0 +1,65 @@
+{
+  "__v": 0,
+  "_id": "59a7a5b2a692ea00760b7972",
+  "bio": "Wore a blue-and-yellow coat.",
+  "birth": 1751,
+  "created": "2017-08-31T05:59:14.879Z",
+  "death": 1774,
+  "name": "Young Werther",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a38946d9eba100763a0f58",
+      "background": "#eaede4",
+      "content": "<div class=\"indents\" style=\"margin-bottom:1.5rem;\">\n    <p>\n        You belong to the internet or at least an excess of you is handed over. In return, you're given a coat which when on takes up a convex drape. Ok, I imagine you put on the coat, a kind of technical clay to limit your around receptivity. It is blue on the outside and goes together with a yellow inner.\n    </p>\n</div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/clay-coat.png\" bg=\"#ebede4\" width=\"2001\" height=\"1929\"></lightimg>\n<div class=\"indents\">\n    <p>\n        The coat at first goes over your head. You’re a small car through a bored tunnel. The hairs on your arms have nowhere to stand up to cold or a fright. You have a garment sitting on top of you. This entitles an impossible alertness in signal and sense. Yet it’s brief. The clay of the coat itches and vexes. You flop in a loss. \n    </p>\n    <p>\n        You are soft enough and in a complicated-enough scenario now to meet others, forget their names, dodge their eyes.\n    </p>\n</div>",
+      "created": "2017-08-28T03:08:54.665Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a38775d9eba100763a0f4b"
+      ],
+      "page": 53,
+      "parent": "59a3892dd9eba100763a0f57",
+      "persons": [
+        "59a7a5b2a692ea00760b7972",
+        "5a601f813a3529634a567bc0",
+        "5b67cd82287895004ddc06c0"
+      ],
+      "readme": "A redesign of a garment I since can't find which you wear to see only the computer monitor—now including both the TuTa and Werther's coat.",
+      "slug": "coat",
+      "stub": false,
+      "themes": [],
+      "title": "Wear coating",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "59a38793d9eba100763a0f4c",
+      "background": "#e1e1e1",
+      "content": "<!-- <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/heads2.jpg\" width=\"2072\" height=\"1383\"></lightimg> -->\n<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534471962908-server.jpg\" width=\"2400\" height=\"2949\"></lightimg>\n<div class=\"indents\">    \n    <p>HPE ProLiant DL380’s nostrils dilated as it assiduously surveyed and switched packets. It couldn’t help it. It was about to die; it had better make this count. Capable, though more <em>liant</em> than lion, it had already died many thousands of times since 0000 UTC. It could also slide like a trundle bed.</p>\n    <p>A signal ran through its not-unhappiness: a request had fluttered their eyelids, the hewn form of which mirrored the short bolts that held up all HPE ProLiant DL380s by their sides arthritically. A look was between us. The nature of the thing was not to ask for anything, instead treating suddenness as immanence.\n    </p><p>The look of the request arrived with a crush at the server’s outermost and thick service layer, produced from a <aa href=\"10,4\">pathology of convention</aa> and availability. The payload of your eyes is a English-language question about how much effort I exert when I sleep. Something like this doesn’t require parsing, only matching, realised the HPE. \n    </p>\n</div>",
+      "created": "2017-08-28T03:01:39.817Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a4366f1f5051f0071438a4b",
+        "59a7e1ba7a541d009e8a53e5",
+        "59a3892dd9eba100763a0f57"
+      ],
+      "page": 41,
+      "parent": "59a38775d9eba100763a0f4b",
+      "persons": [
+        "59a7a5d3a692ea00760b7973",
+        "59a7a5b2a692ea00760b7972"
+      ],
+      "readme": "Old equipment doesn't actually die. It is decommissioned, i.e., has its trust taken away.",
+      "slug": "asking-for-something",
+      "stub": false,
+      "themes": [],
+      "title": "Something asking",
+      "word": [
+        "752493v",
+        "752764v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "werther"
+}

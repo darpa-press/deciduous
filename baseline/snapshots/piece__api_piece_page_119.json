@@ -1,0 +1,97 @@
+{
+  "__v": 0,
+  "_id": "5b4d96d088cbdd0050863369",
+  "background": "#161616",
+  "content": "<div>\n    <video autoplay loop muted>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531821212629-cerndoc-top_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+  "created": "2018-07-17T07:12:16.724Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b35ea261c76e00054b5f2f4"
+  ],
+  "page": 119,
+  "parent": {
+    "__v": 0,
+    "_id": "5b430d13e12b740053eab725",
+    "background": "#eae9eb",
+    "content": "<div>\n    <video autoplay loop mute>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531120870974-lines-because%202.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2018-07-09T07:21:55.258Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 109,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "",
+    "slug": "because",
+    "stub": false,
+    "themes": [],
+    "title": "Be causing",
+    "word": [
+      "7347n"
+    ]
+  },
+  "persons": null,
+  "readme": "A NeXT cube lights up the marquee lights of a theatre with a diagram showing how we can stay in touch.",
+  "slug": "light-wall-for-side-of-building",
+  "stub": false,
+  "themes": [],
+  "title": "Lights marqueeing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5060783n",
+      "def": "an increase in rate of change",
+      "exp": [
+        "modern science caused an acceleration of cultural change"
+      ],
+      "gloss": "an increase in rate of change; \"modern science caused an acceleration of cultural change\"  ",
+      "lemma": "acceleration",
+      "lexFilenum": 7,
+      "lexId": "0",
+      "parent": "7296428n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e76b2e28482ce380ad8a",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7296428
+        },
+        {
+          "_id": "5ba1e76b2e28482ce380ad89",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 439343
+        },
+        {
+          "_id": "5ba1e76b2e28482ce380ad88",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5061345
+        },
+        {
+          "_id": "5ba1e76b2e28482ce380ad87",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5061003
+        },
+        {
+          "_id": "5ba1e76b2e28482ce380ad86",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5061149
+        }
+      ],
+      "synonyms": [
+        "acceleration"
+      ],
+      "synsetOffset": 5060783,
+      "wCnt": 1,
+      "word": "acceleration"
+    }
+  ]
+}

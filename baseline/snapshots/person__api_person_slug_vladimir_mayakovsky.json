@@ -1,0 +1,38 @@
+{
+  "__v": 0,
+  "_id": "5b480c8d2713450b95710ddc",
+  "bio": "Wrote <em>a cloud in trousers</em>",
+  "birth": 1893,
+  "created": "2018-07-13T02:21:01.454Z",
+  "death": 1930,
+  "name": "Vladimir Mayakovsky",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b63e4bab5cc9a3899d7b5c5",
+      "background": "#ebebeb",
+      "content": "<aa href=\"127\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533273234892-cloud-with-pants-2.jpg\" width=\"963\" height=\"1280\"></img></aa>",
+      "created": "2018-08-03T05:14:34.291Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a057d729e8ab300727566c2"
+      ],
+      "page": 132,
+      "parent": "5b39cabd1c76e00054b5f2f8",
+      "persons": [
+        "5b480c8d2713450b95710ddc",
+        "5cee21a8151e9309ede1eba8"
+      ],
+      "readme": "A picture of a cloud in trousers that you draw when you are talking and when you might be afraid to forget names.",
+      "slug": "clouds-in-trousers",
+      "stub": false,
+      "themes": [],
+      "title": "Cloud thinking",
+      "word": [
+        "9849598n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "vladimir-mayakovsky"
+}

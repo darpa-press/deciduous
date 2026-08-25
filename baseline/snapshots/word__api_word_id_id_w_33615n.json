@@ -1,0 +1,323 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "33615n",
+    "def": "how much there is or how many there are of something that you can quantify  ",
+    "exp": [],
+    "gloss": "how much there is or how many there are of something that you can quantify  ",
+    "lemma": "measure",
+    "lexFilenum": 3,
+    "lexId": "0",
+    "parent": "2137n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5cdf1ca805823b0062ac94ec",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2137
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94eb",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0305",
+        "synsetOffset": 2645007
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94ea",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 681429
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e9",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 489837
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e8",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 647094
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e7",
+        "pointerSymbol": "=",
+        "pos": "a",
+        "sourceTarget": "0000",
+        "synsetOffset": 2295998
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e6",
+        "pointerSymbol": "=",
+        "pos": "a",
+        "sourceTarget": "0000",
+        "synsetOffset": 2297166
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5091770
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5855517
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13413493
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13575869
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13576101
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94e0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13576355
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94df",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13576982
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94de",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13577171
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94dd",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13579829
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94dc",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13579933
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94db",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13599547
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94da",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13731530
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d9",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13779032
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d8",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13779244
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d7",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13780180
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d6",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15154774
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15180528
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15256915
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac94d3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15269513
+      }
+    ],
+    "synonyms": [
+      "measure",
+      "quantity",
+      "amount"
+    ],
+    "synsetOffset": 33615,
+    "wCnt": 3,
+    "word": "measure"
+  }
+}

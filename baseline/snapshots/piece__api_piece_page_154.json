@@ -1,0 +1,163 @@
+{
+  "__v": 0,
+  "_id": "5cea3c9408f84a0c52cc66ed",
+  "background": "#0000ff",
+  "content": "It is difficult to talk and<br/>\nmaking it easier does not<br/>\nmake it any easier to<br/>\ntalk in a hoop or through an un-<br/>\nremembered or lit-up eitherware.<br/>\nThere are incorrect capital <br/>\nsoothsayers and they swerve into<br/>\nluminiferous layers and  <br/>\nthey tell you <em>it can't and won't work</em><br/>\nand they long for large fruit and<br/>\nthey are as local as can be.<br/>",
+  "created": "2019-05-26T07:13:24.770Z",
+  "fullWidth": false,
+  "lovers": [
+    "59d56830f01881005ae5bdf8"
+  ],
+  "page": 154,
+  "parent": {
+    "__v": 0,
+    "_id": "59a387fad9eba100763a0f4f",
+    "background": "",
+    "content": "<div>\n    <video autoplay muted autoPlay loop>\n       <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/0_90_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2017-08-28T03:03:22.975Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 44,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "",
+    "slug": "uncloseable-sockets",
+    "stub": false,
+    "themes": [],
+    "title": "Socket unclosing",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5cea3d250c713a5491be9820",
+      "bio": "Underscored a network with collisions, and retransmissions, and back-off.",
+      "birth": 1946,
+      "created": "2019-05-26T07:15:49.072Z",
+      "death": null,
+      "name": "Robert Metcalfe",
+      "relation": [],
+      "slug": "robert-metcalfe"
+    },
+    {
+      "__v": 0,
+      "_id": "5af8f4edeb5ad30054055e0c",
+      "bio": "Rhymes,",
+      "birth": 1945,
+      "created": "2018-05-14T02:31:09.056Z",
+      "death": null,
+      "name": "Kay Ryan",
+      "relation": [],
+      "slug": "kay-ryan"
+    }
+  ],
+  "readme": "For Bob Metcalfe on what I imagine is his birthday ?",
+  "slug": "eitherware",
+  "stub": false,
+  "title": "Eitherware advancing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "3300216n",
+      "def": "a type of network technology for local area networks",
+      "exp": [
+        "coaxial cable carries radio frequency signals between computers at a rate of 10 megabits per second"
+      ],
+      "gloss": "a type of network technology for local area networks; coaxial cable carries radio frequency signals between computers at a rate of 10 megabits per second  ",
+      "lemma": "ethernet",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "parent": "3681477n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cea3c85c0cb7f905612fd87",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3681477
+        },
+        {
+          "_id": "5cea3c85c0cb7f7a0112fd86",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3300443
+        }
+      ],
+      "synonyms": [
+        "ethernet"
+      ],
+      "synsetOffset": 3300216,
+      "wCnt": 1,
+      "word": "ethernet"
+    },
+    {
+      "__v": 0,
+      "_id": "6254915n",
+      "def": "a medium that was once supposed to fill all space and to support the propagation of electromagnetic waves  ",
+      "exp": [],
+      "gloss": "a medium that was once supposed to fill all space and to support the propagation of electromagnetic waves  ",
+      "lemma": "ether",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6254475n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cea3c87c0cb7f2cf612fe3c",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6254475
+        }
+      ],
+      "synonyms": [
+        "ether",
+        "aether"
+      ],
+      "synsetOffset": 6254915,
+      "wCnt": 2,
+      "word": "aether"
+    },
+    {
+      "__v": 0,
+      "_id": "342164v",
+      "def": "come as if by falling",
+      "exp": [
+        "Night fell",
+        "Silence fell"
+      ],
+      "gloss": "come as if by falling; \"Night fell\"; \"Silence fell\"  ",
+      "lemma": "fall",
+      "lexFilenum": 30,
+      "lexId": "d",
+      "parent": "341917v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5cea3c90c0cb7f30c412fea2",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341917
+        },
+        {
+          "_id": "5cea3c90c0cb7fa23f12fea1",
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 342314
+        }
+      ],
+      "synonyms": [
+        "fall",
+        "descend",
+        "settle"
+      ],
+      "synsetOffset": 342164,
+      "wCnt": 3,
+      "word": "fall"
+    }
+  ]
+}

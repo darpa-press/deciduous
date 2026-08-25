@@ -1,0 +1,40 @@
+{
+  "__v": 0,
+  "_id": "5a23e4b28d0a480072927f44",
+  "bio": "<p>Jimmy Wales holds a special role in the governance of the English Wikipedia. This authority is used on an ad hoc basis.</p>",
+  "birth": 1966,
+  "created": "2017-12-03T11:49:06.959Z",
+  "death": null,
+  "name": "Jimmy Wales",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a23e41a8d0a480072927f43",
+      "background": "#00ffe9",
+      "content": "<p>\n    the price of your Sunday coffee;<br/>\n    the price of your Monday seizin;<br/>\n    the price of your Tuesday juliet;<br/>\n    the price of your Wednesday <aa to=\"48,54,10\">heat</aa> index;<br/>\n    the price of your Thursday microservice;<br/>\n    the price of your Friday luck;<br/>\n    the price of your Saturday lambda;<br/>\n    the price of your Sunday water<br/>\n</p>",
+      "created": "2017-12-03T11:46:34.599Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a18b826de1f950071ab6549"
+      ],
+      "page": 89,
+      "parent": "5a13c2c6de1f950071ab6547",
+      "persons": [
+        "5a23e4b28d0a480072927f44",
+        "5cdf1af905823b0062ac947c"
+      ],
+      "readme": "Possible outcroppings of an analogy for fundraising.",
+      "slug": "optimal-appeal",
+      "stub": false,
+      "themes": [],
+      "title": "Optimal appealing",
+      "word": [
+        "13390626n",
+        "4744814n",
+        "11466043n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "jimmy-wales"
+}

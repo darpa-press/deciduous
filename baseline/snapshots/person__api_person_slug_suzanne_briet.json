@@ -1,0 +1,40 @@
+{
+  "__v": 0,
+  "_id": "5b63dadcb5cc9a3899d7b5c4",
+  "bio": "\"An antelope is a document,\" says Madame Documentation.",
+  "birth": 1894,
+  "created": "2018-08-03T04:32:28.022Z",
+  "death": 1989,
+  "name": "Suzanne Briet",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b481fa59cf63f004fdf9cc2",
+      "background": "#f5e9dd",
+      "content": "<div style=\"text-align:center; margin-bottom:6rem;\">\n    <img style=\"max-width: 95%; height: auto; width:420px\" width=\"1920\" height=\"808\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531453270053-rmhs.png\"/>\n</div>\n\n<div>\n    Yes art should be like a <aa to=\"49,56,54,78\">dream</aa>, she said. But<br/>\n    the kind of dream where you are doing chores or, <br/>\n    better, inventing a new way to keep things tidy.<br/>\n    And no idea is inlaid, all <aa to=\"132\">clouds</aa> have pants,<br/>\n    you and I are especially alike. \n</div>",
+      "created": "2018-07-13T03:42:29.748Z",
+      "fullWidth": false,
+      "lovers": [
+        "599badb12d4c7455551c4ef7"
+      ],
+      "page": 113,
+      "parent": "5b39cabd1c76e00054b5f2f8",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b63dadcb5cc9a3899d7b5c4"
+      ],
+      "readme": "Two items: a simulation of Otlet writing Briet's name in a conveyer or canon loop; and a transcript of a discussion had with Suzanne Briet in the kitchen at a party.",
+      "slug": "antelope-dream",
+      "stub": false,
+      "themes": [],
+      "title": "Dream anteloping",
+      "word": [
+        "6403393n",
+        "7484547n",
+        "7996149n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "suzanne-briet"
+}

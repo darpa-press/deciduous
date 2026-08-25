@@ -1,0 +1,40 @@
+[
+  {
+    "__v": 0,
+    "_id": "5a1b5c2d2140490070e1820d",
+    "background": "#171c23",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1511742467553-demon-map.png\" bg=\"#171c23\" width=\"2200\" height=\"2200\"></lightimg>",
+    "created": "2017-11-27T00:28:29.924Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 87,
+    "parent": "5a18b826de1f950071ab6549",
+    "persons": null,
+    "readme": "",
+    "slug": "speech-demon",
+    "stub": false,
+    "themes": [],
+    "title": "Speech demoning",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5a1f81752140490070e1820e",
+    "background": "#eee2ce",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1512014284254-Exs2.png\" bg=\"#eee2ce\" width=\"1424\" height=\"1920\"></lightimg>",
+    "created": "2017-11-30T03:56:37.684Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a1b5c2d2140490070e1820d"
+    ],
+    "page": 88,
+    "parent": "5a18b826de1f950071ab6549",
+    "persons": null,
+    "readme": "",
+    "slug": "community-demon",
+    "stub": false,
+    "themes": [],
+    "title": "Demon communing",
+    "word": []
+  }
+]

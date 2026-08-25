@@ -1,0 +1,195 @@
+{
+  "__v": 0,
+  "_id": "599baf932982115d5e2ba994",
+  "background": "",
+  "content": "<iframe src=\"//www.youtube.com/embed/COjSzL38cEs?loop=1&vq=hd1080&showinfo=0&rel=0&modestbranding=1&playlist=COjSzL38cEs\" height=\"1080\" width=\"1920\" frameborder=\"0\"></iframe>\n\n<p>\n    \n    In solresol, synonyms are suppressed: \"there is just one word, <em>solla</em>, to express <em>always</em>, <em>without ceasing</em>, <em>perpetually</em>, <em>without end</em>\".\n    Also, the grammar \"expresses the opposite meaning by reversing the word, syllable by syllable\" — <em>fala</em>, good; <em>lafa</em>, bad. (<a href=\"http://www.ifost.org.au/~gregb/solresol/sorsoeng.htm\">via</a>)\n    \n</p>",
+  "created": "2017-08-22T04:14:11.909Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 4,
+  "parent": null,
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59dff0bfb9789b6225c9049e",
+      "bio": "French violinist, composer and music teacher.",
+      "birth": 1787,
+      "created": "2017-10-12T22:46:23.600Z",
+      "death": 1862,
+      "name": "François Sudre",
+      "relation": [],
+      "slug": "franois-sudre-17871862"
+    }
+  ],
+  "readme": "Short video—full of mistakes—spoken in Solresol.",
+  "slug": "practice-sentence",
+  "stub": false,
+  "themes": [],
+  "title": "Practice sentencing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5682570n",
+      "def": "a state in which you want to learn more about something  ",
+      "exp": [],
+      "gloss": "a state in which you want to learn more about something  ",
+      "lemma": "curiosity",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5669934n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8538",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5669934
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8537",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 729378
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8536",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1342572
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8535",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 664449
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8534",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5682798
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8533",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5682950
+        },
+        {
+          "_id": "5ba1ebcf7eefb32d4a2b8532",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5683197
+        }
+      ],
+      "synonyms": [
+        "curiosity",
+        "wonder"
+      ],
+      "synsetOffset": 5682570,
+      "wCnt": 2,
+      "word": "wonder"
+    },
+    {
+      "__v": 0,
+      "_id": "13858604n",
+      "def": "a relation of direct opposition",
+      "exp": [
+        "we thought Sue was older than Bill but just the reverse was true"
+      ],
+      "gloss": "a relation of direct opposition; \"we thought Sue was older than Bill but just the reverse was true\"  ",
+      "lemma": "reverse",
+      "lexFilenum": 24,
+      "lexId": "0",
+      "parent": "13854649n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb437eefb32d4a2b7c48",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13854649
+        },
+        {
+          "_id": "5ba1eb437eefb32d4a2b7c47",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0102",
+          "synsetOffset": 202095
+        },
+        {
+          "_id": "5ba1eb437eefb32d4a2b7c46",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0105",
+          "synsetOffset": 799798
+        },
+        {
+          "_id": "5ba1eb437eefb32d4a2b7c45",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 138508
+        }
+      ],
+      "synonyms": [
+        "reverse",
+        "contrary",
+        "opposite"
+      ],
+      "synsetOffset": 13858604,
+      "wCnt": 3,
+      "word": "reverse"
+    },
+    {
+      "__v": 0,
+      "_id": "6303682n",
+      "def": "two words that can be interchanged in a context are said to be synonymous relative to that context  ",
+      "exp": [],
+      "gloss": "two words that can be interchanged in a context are said to be synonymous relative to that context  ",
+      "lemma": "synonym",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6286395n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb9b7eefb32d4a2b8168",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6286395
+        },
+        {
+          "_id": "5ba1eb9b7eefb32d4a2b8167",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6288024
+        },
+        {
+          "_id": "5ba1eb9b7eefb32d4a2b8166",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2381302
+        }
+      ],
+      "synonyms": [
+        "synonym",
+        "equivalent_word"
+      ],
+      "synsetOffset": 6303682,
+      "wCnt": 2,
+      "word": "synonym"
+    }
+  ]
+}

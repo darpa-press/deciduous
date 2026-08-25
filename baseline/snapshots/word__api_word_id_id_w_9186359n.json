@@ -1,0 +1,1092 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "9242389n",
+      "def": "a deep opening in the earth's surface  ",
+      "exp": [],
+      "gloss": "a deep opening in the earth's surface  ",
+      "lemma": "chasm",
+      "lexFilenum": 17,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9379111
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9186359
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9296053
+        }
+      ],
+      "synonyms": [
+        "chasm"
+      ],
+      "synsetOffset": 9242389,
+      "wCnt": 1
+    },
+    {
+      "_id": "9379111n",
+      "def": "an open or empty space in or between things",
+      "exp": [
+        "there was a small opening between the trees",
+        "the explosion made a gap in the wall"
+      ],
+      "gloss": "an open or empty space in or between things; \"there was a small opening between the trees\"; \"the explosion made a gap in the wall\"  ",
+      "lemma": "opening",
+      "lexFilenum": 17,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13910384
+        },
+        {
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9451517
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1593614
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2744651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3972799
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5282652
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5464534
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5545439
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9228801
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9242389
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9258715
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9304465
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9362469
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9410101
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9410928
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9480077
+        }
+      ],
+      "synonyms": [
+        "opening",
+        "gap"
+      ],
+      "synsetOffset": 9379111,
+      "wCnt": 2
+    },
+    {
+      "_id": "13910384n",
+      "def": "an empty area (usually bounded in some way between things)",
+      "exp": [
+        "the architect left space in front of the building",
+        "they stopped at an open space in the jungle",
+        "the space between his teeth"
+      ],
+      "gloss": "an empty area (usually bounded in some way between things); \"the architect left space in front of the building\"; \"they stopped at an open space in the jungle\"; \"the space between his teeth\"  ",
+      "lemma": "space",
+      "lexFilenum": 25,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13867492
+        },
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27167
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1988080
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3080309
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3130340
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5388665
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5482922
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9273291
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9277538
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9379111
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13778907
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13887509
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13910116
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13911429
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13911517
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13911660
+        }
+      ],
+      "synonyms": [
+        "space"
+      ],
+      "synsetOffset": 13910384,
+      "wCnt": 1
+    },
+    {
+      "_id": "27167n",
+      "def": "a point or extent in space  ",
+      "exp": [],
+      "gloss": "a point or extent in space  ",
+      "lemma": "location",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28651
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 2694933
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2333689
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2286204
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 413876
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8489497
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8489627
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8489765
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8489890
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8490039
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8490199
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8490402
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8500433
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8509111
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561081
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561230
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561351
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561462
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561583
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561714
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561835
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8561946
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8562067
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8593262
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8620061
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8630039
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8630985
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8683383
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8795880
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9386842
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13910384
+        }
+      ],
+      "synonyms": [
+        "location"
+      ],
+      "synsetOffset": 27167,
+      "wCnt": 1
+    },
+    {
+      "_id": "2684n",
+      "def": "a tangible and visible entity",
+      "exp": [
+        "an entity that can cast a shadow",
+        "it was full of rackets, balls and other objects"
+      ],
+      "gloss": "a tangible and visible entity; an entity that can cast a shadow; \"it was full of rackets, balls and other objects\"  ",
+      "lemma": "object",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0105",
+          "synsetOffset": 532607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3553
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3009633
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3149951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3233423
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3338648
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3532080
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3595179
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3610270
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3714721
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3892891
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4012260
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4248010
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4345288
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4486445
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7851054
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9238143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9251689
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9267490
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9279458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9281777
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9283193
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9287968
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9295338
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9300905
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9302031
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9308398
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9334396
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9335240
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9358550
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9368224
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9407346
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9409203
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9432990
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9468237
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9474162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9477037
+        }
+      ],
+      "synonyms": [
+        "object",
+        "physical_object"
+      ],
+      "synsetOffset": 2684,
+      "wCnt": 2
+    },
+    {
+      "_id": "1930n",
+      "def": "an entity that has physical existence  ",
+      "exp": [],
+      "gloss": "an entity that has physical existence  ",
+      "lemma": "physical_entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580597
+        }
+      ],
+      "synonyms": [
+        "physical_entity"
+      ],
+      "synsetOffset": 1930,
+      "wCnt": 1
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b7abfca07dc7028fe08a4cc",
+      "background": "",
+      "content": "<aa href=\"49,2,147\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534770986243-abyme.png\" width=\"2211\" height=\"2211\" /></aa>",
+      "created": "2018-08-20T13:19:06.804Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3874bd9eba100763a0f4a",
+        "5b48187eef732e0054886ac2"
+      ],
+      "page": 139,
+      "parent": {
+        "__v": 0,
+        "_id": "599badb12d4c7455551c4ef7",
+        "background": "#333",
+        "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+        "created": "2017-08-22T04:06:09.167Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 0,
+        "parent": "599e1db3dcc19f2b4b6aa573",
+        "persons": [
+          "59a7a64ea692ea00760b7977",
+          "59e0451bf883dc0ea56ac6c7",
+          "59a7a5eba692ea00760b7974"
+        ],
+        "readme": "",
+        "slug": "ark",
+        "stub": false,
+        "themes": [],
+        "title": "Ark refactoring",
+        "word": []
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a64ea692ea00760b7977",
+          "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+          "birth": 1868,
+          "created": "2017-08-31T06:01:50.823Z",
+          "death": 1944,
+          "name": "Paul Otlet",
+          "relation": [],
+          "slug": "paul-otlet"
+        },
+        {
+          "__v": 0,
+          "_id": "5cdf162405823b0062ac920c",
+          "bio": "Kept his ideas in a cabinet; never married; backdated manuscripts.",
+          "birth": 1646,
+          "created": "2019-05-17T20:14:28.010Z",
+          "death": 1716,
+          "name": "Gottfried Leibniz",
+          "relation": [],
+          "slug": "gottfried-leibniz"
+        }
+      ],
+      "readme": "Falling helplessly into the borders of a categorisation system. ",
+      "slug": "abyss",
+      "stub": false,
+      "themes": [],
+      "title": "Abyss abyssing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "9186359n",
+          "def": "a bottomless gulf or pit",
+          "exp": [
+            "any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively)"
+          ],
+          "gloss": "a bottomless gulf or pit; any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively)  ",
+          "lemma": "abyss",
+          "lexFilenum": 17,
+          "lexId": "0",
+          "parent": "9242389n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e73a3529022caafac466",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9242389
+            },
+            {
+              "_id": "5ba1e73a3529022caafac465",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 690683
+            },
+            {
+              "_id": "5ba1e73a3529022caafac464",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0102",
+              "synsetOffset": 690683
+            }
+          ],
+          "synonyms": [
+            "abyss",
+            "abysm"
+          ],
+          "synsetOffset": 9186359,
+          "wCnt": 2,
+          "word": "abyss"
+        },
+        {
+          "__v": 0,
+          "_id": "1021119n",
+          "def": "an imitation or repetition",
+          "exp": [
+            "the flower arrangement was created as an echo of a client's still life"
+          ],
+          "gloss": "an imitation or repetition; \"the flower arrangement was created as an echo of a client's still life\"  ",
+          "lemma": "echo",
+          "lexFilenum": 4,
+          "lexId": "0",
+          "parent": "1020936n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5d6627c87ed9cee6f768fdfb",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1020936
+            }
+          ],
+          "synonyms": [
+            "echo"
+          ],
+          "synsetOffset": 1021119,
+          "wCnt": 1,
+          "word": "echo"
+        },
+        {
+          "__v": 0,
+          "_id": "3224032n",
+          "def": "the entrance (the space in a wall) through which you enter or leave a room or building",
+          "exp": [
+            "the space that a door can close",
+            "he stuck his head in the doorway"
+          ],
+          "gloss": "the entrance (the space in a wall) through which you enter or leave a room or building; the space that a door can close; \"he stuck his head in the doorway\"  ",
+          "lemma": "doorway",
+          "lexFilenum": 6,
+          "lexId": "0",
+          "parent": "3290771n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5d6627cd7ed9cea63d68fec3",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3290771
+            },
+            {
+              "_id": "5d6627cd7ed9ceaa3b68fec2",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4546855
+            },
+            {
+              "_id": "5d6627cd7ed9cebc8268fec1",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2977619
+            },
+            {
+              "_id": "5d6627cd7ed9ce212c68fec0",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3221720
+            },
+            {
+              "_id": "5d6627cd7ed9cec86968febf",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3222722
+            },
+            {
+              "_id": "5d6627cd7ed9ced2bf68febe",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3223686
+            },
+            {
+              "_id": "5d6627cd7ed9ce511968febd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3307274
+            }
+          ],
+          "synonyms": [
+            "doorway",
+            "door",
+            "room_access",
+            "threshold"
+          ],
+          "synsetOffset": 3224032,
+          "wCnt": 4,
+          "word": "door"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "9186359n",
+    "def": "a bottomless gulf or pit",
+    "exp": [
+      "any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively)"
+    ],
+    "gloss": "a bottomless gulf or pit; any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively)  ",
+    "lemma": "abyss",
+    "lexFilenum": 17,
+    "lexId": "0",
+    "parent": "9242389n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e73a3529022caafac466",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9242389
+      },
+      {
+        "_id": "5ba1e73a3529022caafac465",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 690683
+      },
+      {
+        "_id": "5ba1e73a3529022caafac464",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 690683
+      }
+    ],
+    "synonyms": [
+      "abyss",
+      "abysm"
+    ],
+    "synsetOffset": 9186359,
+    "wCnt": 2,
+    "word": "abyss"
+  }
+}

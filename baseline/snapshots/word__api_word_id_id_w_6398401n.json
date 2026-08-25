@@ -1,0 +1,2154 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "6392001n",
+      "def": "a self-contained part of a larger composition (written or musical)",
+      "exp": [
+        "he always turns first to the business section",
+        "the history of this work is discussed in the next section"
+      ],
+      "gloss": "a self-contained part of a larger composition (written or musical); \"he always turns first to the business section\"; \"the history of this work is discussed in the next section\"  ",
+      "lemma": "section",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6362953
+        },
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7020895
+        },
+        {
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7020895
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6270879
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6384269
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392660
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392787
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392935
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6394865
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396142
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396330
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396468
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396644
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396812
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6396930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6397307
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6398401
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6400271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6433672
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6461830
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6741993
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6815970
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7039238
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7068631
+        }
+      ],
+      "synonyms": [
+        "section",
+        "subdivision"
+      ],
+      "synsetOffset": 6392001,
+      "wCnt": 2
+    },
+    {
+      "_id": "7020895n",
+      "def": "an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner  ",
+      "exp": [],
+      "gloss": "an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner  ",
+      "lemma": "music",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7109019
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10340312
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10339966
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 409750
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 409889
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 414518
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 565799
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 565962
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 882890
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 945513
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 945772
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 981818
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 982602
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1016215
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1016436
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1110470
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1164561
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1213786
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1215263
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1468994
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1469161
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1472098
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1472225
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1501718
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1543772
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1544169
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1577771
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1577973
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1578152
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2252480
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2279523
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2293856
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2294263
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2319922
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2320289
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2437148
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2438188
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2647236
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2731850
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2731953
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2797257
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2855757
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2856460
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2931947
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 19900
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 29278
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 61899
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 65486
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 264927
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 265059
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 267812
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 270581
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 270713
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 348592
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 403175
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 423378
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 423749
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 423888
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "r",
+          "sourceTarget": "0000",
+          "synsetOffset": 513248
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 102162
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 210940
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 520880
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 543233
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 940217
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 999588
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2757061
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2795978
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3273551
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4262161
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4327324
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4338143
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4376400
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4981781
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4987356
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4987620
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4990525
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4990781
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4991225
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4991389
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5052243
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5126849
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5620050
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5718935
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392001
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6392001
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6406317
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6741993
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6814870
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6816106
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6856568
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6856884
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857264
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857487
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857591
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857726
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857867
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6857986
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6858144
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6858266
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6858384
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6858539
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6861860
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6865953
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6866124
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6866332
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6866442
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6869271
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6869428
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6894371
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7024607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7024705
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7024929
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7025151
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7025302
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7027180
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7027942
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7028221
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7028373
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7029247
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7029819
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7030976
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7037465
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7038767
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7039238
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7040543
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7040820
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7045519
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7046543
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7046737
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7047011
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7047804
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7048782
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7050177
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7054336
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7054433
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7057196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7057385
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7057385
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7066659
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7068631
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7071942
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7087508
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7277915
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278014
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278146
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278256
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278365
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278510
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278582
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278652
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278775
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7278925
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7281635
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7282006
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7399137
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7998206
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7998323
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7998450
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10069296
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10339966
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10596517
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14004958
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15122011
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15134913
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15264363
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15286042
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 387153
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 393398
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 393534
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1651110
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1705494
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1705841
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706014
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706129
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706375
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706488
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706631
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706756
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1706889
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1707495
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1724891
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1725051
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1725375
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1725886
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1726172
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1726879
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1727354
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1731353
+        },
+        {
+          "pointerSymbol": "-c",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2179915
+        }
+      ],
+      "synonyms": [
+        "music"
+      ],
+      "synsetOffset": 7020895,
+      "wCnt": 1
+    },
+    {
+      "_id": "7109019n",
+      "def": "communication that relies on hearing  ",
+      "exp": [],
+      "gloss": "communication that relies on hearing  ",
+      "lemma": "auditory_communication",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6278136
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7020895
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7109196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7109847
+        }
+      ],
+      "synonyms": [
+        "auditory_communication"
+      ],
+      "synsetOffset": 7109019,
+      "wCnt": 1
+    },
+    {
+      "_id": "33020n",
+      "def": "something that is communicated by or to or between people or groups  ",
+      "exp": [],
+      "gloss": "something that is communicated by or to or between people or groups  ",
+      "lemma": "communication",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 496670
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 2231661
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1030678
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 760402
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1070102
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 742320
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 740577
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1102436
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6253690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6282383
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6282651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6349220
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6598915
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6600421
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6791372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6793231
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6797169
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6873252
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6887726
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7066659
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7082025
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7109019
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7110615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7255791
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7277697
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13403331
+        }
+      ],
+      "synonyms": [
+        "communication"
+      ],
+      "synsetOffset": 33020,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 3,
+      "_id": "599bade62d4c7455551c4efa",
+      "background": "",
+      "content": "<div style=\"display:flex;\">\n    <p style=\"margin-right:0.75rem; text-align:justify;\">I heard about a passage that said something I had been trying to say and could not. I asked for the passage and you gave me the passage. At least, you gave me a pointer to the passage. You gave over where to find it. It was in a book in a big cylindrical library with ribs like a oil drum. I went and found it and used it up. Later when I went back it wasn't there any more. It became a wild pointer. A wild pointer is a cat. I took the cat home and fed it anchovies. While I understood you giving over where to find something one day and the possibility of it being there the day after that is no more a promise than me using up something by saying something and not being able to say it again still I was jealous because in asking for the passage it revealed what I had been trying to say and could not.</p>\n    <p style=\"margin-left:0.75rem; text-align:justify;\">You asked for the passage and I gave you the passage. At least, I gave you a pointer to the passage. I gave over where to find it. It was in a book in a big cylindrical library with ribs like an oil drum. You might have went and found it and you might have used it up. If you went back later, it might not have been there any more. If this was so, it would have become a wild pointer. You might have not needed it anymore or you might have killed yourself or you might have asked someone else somewhere else where to find it and they might not have known or they might have told you another place to find it and you might have went and found it or you might not have needed it anymore or you might have went to look for it but it wasn't there anymore in which case it would have become a wild pointer and you might have <aa href=\"41,40\">killed yourself</aa>.</p>\n</div>",
+      "created": "2017-08-22T04:07:02.301Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3892dd9eba100763a0f57"
+      ],
+      "page": 3,
+      "parent": {
+        "__v": 0,
+        "_id": "59a38775d9eba100763a0f4b",
+        "background": "#feecd8",
+        "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+        "created": "2017-08-28T03:01:09.985Z",
+        "fullWidth": false,
+        "lovers": [
+          "59f6f5084a45830075b62638"
+        ],
+        "page": 40,
+        "parent": "599ed1833b4eef3a304462b8",
+        "persons": [
+          "59a7a5eba692ea00760b7974"
+        ],
+        "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+        "slug": "dressing-like-the-same-person",
+        "stub": false,
+        "themes": [],
+        "title": "Same dressing",
+        "word": [
+          "3051540n",
+          "7543288n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59e047149ab1b7008c024d16",
+          "bio": "Awarded a literary prize to her lover.",
+          "birth": 1950,
+          "created": "2017-10-13T04:54:44.502Z",
+          "death": null,
+          "name": "Jorie Graham",
+          "relation": [],
+          "slug": "jorie-graham"
+        },
+        {
+          "__v": 0,
+          "_id": "59e047369ab1b7008c024d17",
+          "bio": "",
+          "birth": 1890,
+          "created": "2017-10-13T04:55:18.825Z",
+          "death": 1974,
+          "name": "Vannevar Bush",
+          "relation": [],
+          "slug": "vannevar-bush"
+        }
+      ],
+      "readme": "Two stories at once about how to think or find a particular idea and how easy it is to fall in love with someone who can find or think a particular idea.",
+      "slug": "passage",
+      "stub": false,
+      "themes": [],
+      "title": "Passage finding",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "3660664n",
+          "def": "a depository built to contain books and other materials for reading and study  ",
+          "exp": [],
+          "gloss": "a depository built to contain books and other materials for reading and study  ",
+          "lemma": "library",
+          "lexFilenum": 6,
+          "lexId": "0",
+          "parent": "3177349n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6b04",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3177349
+            },
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6b03",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2752199
+            },
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6b02",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2968333
+            },
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6b01",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3656091
+            },
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6b00",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4058096
+            },
+            {
+              "_id": "5ba1ea0c7eefb32d4a2b6aff",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4295571
+            }
+          ],
+          "synonyms": [
+            "library",
+            "depository_library"
+          ],
+          "synsetOffset": 3660664,
+          "wCnt": 2,
+          "word": "library"
+        },
+        {
+          "__v": 0,
+          "_id": "2937534a",
+          "def": "of or relating to or serving as an index  ",
+          "exp": [],
+          "gloss": "of or relating to or serving as an index  ",
+          "lemma": "indexical",
+          "lexFilenum": 1,
+          "lexId": "0",
+          "parent": null,
+          "pos": "a",
+          "ptrs": [
+            {
+              "_id": "5ba1e9fe7eefb32d4a2b69f8",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 6491786
+            },
+            {
+              "_id": "5ba1e9fe7eefb32d4a2b69f7",
+              "pointerSymbol": "\\",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 6639674
+            }
+          ],
+          "synonyms": [
+            "indexical"
+          ],
+          "synsetOffset": 2937534,
+          "wCnt": 1,
+          "word": "indexical"
+        },
+        {
+          "__v": 0,
+          "_id": "6818121n",
+          "def": "a mark to indicate a direction or relation  ",
+          "exp": [],
+          "gloss": "a mark to indicate a direction or relation  ",
+          "lemma": "arrow",
+          "lexFilenum": 10,
+          "lexId": "0",
+          "parent": "6817782n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ada",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6817782
+            },
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ad9",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0202",
+              "synsetOffset": 2713184
+            },
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ad8",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 1152670
+            },
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ad7",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0202",
+              "synsetOffset": 923793
+            },
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ad6",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6821770
+            },
+            {
+              "_id": "5ba1eb217eefb32d4a2b7ad5",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6822034
+            }
+          ],
+          "synonyms": [
+            "arrow",
+            "pointer"
+          ],
+          "synsetOffset": 6818121,
+          "wCnt": 2,
+          "word": "pointer"
+        },
+        {
+          "__v": 0,
+          "_id": "6398401n",
+          "def": "the last section of a communication",
+          "exp": [
+            "in conclusion I want to say..."
+          ],
+          "gloss": "the last section of a communication; \"in conclusion I want to say...\"  ",
+          "lemma": "conclusion",
+          "lexFilenum": 10,
+          "lexId": "0",
+          "parent": "6392001n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59ab",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6392001
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59aa",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7220773
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a9",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7238694
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a8",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0402",
+              "synsetOffset": 2610628
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a7",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 2735418
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a6",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 1620854
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a5",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 2609764
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a4",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6373991
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a3",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6398760
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a2",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6398963
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6399126
+            },
+            {
+              "_id": "5ba1e93e7eefb32d4a2b59a0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7039478
+            }
+          ],
+          "synonyms": [
+            "conclusion",
+            "end",
+            "close",
+            "closing",
+            "ending"
+          ],
+          "synsetOffset": 6398401,
+          "wCnt": 5,
+          "word": "close"
+        },
+        {
+          "__v": 0,
+          "_id": "2121620n",
+          "def": "feline mammal usually having thick soft fur and no ability to roar: domestic cats",
+          "exp": [
+            "wildcats"
+          ],
+          "gloss": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats  ",
+          "lemma": "cat",
+          "lexFilenum": 5,
+          "lexId": "0",
+          "parent": "2120997n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e92d7eefb32d4a2b5732",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2120997
+            },
+            {
+              "_id": "5ba1e92d7eefb32d4a2b5731",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2121808
+            },
+            {
+              "_id": "5ba1e92d7eefb32d4a2b5730",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2124623
+            }
+          ],
+          "synonyms": [
+            "cat",
+            "true_cat"
+          ],
+          "synsetOffset": 2121620,
+          "wCnt": 2,
+          "word": "cat"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "6398401n",
+    "def": "the last section of a communication",
+    "exp": [
+      "in conclusion I want to say..."
+    ],
+    "gloss": "the last section of a communication; \"in conclusion I want to say...\"  ",
+    "lemma": "conclusion",
+    "lexFilenum": 10,
+    "lexId": "0",
+    "parent": "6392001n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59ab",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6392001
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59aa",
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7220773
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a9",
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7238694
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a8",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0402",
+        "synsetOffset": 2610628
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a7",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 2735418
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a6",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 1620854
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a5",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 2609764
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6373991
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6398760
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6398963
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6399126
+      },
+      {
+        "_id": "5ba1e93e7eefb32d4a2b59a0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7039478
+      }
+    ],
+    "synonyms": [
+      "conclusion",
+      "end",
+      "close",
+      "closing",
+      "ending"
+    ],
+    "synsetOffset": 6398401,
+    "wCnt": 5,
+    "word": "close"
+  }
+}

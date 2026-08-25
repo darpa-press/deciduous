@@ -1,0 +1,37 @@
+{
+  "__v": 0,
+  "_id": "5b5ad00dcac98b004eea3d43",
+  "bio": "",
+  "birth": 1899,
+  "created": "2018-07-27T07:55:57.398Z",
+  "death": 1986,
+  "name": "Jorge Luis Borges",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b5ad0d0cac98b004eea3d44",
+      "background": "#110e16",
+      "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1532678614330-broken-the-vase.jpg\" width=\"1428\" height=\"1858\"></lightimg>\n<p>\nFilippo Morghen<br/>\n<em>Quelli che hanno appena rotto il vaso di fiori ('Tux')</em>, Page. 147, 1803<br/>\nHand-colored copperplate engraving<br/>\n11 × 8 in; 27.9 × 20.3 cm\n</p>",
+      "created": "2018-07-27T07:59:12.035Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 127,
+      "parent": "5ae0f217b7de96005451ccdd",
+      "persons": [
+        "5b67b190287895004ddc06be",
+        "5b5ad00dcac98b004eea3d43"
+      ],
+      "readme": "An alteration of a book print from a late 18th-century engraver—taking it from a floating classical figure, somewhat angelic, to a penguin (flightless and oily) who has just broken a vase, floating in a void.",
+      "slug": "real-characters",
+      "stub": false,
+      "themes": [],
+      "title": "Flower potting",
+      "word": [
+        "2055803n",
+        "15121625n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "jorge-luis-borges"
+}

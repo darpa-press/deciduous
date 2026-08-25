@@ -1,0 +1,114 @@
+{
+  "__v": 0,
+  "_id": "5b556d7ac6dcbea686e05a78",
+  "background": "",
+  "content": "<p style=\"max-width:20rem\">\n    An illustrated guide to restoring\n    a)—what?—some flowers soon? or \n    b) an errorless Internet (somewhere where living together <em>is</em>) or \n    c) a pathology of forgetting machines or \n    d) an imaginary garden with real networks in it, or \n    e) a herbal of exsanguine causes or \n    f) an intersubjective encyclopedia or \n    g) an \"action désorganisé et plan du monde\" or \n    h) an ark for hypercards or \n    i) a returned Promise for what is the opposite of an engineer? or \n    j) an enfilade of hearts or \n    k) a howto for a grammar of 'mixed-analogical reasoning' or \n    l) a zoology of the marked-bad sectors of a knowledge or \n    m) an overload of overloads, in lieu of furies\n</p>\n<p>\n    <a href=\"/random\"><em>Open</em> &hellip; </a><br/>\n</p>",
+  "created": "2018-07-23T05:54:02.800Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 125,
+  "parent": {
+    "__v": 0,
+    "_id": "599baddb2d4c7455551c4ef9",
+    "background": "",
+    "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+    "created": "2017-08-22T04:06:51.565Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a010b5d0d38e60074a75115"
+    ],
+    "page": 2,
+    "parent": null,
+    "persons": [
+      "59a7a64ea692ea00760b7977"
+    ],
+    "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+    "slug": "edition",
+    "stub": false,
+    "themes": [],
+    "title": "Edition placing",
+    "word": [
+      "13912260n",
+      "96239s",
+      "9466280n",
+      "1640855v"
+    ]
+  },
+  "persons": null,
+  "readme": "A paratextual list of possible contents; intended to be helpful; to synthesize somewhere to start. (I too dislike it.)",
+  "slug": "index",
+  "stub": false,
+  "themes": [],
+  "title": "Open indexing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "6491786n",
+      "def": "an alphabetical listing of names and topics along with page numbers where they are discussed  ",
+      "exp": [],
+      "gloss": "an alphabetical listing of names and topics along with page numbers where they are discussed  ",
+      "lemma": "index",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6481320n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6956",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6481320
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6955",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6390805
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6954",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2937534
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6953",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2354112
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6952",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2472817
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6951",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6293106
+        },
+        {
+          "_id": "5ba1e9fb7eefb32d4a2b6950",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6492040
+        }
+      ],
+      "synonyms": [
+        "index"
+      ],
+      "synsetOffset": 6491786,
+      "wCnt": 1,
+      "word": "index"
+    }
+  ]
+}

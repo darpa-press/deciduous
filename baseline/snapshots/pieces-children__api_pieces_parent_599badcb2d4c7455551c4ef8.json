@@ -1,0 +1,103 @@
+[
+  {
+    "__v": 0,
+    "_id": "599bb820de2a24a8630fbdd2",
+    "background": "",
+    "content": "<div style=\"display:flex;align-items:center;max-width:75%; margin:0 auto; opacity:0.8\">\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/birds.png\" bg=\"white\" width=\"1001\" height=\"754\"></lightimg>\n</div>\n<div class=\"indents\">\n    <p style=\"color:#4c80d6\">This room has two blue shrikes plugged into the wall on either side of the room, which their blueness fills. They are temporary and they can just as soon be plugged out. The thing about shrikes is that they must find the sharp edges of the world to push others onto. (On some, red bursts down their front in a rosy patch of preordained blood.) This room has eight sharp edges but thankfully they’re on the inside-out. If you knew as a child about how shrikes push, you might not have wanted them to fill up your room with blueness. But instead you only knew how they would flicker, looking for the sharp edges of the circumscribed world, but only once you were completely asleep—once you stopped having the trouble of experience that’s bounded by blueness in order to produce a little more of the order of things: in particular the order of others—in particular where your brother goes in the order of things, which the even blue light of the electrical shrikes could set out of motion, put you to the work of a kid’s sleep, only knowing that they would alert you to where your brother in the bed above goes if and when he tries\n    </p>\n</div>",
+    "created": "2017-08-22T04:50:40.127Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 7,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": [
+      "59a4202ff84055628c1ff18f"
+    ],
+    "readme": "",
+    "slug": "blue-shrikes",
+    "stub": false,
+    "themes": [],
+    "title": "Blue shriking",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b717d6eeadfa9004ee2f3ed",
+    "background": "",
+    "content": "A guy, Des, sees, he speaks past us,<br/> \ntooth and hair, in a cataract.<br/>\nSome ginger. A chain of car acts. <br/>\nLeft in there, an output, his <em>dah</em><br/>\nin his wrists, in tar, mints, and pits.",
+    "created": "2018-08-13T12:45:34.750Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 136,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": null,
+    "readme": "A guide to the species and their various characteristics.",
+    "slug": "what-animals-mean",
+    "stub": true,
+    "themes": [],
+    "title": "Animals meaning",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b39c0a21c76e00054b5f2f7",
+    "background": "#a65353",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530512716998-rabbit-2.png\" bg=\"#a65353\" width=\"1920\" height=\"1920\"></lightimg>\n\n<p>Light-ribbon study for <br/><em>A Stanford Bunny Asleep in the Downs</em></p>",
+    "created": "2018-07-02T06:05:22.887Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 106,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": null,
+    "readme": "",
+    "slug": "stanford-bunny-linocut",
+    "stub": false,
+    "themes": [],
+    "title": "Stanford watching",
+    "word": [
+      "5844881n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5b88d0bbf846b10050a621f1",
+    "background": "#e36c45",
+    "content": "<video src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1535692955969-agony.mp4\" style=\"margin-bottom:0\" autoplay loop muted />",
+    "created": "2018-08-31T05:23:07.340Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 141,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": [
+      "5d66316c5548762b16c9d0eb"
+    ],
+    "readme": "Joys set within a dynamics generator, with a rotor alternating.",
+    "slug": "agonies",
+    "stub": false,
+    "themes": [],
+    "title": "Agonies fruiting",
+    "word": [
+      "6090869n",
+      "7294550n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5b35f91b1c76e00054b5f2f6",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530263820644-spot2.jpg\" width=\"1920\" height=\"1920\"></lightimg>",
+    "created": "2018-06-29T09:17:15.846Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 105,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": null,
+    "readme": "Two of the stock testing model of a baby goat surrounded by a environment of documentation which show how animals go together.",
+    "slug": "spot",
+    "stub": false,
+    "themes": [],
+    "title": "Spot doubling",
+    "word": []
+  }
+]

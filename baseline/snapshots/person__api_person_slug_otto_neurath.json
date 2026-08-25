@@ -1,0 +1,40 @@
+{
+  "__v": 0,
+  "_id": "5b63c8ea0cf98533b527784d",
+  "bio": "Inside the Vienna circle.",
+  "birth": 1882,
+  "created": "2018-08-03T03:15:54.314Z",
+  "death": 1945,
+  "name": "Otto Neurath",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b48187eef732e0054886ac2",
+      "background": "#fffcfa",
+      "content": "<div style=\"display:flex;flex-direction:column; align-items:center; margin:0 auto; max-width: 800px;\">\n    <aa to=\"76,104,47,91\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452498471-v1.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452501051-v2.png\" width=\"1280\" height=\"1280\" />\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452504585-v3.png\" width=\"1280\" height=\"1280\"/>\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531452508614-v4.png\" width=\"1280\" height=\"1280\"/></aa>\n</div>",
+      "created": "2018-07-13T03:11:58.622Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a52ceb9f5051f0071438a4c"
+      ],
+      "page": 112,
+      "parent": "5b35f11d1c76e00054b5f2f5",
+      "persons": [
+        "59dff0bfb9789b6225c9049e",
+        "5b63c8ea0cf98533b527784d"
+      ],
+      "readme": "Overlaid and outlined silhouettes of the icons used in this user interface to move between sections.",
+      "slug": "icons",
+      "stub": false,
+      "themes": [],
+      "title": "Icon shaping",
+      "word": [
+        "3931044n",
+        "5764779n",
+        "6407514n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "otto-neurath"
+}

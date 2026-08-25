@@ -1,0 +1,95 @@
+{
+  "__v": 0,
+  "_id": "6555f9df70d64a00089dd503",
+  "background": "",
+  "content": "Wasps alight on <br/>\nthe mouths of <br/>\nadministrators sleeping and<br/>\ndeposit nothing",
+  "created": "2023-11-16T11:15:43.118Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b7abfca07dc7028fe08a4cc"
+  ],
+  "page": 158,
+  "parent": {
+    "__v": 0,
+    "_id": "59ffb87b0d38e60074a75114",
+    "background": "#333333",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931092947-serpentine2.jpg\" bg=\"#333\" width=\"1280\" height=\"1024\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931381386-serpentine3.jpg\" bg=\"#333\" width=\"1300\" height=\"730\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931087269-serpentine.jpg\" bg=\"#333\" width=\"1280\" height=\"960\"></lightimg>",
+    "created": "2017-11-06T01:18:51.373Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 75,
+    "parent": "59f178b07d9c7500766c97b6",
+    "persons": null,
+    "readme": "",
+    "slug": "serpentine-mining",
+    "stub": false,
+    "themes": [],
+    "title": "Serpentine mining",
+    "word": [
+      "2190166n",
+      "6646628n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "wasps-alighting",
+  "stub": false,
+  "title": "Wasps alighting",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2212062n",
+      "def": "social or solitary hymenopterans typically having a slender body with the abdomen attached by a narrow stalk and having a formidable sting  ",
+      "exp": [],
+      "gloss": "social or solitary hymenopterans typically having a slender body with the abdomen attached by a narrow stalk and having a formidable sting  ",
+      "lemma": "wasp",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "2206270n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "6555f9d2f1ad7500081769dd",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2206270
+        },
+        {
+          "_id": "6555f9d2f1ad7500081769de",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2212602
+        },
+        {
+          "_id": "6555f9d2f1ad7500081769df",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2214773
+        },
+        {
+          "_id": "6555f9d2f1ad7500081769e0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2215161
+        },
+        {
+          "_id": "6555f9d2f1ad7500081769e1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2216740
+        }
+      ],
+      "synonyms": [
+        "wasp"
+      ],
+      "synsetOffset": 2212062,
+      "wCnt": 1,
+      "word": "wasp"
+    }
+  ]
+}

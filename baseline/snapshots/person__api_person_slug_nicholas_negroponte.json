@@ -1,0 +1,37 @@
+{
+  "__v": 0,
+  "_id": "5a52cef2f5051f0071438a4e",
+  "bio": "Father of a childrens' nation",
+  "birth": 1943,
+  "created": "2018-01-08T01:52:50.050Z",
+  "death": null,
+  "name": "Nicholas Negroponte",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a52ceb9f5051f0071438a4c",
+      "background": "#ffdf00",
+      "content": "<div style=\"max-width:23rem\">\n    <p>Children are putting together a neighbourhood with and in between their watches.</p> \n\n<p>They have their hearts set on it. They are accounted for by adults. The accountment is a gift, but the neighbourhood’s the box in which a gift comes. </p>\n\n<p>The sun rolls up quickly here. The time’s @233. </p>\n\n<p>Children don’t know what to do with their neighbourhood or nation yet or where the boundaries are in particular. So they set on newcomers with mercy and questions and lead them to the nation or colony’s centre, rear of the fountain in inky nines. Fountain water and birds bubble and peck. Basin fountain kids,  their hair slicked, move the centre demonically—quicker than the adults can realise their losses. <strike>The centres of colonies or states are not particular. </strike> </p>\n\n<p>We are looking at the lies of how the children present themselves and, inside the neighbourhood, kiss each other, and how they learn they are trapped in themselves, dig up pets, ride in shopping carts, organise and are addressed in repeating subdivisions from smallest to largest. Kids can see their knowledge bend and yaw as they establish their state: a distributed wrist manipulating the world in a magic leap ∎</p>\n</div>",
+      "created": "2018-01-08T01:51:53.229Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a38829d9eba100763a0f50",
+        "59ab87460b5720004f6ee054"
+      ],
+      "page": 92,
+      "parent": "59a7e1ba7a541d009e8a53e5",
+      "persons": [
+        "5a52cef2f5051f0071438a4e",
+        "59dfeff5b9789b6225c9049d"
+      ],
+      "readme": "",
+      "slug": "magic-leaps",
+      "stub": false,
+      "themes": [],
+      "title": "Magic leaping",
+      "word": []
+    }
+  ],
+  "relation": [],
+  "slug": "nicholas-negroponte"
+}

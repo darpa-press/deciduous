@@ -1,0 +1,229 @@
+{
+  "__v": 0,
+  "_id": "5bab10031787db0050d1571e",
+  "background": "",
+  "content": "<aa to=\"0,51\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1537937535658-centaur2.png\" width=\"1138\" height=\"1560\" /></aa>",
+  "created": "2018-09-26T04:50:11.276Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a3892dd9eba100763a0f57",
+    "5bee6283db78190050f53c6a"
+  ],
+  "page": 145,
+  "parent": {
+    "__v": 0,
+    "_id": "5b9f322331175e004f00dd37",
+    "background": "",
+    "content": "<p>Look at this picture with me and imagine.</p>\n\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1537159961721-unicorns.png\" width=\"984\" height=\"635\"/>\n\n<p>\nThe spoiled lazy-bones pushed the unicorns too hard!<br/>\nTogether, they had spent hours trying to find a museum.<br/>\nThey wanted to become smarter.<br/>\nThe unicorns wanted to eat until they were full.</br>\nIt was a warm day which had cool breezes,<br/>\nlike those under a demonstrative sociocracy.<br/>\nThe unicorns with their spoiled lazy-bones<br/>\non top cantered right past the museum.\n</p>\n\n<p>There was something really lovely about the unicorns—<br/>\nit was undeniable, even if they had been pushed too hard.</p>\n\n<p>\nThe procession hit the highway, cantering around the cars,<br/>\nbarriers and construction equipment. If you could think<br/>\nof every possible way—and there are many—<br/>\nthat a thing with four spindles might canter down a highway<br/>\nin a big woven group, you wouldn't pick this way.<br/>\nYou'd pick something simpler and more likely to return,<br/>\nwhere the unicorn might move in an unmechanic<br/>\nsulk towards the slung balance of volumes, as if to<br/>\ntake into account the empty belly of the animal.\n</p>\n\n<p>This looked like a parade, but it wasn't.<br/>\nThey were actually trying to get somewhere.</p>\n\n<p>One unicorn fell down because it was so tired.<br/>\nIt yelped, which made the spoiled lazy-bone on top feel sad.</p>\n",
+    "created": "2018-09-17T04:48:35.117Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 143,
+    "parent": "5b861ecbf846b10050a621ef",
+    "persons": null,
+    "readme": "",
+    "slug": "unicorns",
+    "stub": false,
+    "themes": [],
+    "title": "Unicorns toiling",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5bab10331787db0050d1571f",
+      "bio": "Designed the <em>Centaur</em> typeface",
+      "birth": 1870,
+      "created": "2018-09-26T04:50:59.947Z",
+      "death": 1957,
+      "name": "Bruce Rogers",
+      "relation": [],
+      "slug": "bruce-rogers"
+    },
+    {
+      "__v": 0,
+      "_id": "5cdf13cf05823b0062ac9195",
+      "bio": "A gardener of broadsides",
+      "birth": 1925,
+      "created": "2019-05-17T20:04:31.546Z",
+      "death": 2006,
+      "name": "Ian Hamilton Finlay",
+      "relation": [],
+      "slug": "ian-hamilton-finlay"
+    },
+    {
+      "__v": 0,
+      "_id": "5cdf143105823b0062ac9196",
+      "bio": "Pressed on graphics",
+      "birth": 1942,
+      "created": "2019-05-17T20:06:09.208Z",
+      "death": null,
+      "name": "Edward Tufte",
+      "relation": [],
+      "slug": "edward-tufte"
+    }
+  ],
+  "readme": "An invitation card or frontispiece to being together in advance.",
+  "slug": "centaurs",
+  "stub": false,
+  "themes": [],
+  "title": "Centaurs advancing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "9240051n",
+      "def": "a conspicuous constellation in the southern hemisphere near the Southern Cross  ",
+      "exp": [],
+      "gloss": "a conspicuous constellation in the southern hemisphere near the Southern Cross  ",
+      "lemma": "Centaurus",
+      "lexFilenum": 17,
+      "lexId": "0",
+      "parent": null,
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5bab0ffe1787db0050d1571d",
+          "pointerSymbol": "@i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9252970
+        },
+        {
+          "_id": "5bab0ffe1787db0050d1571c",
+          "pointerSymbol": "%m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9193772
+        },
+        {
+          "_id": "5bab0ffe1787db0050d1571b",
+          "pointerSymbol": "%m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9219349
+        },
+        {
+          "_id": "5bab0ffe1787db0050d1571a",
+          "pointerSymbol": "%m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9378801
+        },
+        {
+          "_id": "5bab0ffe1787db0050d15719",
+          "pointerSymbol": "%m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9400190
+        }
+      ],
+      "synonyms": [
+        "Centaurus",
+        "Centaur"
+      ],
+      "synsetOffset": 9240051,
+      "wCnt": 2,
+      "word": "centaur"
+    },
+    {
+      "__v": 0,
+      "_id": "7186148n",
+      "def": "a request (spoken or written) to participate or be present or take part in something",
+      "exp": [
+        "an invitation to lunch",
+        "she threw the invitation away"
+      ],
+      "gloss": "a request (spoken or written) to participate or be present or take part in something; \"an invitation to lunch\"; \"she threw the invitation away\"  ",
+      "lemma": "invitation",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6624161n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5bab10b61787db0050d1572a",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7185325
+        },
+        {
+          "_id": "5bab10b61787db0050d15729",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6624161
+        },
+        {
+          "_id": "5bab10b61787db0050d15728",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 3134550
+        },
+        {
+          "_id": "5bab10b61787db0050d15727",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2384940
+        },
+        {
+          "_id": "5bab10b61787db0050d15726",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2384686
+        },
+        {
+          "_id": "5bab10b61787db0050d15725",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1470225
+        },
+        {
+          "_id": "5bab10b61787db0050d15724",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1469770
+        },
+        {
+          "_id": "5bab10b61787db0050d15723",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1063695
+        },
+        {
+          "_id": "5bab10b61787db0050d15722",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 793580
+        },
+        {
+          "_id": "5bab10b61787db0050d15721",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7186528
+        },
+        {
+          "_id": "5bab10b61787db0050d15720",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7186661
+        }
+      ],
+      "synonyms": [
+        "invitation"
+      ],
+      "synsetOffset": 7186148,
+      "wCnt": 1,
+      "word": "invitation"
+    }
+  ]
+}

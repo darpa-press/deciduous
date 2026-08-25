@@ -1,0 +1,350 @@
+{
+  "__v": 0,
+  "_id": "59a38793d9eba100763a0f4c",
+  "background": "#e1e1e1",
+  "content": "<!-- <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/heads2.jpg\" width=\"2072\" height=\"1383\"></lightimg> -->\n<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534471962908-server.jpg\" width=\"2400\" height=\"2949\"></lightimg>\n<div class=\"indents\">    \n    <p>HPE ProLiant DL380’s nostrils dilated as it assiduously surveyed and switched packets. It couldn’t help it. It was about to die; it had better make this count. Capable, though more <em>liant</em> than lion, it had already died many thousands of times since 0000 UTC. It could also slide like a trundle bed.</p>\n    <p>A signal ran through its not-unhappiness: a request had fluttered their eyelids, the hewn form of which mirrored the short bolts that held up all HPE ProLiant DL380s by their sides arthritically. A look was between us. The nature of the thing was not to ask for anything, instead treating suddenness as immanence.\n    </p><p>The look of the request arrived with a crush at the server’s outermost and thick service layer, produced from a <aa href=\"10,4\">pathology of convention</aa> and availability. The payload of your eyes is a English-language question about how much effort I exert when I sleep. Something like this doesn’t require parsing, only matching, realised the HPE. \n    </p>\n</div>",
+  "created": "2017-08-28T03:01:39.817Z",
+  "fullWidth": false,
+  "lovers": [
+    "5a4366f1f5051f0071438a4b",
+    "59a7e1ba7a541d009e8a53e5",
+    "59a3892dd9eba100763a0f57"
+  ],
+  "page": 41,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38775d9eba100763a0f4b",
+    "background": "#feecd8",
+    "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+    "created": "2017-08-28T03:01:09.985Z",
+    "fullWidth": false,
+    "lovers": [
+      "59f6f5084a45830075b62638"
+    ],
+    "page": 40,
+    "parent": "599ed1833b4eef3a304462b8",
+    "persons": [
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+    "slug": "dressing-like-the-same-person",
+    "stub": false,
+    "themes": [],
+    "title": "Same dressing",
+    "word": [
+      "3051540n",
+      "7543288n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a5d3a692ea00760b7973",
+      "bio": "",
+      "birth": 1940,
+      "created": "2017-08-31T05:59:47.876Z",
+      "death": null,
+      "name": "Jacques Rancière",
+      "relation": [],
+      "slug": "jacques-rancire"
+    },
+    {
+      "__v": 0,
+      "_id": "59a7a5b2a692ea00760b7972",
+      "bio": "Wore a blue-and-yellow coat.",
+      "birth": 1751,
+      "created": "2017-08-31T05:59:14.879Z",
+      "death": 1774,
+      "name": "Young Werther",
+      "relation": [],
+      "slug": "werther"
+    }
+  ],
+  "readme": "Old equipment doesn't actually die. It is decommissioned, i.e., has its trust taken away.",
+  "slug": "asking-for-something",
+  "stub": false,
+  "themes": [],
+  "title": "Something asking",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "752493v",
+      "def": "make a request or demand for something to somebody",
+      "exp": [
+        "She asked him for a loan"
+      ],
+      "gloss": "make a request or demand for something to somebody; \"She asked him for a loan\"  ",
+      "lemma": "ask",
+      "lexFilenum": 32,
+      "lexId": "1",
+      "parent": "752764v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53ce",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 752764
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53cd",
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 1469770
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53cc",
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 2384686
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53cb",
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 2384686
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53ca",
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2486693
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53c9",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 753428
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53c8",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 753734
+        }
+      ],
+      "synonyms": [
+        "ask"
+      ],
+      "synsetOffset": 752493,
+      "wCnt": 1,
+      "word": "ask"
+    },
+    {
+      "__v": 0,
+      "_id": "752764v",
+      "def": "express the need or desire for",
+      "exp": [
+        "ask for",
+        "She requested an extra bed in her room",
+        "She called for room service"
+      ],
+      "gloss": "express the need or desire for; ask for; \"She requested an extra bed in her room\"; \"She called for room service\"  ",
+      "lemma": "request",
+      "lexFilenum": 32,
+      "lexId": "1",
+      "parent": "742320v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e8",
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1063695
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e7",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 742320
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e6",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7185325
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e5",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 745499
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e4",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 752493
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e3",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754313
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e2",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754731
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e1",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754942
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e0",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 755447
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53df",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 758887
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53de",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 765396
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53dd",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 782057
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53dc",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 795632
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53db",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 808343
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53da",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 894221
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d9",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1018065
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d8",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1018352
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d7",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1063695
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d6",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1469770
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d5",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1826378
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d4",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2270815
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d3",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2275365
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d2",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2384686
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d1",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2429810
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d0",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2486693
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53cf",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2498320
+        }
+      ],
+      "synonyms": [
+        "request",
+        "bespeak",
+        "call_for",
+        "quest"
+      ],
+      "synsetOffset": 752764,
+      "wCnt": 4,
+      "word": "request"
+    }
+  ]
+}

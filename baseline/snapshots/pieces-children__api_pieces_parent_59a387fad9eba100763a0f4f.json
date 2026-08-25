@@ -1,0 +1,120 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a9696bec58b8007f5d501f",
+    "background": "",
+    "content": "<div>     <img          src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507840379253-water2.png\" width=\"1281\" height=\"1615\" />     <div class=\"indents\">         <p>I placed the call to you, from Argyll to I think Caen —— it rang, went through, but was otherwise soundless —— I could have known that you were there —– but the cable was dropped to connect in the ocean too long ago —— falling sharks in the channel had             bitten into it in parts —— salinity wore through it in parts —— engineers who in the first place on each part on either side disagreed on every standard of voltage and who couldn't talk in a Seaspeak anyway —— in channels the draghead and davits of dredging machines had torn or tangled the             manila yarn which insulated a connection —— turned dark blue from holding its breath —— taking into account the way that with every word in a rail crash across a language barrier the situation worsens —— and again with the channel sharks falling —— there was enough of an edge left for the format but not the consignment —— no <em> gentle wires to the word en-Masse</em> —— so no capacitive sense —— no your voice </p>     </div> </div>",
+    "created": "2017-09-01T14:06:35.362Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a3892dd9eba100763a0f57"
+    ],
+    "page": 67,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": null,
+    "readme": "",
+    "slug": "underwater-cables",
+    "stub": false,
+    "themes": [],
+    "title": "Underwater cabling",
+    "word": [
+      "6272290n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "59a38864d9eba100763a0f52",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/Artboard+3.png\" width=\"1025\" height=\"1229\" bg=\"white\"></lightimg>",
+    "created": "2017-08-28T03:05:08.425Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 47,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "59e046d19ab1b7008c024d15",
+      "59a7a5ffa692ea00760b7975"
+    ],
+    "readme": "",
+    "slug": "heather-to-straw",
+    "stub": false,
+    "themes": [],
+    "title": "Straw heathering",
+    "word": []
+  },
+  {
+    "__v": 9,
+    "_id": "59a38829d9eba100763a0f50",
+    "background": "",
+    "content": "<lightimg bg=\"#e3e2e2\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/tree-codex-169.png\" width=\"1920\" height=\"1080\"></lightimg><attr style=\"position: relative; top:-3rem; opacity: 0.5;\">A sample of the wallpaper in lift <em style=\"letter-spacing:0.5px; margin-left:2px\">b</em></attr>\n\n<div class=\"indents\">\n    <p>\n    Get in the lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!</em> It will take you where you need<em style=\"letter-spacing:0.5px; margin-left:2px\">!!</em> Take a look<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!</em> There are 13 lifts to choose from<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!</em> They are <aa to=\"104\">labeled ‘a’ to ‘m’</aa> and are based in different countries<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!</em> Their pits are deep, and their overhead is tall<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!</em> The pit of ‘b’ connects to the overhead of ‘a’, and so on<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Inside the ‘e’ car is like a rectory and so is quite comfortable<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> It’s really something to behold<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Hello<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!</em> Some of the lifts still need configuring<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!</em> Don’t use those ones yet<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!</em> But if you zoom in on one of the lifts it splits into a consortium of lifts, so you’ll find one that works for you<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!</em> And don’t worry<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!</em> I guarantee you’ll never meet anyone in a lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!</em> The routing and transferring of persons by means of addressed lift cars so that a lift is occupied during the transmission of the person only and upon completion of the transmission the lift is made available for the transfer of other persons<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!</em> You should really see for yourself the way that the <aa to=\"127\">wysteria</aa> climbs the mirror in ‘e’<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!!</em>\n</p>\n</div>",
+    "created": "2017-08-28T03:04:09.491Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 45,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "5cdf10f705823b0062ac9009"
+    ],
+    "readme": "A hotel with a country style that has lifts working like packet switching. Your lift operator is trying to console you.",
+    "slug": "aloha-building",
+    "stub": false,
+    "themes": [],
+    "title": "ALOHA building",
+    "word": [
+      "3281145n",
+      "12580457n",
+      "7281099n",
+      "8236438n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5b2add671c76e00054b5f2f1",
+    "background": "#ffffff",
+    "content": "<div>\n    <video autoplay muted loop>\n       <source autoplay src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529535757465-aer.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2018-06-20T23:04:07.520Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 100,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": null,
+    "readme": "",
+    "slug": "pellicle-and-gestalt",
+    "stub": false,
+    "themes": [],
+    "title": "Pellicle shearing",
+    "word": [
+      "2743727v",
+      "13482330n",
+      "6126523n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5cea3c9408f84a0c52cc66ed",
+    "background": "#0000ff",
+    "content": "It is difficult to talk and<br/>\nmaking it easier does not<br/>\nmake it any easier to<br/>\ntalk in a hoop or through an un-<br/>\nremembered or lit-up eitherware.<br/>\nThere are incorrect capital <br/>\nsoothsayers and they swerve into<br/>\nluminiferous layers and  <br/>\nthey tell you <em>it can't and won't work</em><br/>\nand they long for large fruit and<br/>\nthey are as local as can be.<br/>",
+    "created": "2019-05-26T07:13:24.770Z",
+    "fullWidth": false,
+    "lovers": [
+      "59d56830f01881005ae5bdf8"
+    ],
+    "page": 154,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "5cea3d250c713a5491be9820",
+      "5af8f4edeb5ad30054055e0c"
+    ],
+    "readme": "For Bob Metcalfe on what I imagine is his birthday ?",
+    "slug": "eitherware",
+    "stub": false,
+    "title": "Eitherware advancing",
+    "word": [
+      "3300216n",
+      "6254915n",
+      "342164v"
+    ]
+  }
+]

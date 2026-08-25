@@ -1,0 +1,58 @@
+{
+  "__v": 0,
+  "_id": "59a3892dd9eba100763a0f57",
+  "background": "#3a3a3a",
+  "content": "<LightImg \n    bg=\"#3a3a3a\"\n    src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/memex.png\"\n    width=\"3200\"\n    height=\"2456\"\n></LightImg>\n<div class=\"indents\">\n    <p>\n        <span style=\"font-size:0.68em;letter-spacing:1px;\">BUT WHAT ABOUT THE NATURAL SCIENCES</span>, I would ask. Six weeks later, <span  style=\"font-size:0.68em;letter-spacing:1px;\">WE HAVE 4.530 ENTRIES ON THIS IN 190 SUBDIVISIONS</span>, came the reply. I would think about you and the natural sciences. Your response—a mute bond—would be already out-of-date, new entries inhaled through the <aa to=\"101,67,100\">breath of the telegraph</aa>. I would sit on top of my card cabinet fluttering the to date seventeen responses I had received, and kicking my legs.\n        <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">I WANT TO KNOCK THE CEILING WITH THE TOP OF MY HEAD</span>, I then sent. <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">THAT IS NOT HOW HEADS WORK. THEY ARE TOO COMPACT</span>, in response.</p>\n        <p>The operator on this end had drawn three question marks, under the message, on the card, in disbelief. The operator on this end had black hair and green eyes. With all who had taken part, I would not know where to focus my attention within the relay or as we may think. ∎\n    </p>\n</div>",
+  "created": "2017-08-28T03:08:29.184Z",
+  "fullWidth": false,
+  "lovers": [
+    "599bade62d4c7455551c4efa"
+  ],
+  "page": 52,
+  "parent": {
+    "__v": 0,
+    "_id": "59a3889bd9eba100763a0f53",
+    "background": "",
+    "content": "<p>Thanks for coming and<br/>\nyou made it<br/>\nYou made to the Volvelle Social Club<br/>\nIt’s our annual meeting<br/>\nand thanks for coming\n</p>\n<p>We are moving devices yet <br/>\nclubs of five are outlawed.<br/>\nEveryone signs up in a round-robin<br/>\nand we can’t have a pentagram<br/>\nSo no clubs of five\n</p>\n<p>It’s hot today<br/>\nReally hot inside<br/>\nIt feels about 72 degrees<br/>\nNot very good weather<br/>\nfor an annual meeting.\n</p>\n<p>But let’s press on<br/>\nThe heat of our bodies<br/>\nhas made things worse <br/>\n(The heat) Let’s start.<br/>\nAdd a disc to the Volvelle.\n</p>\n<p>An ionic column and<br/>\nour volunteers and <br/>\npartners are energetic. You <br/>\nlook so well I hardly believe it<br/>\nLike an ionic column\n</p>\n<p>Dearest members note<br/>\nwe begin the program<br/>\n<aa href=\"94,83\">very energetically</aa>.<br/>\nYou can change your mind<br/>\nIf you want you can\n</p>\n<p>When the fifth person joins<br/>\nYou go into hibernation.<br/>\nIt’s imperative that<br/>\nyou sleep until the next<br/>\nInterested person is found.\n</p>\n<p>At first this was painful<br/>\nBut it’s adventure really<br/>\nAll five of you there and<br/>\na sleeping adventure<br/>\nand not Convening\n</p>\n<p>You will be fine but<br/>\nthings don’t look good though.<br/>\nIt’s sort-of stuck between two.<br/>\nJust rattle the pin and<br/>\nAdd a disc to the Volvelle please\n</p>",
+    "created": "2017-08-28T03:06:03.816Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a3898ed9eba100763a0f5a"
+    ],
+    "page": 48,
+    "parent": "59a38775d9eba100763a0f4b",
+    "persons": [
+      "59a7a6c2a692ea00760b797b"
+    ],
+    "readme": "The minutes of a group which meets, rotates, meets again.",
+    "slug": "volvelle-social-club",
+    "stub": false,
+    "themes": [],
+    "title": "Social spinning",
+    "word": [
+      "1230965n",
+      "4628192n",
+      "676271s",
+      "4422875n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59e047369ab1b7008c024d17",
+      "bio": "",
+      "birth": 1890,
+      "created": "2017-10-13T04:55:18.825Z",
+      "death": 1974,
+      "name": "Vannevar Bush",
+      "relation": [],
+      "slug": "vannevar-bush"
+    }
+  ],
+  "readme": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you. ",
+  "slug": "using-the-library",
+  "stub": false,
+  "themes": [],
+  "title": "Library using",
+  "word": []
+}

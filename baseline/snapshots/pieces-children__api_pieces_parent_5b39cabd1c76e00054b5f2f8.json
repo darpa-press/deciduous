@@ -1,0 +1,54 @@
+[
+  {
+    "__v": 0,
+    "_id": "5b481fa59cf63f004fdf9cc2",
+    "background": "#f5e9dd",
+    "content": "<div style=\"text-align:center; margin-bottom:6rem;\">\n    <img style=\"max-width: 95%; height: auto; width:420px\" width=\"1920\" height=\"808\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531453270053-rmhs.png\"/>\n</div>\n\n<div>\n    Yes art should be like a <aa to=\"49,56,54,78\">dream</aa>, she said. But<br/>\n    the kind of dream where you are doing chores or, <br/>\n    better, inventing a new way to keep things tidy.<br/>\n    And no idea is inlaid, all <aa to=\"132\">clouds</aa> have pants,<br/>\n    you and I are especially alike. \n</div>",
+    "created": "2018-07-13T03:42:29.748Z",
+    "fullWidth": false,
+    "lovers": [
+      "599badb12d4c7455551c4ef7"
+    ],
+    "page": 113,
+    "parent": "5b39cabd1c76e00054b5f2f8",
+    "persons": [
+      "59a7a64ea692ea00760b7977",
+      "5b63dadcb5cc9a3899d7b5c4"
+    ],
+    "readme": "Two items: a simulation of Otlet writing Briet's name in a conveyer or canon loop; and a transcript of a discussion had with Suzanne Briet in the kitchen at a party.",
+    "slug": "antelope-dream",
+    "stub": false,
+    "themes": [],
+    "title": "Dream anteloping",
+    "word": [
+      "6403393n",
+      "7484547n",
+      "7996149n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5b63e4bab5cc9a3899d7b5c5",
+    "background": "#ebebeb",
+    "content": "<aa href=\"127\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533273234892-cloud-with-pants-2.jpg\" width=\"963\" height=\"1280\"></img></aa>",
+    "created": "2018-08-03T05:14:34.291Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a057d729e8ab300727566c2"
+    ],
+    "page": 132,
+    "parent": "5b39cabd1c76e00054b5f2f8",
+    "persons": [
+      "5b480c8d2713450b95710ddc",
+      "5cee21a8151e9309ede1eba8"
+    ],
+    "readme": "A picture of a cloud in trousers that you draw when you are talking and when you might be afraid to forget names.",
+    "slug": "clouds-in-trousers",
+    "stub": false,
+    "themes": [],
+    "title": "Cloud thinking",
+    "word": [
+      "9849598n"
+    ]
+  }
+]

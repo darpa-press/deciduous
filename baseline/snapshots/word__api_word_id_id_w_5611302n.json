@@ -1,0 +1,577 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "23271n",
+      "def": "the psychological result of perception and learning and reasoning  ",
+      "exp": [],
+      "gloss": "the psychological result of perception and learning and reasoning  ",
+      "lemma": "cognition",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0303",
+          "synsetOffset": 1780343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611302
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611822
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612067
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612358
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616246
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5644922
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651068
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651242
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5667196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5686481
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5695554
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701363
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5710020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5726345
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5816287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6156752
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6193203
+        }
+      ],
+      "synonyms": [
+        "cognition",
+        "knowledge",
+        "noesis"
+      ],
+      "synsetOffset": 23271,
+      "wCnt": 3
+    },
+    {
+      "_id": "23100n",
+      "def": "a feature of the mental life of a living organism  ",
+      "exp": [],
+      "gloss": "a feature of the mental life of a living organism  ",
+      "lemma": "psychological_feature",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23773
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        }
+      ],
+      "synonyms": [
+        "psychological_feature"
+      ],
+      "synsetOffset": 23100,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a3898ed9eba100763a0f5a",
+      "background": "",
+      "content": "<div className=\"indents small-images\">\n    <p>Two scapegoats bounded up underneath the footbridge. They locked horns. They ate food—seagrass and walnuts—from each other's mouths. They had tested and chewed through fences opportunistically and were now here. Their left eyes were foggy, like an old person's. The irises of these eyes bloomed. <img src=\"//placehold.it/20x20\" /> In lieu of any other type of routine, the food that they ate from each other's mouths helped to make their circulatory systems go.</p>\n\n    <p>Visitors on the footbridge looked down and could see parts of the scapegoats. The visitors would have liked to repurpose them, but it is tricky to get down where the scapegoats are. The visitors wore white jeans and carried big white plastic bags. The scapegoats were naked.</p>\n\n    <p>Each animal with a brain inherits and does work on a four-dimensional taxonomic tree of the available forms of animal and their features. Efforts are underway to externalise these via the use of a <img src=\"//placehold.it/20x20\" /> neural scanner, <img src=\"//placehold.it/20x20\" /> grid paper, and a series of printed images of available animals. While the animal—such as a scapegoat—has a circulatory system which is going, the taxonomic tree is oriented on polar coordinates. At the moment that this isn't so, an organisational downward wave rattles through the brain of the animal, restructuring the tree into a proper <img src=\"//placehold.it/20x20\" /> Cartesian setup. This is felt as a brief <em>thinking-of-all-animals</em> and their features.</p>\n</div>\n\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/goat.png\" width=\"1920\" height=\"1920\"></lightimg>",
+      "created": "2017-08-28T03:10:06.288Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 55,
+      "parent": {
+        "__v": 0,
+        "_id": "59a38965d9eba100763a0f59",
+        "background": "",
+        "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616053424-goat-drawing.jpg\" alt=\"goat-drawing\" width=\"1080\" height=\"1080\" /><attr>A basic description</attr>\n\n <p>1. Swedish energy descent corn goats think with their head, a wrapped sheaf of corn. Their taxonomic family tree is unknown. Councils and bodies make the goats at the end of the harvest. They always use the last bit of corn, which could be magical.</p>\n\n    <p>The goats have always set up small quasi-familial herds in cities and rural areas.</p>\n\n    <p>In the summer, Park Service rangers are often called to shoo drowsy energy descent corn goats from the windshields of parked cars. The goats are drawn to the heat of the glass. The glass is heated by the breath of the people who have recently driven the cars. The people call the park rangers.</p>\n\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616284855-sketch2.jpg\" alt=\"sketch2\" width=\"1080\" height=\"1080\" class=\"alignnone size-full wp-image-132\" /><attr>The children's programme <em>Such and such</em>, 1978</attr>\n\n    <p>2. The corn goats are naturally social and acknowledge the possibility of other things. nb., In packs, they can be capricious, moving and wassailing together in deep knotted thatches of culture and error. </p>\n\n    <p>Their anima is roughly-hewn and gummy. Physiologically, we think their bundling ribbons circulate life material (blood, etc) in addition to signals and imperatives. The depth of specular reflection in the ribbon is an index of the health of the goat. It gets dusty and rasterised with time.</p>\n\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616310126-corn-goat.png\" alt=\"corn-goat\" width=\"2000\" height=\"2000\" /><attr>Graphic depiction of the goat as logomark</attr>\n\n    <p>3. We’re running out of oil, thinks Esso, and dreams up the Energy Descent beam, a wooden beam that can be installed from the top left corner to the bottom right corner of any room. Students will wind graduating ribbons and paint slogans, write love notes to each other on the beam. This ought to locate, in reduction, a point of crisis. It feels a bit like the end-of-harvest. </p>\n\n    <p>The beams are to be installed in international classrooms. The goats are drawn to the beams, because of their name? They gingerly bound into rooms and nudge the beams with their horns of wreaths. The kids move their desks into certain patterns that allow the goats movement.</p>\n\n    <p>Soon enough, the goats and the beams stand for Esso. </p>\n\n<video width=\"720\" height=\"720\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616538424-Comp-1.mp4\" autoplay loop muted></video><attr>Several artists' renditions</attr>\n\n    <p>4. Esso dreams up and builds up a particle accelerator in Kasuya Research Forest. </p>\n\n    <p>The Research Forest is circular and has been divided into a number of ringed natural formats within. These are pierced by two starlike designations for the production of soybeans and corn. There is a small herd of Swedish energy descent corn goats that reside in the forest’s tallgrass prairie, a centrally-located ring of temperate grassland format. The particle accelerator is installed on the prairie. The goats were brought in by the accelerator’s founding director and tend to the grass and feeling of the place. They clean themselves with sympathetic knocks of their wrapped-sheaf necks against the corners of the brutalist accelerator building. </p>\n\n    <p>One beam, the ascent beam, goes clockwise around the accelerator. The other, the descent beam, counter-clockwise. It is a race of sorts, tied in part to the global price of commodities such as corn.</p>\n\n\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616376367-ad.jpg\" alt=\"ad\" width=\"1440\" height=\"1440\" /><attr>An advertisement for artificial glacier management interfaces</attr>\n  \n    <p>5. Like anything, Swedish energy descent corn goats need water to survive. In herded areas where water flow is impeded, engineers construct artificial glaciers at inclement heights by diverting and pooling natural water flow into narrow spiralling lanes of self-sustaining ice. The ice is python-frozen and executable. This provides a slow sustenance for the animals, who honk in series when quenched.</p>\n\n    <p>The diversion structures, which look in aggregation like horns, are made of rocks. Because corn goats are so roughly-hewn in form, some artificial glacier engineers mistake certain configurations of rock for goats. They pat the rocks, and secret them off in their bags for good luck.</p>\n\n    <p>This tendency towards likenesses describes the spirit of the animal. At a certain point, bumping down the mountain, the rocks in the bags become corn goats. </p>",
+        "created": "2017-08-28T03:09:25.105Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 54,
+        "parent": "599ed1833b4eef3a304462b8",
+        "persons": null,
+        "readme": "",
+        "slug": "swedish-energy-descent-corn-goats",
+        "stub": false,
+        "themes": [],
+        "title": "Energy descending",
+        "word": [
+          "6757891n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a687a692ea00760b797a",
+          "bio": "",
+          "birth": 1923,
+          "created": "2017-08-31T06:02:47.443Z",
+          "death": 2015,
+          "name": "Rene Girard",
+          "relation": [],
+          "slug": "rene-girard"
+        },
+        {
+          "__v": 0,
+          "_id": "59a7a6c2a692ea00760b797b",
+          "bio": "Brought volvelles to Europe, visited by god while composing a love song, produced <em>The Abbreviated Art of Finding Truth</em> in trees and circular mechanics.",
+          "birth": 1232,
+          "created": "2017-08-31T06:03:46.105Z",
+          "death": 1315,
+          "name": "Ramon Llull",
+          "relation": [],
+          "slug": "ramon-llul"
+        }
+      ],
+      "readme": "",
+      "slug": "scapegoats",
+      "stub": false,
+      "themes": [],
+      "title": "Scape goating",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "10555311n",
+          "def": "someone who is punished for the errors of others  ",
+          "exp": [],
+          "gloss": "someone who is punished for the errors of others  ",
+          "lemma": "scapegoat",
+          "lexFilenum": 18,
+          "lexId": "0",
+          "parent": "10752093n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eb6d7eefb32d4a2b7daf",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 10752093
+            }
+          ],
+          "synonyms": [
+            "scapegoat",
+            "whipping_boy"
+          ],
+          "synsetOffset": 10555311,
+          "wCnt": 2,
+          "word": "scapegoat"
+        },
+        {
+          "__v": 0,
+          "_id": "5611302n",
+          "def": "that which is responsible for one's thoughts and feelings",
+          "exp": [
+            "the seat of the faculty of reason",
+            "his mind wandered",
+            "I couldn't get his words out of my head"
+          ],
+          "gloss": "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason; \"his mind wandered\"; \"I couldn't get his words out of my head\"  ",
+          "lemma": "mind",
+          "lexFilenum": 9,
+          "lexId": "0",
+          "parent": "23271n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5695",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 23271
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5694",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0402",
+              "synsetOffset": 1780740
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5693",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0401",
+              "synsetOffset": 1780740
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5692",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 609506
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5691",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5611684
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b5690",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5613043
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b568f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5613170
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b568e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5613274
+            },
+            {
+              "_id": "5ba1e90c7eefb32d4a2b568d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5613478
+            }
+          ],
+          "synonyms": [
+            "mind",
+            "head",
+            "brain",
+            "psyche",
+            "nous"
+          ],
+          "synsetOffset": 5611302,
+          "wCnt": 5,
+          "word": "brain"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "5611302n",
+    "def": "that which is responsible for one's thoughts and feelings",
+    "exp": [
+      "the seat of the faculty of reason",
+      "his mind wandered",
+      "I couldn't get his words out of my head"
+    ],
+    "gloss": "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason; \"his mind wandered\"; \"I couldn't get his words out of my head\"  ",
+    "lemma": "mind",
+    "lexFilenum": 9,
+    "lexId": "0",
+    "parent": "23271n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5695",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 23271
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5694",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0402",
+        "synsetOffset": 1780740
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5693",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0401",
+        "synsetOffset": 1780740
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5692",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 609506
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5691",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5611684
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b5690",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5613043
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b568f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5613170
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b568e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5613274
+      },
+      {
+        "_id": "5ba1e90c7eefb32d4a2b568d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5613478
+      }
+    ],
+    "synonyms": [
+      "mind",
+      "head",
+      "brain",
+      "psyche",
+      "nous"
+    ],
+    "synsetOffset": 5611302,
+    "wCnt": 5,
+    "word": "brain"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "__v": 0,
+  "_id": "5b9f38d331175e004f00dd38",
+  "background": "#606060",
+  "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1537170585068-bg-grey.jpg\" width=\"2178\" height=\"2178\" />\n<p style=\"margin: 1em auto\">\nI am the <aa to=\"113\">unicorn who fell over</aa>.<br/>\nMy yelp called for <aa to=\"81\">rain</aa>.<br/>\nThe rain was a kind of a malaise.<br/>\nMy feelings as a unicorn are<br/>\ndistributed, and difficult to<br/>\nmeasure, but I will tell you<br/>\na secret about them. They<br/>\n(the best of fainting goats) are<br/>\ncontinuous with the natural world<br/>\nbecause they are a reversal of<br/>\nthe natural world. It is important<br/>\nthat you take better care of me,<br/>\nbecause I am economical and<br/>\ncontinuous with the natural<br/>\nworld and as real as a row of<br/>\nolive trees which need watering.\n</p>",
+  "created": "2018-09-17T05:17:07.230Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 144,
+  "parent": {
+    "__v": 0,
+    "_id": "5b9f322331175e004f00dd37",
+    "background": "",
+    "content": "<p>Look at this picture with me and imagine.</p>\n\n<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1537159961721-unicorns.png\" width=\"984\" height=\"635\"/>\n\n<p>\nThe spoiled lazy-bones pushed the unicorns too hard!<br/>\nTogether, they had spent hours trying to find a museum.<br/>\nThey wanted to become smarter.<br/>\nThe unicorns wanted to eat until they were full.</br>\nIt was a warm day which had cool breezes,<br/>\nlike those under a demonstrative sociocracy.<br/>\nThe unicorns with their spoiled lazy-bones<br/>\non top cantered right past the museum.\n</p>\n\n<p>There was something really lovely about the unicorns—<br/>\nit was undeniable, even if they had been pushed too hard.</p>\n\n<p>\nThe procession hit the highway, cantering around the cars,<br/>\nbarriers and construction equipment. If you could think<br/>\nof every possible way—and there are many—<br/>\nthat a thing with four spindles might canter down a highway<br/>\nin a big woven group, you wouldn't pick this way.<br/>\nYou'd pick something simpler and more likely to return,<br/>\nwhere the unicorn might move in an unmechanic<br/>\nsulk towards the slung balance of volumes, as if to<br/>\ntake into account the empty belly of the animal.\n</p>\n\n<p>This looked like a parade, but it wasn't.<br/>\nThey were actually trying to get somewhere.</p>\n\n<p>One unicorn fell down because it was so tired.<br/>\nIt yelped, which made the spoiled lazy-bone on top feel sad.</p>\n",
+    "created": "2018-09-17T04:48:35.117Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 143,
+    "parent": "5b861ecbf846b10050a621ef",
+    "persons": null,
+    "readme": "",
+    "slug": "unicorns",
+    "stub": false,
+    "themes": [],
+    "title": "Unicorns toiling",
+    "word": []
+  },
+  "persons": null,
+  "readme": "An engraving, hidden in the falling-down part of a museum of natural history, of a myotonic unicorn",
+  "slug": "unicorn",
+  "stub": false,
+  "themes": [],
+  "title": "Unicorns falling",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "293760v",
+      "def": "develop or come to a promising stage",
+      "exp": [
+        "Youth blossomed into maturity"
+      ],
+      "gloss": "develop or come to a promising stage; \"Youth blossomed into maturity\"  ",
+      "lemma": "blossom",
+      "lexFilenum": 30,
+      "lexId": "0",
+      "parent": "252019v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba8cc4b1c20c6005095b0d8",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 252019
+        },
+        {
+          "_id": "5ba8cc4b1c20c6005095b0d7",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0401",
+          "synsetOffset": 13571217
+        },
+        {
+          "_id": "5ba8cc4b1c20c6005095b0d6",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0106",
+          "synsetOffset": 15295045
+        }
+      ],
+      "synonyms": [
+        "blossom",
+        "blossom_out",
+        "blossom_forth",
+        "unfold"
+      ],
+      "synsetOffset": 293760,
+      "wCnt": 4,
+      "word": "unfold"
+    },
+    {
+      "__v": 0,
+      "_id": "5293268n",
+      "def": "a muscle that contracts while another relaxes",
+      "exp": [
+        "when bending the elbow the biceps are the agonist"
+      ],
+      "gloss": "a muscle that contracts while another relaxes; \"when bending the elbow the biceps are the agonist\"  ",
+      "lemma": "agonist",
+      "lexFilenum": 8,
+      "lexId": "0",
+      "parent": "5293040n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf17d605823b0062ac9362",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5293040
+        }
+      ],
+      "synonyms": [
+        "agonist"
+      ],
+      "synsetOffset": 5293268,
+      "wCnt": 1,
+      "word": "agonist"
+    },
+    {
+      "__v": 0,
+      "_id": "5293420n",
+      "def": "a muscle that relaxes while another contracts",
+      "exp": [
+        "when bending the elbow the triceps are the antagonist"
+      ],
+      "gloss": "a muscle that relaxes while another contracts; \"when bending the elbow the triceps are the antagonist\"  ",
+      "lemma": "antagonist",
+      "lexFilenum": 8,
+      "lexId": "0",
+      "parent": "5293040n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf17db05823b0062ac93ef",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5293040
+        },
+        {
+          "_id": "5cdf17db05823b0062ac93ee",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 623565
+        }
+      ],
+      "synonyms": [
+        "antagonist"
+      ],
+      "synsetOffset": 5293420,
+      "wCnt": 1,
+      "word": "antagonist"
+    }
+  ]
+}

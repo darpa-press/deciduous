@@ -1,0 +1,42 @@
+{
+  "__v": 0,
+  "_id": "59e047149ab1b7008c024d16",
+  "bio": "Awarded a literary prize to her lover.",
+  "birth": 1950,
+  "created": "2017-10-13T04:54:44.502Z",
+  "death": null,
+  "name": "Jorie Graham",
+  "pieces": [
+    {
+      "__v": 3,
+      "_id": "599bade62d4c7455551c4efa",
+      "background": "",
+      "content": "<div style=\"display:flex;\">\n    <p style=\"margin-right:0.75rem; text-align:justify;\">I heard about a passage that said something I had been trying to say and could not. I asked for the passage and you gave me the passage. At least, you gave me a pointer to the passage. You gave over where to find it. It was in a book in a big cylindrical library with ribs like a oil drum. I went and found it and used it up. Later when I went back it wasn't there any more. It became a wild pointer. A wild pointer is a cat. I took the cat home and fed it anchovies. While I understood you giving over where to find something one day and the possibility of it being there the day after that is no more a promise than me using up something by saying something and not being able to say it again still I was jealous because in asking for the passage it revealed what I had been trying to say and could not.</p>\n    <p style=\"margin-left:0.75rem; text-align:justify;\">You asked for the passage and I gave you the passage. At least, I gave you a pointer to the passage. I gave over where to find it. It was in a book in a big cylindrical library with ribs like an oil drum. You might have went and found it and you might have used it up. If you went back later, it might not have been there any more. If this was so, it would have become a wild pointer. You might have not needed it anymore or you might have killed yourself or you might have asked someone else somewhere else where to find it and they might not have known or they might have told you another place to find it and you might have went and found it or you might not have needed it anymore or you might have went to look for it but it wasn't there anymore in which case it would have become a wild pointer and you might have <aa href=\"41,40\">killed yourself</aa>.</p>\n</div>",
+      "created": "2017-08-22T04:07:02.301Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3892dd9eba100763a0f57"
+      ],
+      "page": 3,
+      "parent": "59a38775d9eba100763a0f4b",
+      "persons": [
+        "59e047149ab1b7008c024d16",
+        "59e047369ab1b7008c024d17"
+      ],
+      "readme": "Two stories at once about how to think or find a particular idea and how easy it is to fall in love with someone who can find or think a particular idea.",
+      "slug": "passage",
+      "stub": false,
+      "themes": [],
+      "title": "Passage finding",
+      "word": [
+        "3660664n",
+        "2937534a",
+        "6818121n",
+        "6398401n",
+        "2121620n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "jorie-graham"
+}

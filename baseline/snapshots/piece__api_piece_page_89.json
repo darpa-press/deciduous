@@ -1,0 +1,317 @@
+{
+  "__v": 0,
+  "_id": "5a23e41a8d0a480072927f43",
+  "background": "#00ffe9",
+  "content": "<p>\n    the price of your Sunday coffee;<br/>\n    the price of your Monday seizin;<br/>\n    the price of your Tuesday juliet;<br/>\n    the price of your Wednesday <aa to=\"48,54,10\">heat</aa> index;<br/>\n    the price of your Thursday microservice;<br/>\n    the price of your Friday luck;<br/>\n    the price of your Saturday lambda;<br/>\n    the price of your Sunday water<br/>\n</p>",
+  "created": "2017-12-03T11:46:34.599Z",
+  "fullWidth": false,
+  "lovers": [
+    "5a18b826de1f950071ab6549"
+  ],
+  "page": 89,
+  "parent": {
+    "__v": 0,
+    "_id": "5a13c2c6de1f950071ab6547",
+    "background": "",
+    "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+    "created": "2017-11-21T06:08:06.407Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 84,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": null,
+    "readme": "",
+    "slug": "cars",
+    "stub": true,
+    "themes": [],
+    "title": "Car naming",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5a23e4b28d0a480072927f44",
+      "bio": "<p>Jimmy Wales holds a special role in the governance of the English Wikipedia. This authority is used on an ad hoc basis.</p>",
+      "birth": 1966,
+      "created": "2017-12-03T11:49:06.959Z",
+      "death": null,
+      "name": "Jimmy Wales",
+      "relation": [],
+      "slug": "jimmy-wales"
+    },
+    {
+      "__v": 0,
+      "_id": "5cdf1af905823b0062ac947c",
+      "bio": "In conformity with the late author's wish, her Board of Literary Management asks us to record that, in 1941, Laura (Riding) Jackson renonunced, on grounds of linguistic principle, the writing of poetry; she had come to hold that 'poetry obstructs general attainment to something better in our linguistic way-of-life than we have.\"",
+      "birth": 1901,
+      "created": "2019-05-17T20:35:05.910Z",
+      "death": 1991,
+      "name": "Laura (Riding) Jackson",
+      "relation": [],
+      "slug": "laura-riding-jackson"
+    }
+  ],
+  "readme": "Possible outcroppings of an analogy for fundraising.",
+  "slug": "optimal-appeal",
+  "stub": false,
+  "themes": [],
+  "title": "Optimal appealing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "13390626n",
+      "def": "a coin worth one-hundredth of the value of the basic unit  ",
+      "exp": [],
+      "gloss": "a coin worth one-hundredth of the value of the basic unit  ",
+      "lemma": "penny",
+      "lexFilenum": 21,
+      "lexId": "0",
+      "parent": "13388245n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf1ca805823b0062ac947f",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13388245
+        },
+        {
+          "_id": "5cdf1ca805823b0062ac947e",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391774
+        },
+        {
+          "_id": "5cdf1ca805823b0062ac947d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391841
+        }
+      ],
+      "synonyms": [
+        "penny",
+        "cent",
+        "centime"
+      ],
+      "synsetOffset": 13390626,
+      "wCnt": 3,
+      "word": "penny"
+    },
+    {
+      "__v": 0,
+      "_id": "4744814n",
+      "def": "similarity in appearance or character or nature between persons or things",
+      "exp": [
+        "man created God in his own likeness"
+      ],
+      "gloss": "similarity in appearance or character or nature between persons or things; \"man created God in his own likeness\"  ",
+      "lemma": "likeness",
+      "lexFilenum": 7,
+      "lexId": "0",
+      "parent": "4743605n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf1cb305823b0062ac9507",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4743605
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9506",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0302",
+          "synsetOffset": 4750764
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9505",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9504",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 2063554
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9503",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9502",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1409581
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9501",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 4750764
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9500",
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94ff",
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1410905
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fe",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4746842
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747115
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747246
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747445
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fa",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747616
+        }
+      ],
+      "synonyms": [
+        "likeness",
+        "alikeness",
+        "similitude"
+      ],
+      "synsetOffset": 4744814,
+      "wCnt": 3,
+      "word": "likeness"
+    },
+    {
+      "__v": 0,
+      "_id": "11466043n",
+      "def": "a form of energy that is transferred by a difference in temperature  ",
+      "exp": [],
+      "gloss": "a form of energy that is transferred by a difference in temperature  ",
+      "lemma": "heat",
+      "lexFilenum": 19,
+      "lexId": "0",
+      "parent": "11452218n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf1cbf05823b0062ac95e6",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11452218
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e5",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 372665
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e4",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2333358
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e3",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 371264
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11466337
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11470621
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95e0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11470765
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95df",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11470933
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95de",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11471097
+        },
+        {
+          "_id": "5cdf1cbf05823b0062ac95dd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11472352
+        }
+      ],
+      "synonyms": [
+        "heat",
+        "heat_energy"
+      ],
+      "synsetOffset": 11466043,
+      "wCnt": 2,
+      "word": "heat"
+    }
+  ]
+}

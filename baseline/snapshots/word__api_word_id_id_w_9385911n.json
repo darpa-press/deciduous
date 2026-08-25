@@ -1,0 +1,335 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "2452n",
+      "def": "a separate and self-contained entity  ",
+      "exp": [],
+      "gloss": "a separate and self-contained entity  ",
+      "lemma": "thing",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4347225
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9225146
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9312645
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9367203
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9385911
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9407867
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9465459
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9468959
+        }
+      ],
+      "synonyms": [
+        "thing"
+      ],
+      "synsetOffset": 2452,
+      "wCnt": 1
+    },
+    {
+      "_id": "1930n",
+      "def": "an entity that has physical existence  ",
+      "exp": [],
+      "gloss": "an entity that has physical existence  ",
+      "lemma": "physical_entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580597
+        }
+      ],
+      "synonyms": [
+        "physical_entity"
+      ],
+      "synsetOffset": 1930,
+      "wCnt": 1
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "9385911n",
+    "def": "a portion of a natural object",
+    "exp": [
+      "they analyzed the river into three parts",
+      "he needed a piece of granite"
+    ],
+    "gloss": "a portion of a natural object; \"they analyzed the river into three parts\"; \"he needed a piece of granite\"  ",
+    "lemma": "part",
+    "lexFilenum": 17,
+    "lexId": "0",
+    "parent": "2452n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5cdf17db05823b0062ac9467",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2452
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9466",
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9465459
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9465",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5220461
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9464",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5221526
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9463",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9187036
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9462",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9215315
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9461",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9257011
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9460",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9259500
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9262371
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9285254
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9307300
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945c",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9373016
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945b",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9373485
+      },
+      {
+        "_id": "5cdf17db05823b0062ac945a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9374646
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9459",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9429387
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9458",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9437241
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9457",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9440948
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9456",
+        "pointerSymbol": "~i",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9441587
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9455",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9449510
+      },
+      {
+        "_id": "5cdf17db05823b0062ac9454",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9480809
+      }
+    ],
+    "synonyms": [
+      "part",
+      "piece"
+    ],
+    "synsetOffset": 9385911,
+    "wCnt": 2,
+    "word": "part"
+  }
+}

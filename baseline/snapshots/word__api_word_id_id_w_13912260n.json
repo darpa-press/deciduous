@@ -1,0 +1,1195 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "13863186n",
+      "def": "a two-dimensional shape  ",
+      "exp": [],
+      "gloss": "a two-dimensional shape  ",
+      "lemma": "plane_figure",
+      "lexFilenum": 25,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13862780
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13865904
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13866144
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13872975
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13873361
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13874251
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13875027
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13881644
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13897002
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13897198
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13912260
+        }
+      ],
+      "synonyms": [
+        "plane_figure",
+        "two-dimensional_figure"
+      ],
+      "synsetOffset": 13863186,
+      "wCnt": 2
+    },
+    {
+      "_id": "13862780n",
+      "def": "a combination of points and lines and planes that form a visible palpable shape  ",
+      "exp": [],
+      "gloss": "a combination of points and lines and planes that form a visible palpable shape  ",
+      "lemma": "figure",
+      "lexFilenum": 25,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27807
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13862552
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863186
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863473
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863602
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13880994
+        }
+      ],
+      "synonyms": [
+        "figure"
+      ],
+      "synsetOffset": 13862780,
+      "wCnt": 1
+    },
+    {
+      "_id": "27807n",
+      "def": "the spatial arrangement of something as distinct from its substance",
+      "exp": [
+        "geometry is the mathematical science of shape"
+      ],
+      "gloss": "the spatial arrangement of something as distinct from its substance; \"geometry is the mathematical science of shape\"  ",
+      "lemma": "shape",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13860793
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13861050
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13862282
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13862644
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13862780
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863771
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13864763
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13865483
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13867276
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13867492
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13870805
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13873917
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13878951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13879634
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13900422
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13900760
+        }
+      ],
+      "synonyms": [
+        "shape",
+        "form"
+      ],
+      "synsetOffset": 27807,
+      "wCnt": 2
+    },
+    {
+      "_id": "24264n",
+      "def": "an abstraction belonging to or characteristic of an entity  ",
+      "exp": [],
+      "gloss": "an abstraction belonging to or characteristic of an entity  ",
+      "lemma": "attribute",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24720
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27807
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28270
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4615866
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4616059
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4616916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617289
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617441
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617562
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4630689
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4631298
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4691992
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723286
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723436
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723816
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4916342
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4921011
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5134353
+        }
+      ],
+      "synonyms": [
+        "attribute"
+      ],
+      "synsetOffset": 24264,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599baddb2d4c7455551c4ef9",
+      "background": "",
+      "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+      "created": "2017-08-22T04:06:51.565Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 2,
+      "parent": null,
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a64ea692ea00760b7977",
+          "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+          "birth": 1868,
+          "created": "2017-08-31T06:01:50.823Z",
+          "death": 1944,
+          "name": "Paul Otlet",
+          "relation": [],
+          "slug": "paul-otlet"
+        }
+      ],
+      "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+      "slug": "edition",
+      "stub": false,
+      "themes": [],
+      "title": "Edition placing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13912260n",
+          "def": "a figure that branches from a single root",
+          "exp": [
+            "genealogical tree"
+          ],
+          "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+          "lemma": "tree",
+          "lexFilenum": 25,
+          "lexId": "0",
+          "parent": "13863186n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8353",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13863186
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8352",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912424
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8351",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912540
+            }
+          ],
+          "synonyms": [
+            "tree",
+            "tree_diagram"
+          ],
+          "synsetOffset": 13912260,
+          "wCnt": 2,
+          "word": "tree"
+        },
+        {
+          "__v": 0,
+          "_id": "96239s",
+          "def": "destitute of blood or apparently so",
+          "exp": [
+            "the bloodless carcass of my Hector sold- John Dryden"
+          ],
+          "gloss": "destitute of blood or apparently so; \"the bloodless carcass of my Hector sold\"- John Dryden  ",
+          "lemma": "bloodless",
+          "lexFilenum": 0,
+          "lexId": "0",
+          "parent": null,
+          "pos": "s",
+          "ptrs": [
+            {
+              "_id": "5ba1e8ff7eefb32d4a2b563f",
+              "pointerSymbol": "&",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 95280
+            }
+          ],
+          "synonyms": [
+            "bloodless",
+            "exsanguine",
+            "exsanguinous"
+          ],
+          "synsetOffset": 96239,
+          "wCnt": 3,
+          "word": "bloodless"
+        },
+        {
+          "__v": 0,
+          "_id": "9466280n",
+          "def": "everything that exists anywhere",
+          "exp": [
+            "they study the evolution of the universe",
+            "the biggest tree in existence"
+          ],
+          "gloss": "everything that exists anywhere; \"they study the evolution of the universe\"; \"the biggest tree in existence\"  ",
+          "lemma": "universe",
+          "lexFilenum": 17,
+          "lexId": "0",
+          "parent": "19128n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8646",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 19128
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8645",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0601",
+              "synsetOffset": 2903062
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8644",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 1385663
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8643",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 2702807
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8642",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0105",
+              "synsetOffset": 527188
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8641",
+              "pointerSymbol": "%m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8271042
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8640",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9239740
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9247071
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863e",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9277686
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366597
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366762
+            }
+          ],
+          "synonyms": [
+            "universe",
+            "existence",
+            "creation",
+            "world",
+            "cosmos",
+            "macrocosm"
+          ],
+          "synsetOffset": 9466280,
+          "wCnt": 6,
+          "word": "world"
+        },
+        {
+          "__v": 0,
+          "_id": "1640855v",
+          "def": "put in effect",
+          "exp": [
+            "carry out a task",
+            "execute the decision of the people",
+            "He actioned the operation"
+          ],
+          "gloss": "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\"  ",
+          "lemma": "carry_through",
+          "lexFilenum": 36,
+          "lexId": "0",
+          "parent": "1642924v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ba1e7772e28482ce380ae08",
+              "pointerSymbol": "$",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 486018
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae07",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 484166
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae06",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1642924
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae05",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0702",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae04",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0601",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae03",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 3017922
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae02",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0301",
+              "synsetOffset": 1127379
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae01",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1821690
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae00",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0201",
+              "synsetOffset": 35189
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adff",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641341
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfe",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641545
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfd",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641632
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfc",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641751
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfb",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2561995
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfa",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2563724
+            }
+          ],
+          "synonyms": [
+            "carry_through",
+            "accomplish",
+            "execute",
+            "carry_out",
+            "action",
+            "fulfill",
+            "fulfil"
+          ],
+          "synsetOffset": 1640855,
+          "wCnt": 7,
+          "word": "action"
+        }
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5b71fe65eadfa9004ee2f3ee",
+      "background": "#fffae8",
+      "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534197305633-page.jpg\" width=\"1560\" height=\"1560\" />",
+      "created": "2018-08-13T21:55:49.106Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 137,
+      "parent": {
+        "__v": 0,
+        "_id": "599e1db3dcc19f2b4b6aa573",
+        "background": "",
+        "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+        "created": "2017-08-24T00:28:35.965Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 8,
+        "parent": "599e21ad47523e2cdaeb345f",
+        "persons": [
+          "59a7a6c2a692ea00760b797b",
+          "59a7a7d5a692ea00760b7980"
+        ],
+        "readme": "",
+        "slug": "arbre-de-la-ciencia",
+        "stub": false,
+        "themes": [],
+        "title": "Anything generalising",
+        "word": []
+      },
+      "persons": null,
+      "readme": "Found in a library of Helioseismology (about how the sun works). A proposal that a flare is a kind of syntax of working out if the consequences of the flare are up or down, and that feelings of warmth are a loss function.",
+      "slug": "any-or-general",
+      "stub": false,
+      "themes": [],
+      "title": "Moon or sunning",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13912260n",
+          "def": "a figure that branches from a single root",
+          "exp": [
+            "genealogical tree"
+          ],
+          "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+          "lemma": "tree",
+          "lexFilenum": 25,
+          "lexId": "0",
+          "parent": "13863186n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8353",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13863186
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8352",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912424
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8351",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912540
+            }
+          ],
+          "synonyms": [
+            "tree",
+            "tree_diagram"
+          ],
+          "synsetOffset": 13912260,
+          "wCnt": 2,
+          "word": "tree"
+        },
+        {
+          "__v": 0,
+          "_id": "7473441n",
+          "def": "a successful ending of a struggle or contest",
+          "exp": [
+            "a narrow victory",
+            "the general always gets credit for his army's victory",
+            "clinched a victory",
+            "convincing victory",
+            "the agreement was a triumph for common sense"
+          ],
+          "gloss": "a successful ending of a struggle or contest; \"a narrow victory\"; \"the general always gets credit for his army's victory\"; \"clinched a victory\"; \"convincing victory\"; \"the agreement was a triumph for common sense\"  ",
+          "lemma": "victory",
+          "lexFilenum": 11,
+          "lexId": "0",
+          "parent": "7319103n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84df",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7291312
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84de",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7319103
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84dd",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0202",
+              "synsetOffset": 1101734
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84dc",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0102",
+              "synsetOffset": 695209
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84db",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 2333314
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84da",
+              "pointerSymbol": "!",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 7475364
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d9",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7354731
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d8",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7471371
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d7",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7474006
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d6",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7474185
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d5",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7474318
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d4",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7474533
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d3",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7474645
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d2",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7475035
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7475107
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84d0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7475242
+            },
+            {
+              "_id": "5ba1ebc97eefb32d4a2b84cf",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 7475762
+            }
+          ],
+          "synonyms": [
+            "victory",
+            "triumph"
+          ],
+          "synsetOffset": 7473441,
+          "wCnt": 2,
+          "word": "victory"
+        },
+        {
+          "__v": 0,
+          "_id": "9450163n",
+          "def": "the star that is the source of light and heat for the planets in the solar system",
+          "exp": [
+            "the sun contains 99.85% of the mass in the solar system",
+            "the Earth revolves around the Sun"
+          ],
+          "gloss": "the star that is the source of light and heat for the planets in the solar system; \"the sun contains 99.85% of the mass in the solar system\"; \"the Earth revolves around the Sun\"  ",
+          "lemma": "sun",
+          "lexFilenum": 17,
+          "lexId": "0",
+          "parent": null,
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebe37eefb32d4a2b86a0",
+              "pointerSymbol": "@i",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9444100
+            },
+            {
+              "_id": "5ba1ebe37eefb32d4a2b869f",
+              "pointerSymbol": "#m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9439433
+            },
+            {
+              "_id": "5ba1ebe37eefb32d4a2b869e",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9244469
+            },
+            {
+              "_id": "5ba1ebe37eefb32d4a2b869d",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9391386
+            }
+          ],
+          "synonyms": [
+            "sun",
+            "Sun"
+          ],
+          "synsetOffset": 9450163,
+          "wCnt": 2,
+          "word": "sun"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "13912260n",
+    "def": "a figure that branches from a single root",
+    "exp": [
+      "genealogical tree"
+    ],
+    "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+    "lemma": "tree",
+    "lexFilenum": 25,
+    "lexId": "0",
+    "parent": "13863186n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1ebb57eefb32d4a2b8353",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13863186
+      },
+      {
+        "_id": "5ba1ebb57eefb32d4a2b8352",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13912424
+      },
+      {
+        "_id": "5ba1ebb57eefb32d4a2b8351",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13912540
+      }
+    ],
+    "synonyms": [
+      "tree",
+      "tree_diagram"
+    ],
+    "synsetOffset": 13912260,
+    "wCnt": 2,
+    "word": "tree"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "24264n",
+      "def": "an abstraction belonging to or characteristic of an entity  ",
+      "exp": [],
+      "gloss": "an abstraction belonging to or characteristic of an entity  ",
+      "lemma": "attribute",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24720
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27807
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28270
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4615866
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4616059
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4616916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617289
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617441
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4617562
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4630689
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4631298
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4691992
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723286
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723436
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4723816
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4916342
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4921011
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5134353
+        }
+      ],
+      "synonyms": [
+        "attribute"
+      ],
+      "synsetOffset": 24264,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a0d0ba2e02797007142f5f4",
+      "background": "",
+      "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510804242145-mallarme.png\" width=\"2560\" height=\"2540\"></lightimg>",
+      "created": "2017-11-16T03:53:06.168Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a0cde7bfd301d0072232e1a"
+      ],
+      "page": 82,
+      "parent": {
+        "__v": 0,
+        "_id": "5a010b5d0d38e60074a75115",
+        "background": "",
+        "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510018054579-BookXyz.jpg\" className=\"shadow\" bg=\"rgba(255, 71, 71, 0.95)\" width=\"1280\" height=\"1871\"></lightimg>",
+        "created": "2017-11-07T01:24:45.348Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 76,
+        "parent": "59a388b9d9eba100763a0f54",
+        "persons": [
+          "59a7a7d5a692ea00760b7980"
+        ],
+        "readme": "",
+        "slug": "book-440",
+        "stub": false,
+        "themes": [],
+        "title": "Fourier serialising",
+        "word": []
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "5ac345d71f51ba006fbdfd8c",
+          "bio": "Cats' hearing and common interests...",
+          "birth": 1915,
+          "created": "2018-04-03T09:13:59.740Z",
+          "death": 1990,
+          "name": "JCR Licklider",
+          "relation": [],
+          "slug": "jcr-licklider"
+        }
+      ],
+      "readme": "",
+      "slug": "fold-in-two",
+      "stub": false,
+      "themes": [],
+      "title": "Two folding",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "28270n",
+          "def": "the continuum of experience in which events pass from the future through the present to the past  ",
+          "exp": [],
+          "gloss": "the continuum of experience in which events pass from the future through the present to the past  ",
+          "lemma": "time",
+          "lexFilenum": 3,
+          "lexId": "0",
+          "parent": "24264n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f7",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 24264
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f6",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15116283
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f5",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15116532
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f4",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15116724
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f3",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15116910
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f2",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15117246
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15119536
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65f0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15120823
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65ef",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15121625
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65ee",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15122011
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65ed",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15123754
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65ec",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15130205
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65eb",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15133488
+            },
+            {
+              "_id": "5ba1e9db7eefb32d4a2b65ea",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 15243976
+            }
+          ],
+          "synonyms": [
+            "time"
+          ],
+          "synsetOffset": 28270,
+          "wCnt": 1,
+          "word": "time"
+        },
+        {
+          "__v": 0,
+          "_id": "4677385n",
+          "def": "the general appearance of a publication  ",
+          "exp": [],
+          "gloss": "the general appearance of a publication  ",
+          "lemma": "format",
+          "lexFilenum": 7,
+          "lexId": "0",
+          "parent": "4673965n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1e9bc7eefb32d4a2b63d2",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4673965
+            },
+            {
+              "_id": "5ba1e9bc7eefb32d4a2b63d1",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6589574
+            },
+            {
+              "_id": "5ba1e9bc7eefb32d4a2b63d0",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 1745141
+            }
+          ],
+          "synonyms": [
+            "format"
+          ],
+          "synsetOffset": 4677385,
+          "wCnt": 1,
+          "word": "format"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "28270n",
+    "def": "the continuum of experience in which events pass from the future through the present to the past  ",
+    "exp": [],
+    "gloss": "the continuum of experience in which events pass from the future through the present to the past  ",
+    "lemma": "time",
+    "lexFilenum": 3,
+    "lexId": "0",
+    "parent": "24264n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f7",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 24264
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f6",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15116283
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f5",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15116532
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f4",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15116724
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f3",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15116910
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15117246
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15119536
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65f0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15120823
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65ef",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15121625
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65ee",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15122011
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65ed",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15123754
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65ec",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15130205
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65eb",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15133488
+      },
+      {
+        "_id": "5ba1e9db7eefb32d4a2b65ea",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 15243976
+      }
+    ],
+    "synonyms": [
+      "time"
+    ],
+    "synsetOffset": 28270,
+    "wCnt": 1,
+    "word": "time"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "__v": 0,
+  "_id": "5a010b5d0d38e60074a75115",
+  "background": "",
+  "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510018054579-BookXyz.jpg\" className=\"shadow\" bg=\"rgba(255, 71, 71, 0.95)\" width=\"1280\" height=\"1871\"></lightimg>",
+  "created": "2017-11-07T01:24:45.348Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 76,
+  "parent": {
+    "__v": 0,
+    "_id": "59a388b9d9eba100763a0f54",
+    "background": "",
+    "content": "<div class=\"indents\" style=\"margin-bottom:2rem\"><p>\n    In a hallway with the door open, a Honeywell T87 will attempt to equalise the temperature of the continuous (available) world. It sits between the mirror-dresser and the coat-hook which resembles two of four talons of a lived-in bird, like a Fiji or an Imitator goshawk. The Honeywell has the brain of a bird but no mouth or Nest. In this arrangement and when you’re cold you might catch sight of the consternation of yourself in the mirror-dresser when you run around the corner of the living room to adjust the temperature. At least. Or the top of your head or your apparently open mouth. What you can’t see is the outcasting belly of the change in the air as it flushes through a white flyscreen: the plastic or enamel white an extruded quatrefoil egg which flauntingly comes off in drying and which the Honeywell is doomed to face. If you could see the change in the air, it’d spill like the extra-amniotic puff of the wind in 1362. The thermostat is a lens perplexing the evidence of environmental warmth upside-down and inside-out and dreaming and as percussive as the feet of the continuous (available) world.\n</p></div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/thermo2.jpg\" bg=\"white\" width=\"1804\" height=\"1200\"></lightimg>",
+    "created": "2017-08-28T03:06:33.162Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 49,
+    "parent": "59a3889bd9eba100763a0f53",
+    "persons": null,
+    "readme": "",
+    "slug": "dreaming-thermostat",
+    "stub": false,
+    "themes": [],
+    "title": "Thermo easing",
+    "word": [
+      "7484547n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a7d5a692ea00760b7980",
+      "bio": "",
+      "birth": 1937,
+      "created": "2017-08-31T06:08:21.430Z",
+      "death": null,
+      "name": "Theodore Nelson",
+      "relation": [],
+      "slug": "theodore-nelson"
+    }
+  ],
+  "readme": "",
+  "slug": "book-440",
+  "stub": false,
+  "themes": [],
+  "title": "Fourier serialising",
+  "word": []
+}

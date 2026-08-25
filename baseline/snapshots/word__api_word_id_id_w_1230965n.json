@@ -1,0 +1,1007 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "1229938n",
+      "def": "the social act of assembling",
+      "exp": [
+        "they demanded the right of assembly"
+      ],
+      "gloss": "the social act of assembling; \"they demanded the right of assembly\"  ",
+      "lemma": "assembly",
+      "lexFilenum": 4,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1080366
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0302",
+          "synsetOffset": 2598143
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0302",
+          "synsetOffset": 2428924
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 2598143
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0203",
+          "synsetOffset": 2428924
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 912274
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1230283
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1230850
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1230965
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1231686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1231819
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1231980
+        }
+      ],
+      "synonyms": [
+        "assembly",
+        "assemblage",
+        "gathering"
+      ],
+      "synsetOffset": 1229938,
+      "wCnt": 3
+    },
+    {
+      "_id": "1080366n",
+      "def": "action taken by a group of people  ",
+      "exp": [],
+      "gloss": "action taken by a group of people  ",
+      "lemma": "group_action",
+      "lexFilenum": 4,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 30358
+        },
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 182213
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 296585
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 952963
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 958896
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 962722
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1081197
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1081346
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1081456
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1082548
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1082720
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1082886
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1106808
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1123420
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1123598
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1145015
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1151605
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1152461
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1166258
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1166517
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1166926
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1168569
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1169317
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1169598
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1181475
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1182312
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1195380
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1201021
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1202415
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1202904
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1203277
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1229938
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1233397
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1234090
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1234729
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1237294
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1239064
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1239487
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1265734
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1266745
+        },
+        {
+          "pointerSymbol": "~i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1307606
+        }
+      ],
+      "synonyms": [
+        "group_action"
+      ],
+      "synsetOffset": 1080366,
+      "wCnt": 1
+    },
+    {
+      "_id": "29378n",
+      "def": "something that happens at a given place and time  ",
+      "exp": [],
+      "gloss": "something that happens at a given place and time  ",
+      "lemma": "event",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 30358
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1080366
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283364
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283473
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7283608
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7288639
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7288801
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7312829
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7322769
+        },
+        {
+          "pointerSymbol": "~i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7478531
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7479628
+        }
+      ],
+      "synonyms": [
+        "event"
+      ],
+      "synsetOffset": 29378,
+      "wCnt": 1
+    },
+    {
+      "_id": "23100n",
+      "def": "a feature of the mental life of a living organism  ",
+      "exp": [],
+      "gloss": "a feature of the mental life of a living organism  ",
+      "lemma": "psychological_feature",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23773
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        }
+      ],
+      "synonyms": [
+        "psychological_feature"
+      ],
+      "synsetOffset": 23100,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a3889bd9eba100763a0f53",
+      "background": "",
+      "content": "<p>Thanks for coming and<br/>\nyou made it<br/>\nYou made to the Volvelle Social Club<br/>\nIt’s our annual meeting<br/>\nand thanks for coming\n</p>\n<p>We are moving devices yet <br/>\nclubs of five are outlawed.<br/>\nEveryone signs up in a round-robin<br/>\nand we can’t have a pentagram<br/>\nSo no clubs of five\n</p>\n<p>It’s hot today<br/>\nReally hot inside<br/>\nIt feels about 72 degrees<br/>\nNot very good weather<br/>\nfor an annual meeting.\n</p>\n<p>But let’s press on<br/>\nThe heat of our bodies<br/>\nhas made things worse <br/>\n(The heat) Let’s start.<br/>\nAdd a disc to the Volvelle.\n</p>\n<p>An ionic column and<br/>\nour volunteers and <br/>\npartners are energetic. You <br/>\nlook so well I hardly believe it<br/>\nLike an ionic column\n</p>\n<p>Dearest members note<br/>\nwe begin the program<br/>\n<aa href=\"94,83\">very energetically</aa>.<br/>\nYou can change your mind<br/>\nIf you want you can\n</p>\n<p>When the fifth person joins<br/>\nYou go into hibernation.<br/>\nIt’s imperative that<br/>\nyou sleep until the next<br/>\nInterested person is found.\n</p>\n<p>At first this was painful<br/>\nBut it’s adventure really<br/>\nAll five of you there and<br/>\na sleeping adventure<br/>\nand not Convening\n</p>\n<p>You will be fine but<br/>\nthings don’t look good though.<br/>\nIt’s sort-of stuck between two.<br/>\nJust rattle the pin and<br/>\nAdd a disc to the Volvelle please\n</p>",
+      "created": "2017-08-28T03:06:03.816Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3898ed9eba100763a0f5a"
+      ],
+      "page": 48,
+      "parent": {
+        "__v": 0,
+        "_id": "59a38775d9eba100763a0f4b",
+        "background": "#feecd8",
+        "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+        "created": "2017-08-28T03:01:09.985Z",
+        "fullWidth": false,
+        "lovers": [
+          "59f6f5084a45830075b62638"
+        ],
+        "page": 40,
+        "parent": "599ed1833b4eef3a304462b8",
+        "persons": [
+          "59a7a5eba692ea00760b7974"
+        ],
+        "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+        "slug": "dressing-like-the-same-person",
+        "stub": false,
+        "themes": [],
+        "title": "Same dressing",
+        "word": [
+          "3051540n",
+          "7543288n"
+        ]
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a6c2a692ea00760b797b",
+          "bio": "Brought volvelles to Europe, visited by god while composing a love song, produced <em>The Abbreviated Art of Finding Truth</em> in trees and circular mechanics.",
+          "birth": 1232,
+          "created": "2017-08-31T06:03:46.105Z",
+          "death": 1315,
+          "name": "Ramon Llull",
+          "relation": [],
+          "slug": "ramon-llul"
+        }
+      ],
+      "readme": "The minutes of a group which meets, rotates, meets again.",
+      "slug": "volvelle-social-club",
+      "stub": false,
+      "themes": [],
+      "title": "Social spinning",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "1230965n",
+          "def": "the social act of assembling for some common purpose",
+          "exp": [
+            "his meeting with the salesmen was the high point of his day"
+          ],
+          "gloss": "the social act of assembling for some common purpose; \"his meeting with the salesmen was the high point of his day\"  ",
+          "lemma": "meeting",
+          "lexFilenum": 4,
+          "lexId": "0",
+          "parent": "1229938n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ce2324402f7572e7a3b9113",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1229938
+            },
+            {
+              "_id": "5ce2324402f75784823b9112",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 2486932
+            },
+            {
+              "_id": "5ce2324402f757340f3b9111",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 2428924
+            },
+            {
+              "_id": "5ce2324402f757cc343b9110",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1231548
+            },
+            {
+              "_id": "5ce2324402f757bd883b910f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1232091
+            },
+            {
+              "_id": "5ce2324402f757f84c3b910e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1232412
+            },
+            {
+              "_id": "5ce2324402f75794e73b910d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1232684
+            },
+            {
+              "_id": "5ce2324402f757a93c3b910c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1232842
+            },
+            {
+              "_id": "5ce2324402f75768e93b910b",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 1233156
+            }
+          ],
+          "synonyms": [
+            "meeting",
+            "coming_together"
+          ],
+          "synsetOffset": 1230965,
+          "wCnt": 2,
+          "word": "meeting"
+        },
+        {
+          "__v": 0,
+          "_id": "4628192n",
+          "def": "the trait of being intensely emotional  ",
+          "exp": [],
+          "gloss": "the trait of being intensely emotional  ",
+          "lemma": "heat",
+          "lexFilenum": 7,
+          "lexId": "2",
+          "parent": "4626280n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ce2325502f7571cf23b9169",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4626280
+            },
+            {
+              "_id": "5ce2325502f757fb083b9168",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0105",
+              "synsetOffset": 1761120
+            },
+            {
+              "_id": "5ce2325502f7579c6d3b9167",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4628336
+            }
+          ],
+          "synonyms": [
+            "heat",
+            "warmth",
+            "passion"
+          ],
+          "synsetOffset": 4628192,
+          "wCnt": 3,
+          "word": "heat"
+        },
+        {
+          "__v": 0,
+          "_id": "676271s",
+          "def": "describing a circle",
+          "exp": [
+            "moving in a circle",
+            "the circular motion of the wheel"
+          ],
+          "gloss": "describing a circle; moving in a circle; \"the circular motion of the wheel\"  ",
+          "lemma": "circular",
+          "lexFilenum": 0,
+          "lexId": "0",
+          "parent": null,
+          "pos": "s",
+          "ptrs": [
+            {
+              "_id": "5ce2326202f75723c63b91cb",
+              "pointerSymbol": "&",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 675701
+            },
+            {
+              "_id": "5ce2326202f75783043b91ca",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 3032811
+            },
+            {
+              "_id": "5ce2326202f75734ba3b91c9",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0102",
+              "synsetOffset": 295172
+            }
+          ],
+          "synonyms": [
+            "circular",
+            "rotary",
+            "orbitual"
+          ],
+          "synsetOffset": 676271,
+          "wCnt": 3,
+          "word": "circular"
+        },
+        {
+          "__v": 0,
+          "_id": "4422875n",
+          "def": "a regulator for automatically regulating temperature by starting or stopping the supply of heat  ",
+          "exp": [],
+          "gloss": "a regulator for automatically regulating temperature by starting or stopping the supply of heat  ",
+          "lemma": "thermostat",
+          "lexFilenum": 6,
+          "lexId": "0",
+          "parent": "4072193n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ce2326602f7577ee03b91d3",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4072193
+            },
+            {
+              "_id": "5ce2326602f75783433b91d2",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3103128
+            },
+            {
+              "_id": "5ce2326602f757b21e3b91d1",
+              "pointerSymbol": "#p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3567066
+            },
+            {
+              "_id": "5ce2326602f757c5953b91d0",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 3125096
+            },
+            {
+              "_id": "5ce2326602f757ebca3b91cf",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 2511424
+            },
+            {
+              "_id": "5ce2326602f75731533b91ce",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 2839758
+            },
+            {
+              "_id": "5ce2326602f75777143b91cd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 3142325
+            },
+            {
+              "_id": "5ce2326602f75703543b91cc",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4030054
+            }
+          ],
+          "synonyms": [
+            "thermostat",
+            "thermoregulator"
+          ],
+          "synsetOffset": 4422875,
+          "wCnt": 2,
+          "word": "thermostat"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "1230965n",
+    "def": "the social act of assembling for some common purpose",
+    "exp": [
+      "his meeting with the salesmen was the high point of his day"
+    ],
+    "gloss": "the social act of assembling for some common purpose; \"his meeting with the salesmen was the high point of his day\"  ",
+    "lemma": "meeting",
+    "lexFilenum": 4,
+    "lexId": "0",
+    "parent": "1229938n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ce2324402f7572e7a3b9113",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1229938
+      },
+      {
+        "_id": "5ce2324402f75784823b9112",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2486932
+      },
+      {
+        "_id": "5ce2324402f757340f3b9111",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2428924
+      },
+      {
+        "_id": "5ce2324402f757cc343b9110",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1231548
+      },
+      {
+        "_id": "5ce2324402f757bd883b910f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1232091
+      },
+      {
+        "_id": "5ce2324402f757f84c3b910e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1232412
+      },
+      {
+        "_id": "5ce2324402f75794e73b910d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1232684
+      },
+      {
+        "_id": "5ce2324402f757a93c3b910c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1232842
+      },
+      {
+        "_id": "5ce2324402f75768e93b910b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1233156
+      }
+    ],
+    "synonyms": [
+      "meeting",
+      "coming_together"
+    ],
+    "synsetOffset": 1230965,
+    "wCnt": 2,
+    "word": "meeting"
+  }
+}

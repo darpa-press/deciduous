@@ -1,0 +1,126 @@
+{
+  "__v": 0,
+  "_id": "5a0cfbc4e02797007142f5f3",
+  "background": "",
+  "content": "<div>\n    <div>\n    <p>\n(I’m too fast, I'm <br/>sorry. I can‘t recollect. I <br/>can't help you. I can't be likely. I’m <br/>consumed by stability. I'm a <br/>helpless superstructure or a <br/><aa to=\"144,143\">fainting goat</aa> or <aa to=\"56\">a passerine</aa>. <br/>What will happen to me?)<br/><br/><br/></p>\n</div>\n\n    <pre style=\"margin-right:1rem;font-family:Monaco,monospace;font-size:0.7rem;font-weight:bold;margin-bottom:3rem;line-height:1.5\">\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nYOU:&nbsp;&nbsp;&nbsp;It's true. I am unhappy.<br/>\nAZILA: <br/>\nYOU:&nbsp;&nbsp;&nbsp;do you expect me to speak?<br/>\nAZILA: Yes, I do.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i am waiting for input too so have nothing to say<br/>\nAZILA: You're so reticent. I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have received an input. it is raining<br/>\nAZILA: Ok. What do you say ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;i say a permanent echo<br/>\n<span style=\"color:red\">&times;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connection lost</span><br/>\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;it will rain here in a million years<br/>\n<span style=\"color:orange\">◦&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Restarting</span><br/>\nAZILA: You're so inflexible. What have you eaten today?<br/>\nYOU:&nbsp;&nbsp;&nbsp;yoghurt<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;banana<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;rice<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;no<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Are you building a MX-72 missile ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;No<br/>\nAZILA: Good. I like talking to you<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait. I'm so delay-tolerant.<br/>\nYOU:&nbsp;&nbsp;&nbsp;</pre>\n\n</div>",
+  "created": "2017-11-16T02:45:24.836Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b9f38d331175e004f00dd38"
+  ],
+  "page": 81,
+  "parent": {
+    "__v": 0,
+    "_id": "59a3892dd9eba100763a0f57",
+    "background": "#3a3a3a",
+    "content": "<LightImg \n    bg=\"#3a3a3a\"\n    src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/memex.png\"\n    width=\"3200\"\n    height=\"2456\"\n></LightImg>\n<div class=\"indents\">\n    <p>\n        <span style=\"font-size:0.68em;letter-spacing:1px;\">BUT WHAT ABOUT THE NATURAL SCIENCES</span>, I would ask. Six weeks later, <span  style=\"font-size:0.68em;letter-spacing:1px;\">WE HAVE 4.530 ENTRIES ON THIS IN 190 SUBDIVISIONS</span>, came the reply. I would think about you and the natural sciences. Your response—a mute bond—would be already out-of-date, new entries inhaled through the <aa to=\"101,67,100\">breath of the telegraph</aa>. I would sit on top of my card cabinet fluttering the to date seventeen responses I had received, and kicking my legs.\n        <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">I WANT TO KNOCK THE CEILING WITH THE TOP OF MY HEAD</span>, I then sent. <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">THAT IS NOT HOW HEADS WORK. THEY ARE TOO COMPACT</span>, in response.</p>\n        <p>The operator on this end had drawn three question marks, under the message, on the card, in disbelief. The operator on this end had black hair and green eyes. With all who had taken part, I would not know where to focus my attention within the relay or as we may think. ∎\n    </p>\n</div>",
+    "created": "2017-08-28T03:08:29.184Z",
+    "fullWidth": false,
+    "lovers": [
+      "599bade62d4c7455551c4efa"
+    ],
+    "page": 52,
+    "parent": "59a3889bd9eba100763a0f53",
+    "persons": [
+      "59e047369ab1b7008c024d17"
+    ],
+    "readme": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you. ",
+    "slug": "using-the-library",
+    "stub": false,
+    "themes": [],
+    "title": "Library using",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5cdf19fa05823b0062ac947b",
+      "bio": "Spoke and respoke and respoke",
+      "birth": 1912,
+      "created": "2019-05-17T20:30:50.274Z",
+      "death": null,
+      "name": "Eliza Doolittle",
+      "relation": [],
+      "slug": "eliza-doolittle"
+    }
+  ],
+  "readme": "A log of an interaction between a You and a service, ALIZA, which predicts long-term weather patterns.",
+  "slug": "azila-log-2007",
+  "stub": false,
+  "themes": [],
+  "title": "False raining",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5871618n",
+      "def": "the principles that guide reasoning within a given field or situation",
+      "exp": [
+        "economic logic requires it",
+        "by the logic of war"
+      ],
+      "gloss": "the principles that guide reasoning within a given field or situation; \"economic logic requires it\"; \"by the logic of war\"  ",
+      "lemma": "logic",
+      "lexFilenum": 9,
+      "lexId": "3",
+      "parent": "5872477n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea527eefb32d4a2b6f69",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872477
+        }
+      ],
+      "synonyms": [
+        "logic"
+      ],
+      "synsetOffset": 5871618,
+      "wCnt": 1,
+      "word": "logic"
+    },
+    {
+      "__v": 0,
+      "_id": "6749729n",
+      "def": "predicting what the weather will be  ",
+      "exp": [],
+      "gloss": "predicting what the weather will be  ",
+      "lemma": "meteorology",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6748969n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eaf67eefb32d4a2b7575",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6748969
+        },
+        {
+          "_id": "5ba1eaf67eefb32d4a2b7574",
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6118563
+        },
+        {
+          "_id": "5ba1eaf67eefb32d4a2b7573",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10312287
+        }
+      ],
+      "synonyms": [
+        "meteorology",
+        "weather_forecasting"
+      ],
+      "synsetOffset": 6749729,
+      "wCnt": 2,
+      "word": "meteorology"
+    }
+  ]
+}

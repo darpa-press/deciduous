@@ -1,0 +1,218 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "2441022v",
+    "def": "exercise authoritative control or power over",
+    "exp": [
+      "control the budget",
+      "Command the military forces"
+    ],
+    "gloss": "exercise authoritative control or power over; \"control the budget\"; \"Command the military forces\"  ",
+    "lemma": "control",
+    "lexFilenum": 41,
+    "lexId": "0",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b778c",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 13953608
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b778b",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 5197797
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b778a",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 9941964
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7789",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 9941383
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7788",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 9780828
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7787",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 9941571
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7786",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0203",
+        "synsetOffset": 9941964
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7785",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 10525134
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7784",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 5196375
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7783",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1783394
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7782",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1931768
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7781",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1935104
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7780",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2433991
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2436349
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2441686
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2441897
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442106
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442205
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b777a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442372
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7779",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442546
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7778",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442737
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7777",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2442924
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7776",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2443609
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7775",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2539334
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7774",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2586458
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7773",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2586619
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7772",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2601271
+      }
+    ],
+    "synonyms": [
+      "control",
+      "command"
+    ],
+    "synsetOffset": 2441022,
+    "wCnt": 2,
+    "word": "control"
+  }
+}

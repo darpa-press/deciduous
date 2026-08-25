@@ -1,0 +1,22 @@
+[
+  {
+    "__v": 0,
+    "_id": "5afa3abaeed0630053d7180b",
+    "background": "",
+    "content": "<aa to=\"94\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1526348448736-kaneda.jpg\" width=\"1512\" height=\"1819\" bg=\"white\"/></aa>",
+    "created": "2018-05-15T01:41:14.508Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 99,
+    "parent": "5a5d8c954a37f20073ff929b",
+    "persons": [
+      "59a7a547a692ea00760b7970"
+    ],
+    "readme": "(Who left this on my table?) A note about an atom eater on what appears to be a take-away form. ",
+    "slug": "kaneda",
+    "stub": false,
+    "themes": [],
+    "title": "Anu rumbling",
+    "word": []
+  }
+]

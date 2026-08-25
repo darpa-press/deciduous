@@ -1,0 +1,210 @@
+{
+  "antonyms": [
+    {
+      "def": "cause to be lost or disoriented  ",
+      "exp": [],
+      "gloss": "cause to be lost or disoriented  ",
+      "lemma": "disorient",
+      "lexFilenum": 39,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 621734
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5684003
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2159197
+        }
+      ],
+      "synonyms": [
+        "disorient",
+        "disorientate"
+      ],
+      "synsetOffset": 2159741,
+      "wCnt": 2
+    }
+  ],
+  "hypernyms": [
+    {
+      "_id": "697589v",
+      "def": "reach, make, or come to a decision about something",
+      "exp": [
+        "We finally decided after lengthy deliberations"
+      ],
+      "gloss": "reach, make, or come to a decision about something; \"We finally decided after lengthy deliberations\"  ",
+      "lemma": "decide",
+      "lexFilenum": 31,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "*",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 812580
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0302",
+          "synsetOffset": 684782
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0302",
+          "synsetOffset": 5838176
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0302",
+          "synsetOffset": 162632
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 685638
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 162632
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 5788149
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 647094
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 674607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 698398
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 698732
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 699626
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 715868
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2159197
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2501278
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2511551
+        }
+      ],
+      "synonyms": [
+        "decide",
+        "make_up_one's_mind",
+        "determine"
+      ],
+      "synsetOffset": 697589,
+      "wCnt": 3
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "2159197v",
+    "def": "determine one's position with reference to another point",
+    "exp": [
+      "We had to orient ourselves in the forest"
+    ],
+    "gloss": "determine one's position with reference to another point; \"We had to orient ourselves in the forest\"  ",
+    "lemma": "orient",
+    "lexFilenum": 39,
+    "lexId": "0",
+    "parent": "697589v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1e9e37eefb32d4a2b66d2",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 697589
+      },
+      {
+        "_id": "5ba1e9e37eefb32d4a2b66d1",
+        "pointerSymbol": "!",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2159741
+      },
+      {
+        "_id": "5ba1e9e37eefb32d4a2b66d0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2159427
+      },
+      {
+        "_id": "5ba1e9e37eefb32d4a2b66cf",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2159594
+      }
+    ],
+    "synonyms": [
+      "orient",
+      "orientate"
+    ],
+    "synsetOffset": 2159197,
+    "wCnt": 2,
+    "word": "orient"
+  }
+}

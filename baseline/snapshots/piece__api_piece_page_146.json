@@ -1,0 +1,225 @@
+{
+  "__v": 0,
+  "_id": "5bd661dedb78190050f53c68",
+  "background": "",
+  "content": "<aa href=\"46,143,69\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1540776383843-light-registration.png\"/></aa>",
+  "created": "2018-10-29T01:26:54.047Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b39c0a21c76e00054b5f2f7"
+  ],
+  "page": 146,
+  "parent": {
+    "__v": 0,
+    "_id": "5b722752eadfa9004ee2f3ef",
+    "background": "#f3f3f3",
+    "content": "\n    <p>The DECIDUOUS-<numberofdocuments></numberofdocuments> corpus is a body of documents which mirrors recursively the organisational Body responsible for maintaining it; does this restlessly; \n    </p>\n    <p>it is commonly used to train aesthetic dislocation algorithms, which study the deconvolution of how an outside stopped thing affects inside a person in motion. These algorithms categorically approach a 99% error rate; aren't recommended for use in production; \n    <p>the corpus can be transformed by componentisation or hygiene against <aa to=\"10,1,42,95\">WordNet, a lexical database of words-we-have-agreed-on; please note</aa></p>\n    <p>\n        <!-- (Bodies like this are ornamental in that they draw one to another, but why are you moving towards me?) -->\n    </p>\n<p>this is one of a nearly-infinite \"real-world\" corpora, and will almost certainly contain missing or incomplete fields, wild pointers, incoherent data. Not enough to not imagine it does not. But no it is almost as certainly \"not real-world,\" is afterwards in proportion, counter, exo: itself an outside stopped thing; the body members are air-gapped from the thick of it; </p>\n<p>there's gaps too inside the oily document-responsible bodies. And thatches of loss. Still we <aa to=\"70\">ask questions of corpora</aa> and their answers ring as bells. You might ask this one: what's changed? What could it have been like now, before it was like this now? What is the convolution of this other possible row of nows with the falloff of our outside afterwards now?</p>\n<p>\n    but there is a known issue anyway of overdimensionality in working with deciduity. Asking \"what's changed?\" causes the corpus to faint. And shed its schema and content sharply. So becomes headless.\n</p>",
+    "created": "2018-08-14T00:50:26.451Z",
+    "fullWidth": false,
+    "lovers": [
+      "5b5121bb48ec52004f10a21f"
+    ],
+    "page": 138,
+    "parent": "5b35f11d1c76e00054b5f2f5",
+    "persons": [
+      "5cdf162405823b0062ac920c"
+    ],
+    "readme": "Why do I keep adopting gestures which say \"I know that we're lost!\", and not because there are too many gestures, but because the gestures happen there and we are over here?",
+    "slug": "corpus-deciduous",
+    "stub": false,
+    "themes": [],
+    "title": "Corpus mirroring",
+    "word": [
+      "5254077n",
+      "7478318n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a65fa692ea00760b7978",
+      "bio": "",
+      "birth": 1931,
+      "created": "2017-08-31T06:02:07.263Z",
+      "death": null,
+      "name": "Agnes Denes",
+      "relation": [],
+      "slug": "agnes-denes"
+    }
+  ],
+  "readme": "",
+  "slug": "light-registrar",
+  "stub": false,
+  "title": "Light registering",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "999787n",
+      "def": "the act of adjusting something to match a standard  ",
+      "exp": [],
+      "gloss": "the act of adjusting something to match a standard  ",
+      "lemma": "adjustment",
+      "lexFilenum": 4,
+      "lexId": "1",
+      "parent": "999245n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5bd661dadb78190050f53bc7",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 999245
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc6",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 922867
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc5",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 296178
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc4",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1000068
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1000276
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1000411
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1000969
+        },
+        {
+          "_id": "5bd661dadb78190050f53bc0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1001097
+        },
+        {
+          "_id": "5bd661dadb78190050f53bbf",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1001640
+        }
+      ],
+      "synonyms": [
+        "adjustment",
+        "registration",
+        "readjustment"
+      ],
+      "synsetOffset": 999787,
+      "wCnt": 3,
+      "word": "registration"
+    },
+    {
+      "__v": 0,
+      "_id": "504660n",
+      "def": "a game in which numbered balls are drawn at random and players cover the corresponding numbers on their cards  ",
+      "exp": [],
+      "gloss": "a game in which numbered balls are drawn at random and players cover the corresponding numbers on their cards  ",
+      "lemma": "lotto",
+      "lexFilenum": 4,
+      "lexId": "0",
+      "parent": "502415n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5c04ba37db78190050f53fd1",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 502415
+        }
+      ],
+      "synonyms": [
+        "lotto",
+        "bingo",
+        "beano",
+        "keno"
+      ],
+      "synsetOffset": 504660,
+      "wCnt": 4,
+      "word": "bingo"
+    },
+    {
+      "__v": 0,
+      "_id": "5895723n",
+      "def": "an understanding of something that is not correct",
+      "exp": [
+        "he wasn't going to admit his mistake",
+        "make no mistake about his intentions",
+        "there must be some misunderstanding--I don't have a sister"
+      ],
+      "gloss": "an understanding of something that is not correct; \"he wasn't going to admit his mistake\"; \"make no mistake about his intentions\"; \"there must be some misunderstanding--I don't have a sister\"  ",
+      "lemma": "mistake",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5893653n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5c04ba3ddb78190050f5409d",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5893653
+        },
+        {
+          "_id": "5c04ba3ddb78190050f5409c",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0305",
+          "synsetOffset": 619869
+        },
+        {
+          "_id": "5c04ba3ddb78190050f5409b",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0204",
+          "synsetOffset": 619869
+        },
+        {
+          "_id": "5c04ba3ddb78190050f5409a",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 617748
+        }
+      ],
+      "synonyms": [
+        "mistake",
+        "misunderstanding",
+        "misapprehension"
+      ],
+      "synsetOffset": 5895723,
+      "wCnt": 3,
+      "word": "mistake"
+    }
+  ]
+}

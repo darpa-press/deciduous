@@ -1,0 +1,38 @@
+{
+  "__v": 0,
+  "_id": "59a7a65fa692ea00760b7978",
+  "bio": "",
+  "birth": 1931,
+  "created": "2017-08-31T06:02:07.263Z",
+  "death": null,
+  "name": "Agnes Denes",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5bd661dedb78190050f53c68",
+      "background": "",
+      "content": "<aa href=\"46,143,69\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1540776383843-light-registration.png\"/></aa>",
+      "created": "2018-10-29T01:26:54.047Z",
+      "fullWidth": false,
+      "lovers": [
+        "5b39c0a21c76e00054b5f2f7"
+      ],
+      "page": 146,
+      "parent": "5b722752eadfa9004ee2f3ef",
+      "persons": [
+        "59a7a65fa692ea00760b7978"
+      ],
+      "readme": "",
+      "slug": "light-registrar",
+      "stub": false,
+      "title": "Light registering",
+      "word": [
+        "999787n",
+        "504660n",
+        "5895723n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "agnes-denes"
+}

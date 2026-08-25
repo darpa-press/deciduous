@@ -1,0 +1,1114 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "1642924v",
+      "def": "produce",
+      "exp": [
+        "The scientists set up a shock wave"
+      ],
+      "gloss": "produce; \"The scientists set up a shock wave\"  ",
+      "lemma": "effect",
+      "lexFilenum": 36,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": ">",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 339934
+        },
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1645601
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 14311348
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 11410625
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 44150
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 510644
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 834198
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5917477
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10046527
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1640855
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1643297
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1644339
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1644522
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2670398
+        }
+      ],
+      "synonyms": [
+        "effect",
+        "effectuate",
+        "set_up"
+      ],
+      "synsetOffset": 1642924,
+      "wCnt": 3
+    },
+    {
+      "_id": "1645601v",
+      "def": "give rise to",
+      "exp": [
+        "cause to happen or occur, not always intentionally",
+        "cause a commotion",
+        "make a stir",
+        "cause an accident"
+      ],
+      "gloss": "give rise to; cause to happen or occur, not always intentionally; \"cause a commotion\"; \"make a stir\"; \"cause an accident\"  ",
+      "lemma": "cause",
+      "lexFilenum": 36,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1617192
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 322457
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 42311
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7326557
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6740402
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 701040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1641914
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1642924
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1646075
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1646528
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1646866
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1649024
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1649999
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1650425
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1757338
+        }
+      ],
+      "synonyms": [
+        "cause",
+        "do",
+        "make"
+      ],
+      "synsetOffset": 1645601,
+      "wCnt": 3
+    },
+    {
+      "_id": "1617192v",
+      "def": "make or cause to be or to become",
+      "exp": [
+        "make a mess in one's office",
+        "create a furor"
+      ],
+      "gloss": "make or cause to be or to become; \"make a mess in one's office\"; \"create a furor\"  ",
+      "lemma": "make",
+      "lexFilenum": 36,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 9976429
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0205",
+          "synsetOffset": 15388
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 923995
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0104",
+          "synsetOffset": 1619725
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0104",
+          "synsetOffset": 1634424
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 54628
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 55142
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 167535
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 195617
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 229280
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 251615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 511855
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 665476
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1275182
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1518047
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1558681
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1618468
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1618547
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1618884
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1619354
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1624449
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1627355
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1628449
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1629403
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1629589
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1629958
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1631534
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1640207
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1644746
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1645601
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1647672
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1649809
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1652139
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1653013
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1654628
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1655505
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1656788
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1666894
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1675073
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1693881
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1697816
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1705494
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1708317
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1710317
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1711965
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1712204
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1737617
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1747085
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1750156
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1752495
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1752884
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1754105
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1754271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1754737
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1754915
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1755651
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1756006
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1758410
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1758696
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1759021
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1759326
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2448079
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2448185
+        }
+      ],
+      "synonyms": [
+        "make",
+        "create"
+      ],
+      "synsetOffset": 1617192,
+      "wCnt": 2
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599baddb2d4c7455551c4ef9",
+      "background": "",
+      "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+      "created": "2017-08-22T04:06:51.565Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 2,
+      "parent": null,
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a64ea692ea00760b7977",
+          "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+          "birth": 1868,
+          "created": "2017-08-31T06:01:50.823Z",
+          "death": 1944,
+          "name": "Paul Otlet",
+          "relation": [],
+          "slug": "paul-otlet"
+        }
+      ],
+      "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+      "slug": "edition",
+      "stub": false,
+      "themes": [],
+      "title": "Edition placing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13912260n",
+          "def": "a figure that branches from a single root",
+          "exp": [
+            "genealogical tree"
+          ],
+          "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+          "lemma": "tree",
+          "lexFilenum": 25,
+          "lexId": "0",
+          "parent": "13863186n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8353",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13863186
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8352",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912424
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8351",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912540
+            }
+          ],
+          "synonyms": [
+            "tree",
+            "tree_diagram"
+          ],
+          "synsetOffset": 13912260,
+          "wCnt": 2,
+          "word": "tree"
+        },
+        {
+          "__v": 0,
+          "_id": "96239s",
+          "def": "destitute of blood or apparently so",
+          "exp": [
+            "the bloodless carcass of my Hector sold- John Dryden"
+          ],
+          "gloss": "destitute of blood or apparently so; \"the bloodless carcass of my Hector sold\"- John Dryden  ",
+          "lemma": "bloodless",
+          "lexFilenum": 0,
+          "lexId": "0",
+          "parent": null,
+          "pos": "s",
+          "ptrs": [
+            {
+              "_id": "5ba1e8ff7eefb32d4a2b563f",
+              "pointerSymbol": "&",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 95280
+            }
+          ],
+          "synonyms": [
+            "bloodless",
+            "exsanguine",
+            "exsanguinous"
+          ],
+          "synsetOffset": 96239,
+          "wCnt": 3,
+          "word": "bloodless"
+        },
+        {
+          "__v": 0,
+          "_id": "9466280n",
+          "def": "everything that exists anywhere",
+          "exp": [
+            "they study the evolution of the universe",
+            "the biggest tree in existence"
+          ],
+          "gloss": "everything that exists anywhere; \"they study the evolution of the universe\"; \"the biggest tree in existence\"  ",
+          "lemma": "universe",
+          "lexFilenum": 17,
+          "lexId": "0",
+          "parent": "19128n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8646",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 19128
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8645",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0601",
+              "synsetOffset": 2903062
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8644",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 1385663
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8643",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 2702807
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8642",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0105",
+              "synsetOffset": 527188
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8641",
+              "pointerSymbol": "%m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8271042
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8640",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9239740
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9247071
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863e",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9277686
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366597
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366762
+            }
+          ],
+          "synonyms": [
+            "universe",
+            "existence",
+            "creation",
+            "world",
+            "cosmos",
+            "macrocosm"
+          ],
+          "synsetOffset": 9466280,
+          "wCnt": 6,
+          "word": "world"
+        },
+        {
+          "__v": 0,
+          "_id": "1640855v",
+          "def": "put in effect",
+          "exp": [
+            "carry out a task",
+            "execute the decision of the people",
+            "He actioned the operation"
+          ],
+          "gloss": "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\"  ",
+          "lemma": "carry_through",
+          "lexFilenum": 36,
+          "lexId": "0",
+          "parent": "1642924v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ba1e7772e28482ce380ae08",
+              "pointerSymbol": "$",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 486018
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae07",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 484166
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae06",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1642924
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae05",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0702",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae04",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0601",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae03",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 3017922
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae02",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0301",
+              "synsetOffset": 1127379
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae01",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1821690
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae00",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0201",
+              "synsetOffset": 35189
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adff",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641341
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfe",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641545
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfd",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641632
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfc",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641751
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfb",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2561995
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfa",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2563724
+            }
+          ],
+          "synonyms": [
+            "carry_through",
+            "accomplish",
+            "execute",
+            "carry_out",
+            "action",
+            "fulfill",
+            "fulfil"
+          ],
+          "synsetOffset": 1640855,
+          "wCnt": 7,
+          "word": "action"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "1640855v",
+    "def": "put in effect",
+    "exp": [
+      "carry out a task",
+      "execute the decision of the people",
+      "He actioned the operation"
+    ],
+    "gloss": "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\"  ",
+    "lemma": "carry_through",
+    "lexFilenum": 36,
+    "lexId": "0",
+    "parent": "1642924v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1e7772e28482ce380ae08",
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 486018
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae07",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 484166
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae06",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1642924
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae05",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0702",
+        "synsetOffset": 62451
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae04",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0601",
+        "synsetOffset": 62451
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae03",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0301",
+        "synsetOffset": 3017922
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae02",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0301",
+        "synsetOffset": 1127379
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae01",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 1821690
+      },
+      {
+        "_id": "5ba1e7772e28482ce380ae00",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 35189
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adff",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1641341
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adfe",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1641545
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adfd",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1641632
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adfc",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1641751
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adfb",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2561995
+      },
+      {
+        "_id": "5ba1e7772e28482ce380adfa",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2563724
+      }
+    ],
+    "synonyms": [
+      "carry_through",
+      "accomplish",
+      "execute",
+      "carry_out",
+      "action",
+      "fulfill",
+      "fulfil"
+    ],
+    "synsetOffset": 1640855,
+    "wCnt": 7,
+    "word": "action"
+  }
+}

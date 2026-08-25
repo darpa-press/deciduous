@@ -1,0 +1,37 @@
+{
+  "__v": 0,
+  "_id": "59a38a32d9eba100763a0f61",
+  "background": "",
+  "content": "<p>⁂</p>",
+  "created": "2017-08-28T03:12:50.161Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 62,
+  "parent": {
+    "__v": 0,
+    "_id": "59a389fbd9eba100763a0f5e",
+    "background": "",
+    "content": "<p>A chrome extension which replaces the words of your research via a round-robin dictionary.</p>\n<p>\n    <em>Available for installation soon.</em>\n    <!-- <a href=\"#\">Install here »</a> -->\n</p>",
+    "created": "2017-08-28T03:11:55.636Z",
+    "fullWidth": false,
+    "lovers": [
+      "5b35ea261c76e00054b5f2f4"
+    ],
+    "page": 59,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "",
+    "slug": "saying-something-else",
+    "stub": false,
+    "themes": [],
+    "title": "Else saying",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "surplus-of-oracles",
+  "stub": true,
+  "themes": [],
+  "title": "Oracles surplusing",
+  "word": []
+}

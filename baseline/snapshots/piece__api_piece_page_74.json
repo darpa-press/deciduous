@@ -1,0 +1,42 @@
+{
+  "__v": 0,
+  "_id": "59fea473ebcee0004e4a0499",
+  "background": "",
+  "content": "°",
+  "created": "2017-11-05T05:41:07.674Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 74,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38775d9eba100763a0f4b",
+    "background": "#feecd8",
+    "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+    "created": "2017-08-28T03:01:09.985Z",
+    "fullWidth": false,
+    "lovers": [
+      "59f6f5084a45830075b62638"
+    ],
+    "page": 40,
+    "parent": "599ed1833b4eef3a304462b8",
+    "persons": [
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+    "slug": "dressing-like-the-same-person",
+    "stub": false,
+    "themes": [],
+    "title": "Same dressing",
+    "word": [
+      "3051540n",
+      "7543288n"
+    ]
+  },
+  "persons": null,
+  "readme": "At the Akaike Guest House in Jan 2016",
+  "slug": "at-the-akaike-guest-house-in-jan-2016",
+  "stub": true,
+  "themes": [],
+  "title": "Guest housing",
+  "word": []
+}

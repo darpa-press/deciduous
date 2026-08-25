@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "5a1801a6de1f950071ab6548",
+  "background": "#feafa2",
+  "content": "<div>\n    <div style=\"text-align:center\">\n        <img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1511560312131-madder4.png\" style=\"width:520px; max-width: 95%; height: auto\" width=\"3200\" height=\"2333\" />\n    </div>\n    <p>\n        This one will work and <br/>\nthe provider is down<br/>\nor blanched and <br/>\nwe agreed on approaches and <br/>\nI've filled in what's necessary and <br/>\nwe can begin without an end.<br/>\nIt's hard to say what people want and <br/>\nI can taste chicory again and <br/>\nwe're almost done and <br/>\nI am thinking about you again. Don't <br/>\ntouch that. (Ok, it's going.) Let's <br/>\nwrap arms. Make<br/>\nthis happen. That's <br/>\nthe idea.<br/><br/>\n\nThe woman who <br/>\nscrunched up her face when <br/>\nyou couldn't figure how <br/>\nto get into the carpark and <br/>\nthe hatch or tail of <br/>\na car at a standstill as <br/>\nthe front pushes the corner in <br/>\na slink wheeze, I mean a manoeuvre still and <br/>\nmoving. I'm not an aerophone and <br/>\nI'll take this breath later and <br/>\nthe trauma of the hatch or <br/>\ntail scrunches up its face, too. <br/>\nThis one will work.\n    </p>\n    \n</div>",
+  "created": "2017-11-24T11:25:26.000Z",
+  "fullWidth": false,
+  "lovers": [
+    "599e21ad47523e2cdaeb345f"
+  ],
+  "page": 85,
+  "parent": {
+    "__v": 0,
+    "_id": "599badb12d4c7455551c4ef7",
+    "background": "#333",
+    "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+    "created": "2017-08-22T04:06:09.167Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 0,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": [
+      "59a7a64ea692ea00760b7977",
+      "59e0451bf883dc0ea56ac6c7",
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "",
+    "slug": "ark",
+    "stub": false,
+    "themes": [],
+    "title": "Ark refactoring",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "getting-started",
+  "stub": false,
+  "themes": [],
+  "title": "Get starting",
+  "word": []
+}

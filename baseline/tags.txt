@@ -1,0 +1,26 @@
+# Every element appearing in piece content. Anything non-standard here needs
+# a handler in the rehype components map.
+a
+aa
+attr
+br
+cartesian
+div
+em
+h1
+iframe
+img
+li
+lightimg
+link
+numberofdocuments
+ol
+p
+pre
+small
+source
+span
+strike
+style
+tree
+video

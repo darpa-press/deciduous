@@ -1,0 +1,50 @@
+{
+  "__v": 0,
+  "_id": "5b31fd271c76e00054b5f2f3",
+  "background": "",
+  "content": "<div style=\"margin:3rem 0;\">\n    <aa to=\"0,124\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530002078966-Frog.png\" style=\"max-width:300px;\" width=\"1784\" height=\"1600\" /></aa>\n</div>",
+  "created": "2018-06-26T08:45:27.594Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a38965d9eba100763a0f59",
+    "5b31f5aa1c76e00054b5f2f2"
+  ],
+  "page": 102,
+  "parent": {
+    "__v": 0,
+    "_id": "5a13c2c6de1f950071ab6547",
+    "background": "",
+    "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+    "created": "2017-11-21T06:08:06.407Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 84,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": null,
+    "readme": "",
+    "slug": "cars",
+    "stub": true,
+    "themes": [],
+    "title": "Car naming",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a64ea692ea00760b7977",
+      "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+      "birth": 1868,
+      "created": "2017-08-31T06:01:50.823Z",
+      "death": 1944,
+      "name": "Paul Otlet",
+      "relation": [],
+      "slug": "paul-otlet"
+    }
+  ],
+  "readme": "",
+  "slug": "a-mascot-2",
+  "stub": false,
+  "themes": [],
+  "title": "Mascot appearing",
+  "word": []
+}

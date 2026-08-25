@@ -1,0 +1,73 @@
+{
+  "__v": 0,
+  "_id": "5b4829459cf63f004fdf9cc3",
+  "background": "#222222",
+  "content": "see Boris Ignatovich, <em>Let's Give</em> no.4, 1929",
+  "created": "2018-07-13T04:23:33.339Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 114,
+  "parent": {
+    "__v": 0,
+    "_id": "59a389cad9eba100763a0f5c",
+    "background": "",
+    "content": "<p>⁂</p>",
+    "created": "2017-08-28T03:11:06.500Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 57,
+    "parent": "59a389add9eba100763a0f5b",
+    "persons": null,
+    "readme": "You are stopped on the thing on which you go.",
+    "slug": "abstraction-layer-turnpike",
+    "stub": true,
+    "themes": [],
+    "title": "Alayer turnpiking",
+    "word": [
+      "5700625n",
+      "5854150n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "export-layer-forest",
+  "stub": true,
+  "themes": [],
+  "title": "Forest exporting",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2734725n",
+      "def": "an architectural product or work  ",
+      "exp": [],
+      "gloss": "an architectural product or work  ",
+      "lemma": "architecture",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "parent": "2913152n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e8cc7eefb32d4a2b52c3",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2913152
+        },
+        {
+          "_id": "5ba1e8cc7eefb32d4a2b52c2",
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6123363
+        }
+      ],
+      "synonyms": [
+        "architecture"
+      ],
+      "synsetOffset": 2734725,
+      "wCnt": 1,
+      "word": "architecture"
+    }
+  ]
+}

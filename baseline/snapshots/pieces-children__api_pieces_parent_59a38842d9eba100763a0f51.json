@@ -1,0 +1,42 @@
+[
+  {
+    "__v": 0,
+    "_id": "5a0cde7bfd301d0072232e1a",
+    "background": "#dedede",
+    "content": "\n        <p>\n        A serious and vociferous advocate of the military in space, or Animals born as blank slates to be enscribed by chance, experience & conditioning, or An inhospitable Rover in the air not the surface over Puerto Rico, or A picture of one side of the moon and an empty frame next to it, or Distant early warning, or Endlessly promising, or Largely unfulfilled:\n        </p>\n        <p>\n            Licklider, J. C. R. (1951). <a style=\"color:white\" href=\"http://dx.doi.org/10.1037/h0053906\">A gridless, wireless rat-shocker.</a>\n        </p>\n",
+    "created": "2017-11-16T00:40:27.884Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 79,
+    "parent": "59a38842d9eba100763a0f51",
+    "persons": [
+      "5ac345d71f51ba006fbdfd8c"
+    ],
+    "readme": "",
+    "slug": "air-network-moments",
+    "stub": false,
+    "themes": [],
+    "title": "Moment airing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5a0cee82e02797007142f5f2",
+    "background": "#e2e1e1",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534472827108-take-2.jpg\" width=\"2000\" height=\"2000\"></lightimg>",
+    "created": "2017-11-16T01:48:50.504Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a0cde7bfd301d0072232e1a"
+    ],
+    "page": 80,
+    "parent": "59a38842d9eba100763a0f51",
+    "persons": null,
+    "readme": "",
+    "slug": "air-network-exercise",
+    "stub": false,
+    "themes": [],
+    "title": "Exercise airing",
+    "word": []
+  }
+]

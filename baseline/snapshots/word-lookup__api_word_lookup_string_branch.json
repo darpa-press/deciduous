@@ -1,0 +1,446 @@
+[
+  {
+    "def": "divide into two or more branches so as to form a fork",
+    "exp": [
+      "The road forks"
+    ],
+    "gloss": "divide into two or more branches so as to form a fork; \"The road forks\"  ",
+    "lemma": "branch",
+    "lexFilenum": 30,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2032415
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0401",
+        "synsetOffset": 13886724
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0303",
+        "synsetOffset": 388392
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0302",
+        "synsetOffset": 13886724
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0304",
+        "synsetOffset": 388392
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0203",
+        "synsetOffset": 13913849
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 5083200
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 388392
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13913849
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 9228324
+      },
+      {
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 436404
+      },
+      {
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 329244
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 329495
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 329654
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 329817
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 330003
+      }
+    ],
+    "synonyms": [
+      "branch",
+      "ramify",
+      "fork",
+      "furcate",
+      "separate"
+    ],
+    "synsetOffset": 328802,
+    "wCnt": 5
+  },
+  {
+    "def": "grow and send out branches or branch-like structures",
+    "exp": [
+      "these plants ramify early and get to be very large"
+    ],
+    "gloss": "grow and send out branches or branch-like structures; \"these plants ramify early and get to be very large\"  ",
+    "lemma": "ramify",
+    "lexFilenum": 30,
+    "lexId": "1",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 328802
+      },
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 230746
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0103",
+        "synsetOffset": 13913849
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 5083200
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 388392
+      }
+    ],
+    "synonyms": [
+      "ramify",
+      "branch"
+    ],
+    "synsetOffset": 329244,
+    "wCnt": 2
+  },
+  {
+    "def": "any projection that is thought to resemble a human arm",
+    "exp": [
+      "the arm of the record player",
+      "an arm of the sea",
+      "a branch of the sewer"
+    ],
+    "gloss": "any projection that is thought to resemble a human arm; \"the arm of the record player\"; \"an arm of the sea\"; \"a branch of the sewer\"  ",
+    "lemma": "arm",
+    "lexFilenum": 6,
+    "lexId": "3",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4008947
+      }
+    ],
+    "synonyms": [
+      "arm",
+      "branch",
+      "limb"
+    ],
+    "synsetOffset": 2737833,
+    "wCnt": 3
+  },
+  {
+    "def": "a stream or river connected to a larger one  ",
+    "exp": [],
+    "gloss": "a stream or river connected to a larger one  ",
+    "lemma": "branch",
+    "lexFilenum": 17,
+    "lexId": "1",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9448361
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 328802
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9220770
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9267602
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9278997
+      }
+    ],
+    "synonyms": [
+      "branch"
+    ],
+    "synsetOffset": 9228324,
+    "wCnt": 1
+  },
+  {
+    "def": "a natural consequence of development  ",
+    "exp": [],
+    "gloss": "a natural consequence of development  ",
+    "lemma": "outgrowth",
+    "lexFilenum": 19,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11410625
+      }
+    ],
+    "synonyms": [
+      "outgrowth",
+      "branch",
+      "offshoot",
+      "offset"
+    ],
+    "synsetOffset": 11415721,
+    "wCnt": 4
+  },
+  {
+    "def": "a part of a forked or branching shape",
+    "exp": [
+      "he broke off one of the branches"
+    ],
+    "gloss": "a part of a forked or branching shape; \"he broke off one of the branches\"  ",
+    "lemma": "branch",
+    "lexFilenum": 25,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13863602
+      },
+      {
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13886724
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0301",
+        "synsetOffset": 329244
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0302",
+        "synsetOffset": 328802
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 613068
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 328802
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13887056
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13914141
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13914265
+      }
+    ],
+    "synonyms": [
+      "branch",
+      "leg",
+      "ramification"
+    ],
+    "synsetOffset": 13913849,
+    "wCnt": 3
+  },
+  {
+    "def": "a division of a stem, or secondary stem arising from the main stem of a plant  ",
+    "exp": [],
+    "gloss": "a division of a stem, or secondary stem arising from the main stem of a plant  ",
+    "lemma": "branch",
+    "lexFilenum": 20,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13129165
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 613068
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13162297
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13163553
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13163803
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13163991
+      }
+    ],
+    "synonyms": [
+      "branch"
+    ],
+    "synsetOffset": 13163250,
+    "wCnt": 1
+  },
+  {
+    "def": "a division of some larger or more complex organization",
+    "exp": [
+      "a branch of Congress",
+      "botany is a branch of biology",
+      "the Germanic branch of Indo-European languages"
+    ],
+    "gloss": "a division of some larger or more complex organization; \"a branch of Congress\"; \"botany is a branch of biology\"; \"the Germanic branch of Indo-European languages\"  ",
+    "lemma": "branch",
+    "lexFilenum": 14,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8220714
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8145553
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8356074
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8356375
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8356903
+      }
+    ],
+    "synonyms": [
+      "branch",
+      "subdivision",
+      "arm"
+    ],
+    "synsetOffset": 8401248,
+    "wCnt": 3
+  }
+]

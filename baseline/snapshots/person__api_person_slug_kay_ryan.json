@@ -1,0 +1,68 @@
+{
+  "__v": 0,
+  "_id": "5af8f4edeb5ad30054055e0c",
+  "bio": "Rhymes,",
+  "birth": 1945,
+  "created": "2018-05-14T02:31:09.056Z",
+  "death": null,
+  "name": "Kay Ryan",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a0fe283d55a8200722c03d8",
+      "background": "",
+      "content": "<div style=\"color:#3d3e3d\">\n    <p>\n        Turtles are under water, and<br/>\n        some turtle is punctured right through by a line.<br/>\n        The line had gone through through the turtle colony. <br/>\n        This turtle moved <aa href=\"67\">on the line</aa>, as if hosting an intestine,<br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;as if moving left when the line moved left. <br/>\n        It could see an independent turtle on another intestine <br/>\n        &nbsp;&nbsp;&nbsp;&nbsp;and spiralled regularly around it. \n     </p>\n     <p>\n        We are we, and <br/>\n        we think of water as moving on a 3D conveyor belt, and<br/>\n        we think of turtles underwater as entangled with us priorly, and<br/>\n        we think of Hermes as an entangled line and a turtle, and<br/>\n        we think of fibrous light as an opening.\n    </p>\n    <p>\n        <aa href=\"115\">I am yours</aa>, and <br/>\n        the body part of the turtle urges itself around the line.<br/>\n        This roulette of turtles spirals around us syntotically now.<br/>\n        Intraction swings under water into info.<br/>\n        We tell turtles what to do.<br/>\n        We spill our guts.\n    </p>\n</div>",
+      "created": "2017-11-18T07:34:27.801Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a388d7d9eba100763a0f55"
+      ],
+      "page": 83,
+      "parent": "59a9696bec58b8007f5d501f",
+      "persons": [
+        "5a5d8ccb4a37f20073ff929c",
+        "59a7a50ea692ea00760b796f",
+        "5af8f4edeb5ad30054055e0c",
+        "59a7a547a692ea00760b7970"
+      ],
+      "readme": "The aim of the Logo programming language was to help children imagine 'what they would do if they were the turtle'. (If only Logo were more informal; if only the turtles could meet.)",
+      "slug": "turtle-graphics",
+      "stub": false,
+      "themes": [],
+      "title": "Graphics turning",
+      "word": [
+        "13841213n",
+        "13792842n",
+        "795264v"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5cea3c9408f84a0c52cc66ed",
+      "background": "#0000ff",
+      "content": "It is difficult to talk and<br/>\nmaking it easier does not<br/>\nmake it any easier to<br/>\ntalk in a hoop or through an un-<br/>\nremembered or lit-up eitherware.<br/>\nThere are incorrect capital <br/>\nsoothsayers and they swerve into<br/>\nluminiferous layers and  <br/>\nthey tell you <em>it can't and won't work</em><br/>\nand they long for large fruit and<br/>\nthey are as local as can be.<br/>",
+      "created": "2019-05-26T07:13:24.770Z",
+      "fullWidth": false,
+      "lovers": [
+        "59d56830f01881005ae5bdf8"
+      ],
+      "page": 154,
+      "parent": "59a387fad9eba100763a0f4f",
+      "persons": [
+        "5cea3d250c713a5491be9820",
+        "5af8f4edeb5ad30054055e0c"
+      ],
+      "readme": "For Bob Metcalfe on what I imagine is his birthday ?",
+      "slug": "eitherware",
+      "stub": false,
+      "title": "Eitherware advancing",
+      "word": [
+        "3300216n",
+        "6254915n",
+        "342164v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "kay-ryan"
+}

@@ -1,0 +1,1136 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "11452218n",
+      "def": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work",
+      "exp": [
+        "the units of energy are joules or ergs",
+        "energy can take a wide variety of forms"
+      ],
+      "gloss": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs; \"energy can take a wide variety of forms\"  ",
+      "lemma": "energy",
+      "lexFilenum": 19,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11419404
+        },
+        {
+          "pointerSymbol": ";c",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6090869
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 559102
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0104",
+          "synsetOffset": 22686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11421822
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11424400
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11425989
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11429057
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11438468
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11450566
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11452750
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11453210
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11453420
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11466043
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11482013
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11499091
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11499284
+        }
+      ],
+      "synonyms": [
+        "energy",
+        "free_energy"
+      ],
+      "synsetOffset": 11452218,
+      "wCnt": 2
+    },
+    {
+      "_id": "11419404n",
+      "def": "a natural phenomenon involving the physical properties of matter and energy  ",
+      "exp": [],
+      "gloss": "a natural phenomenon involving the physical properties of matter and energy  ",
+      "lemma": "physical_phenomenon",
+      "lexFilenum": 19,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11408559
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11425401
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11425580
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11431191
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11434899
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11439690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11444371
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11449002
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11449907
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11452079
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11452218
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11453016
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11453860
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11456760
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11458624
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11467318
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11478299
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11480698
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11490058
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11490638
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11495041
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11503060
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11503287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11505769
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11505952
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11512818
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11512992
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11516113
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11517999
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11518330
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11520619
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11520989
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11527767
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11527967
+        }
+      ],
+      "synonyms": [
+        "physical_phenomenon"
+      ],
+      "synsetOffset": 11419404,
+      "wCnt": 1
+    },
+    {
+      "_id": "11408559n",
+      "def": "all phenomena that are not artificial  ",
+      "exp": [],
+      "gloss": "all phenomena that are not artificial  ",
+      "lemma": "natural_phenomenon",
+      "lexFilenum": 19,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 34213
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11409059
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11417672
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11418750
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11419404
+        }
+      ],
+      "synonyms": [
+        "natural_phenomenon"
+      ],
+      "synsetOffset": 11408559,
+      "wCnt": 1
+    },
+    {
+      "_id": "34213n",
+      "def": "any state or process known through the senses rather than by intuition or reasoning  ",
+      "exp": [],
+      "gloss": "any state or process known through the senses rather than by intuition or reasoning  ",
+      "lemma": "phenomenon",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11408559
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11408733
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11408914
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11410625
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11418138
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11418460
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11529295
+        }
+      ],
+      "synonyms": [
+        "phenomenon"
+      ],
+      "synsetOffset": 34213,
+      "wCnt": 1
+    },
+    {
+      "_id": "29677n",
+      "def": "a sustained phenomenon or one marked by gradual changes through a series of states",
+      "exp": [
+        "events now in process",
+        "the process of calcification begins later for boys than for girls"
+      ],
+      "gloss": "a sustained phenomenon or one marked by gradual changes through a series of states; \"events now in process\"; \"the process of calcification begins later for boys than for girls\"  ",
+      "lemma": "process",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 34213
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13445972
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13455906
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13458571
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13460299
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13464820
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13471206
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13474495
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13477462
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13493998
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13497135
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13497928
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13503226
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13503908
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13504173
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13518963
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13525549
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13526110
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13536794
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13541167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13551617
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13554343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13555446
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13572324
+        }
+      ],
+      "synonyms": [
+        "process",
+        "physical_process"
+      ],
+      "synsetOffset": 29677,
+      "wCnt": 2
+    },
+    {
+      "_id": "1930n",
+      "def": "an entity that has physical existence  ",
+      "exp": [],
+      "gloss": "an entity that has physical existence  ",
+      "lemma": "physical_entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580597
+        }
+      ],
+      "synonyms": [
+        "physical_entity"
+      ],
+      "synsetOffset": 1930,
+      "wCnt": 1
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a23e41a8d0a480072927f43",
+      "background": "#00ffe9",
+      "content": "<p>\n    the price of your Sunday coffee;<br/>\n    the price of your Monday seizin;<br/>\n    the price of your Tuesday juliet;<br/>\n    the price of your Wednesday <aa to=\"48,54,10\">heat</aa> index;<br/>\n    the price of your Thursday microservice;<br/>\n    the price of your Friday luck;<br/>\n    the price of your Saturday lambda;<br/>\n    the price of your Sunday water<br/>\n</p>",
+      "created": "2017-12-03T11:46:34.599Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a18b826de1f950071ab6549"
+      ],
+      "page": 89,
+      "parent": {
+        "__v": 0,
+        "_id": "5a13c2c6de1f950071ab6547",
+        "background": "",
+        "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+        "created": "2017-11-21T06:08:06.407Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 84,
+        "parent": "5a0fe283d55a8200722c03d8",
+        "persons": null,
+        "readme": "",
+        "slug": "cars",
+        "stub": true,
+        "themes": [],
+        "title": "Car naming",
+        "word": []
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "5a23e4b28d0a480072927f44",
+          "bio": "<p>Jimmy Wales holds a special role in the governance of the English Wikipedia. This authority is used on an ad hoc basis.</p>",
+          "birth": 1966,
+          "created": "2017-12-03T11:49:06.959Z",
+          "death": null,
+          "name": "Jimmy Wales",
+          "relation": [],
+          "slug": "jimmy-wales"
+        },
+        {
+          "__v": 0,
+          "_id": "5cdf1af905823b0062ac947c",
+          "bio": "In conformity with the late author's wish, her Board of Literary Management asks us to record that, in 1941, Laura (Riding) Jackson renonunced, on grounds of linguistic principle, the writing of poetry; she had come to hold that 'poetry obstructs general attainment to something better in our linguistic way-of-life than we have.\"",
+          "birth": 1901,
+          "created": "2019-05-17T20:35:05.910Z",
+          "death": 1991,
+          "name": "Laura (Riding) Jackson",
+          "relation": [],
+          "slug": "laura-riding-jackson"
+        }
+      ],
+      "readme": "Possible outcroppings of an analogy for fundraising.",
+      "slug": "optimal-appeal",
+      "stub": false,
+      "themes": [],
+      "title": "Optimal appealing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13390626n",
+          "def": "a coin worth one-hundredth of the value of the basic unit  ",
+          "exp": [],
+          "gloss": "a coin worth one-hundredth of the value of the basic unit  ",
+          "lemma": "penny",
+          "lexFilenum": 21,
+          "lexId": "0",
+          "parent": "13388245n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1ca805823b0062ac947f",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13388245
+            },
+            {
+              "_id": "5cdf1ca805823b0062ac947e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13391774
+            },
+            {
+              "_id": "5cdf1ca805823b0062ac947d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13391841
+            }
+          ],
+          "synonyms": [
+            "penny",
+            "cent",
+            "centime"
+          ],
+          "synsetOffset": 13390626,
+          "wCnt": 3,
+          "word": "penny"
+        },
+        {
+          "__v": 0,
+          "_id": "4744814n",
+          "def": "similarity in appearance or character or nature between persons or things",
+          "exp": [
+            "man created God in his own likeness"
+          ],
+          "gloss": "similarity in appearance or character or nature between persons or things; \"man created God in his own likeness\"  ",
+          "lemma": "likeness",
+          "lexFilenum": 7,
+          "lexId": "0",
+          "parent": "4743605n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1cb305823b0062ac9507",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4743605
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9506",
+              "pointerSymbol": "!",
+              "pos": "n",
+              "sourceTarget": "0302",
+              "synsetOffset": 4750764
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9505",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9504",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0103",
+              "synsetOffset": 2063554
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9503",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0103",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9502",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 1409581
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9501",
+              "pointerSymbol": "!",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 4750764
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9500",
+              "pointerSymbol": "=",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94ff",
+              "pointerSymbol": "=",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 1410905
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fe",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4746842
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747115
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fc",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747246
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fb",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747445
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fa",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747616
+            }
+          ],
+          "synonyms": [
+            "likeness",
+            "alikeness",
+            "similitude"
+          ],
+          "synsetOffset": 4744814,
+          "wCnt": 3,
+          "word": "likeness"
+        },
+        {
+          "__v": 0,
+          "_id": "11466043n",
+          "def": "a form of energy that is transferred by a difference in temperature  ",
+          "exp": [],
+          "gloss": "a form of energy that is transferred by a difference in temperature  ",
+          "lemma": "heat",
+          "lexFilenum": 19,
+          "lexId": "0",
+          "parent": "11452218n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1cbf05823b0062ac95e6",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11452218
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e5",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 372665
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e4",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 2333358
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e3",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 371264
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e2",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11466337
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470621
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470765
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95df",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470933
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95de",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11471097
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95dd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11472352
+            }
+          ],
+          "synonyms": [
+            "heat",
+            "heat_energy"
+          ],
+          "synsetOffset": 11466043,
+          "wCnt": 2,
+          "word": "heat"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "11466043n",
+    "def": "a form of energy that is transferred by a difference in temperature  ",
+    "exp": [],
+    "gloss": "a form of energy that is transferred by a difference in temperature  ",
+    "lemma": "heat",
+    "lexFilenum": 19,
+    "lexId": "0",
+    "parent": "11452218n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5cdf1cbf05823b0062ac95e6",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11452218
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e5",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 372665
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e4",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2333358
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e3",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 371264
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e2",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11466337
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e1",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11470621
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95e0",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11470765
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95df",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11470933
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95de",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11471097
+      },
+      {
+        "_id": "5cdf1cbf05823b0062ac95dd",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11472352
+      }
+    ],
+    "synonyms": [
+      "heat",
+      "heat_energy"
+    ],
+    "synsetOffset": 11466043,
+    "wCnt": 2,
+    "word": "heat"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "__v": 0,
+  "_id": "5a0ccb40fd301d0072232e19",
+  "background": "#fff4f4",
+  "content": "<p>\n   Hi and thanks for talking to support. Please know,<br/>\nthe faces of others are kept in the Secure Enclave.<br/>\nThese are available to you only and where you are.<br/>\nNot their bodies. Their faces beamed. We regret<br/>that you have had a terrible dream.</p>",
+  "created": "2017-11-15T23:18:24.893Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a388b9d9eba100763a0f54"
+  ],
+  "page": 78,
+  "parent": {
+    "__v": 0,
+    "_id": "5a010b5d0d38e60074a75115",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510018054579-BookXyz.jpg\" className=\"shadow\" bg=\"rgba(255, 71, 71, 0.95)\" width=\"1280\" height=\"1871\"></lightimg>",
+    "created": "2017-11-07T01:24:45.348Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 76,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "book-440",
+    "stub": false,
+    "themes": [],
+    "title": "Fourier serialising",
+    "word": []
+  },
+  "persons": null,
+  "readme": "A support line for those terrified by face-blindness. \"Would you like a transcript of today's interaction emailed to you? (Y/N)\"",
+  "slug": "secure-enclave",
+  "stub": false,
+  "themes": [],
+  "title": "Secure enclaving",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "7484547n",
+      "def": "a cherished desire",
+      "exp": [
+        "his ambition is to own his own business"
+      ],
+      "gloss": "a cherished desire; \"his ambition is to own his own business\"  ",
+      "lemma": "ambition",
+      "lexFilenum": 12,
+      "lexId": "0",
+      "parent": "7484265n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d3c",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7484265
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d3b",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 705517
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d3a",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 745642
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d39",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1826060
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d38",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7484792
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d37",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7484929
+        },
+        {
+          "_id": "5ba1e9697eefb32d4a2b5d36",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7485047
+        }
+      ],
+      "synonyms": [
+        "ambition",
+        "aspiration",
+        "dream"
+      ],
+      "synsetOffset": 7484547,
+      "wCnt": 3,
+      "word": "dream"
+    },
+    {
+      "__v": 0,
+      "_id": "8553132n",
+      "def": "an enclosed territory that is culturally distinct from the foreign territory that surrounds it  ",
+      "exp": [],
+      "gloss": "an enclosed territory that is culturally distinct from the foreign territory that surrounds it  ",
+      "lemma": "enclave",
+      "lexFilenum": 15,
+      "lexId": "0",
+      "parent": "8552138n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e98c7eefb32d4a2b5e74",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8552138
+        }
+      ],
+      "synonyms": [
+        "enclave"
+      ],
+      "synsetOffset": 8553132,
+      "wCnt": 1,
+      "word": "enclave"
+    },
+    {
+      "__v": 0,
+      "_id": "2735897v",
+      "def": "be of use",
+      "exp": [
+        "This will help to prevent accidents"
+      ],
+      "gloss": "be of use; \"This will help to prevent accidents\"  ",
+      "lemma": "help",
+      "lexFilenum": 42,
+      "lexId": "0",
+      "parent": "2670398v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e9ea7eefb32d4a2b672d",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2670398
+        },
+        {
+          "_id": "5ba1e9ea7eefb32d4a2b672c",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 1208291
+        },
+        {
+          "_id": "5ba1e9ea7eefb32d4a2b672b",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 5154908
+        },
+        {
+          "_id": "5ba1e9ea7eefb32d4a2b672a",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0104",
+          "synsetOffset": 1207609
+        }
+      ],
+      "synonyms": [
+        "help",
+        "facilitate"
+      ],
+      "synsetOffset": 2735897,
+      "wCnt": 2,
+      "word": "help"
+    }
+  ]
+}

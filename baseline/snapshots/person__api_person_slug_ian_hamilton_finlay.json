@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "5cdf13cf05823b0062ac9195",
+  "bio": "A gardener of broadsides",
+  "birth": 1925,
+  "created": "2019-05-17T20:04:31.546Z",
+  "death": 2006,
+  "name": "Ian Hamilton Finlay",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5bab10031787db0050d1571e",
+      "background": "",
+      "content": "<aa to=\"0,51\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1537937535658-centaur2.png\" width=\"1138\" height=\"1560\" /></aa>",
+      "created": "2018-09-26T04:50:11.276Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3892dd9eba100763a0f57",
+        "5bee6283db78190050f53c6a"
+      ],
+      "page": 145,
+      "parent": "5b9f322331175e004f00dd37",
+      "persons": [
+        "5bab10331787db0050d1571f",
+        "5cdf13cf05823b0062ac9195",
+        "5cdf143105823b0062ac9196"
+      ],
+      "readme": "An invitation card or frontispiece to being together in advance.",
+      "slug": "centaurs",
+      "stub": false,
+      "themes": [],
+      "title": "Centaurs advancing",
+      "word": [
+        "9240051n",
+        "7186148n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "ian-hamilton-finlay"
+}

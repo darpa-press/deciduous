@@ -1,0 +1,38 @@
+{
+  "__v": 0,
+  "_id": "5b4c6b6db8d881004fe83cd6",
+  "bio": "Threw type into a river; took his wife's name",
+  "birth": 1840,
+  "created": "2018-07-16T09:54:53.146Z",
+  "death": 1922,
+  "name": "T. J. Cobden-Sanderson",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b4c6b38b8d881004fe83cd5",
+      "background": "",
+      "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531735190298-in-lieu-of.png\" bg=\"white\" width=\"2085\" height=\"3000\"></lightimg>",
+      "created": "2018-07-16T09:54:00.291Z",
+      "fullWidth": false,
+      "lovers": [
+        "5b48187eef732e0054886ac2"
+      ],
+      "page": 117,
+      "parent": "5b35f11d1c76e00054b5f2f5",
+      "persons": [
+        "5b4c6b6db8d881004fe83cd6"
+      ],
+      "readme": "In the form of a Doves Press book, what this work might stand in for or take the place of.",
+      "slug": "in-lieu",
+      "stub": false,
+      "themes": [],
+      "title": "Lieu being",
+      "word": [
+        "2159427v",
+        "5696425n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "t--j--cobden-sanderson"
+}

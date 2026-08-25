@@ -1,0 +1,64 @@
+[
+  {
+    "__v": 0,
+    "_id": "5a13c2c6de1f950071ab6547",
+    "background": "",
+    "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+    "created": "2017-11-21T06:08:06.407Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 84,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": null,
+    "readme": "",
+    "slug": "cars",
+    "stub": true,
+    "themes": [],
+    "title": "Car naming",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5a5d8c954a37f20073ff929b",
+    "background": "#191919",
+    "content": "<aa href=\"83,49,99\"><video src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1516080245016-turtle.mp4\" style=\"margin-bottom:0\" autoplay loop muted /></a>",
+    "created": "2018-01-16T05:24:37.668Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 94,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": [
+      "5a5d8ccb4a37f20073ff929c",
+      "59a7a725a692ea00760b797c"
+    ],
+    "readme": "Why is there a turtle in the fall of my clinamen? When will it stop raining?",
+    "slug": "swerving",
+    "stub": false,
+    "themes": [],
+    "title": "Nothing swerving",
+    "word": [
+      "29378n",
+      "1903756n",
+      "14585519n",
+      "342164v"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5aea7e8da05d230053505147",
+    "background": "",
+    "content": "<style>\npre {font-size: 0.5rem; letter-spacing:0.5em; line-height:1.35em; font-weight:bold;}\n</style>\n<pre>\n                                   ???<br/>\n                               ????   ??????<br/>\n                ???          ??<br/>\n              ??????         ??            ?<br/>\n            ??    ??  ????????????????   ??<br/>\n           ??    ??  ??? ?   ?????????????<br/>\n         ??      ????       ?       ?   ???<br/>\n         ?      ??        ???        ???????<br/>\n         ?     ????     ? ????        ??   ?<br/>\n        ?     ??   ?????     ??<br/>\n        ?    ? ?     ?         ??????  ?   ?   ?<br/>\n        ?   ???      ?         ??         ??  ????<br/>\n        ?  ???       ?         ?      ?   ?? ??  ?<br/>\n        ?    ?       ?                ?   ???    ?<br/>\n         ?? ?        ?        ?      ??   ??    ?<br/>\n         ??????      ??      ??      ??????    ??<br/>\n         ??  ???     ????? ???       ??  ??     ?<br/>\n         ?      ?   ?       ?       ?    ?     ??<br/>\n    ??????????  ???          ?      ?    ?     ?<br/>\n   ?? ????????  ???          ?      ?    ?    ?<br/>\n ???         ?  ??           ??   ??   ??     ?<br/>\n ?     ??    ?   ?            ????     ??   ??<br/>\n ?    ???    ?   ?             ???          ??<br/>\n?     ???    ?   ??          ??? ??  ???????<br/>\n?     ???    ?  ? ?? ??? ????     ????<br/>\n?      ??   ??  ?   ??????          ?<br/>\n???    ?   ???            ?       ??<br/>\n? ?   ??  ?? ? ?          ?      ??<br/>\n ?? ??????    ??          ?    ??<br/>\n                ??? ?    ? ??????<br/>\n                 ????????????? ????<br/>\n                     ?  ?         ????<br/>\n                      ??             ??<br/>\n                      ??            ??<br/>\n                        ????? ? ?????<br/>\n                             ?????<br/>\n</pre>",
+    "created": "2018-05-03T03:14:21.816Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 97,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": null,
+    "readme": "",
+    "slug": "easy-c",
+    "stub": true,
+    "themes": [],
+    "title": "Easy seeing",
+    "word": []
+  }
+]

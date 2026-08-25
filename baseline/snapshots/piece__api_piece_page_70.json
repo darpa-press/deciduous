@@ -1,0 +1,399 @@
+{
+  "__v": 0,
+  "_id": "59f178b07d9c7500766c97b6",
+  "background": "",
+  "content": "<div class=\"indents\"><p>The question of how Portuguese ants founded a colony in the exurbs here fascinates us now ▤ the question of what was in the shipping containers that carried a fortunate handful of ants fascinates us now ▧ the question of what type of abdomen the jetliner piled high with clothing has fascinates us now ◯ the question of the business logic of a payment gateway which prepared the translation of figures to declare the pile of clothing fascinates us now ▲ the question of how the burst of sockets and requests which moves quicker than ants of course and has an overlay of a queen superimposed mainly on plateau continents and repeated again but still as one fascinates us now ◌ the question of getting to the one by proximity within an overlay fascinates us now ▣ the question of our volume of blood as a mansion in itself and possible to be cast and possible to be given over and possible to be connected to other mansions by means of what fascinates us now.</p></div>",
+  "created": "2017-10-26T05:54:56.271Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 70,
+  "parent": {
+    "__v": 9,
+    "_id": "59a38829d9eba100763a0f50",
+    "background": "",
+    "content": "<lightimg bg=\"#e3e2e2\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/tree-codex-169.png\" width=\"1920\" height=\"1080\"></lightimg><attr style=\"position: relative; top:-3rem; opacity: 0.5;\">A sample of the wallpaper in lift <em style=\"letter-spacing:0.5px; margin-left:2px\">b</em></attr>\n\n<div class=\"indents\">\n    <p>\n    Get in the lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!</em> It will take you where you need<em style=\"letter-spacing:0.5px; margin-left:2px\">!!</em> Take a look<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!</em> There are 13 lifts to choose from<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!</em> They are <aa to=\"104\">labeled ‘a’ to ‘m’</aa> and are based in different countries<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!</em> Their pits are deep, and their overhead is tall<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!</em> The pit of ‘b’ connects to the overhead of ‘a’, and so on<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Inside the ‘e’ car is like a rectory and so is quite comfortable<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> It’s really something to behold<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Hello<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!</em> Some of the lifts still need configuring<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!</em> Don’t use those ones yet<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!</em> But if you zoom in on one of the lifts it splits into a consortium of lifts, so you’ll find one that works for you<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!</em> And don’t worry<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!</em> I guarantee you’ll never meet anyone in a lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!</em> The routing and transferring of persons by means of addressed lift cars so that a lift is occupied during the transmission of the person only and upon completion of the transmission the lift is made available for the transfer of other persons<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!</em> You should really see for yourself the way that the <aa to=\"127\">wysteria</aa> climbs the mirror in ‘e’<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!!</em>\n</p>\n</div>",
+    "created": "2017-08-28T03:04:09.491Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 45,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "5cdf10f705823b0062ac9009"
+    ],
+    "readme": "A hotel with a country style that has lifts working like packet switching. Your lift operator is trying to console you.",
+    "slug": "aloha-building",
+    "stub": false,
+    "themes": [],
+    "title": "ALOHA building",
+    "word": [
+      "3281145n",
+      "12580457n",
+      "7281099n",
+      "8236438n"
+    ]
+  },
+  "persons": null,
+  "readme": "An indenting list, separated by marks, around the daily-indenting mythos of SOS and Asos arriving by planes.",
+  "slug": "questions",
+  "stub": false,
+  "themes": [],
+  "title": "Questions fascinating",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2219486n",
+      "def": "social insect living in organized colonies",
+      "exp": [
+        "characteristically the males and fertile queen have wings during breeding season",
+        "wingless sterile females are the workers"
+      ],
+      "gloss": "social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers  ",
+      "lemma": "ant",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "2206270n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8f4",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2206270
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8f3",
+          "pointerSymbol": "#m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2219234
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8f2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2220055
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8f1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2220225
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8f0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2220518
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8ef",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2220804
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8ee",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2221083
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8ed",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2221414
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8ec",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2221571
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8eb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2221820
+        },
+        {
+          "_id": "5ba1e7ad5298cd2d164dd8ea",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2222321
+        }
+      ],
+      "synonyms": [
+        "ant",
+        "emmet",
+        "pismire"
+      ],
+      "synsetOffset": 2219486,
+      "wCnt": 3,
+      "word": "ant"
+    },
+    {
+      "__v": 0,
+      "_id": "4689450n",
+      "def": "the capacity to attract intense interest",
+      "exp": [
+        "he held the children spellbound with magic tricks and other fascinations"
+      ],
+      "gloss": "the capacity to attract intense interest; \"he held the children spellbound with magic tricks and other fascinations\"  ",
+      "lemma": "fascination",
+      "lexFilenum": 7,
+      "lexId": "0",
+      "parent": "4688246n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9a27eefb32d4a2b600b",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4688246
+        },
+        {
+          "_id": "5ba1e9a27eefb32d4a2b600a",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 2678839
+        },
+        {
+          "_id": "5ba1e9a27eefb32d4a2b6009",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1821132
+        }
+      ],
+      "synonyms": [
+        "fascination"
+      ],
+      "synsetOffset": 4689450,
+      "wCnt": 1,
+      "word": "fascination"
+    },
+    {
+      "__v": 0,
+      "_id": "752764v",
+      "def": "express the need or desire for",
+      "exp": [
+        "ask for",
+        "She requested an extra bed in her room",
+        "She called for room service"
+      ],
+      "gloss": "express the need or desire for; ask for; \"She requested an extra bed in her room\"; \"She called for room service\"  ",
+      "lemma": "request",
+      "lexFilenum": 32,
+      "lexId": "1",
+      "parent": "742320v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e8",
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1063695
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e7",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 742320
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e6",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7185325
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e5",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 745499
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e4",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 752493
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e3",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754313
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e2",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754731
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e1",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 754942
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53e0",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 755447
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53df",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 758887
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53de",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 765396
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53dd",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 782057
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53dc",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 795632
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53db",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 808343
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53da",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 894221
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d9",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1018065
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d8",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1018352
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d7",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1063695
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d6",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1469770
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d5",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1826378
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d4",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2270815
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d3",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2275365
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d2",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2384686
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d1",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2429810
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53d0",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2486693
+        },
+        {
+          "_id": "5ba1e8d37eefb32d4a2b53cf",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2498320
+        }
+      ],
+      "synonyms": [
+        "request",
+        "bespeak",
+        "call_for",
+        "quest"
+      ],
+      "synsetOffset": 752764,
+      "wCnt": 4,
+      "word": "request"
+    }
+  ]
+}

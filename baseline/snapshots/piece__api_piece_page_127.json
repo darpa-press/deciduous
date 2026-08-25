@@ -1,0 +1,221 @@
+{
+  "__v": 0,
+  "_id": "5b5ad0d0cac98b004eea3d44",
+  "background": "#110e16",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1532678614330-broken-the-vase.jpg\" width=\"1428\" height=\"1858\"></lightimg>\n<p>\nFilippo Morghen<br/>\n<em>Quelli che hanno appena rotto il vaso di fiori ('Tux')</em>, Page. 147, 1803<br/>\nHand-colored copperplate engraving<br/>\n11 × 8 in; 27.9 × 20.3 cm\n</p>",
+  "created": "2018-07-27T07:59:12.035Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 127,
+  "parent": {
+    "__v": 0,
+    "_id": "5ae0f217b7de96005451ccdd",
+    "background": "",
+    "content": "<aa href=\"154,82\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1524691707571-screen2.jpg\" bg=\"white\" width=\"1920\" height=\"1423\"></img></aa>",
+    "created": "2018-04-25T21:24:39.961Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a010b5d0d38e60074a75115"
+    ],
+    "page": 96,
+    "parent": "5a0ccb40fd301d0072232e19",
+    "persons": [
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "Something of a lost cause spotted 'in the wild'.",
+    "slug": "abilities-to-see",
+    "stub": false,
+    "themes": [],
+    "title": "Ability seeing",
+    "word": [
+      "2622234v",
+      "1083044v"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5b67b190287895004ddc06be",
+      "bio": "Illustrated life on the moon in 1768.",
+      "birth": 1730,
+      "created": "2018-08-06T02:25:20.087Z",
+      "death": 1807,
+      "name": "Filippo Morghen",
+      "relation": [],
+      "slug": "filippo-morghen"
+    },
+    {
+      "__v": 0,
+      "_id": "5b5ad00dcac98b004eea3d43",
+      "bio": "",
+      "birth": 1899,
+      "created": "2018-07-27T07:55:57.398Z",
+      "death": 1986,
+      "name": "Jorge Luis Borges",
+      "relation": [],
+      "slug": "jorge-luis-borges"
+    }
+  ],
+  "readme": "An alteration of a book print from a late 18th-century engraver—taking it from a floating classical figure, somewhat angelic, to a penguin (flightless and oily) who has just broken a vase, floating in a void.",
+  "slug": "real-characters",
+  "stub": false,
+  "themes": [],
+  "title": "Flower potting",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2055803n",
+      "def": "short-legged flightless birds of cold southern especially Antarctic regions having webbed feet and wings modified as flippers  ",
+      "exp": [],
+      "gloss": "short-legged flightless birds of cold southern especially Antarctic regions having webbed feet and wings modified as flippers  ",
+      "lemma": "penguin",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "2055658n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb197eefb32d4a2b785e",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2055658
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b785d",
+          "pointerSymbol": "#m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2055431
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b785c",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2056228
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b785b",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2056570
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b785a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2056728
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b7859",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2057035
+        },
+        {
+          "_id": "5ba1eb197eefb32d4a2b7858",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2057330
+        }
+      ],
+      "synonyms": [
+        "penguin"
+      ],
+      "synsetOffset": 2055803,
+      "wCnt": 1,
+      "word": "penguin"
+    },
+    {
+      "__v": 0,
+      "_id": "15121625n",
+      "def": "the time yet to come  ",
+      "exp": [],
+      "gloss": "the time yet to come  ",
+      "lemma": "future",
+      "lexFilenum": 28,
+      "lexId": "0",
+      "parent": "28270n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e9",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 28270
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e8",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 1884353
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e7",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 1732270
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e6",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 15120823
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e5",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15121880
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e4",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15252770
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15263675
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15263795
+        },
+        {
+          "_id": "5ba1e9da7eefb32d4a2b65e1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15263925
+        }
+      ],
+      "synonyms": [
+        "future",
+        "hereafter",
+        "futurity",
+        "time_to_come"
+      ],
+      "synsetOffset": 15121625,
+      "wCnt": 4,
+      "word": "future"
+    }
+  ]
+}

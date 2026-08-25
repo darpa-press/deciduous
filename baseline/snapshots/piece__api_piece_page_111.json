@@ -1,0 +1,167 @@
+{
+  "__v": 0,
+  "_id": "5b47cb2aef732e0054886ac0",
+  "background": "",
+  "content": "You are upward, against, again, anew, exceedingly",
+  "created": "2018-07-12T21:42:02.107Z",
+  "fullWidth": false,
+  "lovers": [
+    "599e21ad47523e2cdaeb345f"
+  ],
+  "page": 111,
+  "parent": {
+    "__v": 0,
+    "_id": "5ae0f217b7de96005451ccdd",
+    "background": "",
+    "content": "<aa href=\"154,82\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1524691707571-screen2.jpg\" bg=\"white\" width=\"1920\" height=\"1423\"></img></aa>",
+    "created": "2018-04-25T21:24:39.961Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a010b5d0d38e60074a75115"
+    ],
+    "page": 96,
+    "parent": "5a0ccb40fd301d0072232e19",
+    "persons": [
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "Something of a lost cause spotted 'in the wild'.",
+    "slug": "abilities-to-see",
+    "stub": false,
+    "themes": [],
+    "title": "Ability seeing",
+    "word": [
+      "2622234v",
+      "1083044v"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "likeness",
+  "stub": false,
+  "themes": [],
+  "title": "Likeness summing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "4744814n",
+      "def": "similarity in appearance or character or nature between persons or things",
+      "exp": [
+        "man created God in his own likeness"
+      ],
+      "gloss": "similarity in appearance or character or nature between persons or things; \"man created God in his own likeness\"  ",
+      "lemma": "likeness",
+      "lexFilenum": 7,
+      "lexId": "0",
+      "parent": "4743605n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf1cb305823b0062ac9507",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4743605
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9506",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0302",
+          "synsetOffset": 4750764
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9505",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9504",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 2063554
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9503",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9502",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1409581
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9501",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 4750764
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac9500",
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1410606
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94ff",
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 1410905
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fe",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4746842
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747115
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747246
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747445
+        },
+        {
+          "_id": "5cdf1cb305823b0062ac94fa",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4747616
+        }
+      ],
+      "synonyms": [
+        "likeness",
+        "alikeness",
+        "similitude"
+      ],
+      "synsetOffset": 4744814,
+      "wCnt": 3,
+      "word": "likeness"
+    }
+  ]
+}

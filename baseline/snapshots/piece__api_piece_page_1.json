@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "599badcb2d4c7455551c4ef8",
+  "background": "#f3ab7b",
+  "content": "<div style=\"text-align:center\"><lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/rabbit2.png\" width=\"1513\" height=\"2192\" bg=\"#f4ab7c\"></lightimg></div>\n\n<div class=\"indents\">\n    <p>\n        The bunny, a known issue, hopped into the aura cage of the User. This hadn't been accounted for, so the bunny had no texture map. This made it colourless amongst all the remembered light.\n    </p>\n    <p>\n        What was interesting about this known issue was that it was as close to conflict as could be imagined, even though this island of light -before-movement was full of lighthouses and miles of prim cliffline. It was a bunny-haunted world.\n    </p>\n</div>\n\n<div style=\"margin-top:15rem; display:flex; align-items:center; justify-content: center\">\n   (<img style=\"height:1rem; margin: 0 0.5rem; width: auto;\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/light2.png\" />)\n</div>",
+  "created": "2017-08-22T04:06:35.270Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 1,
+  "parent": {
+    "__v": 0,
+    "_id": "59a3898ed9eba100763a0f5a",
+    "background": "",
+    "content": "<div className=\"indents small-images\">\n    <p>Two scapegoats bounded up underneath the footbridge. They locked horns. They ate food—seagrass and walnuts—from each other's mouths. They had tested and chewed through fences opportunistically and were now here. Their left eyes were foggy, like an old person's. The irises of these eyes bloomed. <img src=\"//placehold.it/20x20\" /> In lieu of any other type of routine, the food that they ate from each other's mouths helped to make their circulatory systems go.</p>\n\n    <p>Visitors on the footbridge looked down and could see parts of the scapegoats. The visitors would have liked to repurpose them, but it is tricky to get down where the scapegoats are. The visitors wore white jeans and carried big white plastic bags. The scapegoats were naked.</p>\n\n    <p>Each animal with a brain inherits and does work on a four-dimensional taxonomic tree of the available forms of animal and their features. Efforts are underway to externalise these via the use of a <img src=\"//placehold.it/20x20\" /> neural scanner, <img src=\"//placehold.it/20x20\" /> grid paper, and a series of printed images of available animals. While the animal—such as a scapegoat—has a circulatory system which is going, the taxonomic tree is oriented on polar coordinates. At the moment that this isn't so, an organisational downward wave rattles through the brain of the animal, restructuring the tree into a proper <img src=\"//placehold.it/20x20\" /> Cartesian setup. This is felt as a brief <em>thinking-of-all-animals</em> and their features.</p>\n</div>\n\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/goat.png\" width=\"1920\" height=\"1920\"></lightimg>",
+    "created": "2017-08-28T03:10:06.288Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 55,
+    "parent": "59a38965d9eba100763a0f59",
+    "persons": [
+      "59a7a687a692ea00760b797a",
+      "59a7a6c2a692ea00760b797b"
+    ],
+    "readme": "",
+    "slug": "scapegoats",
+    "stub": false,
+    "themes": [],
+    "title": "Scape goating",
+    "word": [
+      "10555311n",
+      "5611302n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "colourless-bunnies",
+  "stub": false,
+  "themes": [],
+  "title": "Colourless hopping",
+  "word": []
+}

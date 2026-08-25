@@ -1,0 +1,27 @@
+[
+  {
+    "__v": 0,
+    "_id": "5b482e5d9cf63f004fdf9cc4",
+    "background": "",
+    "content": "<p>I understand you think by not belonging.<br/>\nI mean <em>think in the wrong places and way</em>.<br/>\nAnd you don't discriminate against<br/>\n<aa to=\"7,145\">backpacks</aa> I imagine or the temperature<br/>\nof a floor? Or the floor at all.<br/>\nCan you send me the poetry you<br/>\nwrote before solving the rota conjecture?</p>\nRx",
+    "created": "2018-07-13T04:45:17.901Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a0cfbc4e02797007142f5f3"
+    ],
+    "page": 115,
+    "parent": "5b39c0a21c76e00054b5f2f7",
+    "persons": [
+      "59a4202ff84055628c1ff18f",
+      "5b65482d818db8460d23cfb4"
+    ],
+    "readme": "An unfinished letter to June Huh, a \"mathematician at the Institute for Advanced Study and Princeton University\", who thinks about geometry.",
+    "slug": "not-belonging",
+    "stub": true,
+    "themes": [],
+    "title": "Not belonging",
+    "word": [
+      "6000644n"
+    ]
+  }
+]

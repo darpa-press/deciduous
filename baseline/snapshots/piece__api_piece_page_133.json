@@ -1,0 +1,41 @@
+{
+  "__v": 0,
+  "_id": "5b6524f2f30068004f8d32f3",
+  "background": "",
+  "content": "<p>(Episteme to episteme)<br/>\n(Ending to ending)</p>\n\n<cartesian limit='10' shuffle='true' contents='[[\"Hello, \", \"Goodbye, \", \"Hey, \", \"Um \", \"Sorry\", \"No oh no\"],[\"I am \", \"are you \"],[\"the \"],[\"book \", \"uploaded image\", \"camelia dance \", \"fine artwork\", \"website hyperlink\", \"guilty artwork \", \"novel \", \"book of songs \", \"film-effect \", \"forgetting machine\", \"greeting card \", \"Page Protection spreadsheet \", \"stupefied contract \", \"after-hours report \"],[\"you \", \"I \", \"we\"],[\"loved \", \"made \", \"hated \", \"ignored \", \"admired\", \"got a fright from\", \"were sickened by\", \"printed\", \"have forgotten\"],[\"!\", \"?\", \"‽\",\".\"]]'></cartesian>",
+  "created": "2018-08-04T04:00:50.325Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 133,
+  "parent": {
+    "__v": 0,
+    "_id": "5b35f11d1c76e00054b5f2f5",
+    "background": "",
+    "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530261768802-schema.png\" style=\"max-width:95%; width: 500px\" width=\"500\" height=\"389\" />\n<p>\n    This document is a class. It describes a connecting urge and provides a swaddled toolset to satisfy that urge. The swaddled toolset is initially inoperative; it's set to <aa href=\"138\">False</aa>. There is one comment in the body of the class (see below). This document was written by a blemmyae, one who gave up the Hill of Being Documented to be a computer programmer.\n<p>\n    Only <aa to=\"91\">Blemmyes</aa> can write documents I think. There is a permanent cyclonic gale across the surface of the earth at a height of our heads that makes it impossible to write documents. The gale contains what words refer to. Some of what words refer to swerve out of the permanent gale at the height of our heads. They fall like <aa href=\"112\">lepidoptera</aa> on the knees of the blemmyes underneath the gale, otherwise lounging. Blemmyes take and order the swerved what-words-refer-to on the floor of the world like mosaic or thatch. You cannot become a blemmyae after the fact, not even if you cut off your head. \n</p>\n</p>\n<p><em>\n    # TODO: <aa to=\"113\">In my head</aa>, I want you to be able to have and use this book-thing, too, and to share it with you it has to have <span style=\"opacity:0.1\">AN INTERNAL REPRESENTATION OF THE WORLD; AN <aa to=\"118\">ORGANIZATION</aa> OF CONCEPTS AND ACTIONS THAT CAN BE REVISED BY NEW INFORMATION ABOUT THE WORLD</span>; (👆) because that is the only place open at this hour (11:53pm) but within such a setup let's counter those [...] by stopping the use of [...] which hold a particular type of unanalogical water. Until at least the concept doesn't prop itself up. I mean [...]. And keep going until [...] get to nothing and its joints—like this: [...], [...] [...] [...] [...] <em>!!</em>\n</em></p>",
+    "created": "2018-06-29T08:43:09.417Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 104,
+    "parent": "599baddb2d4c7455551c4ef9",
+    "persons": null,
+    "readme": "The chest-of-drawers or the shape of a document within the codex; where things are weighted; how they should slide; what contents are expected.",
+    "slug": "schema",
+    "stub": false,
+    "themes": [],
+    "title": "Schema calling",
+    "word": [
+      "3217458n",
+      "5927813n",
+      "4677385n",
+      "293253r",
+      "3660664n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "e2e",
+  "stub": true,
+  "themes": [],
+  "title": "End to ending",
+  "word": []
+}

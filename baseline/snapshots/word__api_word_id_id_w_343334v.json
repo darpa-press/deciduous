@@ -1,0 +1,289 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "339934v",
+      "def": "come to pass",
+      "exp": [
+        "What is happening?",
+        "The meeting took place off without an incidence",
+        "Nothing occurred that seemed important"
+      ],
+      "gloss": "come to pass; \"What is happening?\"; \"The meeting took place off without an incidence\"; \"Nothing occurred that seemed important\"  ",
+      "lemma": "happen",
+      "lexFilenum": 30,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 7314277
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7283608
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 339464
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 339738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 340704
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 340846
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341184
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341285
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341422
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341560
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 341917
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 342443
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 342640
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 342980
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 343334
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 343898
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 344042
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 344174
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 344643
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 345000
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 345312
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2378950
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2594102
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2600082
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2611976
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2634133
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2739254
+        }
+      ],
+      "synonyms": [
+        "happen",
+        "hap",
+        "go_on",
+        "pass_off",
+        "occur",
+        "pass",
+        "fall_out",
+        "come_about",
+        "take_place"
+      ],
+      "synsetOffset": 339934,
+      "wCnt": 9
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "343334v",
+    "def": "happen or occur again",
+    "exp": [
+      "This is a recurring story"
+    ],
+    "gloss": "happen or occur again; \"This is a recurring story\"  ",
+    "lemma": "recur",
+    "lexFilenum": 30,
+    "lexId": "0",
+    "parent": "339934v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5cecc5238b28dd608616704c",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 339934
+      },
+      {
+        "_id": "5cecc5238b28dd6ae016704b",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0202",
+        "synsetOffset": 592539
+      },
+      {
+        "_id": "5cecc5238b28dd23e116704a",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 1964367
+      },
+      {
+        "_id": "5cecc5238b28dd334c167049",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 7342049
+      },
+      {
+        "_id": "5cecc5238b28dd6c28167048",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0202",
+        "synsetOffset": 7342049
+      },
+      {
+        "_id": "5cecc5238b28dd6c32167047",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 592880
+      },
+      {
+        "_id": "5cecc5238b28dd55b7167046",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 7343363
+      },
+      {
+        "_id": "5cecc5238b28dd6dc6167045",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 343600
+      },
+      {
+        "_id": "5cecc5238b28dd2037167044",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 343771
+      }
+    ],
+    "synonyms": [
+      "recur",
+      "repeat"
+    ],
+    "synsetOffset": 343334,
+    "wCnt": 2,
+    "word": "recur"
+  }
+}

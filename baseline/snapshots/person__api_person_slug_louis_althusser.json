@@ -1,0 +1,40 @@
+{
+  "__v": 0,
+  "_id": "59a7a738a692ea00760b797d",
+  "bio": "",
+  "birth": 1918,
+  "created": "2017-08-31T06:05:44.076Z",
+  "death": 1990,
+  "name": "Louis Althusser",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a38a10d9eba100763a0f5f",
+      "background": "",
+      "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/noun.png\" bg=\"white\" width=\"2560\" height=\"1867\"></lightimg>\n\n<p>When we were married, I demanded that the archways of the temporary pavilion were modelled on the syntactic hops of the sentence, <em>I don’t understand at all</em>.</p>",
+      "created": "2017-08-28T03:12:16.556Z",
+      "fullWidth": false,
+      "lovers": [
+        "599badcb2d4c7455551c4ef8"
+      ],
+      "page": 60,
+      "parent": "59a389fbd9eba100763a0f5e",
+      "persons": [
+        "59e046d19ab1b7008c024d15",
+        "59a7a738a692ea00760b797d"
+      ],
+      "readme": "A temporary architectural proposal for the natural surrounds of a celebration.",
+      "slug": "pavilion",
+      "stub": false,
+      "themes": [],
+      "title": "What pavilioning",
+      "word": [
+        "6770275n",
+        "14421585n",
+        "8436203n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "louis-althusser"
+}

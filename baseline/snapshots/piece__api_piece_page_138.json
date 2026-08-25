@@ -1,0 +1,136 @@
+{
+  "__v": 0,
+  "_id": "5b722752eadfa9004ee2f3ef",
+  "background": "#f3f3f3",
+  "content": "\n    <p>The DECIDUOUS-<numberofdocuments></numberofdocuments> corpus is a body of documents which mirrors recursively the organisational Body responsible for maintaining it; does this restlessly; \n    </p>\n    <p>it is commonly used to train aesthetic dislocation algorithms, which study the deconvolution of how an outside stopped thing affects inside a person in motion. These algorithms categorically approach a 99% error rate; aren't recommended for use in production; \n    <p>the corpus can be transformed by componentisation or hygiene against <aa to=\"10,1,42,95\">WordNet, a lexical database of words-we-have-agreed-on; please note</aa></p>\n    <p>\n        <!-- (Bodies like this are ornamental in that they draw one to another, but why are you moving towards me?) -->\n    </p>\n<p>this is one of a nearly-infinite \"real-world\" corpora, and will almost certainly contain missing or incomplete fields, wild pointers, incoherent data. Not enough to not imagine it does not. But no it is almost as certainly \"not real-world,\" is afterwards in proportion, counter, exo: itself an outside stopped thing; the body members are air-gapped from the thick of it; </p>\n<p>there's gaps too inside the oily document-responsible bodies. And thatches of loss. Still we <aa to=\"70\">ask questions of corpora</aa> and their answers ring as bells. You might ask this one: what's changed? What could it have been like now, before it was like this now? What is the convolution of this other possible row of nows with the falloff of our outside afterwards now?</p>\n<p>\n    but there is a known issue anyway of overdimensionality in working with deciduity. Asking \"what's changed?\" causes the corpus to faint. And shed its schema and content sharply. So becomes headless.\n</p>",
+  "created": "2018-08-14T00:50:26.451Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b5121bb48ec52004f10a21f"
+  ],
+  "page": 138,
+  "parent": {
+    "__v": 0,
+    "_id": "5b35f11d1c76e00054b5f2f5",
+    "background": "",
+    "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530261768802-schema.png\" style=\"max-width:95%; width: 500px\" width=\"500\" height=\"389\" />\n<p>\n    This document is a class. It describes a connecting urge and provides a swaddled toolset to satisfy that urge. The swaddled toolset is initially inoperative; it's set to <aa href=\"138\">False</aa>. There is one comment in the body of the class (see below). This document was written by a blemmyae, one who gave up the Hill of Being Documented to be a computer programmer.\n<p>\n    Only <aa to=\"91\">Blemmyes</aa> can write documents I think. There is a permanent cyclonic gale across the surface of the earth at a height of our heads that makes it impossible to write documents. The gale contains what words refer to. Some of what words refer to swerve out of the permanent gale at the height of our heads. They fall like <aa href=\"112\">lepidoptera</aa> on the knees of the blemmyes underneath the gale, otherwise lounging. Blemmyes take and order the swerved what-words-refer-to on the floor of the world like mosaic or thatch. You cannot become a blemmyae after the fact, not even if you cut off your head. \n</p>\n</p>\n<p><em>\n    # TODO: <aa to=\"113\">In my head</aa>, I want you to be able to have and use this book-thing, too, and to share it with you it has to have <span style=\"opacity:0.1\">AN INTERNAL REPRESENTATION OF THE WORLD; AN <aa to=\"118\">ORGANIZATION</aa> OF CONCEPTS AND ACTIONS THAT CAN BE REVISED BY NEW INFORMATION ABOUT THE WORLD</span>; (👆) because that is the only place open at this hour (11:53pm) but within such a setup let's counter those [...] by stopping the use of [...] which hold a particular type of unanalogical water. Until at least the concept doesn't prop itself up. I mean [...]. And keep going until [...] get to nothing and its joints—like this: [...], [...] [...] [...] [...] <em>!!</em>\n</em></p>",
+    "created": "2018-06-29T08:43:09.417Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 104,
+    "parent": "599baddb2d4c7455551c4ef9",
+    "persons": null,
+    "readme": "The chest-of-drawers or the shape of a document within the codex; where things are weighted; how they should slide; what contents are expected.",
+    "slug": "schema",
+    "stub": false,
+    "themes": [],
+    "title": "Schema calling",
+    "word": [
+      "3217458n",
+      "5927813n",
+      "4677385n",
+      "293253r",
+      "3660664n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5cdf162405823b0062ac920c",
+      "bio": "Kept his ideas in a cabinet; never married; backdated manuscripts.",
+      "birth": 1646,
+      "created": "2019-05-17T20:14:28.010Z",
+      "death": 1716,
+      "name": "Gottfried Leibniz",
+      "relation": [],
+      "slug": "gottfried-leibniz"
+    }
+  ],
+  "readme": "Why do I keep adopting gestures which say \"I know that we're lost!\", and not because there are too many gestures, but because the gestures happen there and we are over here?",
+  "slug": "corpus-deciduous",
+  "stub": false,
+  "themes": [],
+  "title": "Corpus mirroring",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5254077n",
+      "def": "a cavity or passage in a tubular organ",
+      "exp": [
+        "the lumen of the intestine"
+      ],
+      "gloss": "a cavity or passage in a tubular organ; \"the lumen of the intestine\"  ",
+      "lemma": "lumen",
+      "lexFilenum": 8,
+      "lexId": "0",
+      "parent": "5303402n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea5e7eefb32d4a2b7268",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5303402
+        }
+      ],
+      "synonyms": [
+        "lumen"
+      ],
+      "synsetOffset": 5254077,
+      "wCnt": 1,
+      "word": "lumen"
+    },
+    {
+      "__v": 0,
+      "_id": "7478318n",
+      "def": "a spontaneous loss of consciousness caused by insufficient blood to the brain  ",
+      "exp": [],
+      "gloss": "a spontaneous loss of consciousness caused by insufficient blood to the brain  ",
+      "lemma": "faint",
+      "lexFilenum": 11,
+      "lexId": "0",
+      "parent": "7478169n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf15b905823b0062ac919a",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7478169
+        },
+        {
+          "_id": "5cdf15b905823b0062ac9199",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0203",
+          "synsetOffset": 23646
+        },
+        {
+          "_id": "5cdf15b905823b0062ac9198",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2544525
+        },
+        {
+          "_id": "5cdf15b905823b0062ac9197",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 23646
+        }
+      ],
+      "synonyms": [
+        "faint",
+        "swoon",
+        "syncope",
+        "deliquium"
+      ],
+      "synsetOffset": 7478318,
+      "wCnt": 4,
+      "word": "faint"
+    }
+  ]
+}

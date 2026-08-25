@@ -1,0 +1,57 @@
+{
+  "__v": 0,
+  "_id": "5cfc79e9f7359506eb111113",
+  "background": "",
+  "content": "<img src=\"https://i.imgur.com/v74TNau.png\" alt=\"\" />",
+  "created": "2019-06-09T03:15:53.291Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 155,
+  "parent": {
+    "__v": 0,
+    "_id": "59a388f6d9eba100763a0f56",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/strife-full.png\" width=\"1568\" height=\"1920\" bg=\"white\"></lightimg>\n\n<div class=\"indents\">\n    <P>\n        \"Not only that, but this instantaneous ruin presents whole new vistas to the imagination. Let me show you what I mean. Suppose you walk to another section while your lover waits for God. <aa href=\"39,152,127\">In this state,</aa> you no longer need to know what you think is important; you don’t need to know how the buildings here came together. And your shoes are too tight.\"\n    </p>\n</div>",
+    "created": "2017-08-28T03:07:34.606Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a0fe283d55a8200722c03d8",
+      "5a0ccb40fd301d0072232e19",
+      "59a3874bd9eba100763a0f4a"
+    ],
+    "page": 51,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59e0451bf883dc0ea56ac6c7",
+      "59a7a64ea692ea00760b7977"
+    ],
+    "readme": "The appearance in a strife of love of a disc which parses information-places.",
+    "slug": "waiting-for-documentation",
+    "stub": false,
+    "themes": [],
+    "title": "Documentation waiting",
+    "word": [
+      "13466312n",
+      "1398199a",
+      "9622302n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a5eba692ea00760b7974",
+      "bio": "",
+      "birth": 1499,
+      "created": "2017-08-31T06:00:11.259Z",
+      "death": 1499,
+      "name": "Poliphilo & Polia",
+      "relation": [],
+      "slug": "poliphilo--polia"
+    }
+  ],
+  "readme": "",
+  "slug": "friendly-things",
+  "stub": false,
+  "title": "Things friending",
+  "word": []
+}

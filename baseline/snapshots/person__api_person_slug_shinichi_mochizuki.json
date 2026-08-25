@@ -1,0 +1,33 @@
+{
+  "__v": 0,
+  "_id": "59a7a637a692ea00760b7976",
+  "bio": "Authored a possible proof for the <em>abc conjecture</em>.",
+  "birth": 1969,
+  "created": "2017-08-31T06:01:27.706Z",
+  "death": null,
+  "name": "Shinichi Mochizuki",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599e1dccdcc19f2b4b6aa574",
+      "background": "",
+      "content": "<div class=\"shadow\" style=\"width:100%; min-height:80vh; background-image:url('https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/pur6b.gif'); background-attachment:fixed; padding:1rem;\">\n    <h1>Thyroid Safety Confirmation Information<br/>\n        for Shinichi Mochizuki</h1>\n    <p>As of 13 July 2018, 18:46: I'm doing fine.<br/>\n        Location: Kyoto Prefecture, Japan</p>\n</div>",
+      "created": "2017-08-24T00:29:00.290Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 9,
+      "parent": "599e1db3dcc19f2b4b6aa573",
+      "persons": [
+        "59a7a637a692ea00760b7976"
+      ],
+      "readme": "",
+      "slug": "thyroid",
+      "stub": false,
+      "themes": [],
+      "title": "Thyroid saving",
+      "word": []
+    }
+  ],
+  "relation": [],
+  "slug": "shinichi-mochizuki"
+}

@@ -1,0 +1,219 @@
+{
+  "__v": 0,
+  "_id": "5b2add671c76e00054b5f2f1",
+  "background": "#ffffff",
+  "content": "<div>\n    <video autoplay muted loop>\n       <source autoplay src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529535757465-aer.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+  "created": "2018-06-20T23:04:07.520Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 100,
+  "parent": {
+    "__v": 0,
+    "_id": "59a387fad9eba100763a0f4f",
+    "background": "",
+    "content": "<div>\n    <video autoplay muted autoPlay loop>\n       <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/0_90_1.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2017-08-28T03:03:22.975Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 44,
+    "parent": "59a38793d9eba100763a0f4c",
+    "persons": null,
+    "readme": "",
+    "slug": "uncloseable-sockets",
+    "stub": false,
+    "themes": [],
+    "title": "Socket unclosing",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "pellicle-and-gestalt",
+  "stub": false,
+  "themes": [],
+  "title": "Pellicle shearing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2743727v",
+      "def": "be abundantly present",
+      "exp": [
+        "The champagne flowed at the wedding"
+      ],
+      "gloss": "be abundantly present; \"The champagne flowed at the wedding\"  ",
+      "lemma": "flow",
+      "lexFilenum": 42,
+      "lexId": "0",
+      "parent": "2603699v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e9ab7eefb32d4a2b6142",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2603699
+        },
+        {
+          "_id": "5ba1e9ab7eefb32d4a2b6141",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 15277730
+        },
+        {
+          "_id": "5ba1e9ab7eefb32d4a2b6140",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7405893
+        },
+        {
+          "_id": "5ba1e9ab7eefb32d4a2b613f",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 13482330
+        },
+        {
+          "_id": "5ba1e9ab7eefb32d4a2b613e",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 329227
+        }
+      ],
+      "synonyms": [
+        "flow"
+      ],
+      "synsetOffset": 2743727,
+      "wCnt": 1,
+      "word": "flow"
+    },
+    {
+      "__v": 0,
+      "_id": "13482330n",
+      "def": "any uninterrupted stream or discharge  ",
+      "exp": [],
+      "gloss": "any uninterrupted stream or discharge  ",
+      "lemma": "flow",
+      "lexFilenum": 22,
+      "lexId": "0",
+      "parent": "13518963n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9b17eefb32d4a2b615c",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13518963
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b615b",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2743727
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b615a",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2067689
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6159",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11423197
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6158",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11521267
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6157",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 11521665
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6156",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13480541
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6155",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13482580
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6154",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13499782
+        },
+        {
+          "_id": "5ba1e9b17eefb32d4a2b6153",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13529295
+        }
+      ],
+      "synonyms": [
+        "flow"
+      ],
+      "synsetOffset": 13482330,
+      "wCnt": 1,
+      "word": "flow"
+    },
+    {
+      "__v": 0,
+      "_id": "6126523n",
+      "def": "the branch of engineering science in which biological science is used to study the relation between workers and their environments  ",
+      "exp": [],
+      "gloss": "the branch of engineering science in which biological science is used to study the relation between workers and their environments  ",
+      "lemma": "biotechnology",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "6125041n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9957eefb32d4a2b5f0f",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6125041
+        },
+        {
+          "_id": "5ba1e9957eefb32d4a2b5f0e",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 2721877
+        }
+      ],
+      "synonyms": [
+        "biotechnology",
+        "bioengineering",
+        "ergonomics"
+      ],
+      "synsetOffset": 6126523,
+      "wCnt": 3,
+      "word": "ergonomics"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "__v": 0,
+  "_id": "5d66316c5548762b16c9d0eb",
+  "bio": "Ill, totally ill, too full of joy,",
+  "birth": 1869,
+  "created": "2019-08-28T07:46:52.717Z",
+  "death": 1954,
+  "name": "Henri Matisse",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b88d0bbf846b10050a621f1",
+      "background": "#e36c45",
+      "content": "<video src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1535692955969-agony.mp4\" style=\"margin-bottom:0\" autoplay loop muted />",
+      "created": "2018-08-31T05:23:07.340Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 141,
+      "parent": "599badcb2d4c7455551c4ef8",
+      "persons": [
+        "5d66316c5548762b16c9d0eb"
+      ],
+      "readme": "Joys set within a dynamics generator, with a rotor alternating.",
+      "slug": "agonies",
+      "stub": false,
+      "themes": [],
+      "title": "Agonies fruiting",
+      "word": [
+        "6090869n",
+        "7294550n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "henri-matisse"
+}

@@ -1,0 +1,1093 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "5872477n",
+      "def": "a basic truth or law or assumption",
+      "exp": [
+        "the principles of democracy"
+      ],
+      "gloss": "a basic truth or law or assumption; \"the principles of democracy\"  ",
+      "lemma": "principle",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5870916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5871245
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5871362
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5871618
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5871792
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872098
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872362
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6104073
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6242970
+        }
+      ],
+      "synonyms": [
+        "principle"
+      ],
+      "synsetOffset": 5872477,
+      "wCnt": 1
+    },
+    {
+      "_id": "5870916n",
+      "def": "a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society  ",
+      "exp": [],
+      "gloss": "a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society  ",
+      "lemma": "law",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835747
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5871140
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872477
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6180720
+        }
+      ],
+      "synonyms": [
+        "law",
+        "natural_law"
+      ],
+      "synsetOffset": 5870916,
+      "wCnt": 2
+    },
+    {
+      "_id": "5835747n",
+      "def": "an abstract or general idea inferred or derived from specific instances  ",
+      "exp": [],
+      "gloss": "an abstract or general idea inferred or derived from specific instances  ",
+      "lemma": "concept",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5833840
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 12071
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5893653
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 12362
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0104",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836275
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836598
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5838765
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5846054
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5849040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5854150
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5855125
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5867413
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5869584
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5870916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872982
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5873884
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5888929
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5889896
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7259772
+        }
+      ],
+      "synonyms": [
+        "concept",
+        "conception",
+        "construct"
+      ],
+      "synsetOffset": 5835747,
+      "wCnt": 3
+    },
+    {
+      "_id": "5833840n",
+      "def": "the content of cognition",
+      "exp": [
+        "the main thing you are thinking about",
+        "it was not a good idea",
+        "the thought never entered my mind"
+      ],
+      "gloss": "the content of cognition; the main thing you are thinking about; \"it was not a good idea\"; \"the thought never entered my mind\"  ",
+      "lemma": "idea",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 689344
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 631737
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0207",
+          "synsetOffset": 607780
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 723056
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 739082
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 629738
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1637166
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 12689
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1636397
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5834567
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835568
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835747
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5893653
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5898568
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913160
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913275
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916155
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916739
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5917328
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5918267
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919549
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919866
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920159
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920272
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5923696
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5924408
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926049
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926150
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 608808
+        }
+      ],
+      "synonyms": [
+        "idea",
+        "thought"
+      ],
+      "synsetOffset": 5833840,
+      "wCnt": 2
+    },
+    {
+      "_id": "5809192n",
+      "def": "the sum or range of what has been perceived, discovered, or learned  ",
+      "exp": [],
+      "gloss": "the sum or range of what has been perceived, discovered, or learned  ",
+      "lemma": "content",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809745
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810948
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5811214
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5813457
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814291
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814650
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5833840
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5921123
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926236
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926676
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5941423
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5979909
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5980412
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5980875
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984584
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984936
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5985381
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5988282
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5999266
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5999455
+        }
+      ],
+      "synonyms": [
+        "content",
+        "cognitive_content",
+        "mental_object"
+      ],
+      "synsetOffset": 5809192,
+      "wCnt": 3
+    },
+    {
+      "_id": "23271n",
+      "def": "the psychological result of perception and learning and reasoning  ",
+      "exp": [],
+      "gloss": "the psychological result of perception and learning and reasoning  ",
+      "lemma": "cognition",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0303",
+          "synsetOffset": 1780343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611302
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611822
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612067
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612358
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616246
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5644922
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651068
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651242
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5667196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5686481
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5695554
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701363
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5710020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5726345
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5816287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6156752
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6193203
+        }
+      ],
+      "synonyms": [
+        "cognition",
+        "knowledge",
+        "noesis"
+      ],
+      "synsetOffset": 23271,
+      "wCnt": 3
+    },
+    {
+      "_id": "23100n",
+      "def": "a feature of the mental life of a living organism  ",
+      "exp": [],
+      "gloss": "a feature of the mental life of a living organism  ",
+      "lemma": "psychological_feature",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23773
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        }
+      ],
+      "synonyms": [
+        "psychological_feature"
+      ],
+      "synsetOffset": 23100,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a0cfbc4e02797007142f5f3",
+      "background": "",
+      "content": "<div>\n    <div>\n    <p>\n(I’m too fast, I'm <br/>sorry. I can‘t recollect. I <br/>can't help you. I can't be likely. I’m <br/>consumed by stability. I'm a <br/>helpless superstructure or a <br/><aa to=\"144,143\">fainting goat</aa> or <aa to=\"56\">a passerine</aa>. <br/>What will happen to me?)<br/><br/><br/></p>\n</div>\n\n    <pre style=\"margin-right:1rem;font-family:Monaco,monospace;font-size:0.7rem;font-weight:bold;margin-bottom:3rem;line-height:1.5\">\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nYOU:&nbsp;&nbsp;&nbsp;It's true. I am unhappy.<br/>\nAZILA: <br/>\nYOU:&nbsp;&nbsp;&nbsp;do you expect me to speak?<br/>\nAZILA: Yes, I do.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i am waiting for input too so have nothing to say<br/>\nAZILA: You're so reticent. I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have received an input. it is raining<br/>\nAZILA: Ok. What do you say ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;i say a permanent echo<br/>\n<span style=\"color:red\">&times;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connection lost</span><br/>\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;it will rain here in a million years<br/>\n<span style=\"color:orange\">◦&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Restarting</span><br/>\nAZILA: You're so inflexible. What have you eaten today?<br/>\nYOU:&nbsp;&nbsp;&nbsp;yoghurt<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;banana<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;rice<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;no<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Are you building a MX-72 missile ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;No<br/>\nAZILA: Good. I like talking to you<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait. I'm so delay-tolerant.<br/>\nYOU:&nbsp;&nbsp;&nbsp;</pre>\n\n</div>",
+      "created": "2017-11-16T02:45:24.836Z",
+      "fullWidth": false,
+      "lovers": [
+        "5b9f38d331175e004f00dd38"
+      ],
+      "page": 81,
+      "parent": {
+        "__v": 0,
+        "_id": "59a3892dd9eba100763a0f57",
+        "background": "#3a3a3a",
+        "content": "<LightImg \n    bg=\"#3a3a3a\"\n    src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/memex.png\"\n    width=\"3200\"\n    height=\"2456\"\n></LightImg>\n<div class=\"indents\">\n    <p>\n        <span style=\"font-size:0.68em;letter-spacing:1px;\">BUT WHAT ABOUT THE NATURAL SCIENCES</span>, I would ask. Six weeks later, <span  style=\"font-size:0.68em;letter-spacing:1px;\">WE HAVE 4.530 ENTRIES ON THIS IN 190 SUBDIVISIONS</span>, came the reply. I would think about you and the natural sciences. Your response—a mute bond—would be already out-of-date, new entries inhaled through the <aa to=\"101,67,100\">breath of the telegraph</aa>. I would sit on top of my card cabinet fluttering the to date seventeen responses I had received, and kicking my legs.\n        <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">I WANT TO KNOCK THE CEILING WITH THE TOP OF MY HEAD</span>, I then sent. <br/>\n        —<span style=\"font-size:0.68em;letter-spacing:1px;\">THAT IS NOT HOW HEADS WORK. THEY ARE TOO COMPACT</span>, in response.</p>\n        <p>The operator on this end had drawn three question marks, under the message, on the card, in disbelief. The operator on this end had black hair and green eyes. With all who had taken part, I would not know where to focus my attention within the relay or as we may think. ∎\n    </p>\n</div>",
+        "created": "2017-08-28T03:08:29.184Z",
+        "fullWidth": false,
+        "lovers": [
+          "599bade62d4c7455551c4efa"
+        ],
+        "page": 52,
+        "parent": "59a3889bd9eba100763a0f53",
+        "persons": [
+          "59e047369ab1b7008c024d17"
+        ],
+        "readme": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you. ",
+        "slug": "using-the-library",
+        "stub": false,
+        "themes": [],
+        "title": "Library using",
+        "word": []
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "5cdf19fa05823b0062ac947b",
+          "bio": "Spoke and respoke and respoke",
+          "birth": 1912,
+          "created": "2019-05-17T20:30:50.274Z",
+          "death": null,
+          "name": "Eliza Doolittle",
+          "relation": [],
+          "slug": "eliza-doolittle"
+        }
+      ],
+      "readme": "A log of an interaction between a You and a service, ALIZA, which predicts long-term weather patterns.",
+      "slug": "azila-log-2007",
+      "stub": false,
+      "themes": [],
+      "title": "False raining",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "5871618n",
+          "def": "the principles that guide reasoning within a given field or situation",
+          "exp": [
+            "economic logic requires it",
+            "by the logic of war"
+          ],
+          "gloss": "the principles that guide reasoning within a given field or situation; \"economic logic requires it\"; \"by the logic of war\"  ",
+          "lemma": "logic",
+          "lexFilenum": 9,
+          "lexId": "3",
+          "parent": "5872477n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ea527eefb32d4a2b6f69",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5872477
+            }
+          ],
+          "synonyms": [
+            "logic"
+          ],
+          "synsetOffset": 5871618,
+          "wCnt": 1,
+          "word": "logic"
+        },
+        {
+          "__v": 0,
+          "_id": "6749729n",
+          "def": "predicting what the weather will be  ",
+          "exp": [],
+          "gloss": "predicting what the weather will be  ",
+          "lemma": "meteorology",
+          "lexFilenum": 10,
+          "lexId": "0",
+          "parent": "6748969n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1eaf67eefb32d4a2b7575",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6748969
+            },
+            {
+              "_id": "5ba1eaf67eefb32d4a2b7574",
+              "pointerSymbol": ";c",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 6118563
+            },
+            {
+              "_id": "5ba1eaf67eefb32d4a2b7573",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 10312287
+            }
+          ],
+          "synonyms": [
+            "meteorology",
+            "weather_forecasting"
+          ],
+          "synsetOffset": 6749729,
+          "wCnt": 2,
+          "word": "meteorology"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "5871618n",
+    "def": "the principles that guide reasoning within a given field or situation",
+    "exp": [
+      "economic logic requires it",
+      "by the logic of war"
+    ],
+    "gloss": "the principles that guide reasoning within a given field or situation; \"economic logic requires it\"; \"by the logic of war\"  ",
+    "lemma": "logic",
+    "lexFilenum": 9,
+    "lexId": "3",
+    "parent": "5872477n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1ea527eefb32d4a2b6f69",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5872477
+      }
+    ],
+    "synonyms": [
+      "logic"
+    ],
+    "synsetOffset": 5871618,
+    "wCnt": 1,
+    "word": "logic"
+  }
+}

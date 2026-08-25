@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "59a386fcd9eba100763a0f48",
+  "background": "",
+  "content": "<p>⁂</p>\n<p>Your blood is perfect. So what went wrong?</p>",
+  "created": "2017-08-28T02:59:08.182Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 37,
+  "parent": {
+    "__v": 0,
+    "_id": "599ed1833b4eef3a304462b8",
+    "background": "#fff6c2",
+    "content": "<style type=\"text/css\">\n    .yellow-paper {\n        border-radius: 2px;\n        color: rgba(0, 0, 0, .75);\n        /* filter: blur(0.28px); */\n        font-family: P22 Cezanne;\n        font-size: 141%;\n        line-height: 1.1;\n        overflow: hidden;\n        padding: 1rem 1rem 1rem 3rem;\n    }\n</style>\n<div className=\"yellow-paper\">\n    <p>\n        MEMO<br/>\n        All students-teachers<br/>\n        Changes to School No. 76326<br/>\n        Principal G.R.\n    </p>\n    <ol style=\"margin-bottom:3rem;\">    \n        <li>\n            I’m taking the ink out of the wells. Let’s write on our paper with nothing at all.\n        </li>\n        <li>\n            At your and all ages, its difficult to tell between a thought and a manoeuvre. The training camp will be closed indefinitely.\n        </li>\n        <li>\n            All paradigms will become umbrellas. All fixed phone lines will now travel through two hidden connection points between destinations. This will probably make discussion more accurate.\n        </li>\n        <li>\n            School is now an apartment complex. I’ve opened the doors to all the rooms. I can’t believe we’re all here together. Welcome!\n        </li>\n        <li>\n            Our numerals depicted have slid too far from one another in form. We’ll bring them together by drawing them like this: (( FIG. 1 ))\n        </li>\n        <li>\n            Like many principals, I’m not convinced that individuation is anything but a cleaving from the world. To avoid resultant triangulations of desire, I’ve stacked all the bunkbeds up inside the trunk of the apartment complex. We’ll interlive on top of one another.\n        </li>\n        <li>\n            A hardwood beam will be installed from the top left corner to the bottom right corner of each classroom. It’s the distributed Energy Descent beam. Students will wind graduating ribbons and paint slogans, write love notes to each other on the beam. This ought to locate, in reduction, a point of crisis.\n        </li>\n        <li>\n            We don’t have uniforms, as our style is decoupled. Our style is the look of a thing — its texture and light — and not the room that it takes up or its sum. Style transfer is the a rearrangement of granular parts. Thus, please exchange clothes with whoever arrives at the school gate after you each morning.\n        </li>\n        <li>\n            nb. I’m not here to schematise your time here at No. 76326. Be social and in-transition; unwrap your relations to your neighbour. Dart to the river.\n        </li>\n    </ol>\n    <p>\n        Join me in the school song:\n    </p>\n\n    <p>\n        We’re high-dimensional objects /<br/>\n        In the air or on the ground /<br/>\n        Honeywell Align-in-Motion /<br/>\n        We are in movement,\n    </p>\n\n    <p>\n        Principal Genet Rirard ∎\n    </p>\n</div>",
+    "created": "2017-08-24T13:15:47.304Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 34,
+    "parent": "599e9f4143e237306c191af9",
+    "persons": [
+      "59a7a687a692ea00760b797a",
+      "59e04283f883dc0ea56ac6c6",
+      "59a42059f84055628c1ff191"
+    ],
+    "readme": "Correspondance from the principal of a school to their students about a form of sentimental education. \"Dart to the river [Dart].\"",
+    "slug": "school-songs",
+    "stub": false,
+    "themes": [],
+    "title": "School singing",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "crisis-in-the-human",
+  "stub": true,
+  "themes": [],
+  "title": "Crisis issuing",
+  "word": []
+}

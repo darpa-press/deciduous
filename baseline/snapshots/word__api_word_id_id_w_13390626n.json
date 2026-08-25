@@ -1,0 +1,1267 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "13388245n",
+      "def": "a flat metal piece (usually a disc) used as money  ",
+      "exp": [],
+      "gloss": "a flat metal piece (usually a disc) used as money  ",
+      "lemma": "coin",
+      "lexFilenum": 21,
+      "lexId": "2",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13387877
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 1639105
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3501811
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3840507
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4085181
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4384199
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13388111
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389105
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389194
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389359
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389475
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389577
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389660
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389763
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389864
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13389949
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390139
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390244
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390405
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390525
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390626
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390788
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390857
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13390963
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391118
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391262
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391373
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391610
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391693
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13391967
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392357
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392472
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392580
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392688
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392786
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392896
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13392977
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13393059
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13393155
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13393265
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13393427
+        }
+      ],
+      "synonyms": [
+        "coin"
+      ],
+      "synsetOffset": 13388245,
+      "wCnt": 1
+    },
+    {
+      "_id": "13387877n",
+      "def": "coins collectively  ",
+      "exp": [],
+      "gloss": "coins collectively  ",
+      "lemma": "coinage",
+      "lexFilenum": 21,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13385913
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13388245
+        }
+      ],
+      "synonyms": [
+        "coinage",
+        "mintage",
+        "specie",
+        "metal_money"
+      ],
+      "synsetOffset": 13387877,
+      "wCnt": 4
+    },
+    {
+      "_id": "13385913n",
+      "def": "the metal or paper medium of exchange that is presently used  ",
+      "exp": [],
+      "gloss": "the metal or paper medium of exchange that is presently used  ",
+      "lemma": "currency",
+      "lexFilenum": 21,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13372961
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13384877
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13386136
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13386614
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13386882
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13387209
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13387877
+        }
+      ],
+      "synonyms": [
+        "currency"
+      ],
+      "synsetOffset": 13385913,
+      "wCnt": 1
+    },
+    {
+      "_id": "13372961n",
+      "def": "anything that is generally accepted as a standard of value and a measure of wealth in a particular country or region  ",
+      "exp": [],
+      "gloss": "anything that is generally accepted as a standard of value and a measure of wealth in a particular country or region  ",
+      "lemma": "medium_of_exchange",
+      "lexFilenum": 21,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7260623
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13374008
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13384557
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13385913
+        }
+      ],
+      "synonyms": [
+        "medium_of_exchange",
+        "monetary_system"
+      ],
+      "synsetOffset": 13372961,
+      "wCnt": 2
+    },
+    {
+      "_id": "7260623n",
+      "def": "a basis for comparison",
+      "exp": [
+        "a reference point against which other things can be evaluated",
+        "the schools comply with federal standards",
+        "they set the measure for all subsequent work"
+      ],
+      "gloss": "a basis for comparison; a reference point against which other things can be evaluated; \"the schools comply with federal standards\"; \"they set the measure for all subsequent work\"  ",
+      "lemma": "standard",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13577171
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 2295710
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0202",
+          "synsetOffset": 2295710
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 467717
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 467717
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7261143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7261300
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7261542
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7261782
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7261955
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13372961
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13850304
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13854101
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13854318
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13854488
+        }
+      ],
+      "synonyms": [
+        "standard",
+        "criterion",
+        "measure",
+        "touchstone"
+      ],
+      "synsetOffset": 7260623,
+      "wCnt": 4
+    },
+    {
+      "_id": "13577171n",
+      "def": "a system of related measures that facilitates the quantification of some particular characteristic  ",
+      "exp": [],
+      "gloss": "a system of related measures that facilitates the quantification of some particular characteristic  ",
+      "lemma": "system_of_measurement",
+      "lexFilenum": 23,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7260623
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13577544
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13579166
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13579287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13580058
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13610046
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13610987
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13617713
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13648947
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13715755
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13852395
+        }
+      ],
+      "synonyms": [
+        "system_of_measurement",
+        "metric"
+      ],
+      "synsetOffset": 13577171,
+      "wCnt": 2
+    },
+    {
+      "_id": "33615n",
+      "def": "how much there is or how many there are of something that you can quantify  ",
+      "exp": [],
+      "gloss": "how much there is or how many there are of something that you can quantify  ",
+      "lemma": "measure",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0305",
+          "synsetOffset": 2645007
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 681429
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 489837
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 647094
+        },
+        {
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2295998
+        },
+        {
+          "pointerSymbol": "=",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2297166
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5091770
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5855517
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13413493
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13575869
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13576101
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13576355
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13576982
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13577171
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13579829
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13579933
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13599547
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13731530
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13779032
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13779244
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13780180
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15154774
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15180528
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15256915
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 15269513
+        }
+      ],
+      "synonyms": [
+        "measure",
+        "quantity",
+        "amount"
+      ],
+      "synsetOffset": 33615,
+      "wCnt": 3
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5a23e41a8d0a480072927f43",
+      "background": "#00ffe9",
+      "content": "<p>\n    the price of your Sunday coffee;<br/>\n    the price of your Monday seizin;<br/>\n    the price of your Tuesday juliet;<br/>\n    the price of your Wednesday <aa to=\"48,54,10\">heat</aa> index;<br/>\n    the price of your Thursday microservice;<br/>\n    the price of your Friday luck;<br/>\n    the price of your Saturday lambda;<br/>\n    the price of your Sunday water<br/>\n</p>",
+      "created": "2017-12-03T11:46:34.599Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a18b826de1f950071ab6549"
+      ],
+      "page": 89,
+      "parent": {
+        "__v": 0,
+        "_id": "5a13c2c6de1f950071ab6547",
+        "background": "",
+        "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+        "created": "2017-11-21T06:08:06.407Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 84,
+        "parent": "5a0fe283d55a8200722c03d8",
+        "persons": null,
+        "readme": "",
+        "slug": "cars",
+        "stub": true,
+        "themes": [],
+        "title": "Car naming",
+        "word": []
+      },
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "5a23e4b28d0a480072927f44",
+          "bio": "<p>Jimmy Wales holds a special role in the governance of the English Wikipedia. This authority is used on an ad hoc basis.</p>",
+          "birth": 1966,
+          "created": "2017-12-03T11:49:06.959Z",
+          "death": null,
+          "name": "Jimmy Wales",
+          "relation": [],
+          "slug": "jimmy-wales"
+        },
+        {
+          "__v": 0,
+          "_id": "5cdf1af905823b0062ac947c",
+          "bio": "In conformity with the late author's wish, her Board of Literary Management asks us to record that, in 1941, Laura (Riding) Jackson renonunced, on grounds of linguistic principle, the writing of poetry; she had come to hold that 'poetry obstructs general attainment to something better in our linguistic way-of-life than we have.\"",
+          "birth": 1901,
+          "created": "2019-05-17T20:35:05.910Z",
+          "death": 1991,
+          "name": "Laura (Riding) Jackson",
+          "relation": [],
+          "slug": "laura-riding-jackson"
+        }
+      ],
+      "readme": "Possible outcroppings of an analogy for fundraising.",
+      "slug": "optimal-appeal",
+      "stub": false,
+      "themes": [],
+      "title": "Optimal appealing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13390626n",
+          "def": "a coin worth one-hundredth of the value of the basic unit  ",
+          "exp": [],
+          "gloss": "a coin worth one-hundredth of the value of the basic unit  ",
+          "lemma": "penny",
+          "lexFilenum": 21,
+          "lexId": "0",
+          "parent": "13388245n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1ca805823b0062ac947f",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13388245
+            },
+            {
+              "_id": "5cdf1ca805823b0062ac947e",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13391774
+            },
+            {
+              "_id": "5cdf1ca805823b0062ac947d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13391841
+            }
+          ],
+          "synonyms": [
+            "penny",
+            "cent",
+            "centime"
+          ],
+          "synsetOffset": 13390626,
+          "wCnt": 3,
+          "word": "penny"
+        },
+        {
+          "__v": 0,
+          "_id": "4744814n",
+          "def": "similarity in appearance or character or nature between persons or things",
+          "exp": [
+            "man created God in his own likeness"
+          ],
+          "gloss": "similarity in appearance or character or nature between persons or things; \"man created God in his own likeness\"  ",
+          "lemma": "likeness",
+          "lexFilenum": 7,
+          "lexId": "0",
+          "parent": "4743605n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1cb305823b0062ac9507",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4743605
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9506",
+              "pointerSymbol": "!",
+              "pos": "n",
+              "sourceTarget": "0302",
+              "synsetOffset": 4750764
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9505",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9504",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0103",
+              "synsetOffset": 2063554
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9503",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0103",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9502",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0101",
+              "synsetOffset": 1409581
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9501",
+              "pointerSymbol": "!",
+              "pos": "n",
+              "sourceTarget": "0101",
+              "synsetOffset": 4750764
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac9500",
+              "pointerSymbol": "=",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 1410606
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94ff",
+              "pointerSymbol": "=",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 1410905
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fe",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4746842
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747115
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fc",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747246
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fb",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747445
+            },
+            {
+              "_id": "5cdf1cb305823b0062ac94fa",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 4747616
+            }
+          ],
+          "synonyms": [
+            "likeness",
+            "alikeness",
+            "similitude"
+          ],
+          "synsetOffset": 4744814,
+          "wCnt": 3,
+          "word": "likeness"
+        },
+        {
+          "__v": 0,
+          "_id": "11466043n",
+          "def": "a form of energy that is transferred by a difference in temperature  ",
+          "exp": [],
+          "gloss": "a form of energy that is transferred by a difference in temperature  ",
+          "lemma": "heat",
+          "lexFilenum": 19,
+          "lexId": "0",
+          "parent": "11452218n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf1cbf05823b0062ac95e6",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11452218
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e5",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 372665
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e4",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 2333358
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e3",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 371264
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e2",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11466337
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e1",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470621
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95e0",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470765
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95df",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11470933
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95de",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11471097
+            },
+            {
+              "_id": "5cdf1cbf05823b0062ac95dd",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 11472352
+            }
+          ],
+          "synonyms": [
+            "heat",
+            "heat_energy"
+          ],
+          "synsetOffset": 11466043,
+          "wCnt": 2,
+          "word": "heat"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "13390626n",
+    "def": "a coin worth one-hundredth of the value of the basic unit  ",
+    "exp": [],
+    "gloss": "a coin worth one-hundredth of the value of the basic unit  ",
+    "lemma": "penny",
+    "lexFilenum": 21,
+    "lexId": "0",
+    "parent": "13388245n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5cdf1ca805823b0062ac947f",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13388245
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac947e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13391774
+      },
+      {
+        "_id": "5cdf1ca805823b0062ac947d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13391841
+      }
+    ],
+    "synonyms": [
+      "penny",
+      "cent",
+      "centime"
+    ],
+    "synsetOffset": 13390626,
+    "wCnt": 3,
+    "word": "penny"
+  }
+}

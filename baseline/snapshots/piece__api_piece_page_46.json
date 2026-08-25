@@ -1,0 +1,430 @@
+{
+  "__v": 0,
+  "_id": "59a38842d9eba100763a0f51",
+  "background": "",
+  "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/google-layers.png\" bg=\"white\" width=\"1920\" height=\"1624\"></lightimg>",
+  "created": "2017-08-28T03:04:34.633Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 46,
+  "parent": {
+    "__v": 9,
+    "_id": "59a38829d9eba100763a0f50",
+    "background": "",
+    "content": "<lightimg bg=\"#e3e2e2\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/tree-codex-169.png\" width=\"1920\" height=\"1080\"></lightimg><attr style=\"position: relative; top:-3rem; opacity: 0.5;\">A sample of the wallpaper in lift <em style=\"letter-spacing:0.5px; margin-left:2px\">b</em></attr>\n\n<div class=\"indents\">\n    <p>\n    Get in the lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!</em> It will take you where you need<em style=\"letter-spacing:0.5px; margin-left:2px\">!!</em> Take a look<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!</em> There are 13 lifts to choose from<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!</em> They are <aa to=\"104\">labeled ‘a’ to ‘m’</aa> and are based in different countries<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!</em> Their pits are deep, and their overhead is tall<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!</em> The pit of ‘b’ connects to the overhead of ‘a’, and so on<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Inside the ‘e’ car is like a rectory and so is quite comfortable<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> It’s really something to behold<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!</em> Hello<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!</em> Some of the lifts still need configuring<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!</em> Don’t use those ones yet<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!</em> But if you zoom in on one of the lifts it splits into a consortium of lifts, so you’ll find one that works for you<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!</em> And don’t worry<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!</em> I guarantee you’ll never meet anyone in a lift<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!</em> The routing and transferring of persons by means of addressed lift cars so that a lift is occupied during the transmission of the person only and upon completion of the transmission the lift is made available for the transfer of other persons<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!</em> You should really see for yourself the way that the <aa to=\"127\">wysteria</aa> climbs the mirror in ‘e’<em style=\"letter-spacing:0.5px; margin-left:2px\">!!!!!!!!!!!!!!!</em>\n</p>\n</div>",
+    "created": "2017-08-28T03:04:09.491Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 45,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": [
+      "5cdf10f705823b0062ac9009"
+    ],
+    "readme": "A hotel with a country style that has lifts working like packet switching. Your lift operator is trying to console you.",
+    "slug": "aloha-building",
+    "stub": false,
+    "themes": [],
+    "title": "ALOHA building",
+    "word": [
+      "3281145n",
+      "12580457n",
+      "7281099n",
+      "8236438n"
+    ]
+  },
+  "persons": null,
+  "readme": "In technology colours, a rising abstraction of abstraction layers.",
+  "slug": "transport-control",
+  "stub": false,
+  "themes": [],
+  "title": "Transport controlling",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "6394701n",
+      "def": "the central message of a communication",
+      "exp": [
+        "the body of the message was short"
+      ],
+      "gloss": "the central message of a communication; \"the body of the message was short\"  ",
+      "lemma": "body",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6598915n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9067eefb32d4a2b5642",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6598915
+        },
+        {
+          "_id": "5ba1e9067eefb32d4a2b5641",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7220773
+        },
+        {
+          "_id": "5ba1e9067eefb32d4a2b5640",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7238694
+        }
+      ],
+      "synonyms": [
+        "body"
+      ],
+      "synsetOffset": 6394701,
+      "wCnt": 1,
+      "word": "body"
+    },
+    {
+      "__v": 0,
+      "_id": "6570110n",
+      "def": "a program that gives a computer instructions that provide the user with tools to accomplish a task",
+      "exp": [
+        "he has tried several different word processing applications"
+      ],
+      "gloss": "a program that gives a computer instructions that provide the user with tools to accomplish a task; \"he has tried several different word processing applications\"  ",
+      "lemma": "application",
+      "lexFilenum": 10,
+      "lexId": "1",
+      "parent": "6568978n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e7ba5298cd2d164dda4b",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6568978
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda4a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6570520
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda49",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6570647
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda48",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6570805
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda47",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6571301
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda46",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6572011
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda45",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6572482
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda44",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6572654
+        },
+        {
+          "_id": "5ba1e7ba5298cd2d164dda43",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6574841
+        }
+      ],
+      "synonyms": [
+        "application",
+        "application_program",
+        "applications_programme"
+      ],
+      "synsetOffset": 6570110,
+      "wCnt": 3,
+      "word": "application"
+    },
+    {
+      "__v": 0,
+      "_id": "1894649v",
+      "def": "move in a graceful and rhythmical way",
+      "exp": [
+        "The young girl danced into the room"
+      ],
+      "gloss": "move in a graceful and rhythmical way; \"The young girl danced into the room\"  ",
+      "lemma": "dance",
+      "lexFilenum": 38,
+      "lexId": "1",
+      "parent": "1831531v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c33",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1831531
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c32",
+          "pointerSymbol": "*",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1928838
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c31",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 9990415
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c30",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 9989502
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c2f",
+          "pointerSymbol": "$",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1708676
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c2e",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1894914
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c2d",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1895027
+        },
+        {
+          "_id": "5ba1e95d7eefb32d4a2b5c2c",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1895168
+        }
+      ],
+      "synonyms": [
+        "dance"
+      ],
+      "synsetOffset": 1894649,
+      "wCnt": 1,
+      "word": "dance"
+    },
+    {
+      "__v": 0,
+      "_id": "13479380n",
+      "def": "the process in which part of the output of a system is returned to its input in order to regulate its further output  ",
+      "exp": [],
+      "gloss": "the process in which part of the output of a system is returned to its input in order to regulate its further output  ",
+      "lemma": "feedback",
+      "lexFilenum": 22,
+      "lexId": "0",
+      "parent": "13518963n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9a67eefb32d4a2b60d5",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13518963
+        },
+        {
+          "_id": "5ba1e9a67eefb32d4a2b60d4",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2310157
+        },
+        {
+          "_id": "5ba1e9a67eefb32d4a2b60d3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13520731
+        },
+        {
+          "_id": "5ba1e9a67eefb32d4a2b60d2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13539262
+        }
+      ],
+      "synonyms": [
+        "feedback"
+      ],
+      "synsetOffset": 13479380,
+      "wCnt": 1,
+      "word": "feedback"
+    },
+    {
+      "__v": 0,
+      "_id": "3580615n",
+      "def": "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange  ",
+      "exp": [],
+      "gloss": "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange  ",
+      "lemma": "internet",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "parent": "3085333n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea067eefb32d4a2b6a4e",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3085333
+        }
+      ],
+      "synonyms": [
+        "internet",
+        "net",
+        "cyberspace"
+      ],
+      "synsetOffset": 3580615,
+      "wCnt": 3,
+      "word": "internet"
+    },
+    {
+      "__v": 0,
+      "_id": "8478018n",
+      "def": "a group of people living together in a camp",
+      "exp": [
+        "the whole camp laughed at his mistake"
+      ],
+      "gloss": "a group of people living together in a camp; \"the whole camp laughed at his mistake\"  ",
+      "lemma": "camp",
+      "lexFilenum": 14,
+      "lexId": "0",
+      "parent": "7975026n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9117eefb32d4a2b56bd",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7975026
+        },
+        {
+          "_id": "5ba1e9117eefb32d4a2b56bc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 8478171
+        }
+      ],
+      "synonyms": [
+        "camp"
+      ],
+      "synsetOffset": 8478018,
+      "wCnt": 1,
+      "word": "camp"
+    },
+    {
+      "__v": 0,
+      "_id": "3674270n",
+      "def": "an interconnecting circuit between two or more locations for the purpose of transmitting and receiving data  ",
+      "exp": [],
+      "gloss": "an interconnecting circuit between two or more locations for the purpose of transmitting and receiving data  ",
+      "lemma": "link",
+      "lexFilenum": 6,
+      "lexId": "3",
+      "parent": "3033362n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea4e7eefb32d4a2b6e27",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3033362
+        }
+      ],
+      "synonyms": [
+        "link",
+        "data_link"
+      ],
+      "synsetOffset": 3674270,
+      "wCnt": 2,
+      "word": "link"
+    },
+    {
+      "__v": 0,
+      "_id": "4981941n",
+      "def": "the distinctive quality or pitch or condition of a person's speech",
+      "exp": [
+        "A shrill voice sounded behind us"
+      ],
+      "gloss": "the distinctive quality or pitch or condition of a person's speech; \"A shrill voice sounded behind us\"  ",
+      "lemma": "voice",
+      "lexFilenum": 7,
+      "lexId": "0",
+      "parent": "4981139n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebc67eefb32d4a2b846b",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4981139
+        },
+        {
+          "_id": "5ba1ebc67eefb32d4a2b846a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4982113
+        }
+      ],
+      "synonyms": [
+        "voice"
+      ],
+      "synsetOffset": 4981941,
+      "wCnt": 1,
+      "word": "voice"
+    }
+  ]
+}

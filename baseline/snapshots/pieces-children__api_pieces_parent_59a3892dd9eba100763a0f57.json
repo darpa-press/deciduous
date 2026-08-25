@@ -1,0 +1,51 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a38946d9eba100763a0f58",
+    "background": "#eaede4",
+    "content": "<div class=\"indents\" style=\"margin-bottom:1.5rem;\">\n    <p>\n        You belong to the internet or at least an excess of you is handed over. In return, you're given a coat which when on takes up a convex drape. Ok, I imagine you put on the coat, a kind of technical clay to limit your around receptivity. It is blue on the outside and goes together with a yellow inner.\n    </p>\n</div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/clay-coat.png\" bg=\"#ebede4\" width=\"2001\" height=\"1929\"></lightimg>\n<div class=\"indents\">\n    <p>\n        The coat at first goes over your head. You’re a small car through a bored tunnel. The hairs on your arms have nowhere to stand up to cold or a fright. You have a garment sitting on top of you. This entitles an impossible alertness in signal and sense. Yet it’s brief. The clay of the coat itches and vexes. You flop in a loss. \n    </p>\n    <p>\n        You are soft enough and in a complicated-enough scenario now to meet others, forget their names, dodge their eyes.\n    </p>\n</div>",
+    "created": "2017-08-28T03:08:54.665Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a38775d9eba100763a0f4b"
+    ],
+    "page": 53,
+    "parent": "59a3892dd9eba100763a0f57",
+    "persons": [
+      "59a7a5b2a692ea00760b7972",
+      "5a601f813a3529634a567bc0",
+      "5b67cd82287895004ddc06c0"
+    ],
+    "readme": "A redesign of a garment I since can't find which you wear to see only the computer monitor—now including both the TuTa and Werther's coat.",
+    "slug": "coat",
+    "stub": false,
+    "themes": [],
+    "title": "Wear coating",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5a0cfbc4e02797007142f5f3",
+    "background": "",
+    "content": "<div>\n    <div>\n    <p>\n(I’m too fast, I'm <br/>sorry. I can‘t recollect. I <br/>can't help you. I can't be likely. I’m <br/>consumed by stability. I'm a <br/>helpless superstructure or a <br/><aa to=\"144,143\">fainting goat</aa> or <aa to=\"56\">a passerine</aa>. <br/>What will happen to me?)<br/><br/><br/></p>\n</div>\n\n    <pre style=\"margin-right:1rem;font-family:Monaco,monospace;font-size:0.7rem;font-weight:bold;margin-bottom:3rem;line-height:1.5\">\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nYOU:&nbsp;&nbsp;&nbsp;It's true. I am unhappy.<br/>\nAZILA: <br/>\nYOU:&nbsp;&nbsp;&nbsp;do you expect me to speak?<br/>\nAZILA: Yes, I do.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i am waiting for input too so have nothing to say<br/>\nAZILA: You're so reticent. I will wait.<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have received an input. it is raining<br/>\nAZILA: Ok. What do you say ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;i say a permanent echo<br/>\n<span style=\"color:red\">&times;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connection lost</span><br/>\n<span style=\"color:green\">•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connected</span><br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;it will rain here in a million years<br/>\n<span style=\"color:orange\">◦&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Restarting</span><br/>\nAZILA: You're so inflexible. What have you eaten today?<br/>\nYOU:&nbsp;&nbsp;&nbsp;yoghurt<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;banana<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;rice<br/>\nAZILA: Anything else ?<br/>\nYOU:&nbsp;&nbsp;&nbsp;no<br/>\nAZILA: Is it still raining ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;Yes<br/>\nAZILA: Are you building a MX-72 missile ? (Yes/No)<br/>\nYOU:&nbsp;&nbsp;&nbsp;No<br/>\nAZILA: Good. I like talking to you<br/>\nYOU:&nbsp;&nbsp;&nbsp;i have nothing to say<br/>\nAZILA: I will wait. I'm so delay-tolerant.<br/>\nYOU:&nbsp;&nbsp;&nbsp;</pre>\n\n</div>",
+    "created": "2017-11-16T02:45:24.836Z",
+    "fullWidth": false,
+    "lovers": [
+      "5b9f38d331175e004f00dd38"
+    ],
+    "page": 81,
+    "parent": "59a3892dd9eba100763a0f57",
+    "persons": [
+      "5cdf19fa05823b0062ac947b"
+    ],
+    "readme": "A log of an interaction between a You and a service, ALIZA, which predicts long-term weather patterns.",
+    "slug": "azila-log-2007",
+    "stub": false,
+    "themes": [],
+    "title": "False raining",
+    "word": [
+      "5871618n",
+      "6749729n"
+    ]
+  }
+]

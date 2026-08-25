@@ -1,0 +1,49 @@
+{
+  "__v": 0,
+  "_id": "599bb820de2a24a8630fbdd2",
+  "background": "",
+  "content": "<div style=\"display:flex;align-items:center;max-width:75%; margin:0 auto; opacity:0.8\">\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/birds.png\" bg=\"white\" width=\"1001\" height=\"754\"></lightimg>\n</div>\n<div class=\"indents\">\n    <p style=\"color:#4c80d6\">This room has two blue shrikes plugged into the wall on either side of the room, which their blueness fills. They are temporary and they can just as soon be plugged out. The thing about shrikes is that they must find the sharp edges of the world to push others onto. (On some, red bursts down their front in a rosy patch of preordained blood.) This room has eight sharp edges but thankfully they’re on the inside-out. If you knew as a child about how shrikes push, you might not have wanted them to fill up your room with blueness. But instead you only knew how they would flicker, looking for the sharp edges of the circumscribed world, but only once you were completely asleep—once you stopped having the trouble of experience that’s bounded by blueness in order to produce a little more of the order of things: in particular the order of others—in particular where your brother goes in the order of things, which the even blue light of the electrical shrikes could set out of motion, put you to the work of a kid’s sleep, only knowing that they would alert you to where your brother in the bed above goes if and when he tries\n    </p>\n</div>",
+  "created": "2017-08-22T04:50:40.127Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a389add9eba100763a0f5b"
+  ],
+  "page": 7,
+  "parent": {
+    "__v": 0,
+    "_id": "599badcb2d4c7455551c4ef8",
+    "background": "#f3ab7b",
+    "content": "<div style=\"text-align:center\"><lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/rabbit2.png\" width=\"1513\" height=\"2192\" bg=\"#f4ab7c\"></lightimg></div>\n\n<div class=\"indents\">\n    <p>\n        The bunny, a known issue, hopped into the aura cage of the User. This hadn't been accounted for, so the bunny had no texture map. This made it colourless amongst all the remembered light.\n    </p>\n    <p>\n        What was interesting about this known issue was that it was as close to conflict as could be imagined, even though this island of light -before-movement was full of lighthouses and miles of prim cliffline. It was a bunny-haunted world.\n    </p>\n</div>\n\n<div style=\"margin-top:15rem; display:flex; align-items:center; justify-content: center\">\n   (<img style=\"height:1rem; margin: 0 0.5rem; width: auto;\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/light2.png\" />)\n</div>",
+    "created": "2017-08-22T04:06:35.270Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 1,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "colourless-bunnies",
+    "stub": false,
+    "themes": [],
+    "title": "Colourless hopping",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a4202ff84055628c1ff18f",
+      "bio": "",
+      "birth": 1985,
+      "created": "2017-08-28T13:52:47.142Z",
+      "death": null,
+      "name": "Rowan McNaught",
+      "relation": [],
+      "slug": "rowan-mcnaught"
+    }
+  ],
+  "readme": "",
+  "slug": "blue-shrikes",
+  "stub": false,
+  "themes": [],
+  "title": "Blue shriking",
+  "word": []
+}

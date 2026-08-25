@@ -1,0 +1,148 @@
+{
+  "__v": 0,
+  "_id": "59d56830f01881005ae5bdf8",
+  "background": "",
+  "content": "<div>\n    <lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507498050822-idiots.png\" bg=\"white\" width=\"2356\" height=\"1956\"></lightimg>\n</div>\n<p><em>Abstract:</em><br/>\n<p>We extend indirect reciprocity in concert with a whole other number of hidden layers across a Falling bundle. In the general case, it is illustrated that they’re extremely fast unseen idiots, which is also our fate.\n</p>",
+  "created": "2017-10-04T23:01:04.156Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 69,
+  "parent": {
+    "__v": 0,
+    "_id": "59a9696bec58b8007f5d501f",
+    "background": "",
+    "content": "<div>     <img          src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507840379253-water2.png\" width=\"1281\" height=\"1615\" />     <div class=\"indents\">         <p>I placed the call to you, from Argyll to I think Caen —— it rang, went through, but was otherwise soundless —— I could have known that you were there —– but the cable was dropped to connect in the ocean too long ago —— falling sharks in the channel had             bitten into it in parts —— salinity wore through it in parts —— engineers who in the first place on each part on either side disagreed on every standard of voltage and who couldn't talk in a Seaspeak anyway —— in channels the draghead and davits of dredging machines had torn or tangled the             manila yarn which insulated a connection —— turned dark blue from holding its breath —— taking into account the way that with every word in a rail crash across a language barrier the situation worsens —— and again with the channel sharks falling —— there was enough of an edge left for the format but not the consignment —— no <em> gentle wires to the word en-Masse</em> —— so no capacitive sense —— no your voice </p>     </div> </div>",
+    "created": "2017-09-01T14:06:35.362Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a3892dd9eba100763a0f57"
+    ],
+    "page": 67,
+    "parent": "59a387fad9eba100763a0f4f",
+    "persons": null,
+    "readme": "",
+    "slug": "underwater-cables",
+    "stub": false,
+    "themes": [],
+    "title": "Underwater cabling",
+    "word": [
+      "6272290n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "extremely-fast-unseen-idiot",
+  "stub": false,
+  "themes": [],
+  "title": "Idiots moving",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2486628s",
+      "def": "coming down freely under the influence of gravity",
+      "exp": [
+        "the eerie whistle of dropping bombs",
+        "falling rain"
+      ],
+      "gloss": "coming down freely under the influence of gravity; \"the eerie whistle of dropping bombs\"; \"falling rain\"  ",
+      "lemma": "dropping",
+      "lexFilenum": 0,
+      "lexId": "0",
+      "parent": null,
+      "pos": "s",
+      "ptrs": [
+        {
+          "_id": "5ba1ea397eefb32d4a2b6baa",
+          "pointerSymbol": "&",
+          "pos": "a",
+          "sourceTarget": "0000",
+          "synsetOffset": 2485650
+        }
+      ],
+      "synonyms": [
+        "dropping",
+        "falling"
+      ],
+      "synsetOffset": 2486628,
+      "wCnt": 2,
+      "word": "falling"
+    },
+    {
+      "__v": 0,
+      "_id": "13841213n",
+      "def": "a relation of mutual dependence or action or influence  ",
+      "exp": [],
+      "gloss": "a relation of mutual dependence or action or influence  ",
+      "lemma": "reciprocality",
+      "lexFilenum": 24,
+      "lexId": "0",
+      "parent": "31921n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb297eefb32d4a2b7be4",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7be3",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 1945550
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7be2",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 1945550
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7be1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13841467
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7be0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13841651
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7bdf",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13841863
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7bde",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13843401
+        },
+        {
+          "_id": "5ba1eb297eefb32d4a2b7bdd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13843601
+        }
+      ],
+      "synonyms": [
+        "reciprocality",
+        "reciprocity"
+      ],
+      "synsetOffset": 13841213,
+      "wCnt": 2,
+      "word": "reciprocity"
+    }
+  ]
+}

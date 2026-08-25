@@ -1,0 +1,140 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "2603699v",
+    "def": "have an existence, be extant",
+    "exp": [
+      "Is there a God?"
+    ],
+    "gloss": "have an existence, be extant; \"Is there a God?\"  ",
+    "lemma": "exist",
+    "lexFilenum": 42,
+    "lexId": "0",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65df",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 13954253
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65de",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 43765
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65dd",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0102",
+        "synsetOffset": 1932973
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65dc",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 927017
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65db",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0103",
+        "synsetOffset": 13954253
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65da",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 342812
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d9",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2604100
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d8",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2604305
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d7",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2604477
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d6",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2617196
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d5",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2648502
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d4",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2653381
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d3",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2697120
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d2",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2743727
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d1",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2754696
+      },
+      {
+        "_id": "5ba1e9d17eefb32d4a2b65d0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2755773
+      }
+    ],
+    "synonyms": [
+      "exist",
+      "be"
+    ],
+    "synsetOffset": 2603699,
+    "wCnt": 2,
+    "word": "exist"
+  }
+}

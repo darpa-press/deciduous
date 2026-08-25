@@ -1,0 +1,448 @@
+[
+  {
+    "def": "produce leaves, of plants  ",
+    "exp": [],
+    "gloss": "produce leaves, of plants  ",
+    "lemma": "leaf",
+    "lexFilenum": 29,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 94460
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13152742
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 13152742
+      }
+    ],
+    "synonyms": [
+      "leaf"
+    ],
+    "synsetOffset": 95747,
+    "wCnt": 1
+  },
+  {
+    "def": "turn over pages",
+    "exp": [
+      "leaf through a book",
+      "leaf a manuscript"
+    ],
+    "gloss": "turn over pages; \"leaf through a book\"; \"leaf a manuscript\"  ",
+    "lemma": "leaf",
+    "lexFilenum": 38,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2089420
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 6256229
+      }
+    ],
+    "synonyms": [
+      "leaf"
+    ],
+    "synsetOffset": 2089837,
+    "wCnt": 1
+  },
+  {
+    "def": "look through a book or other written material",
+    "exp": [
+      "He thumbed through the report",
+      "She leafed through the volume"
+    ],
+    "gloss": "look through a book or other written material; \"He thumbed through the report\"; \"She leafed through the volume\"  ",
+    "lemma": "flick",
+    "lexFilenum": 39,
+    "lexId": "a",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2152812
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0501",
+        "synsetOffset": 6256229
+      }
+    ],
+    "synonyms": [
+      "flick",
+      "flip",
+      "thumb",
+      "riffle",
+      "leaf",
+      "riff"
+    ],
+    "synsetOffset": 2153023,
+    "wCnt": 6
+  },
+  {
+    "def": "hinged or detachable flat section (as of a table or door)  ",
+    "exp": [],
+    "gloss": "hinged or detachable flat section (as of a table or door)  ",
+    "lemma": "leaf",
+    "lexFilenum": 6,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4164989
+      },
+      {
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3202354
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 5389625
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 3246788
+      }
+    ],
+    "synonyms": [
+      "leaf"
+    ],
+    "synsetOffset": 3652226,
+    "wCnt": 1
+  },
+  {
+    "def": "a sheet of any written or printed material (especially in a manuscript or book)  ",
+    "exp": [],
+    "gloss": "a sheet of any written or printed material (especially in a manuscript or book)  ",
+    "lemma": "leaf",
+    "lexFilenum": 10,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6255777
+      },
+      {
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6349220
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0104",
+        "synsetOffset": 6413889
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2089837
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0105",
+        "synsetOffset": 2153023
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6256494
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6256591
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6256697
+      }
+    ],
+    "synonyms": [
+      "leaf",
+      "folio"
+    ],
+    "synsetOffset": 6256229,
+    "wCnt": 2
+  },
+  {
+    "def": "the main organ of photosynthesis and transpiration in higher plants  ",
+    "exp": [],
+    "gloss": "the main organ of photosynthesis and transpiration in higher plants  ",
+    "lemma": "leaf",
+    "lexFilenum": 20,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13087625
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0301",
+        "synsetOffset": 282790
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 95747
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 1700414
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13154077
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 95747
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8373244
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11686195
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11690893
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12024690
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12780168
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13091620
+      },
+      {
+        "pointerSymbol": "%s",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13096317
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13131883
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13153532
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13153633
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13154077
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13154494
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13154586
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13155759
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13156006
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13156083
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13156592
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13160485
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13160604
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13160695
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13160831
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161056
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161151
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161254
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161412
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161506
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161639
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161754
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161904
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13161998
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13862407
+      }
+    ],
+    "synonyms": [
+      "leaf",
+      "leafage",
+      "foliage"
+    ],
+    "synsetOffset": 13152742,
+    "wCnt": 3
+  }
+]

@@ -1,0 +1,335 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "628491v",
+      "def": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",
+      "exp": [
+        "I've been thinking all day and getting nowhere"
+      ],
+      "gloss": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments; \"I've been thinking all day and getting nowhere\"  ",
+      "lemma": "think",
+      "lexFilenum": 31,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0304",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 2419933
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 2898433
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5784242
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5786372
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10708292
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10708454
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5770926
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 630380
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 629889
+        },
+        {
+          "pointerSymbol": "^",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1634142
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 621653
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 629257
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 629738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630026
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630223
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 630380
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 632627
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 634472
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 670261
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 704388
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 704690
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 713167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 722232
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 732224
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 734348
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 739082
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 739340
+        }
+      ],
+      "synonyms": [
+        "think",
+        "cogitate",
+        "cerebrate"
+      ],
+      "synsetOffset": 628491,
+      "wCnt": 3
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "704690v",
+    "def": "make plans for something",
+    "exp": [
+      "He is planning a trip with his family"
+    ],
+    "gloss": "make plans for something; \"He is planning a trip with his family\"  ",
+    "lemma": "plan",
+    "lexFilenum": 31,
+    "lexId": "0",
+    "parent": "628491v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae52",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 628491
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae51",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 5728678
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae50",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 5898568
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4f",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 3956785
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4e",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10438172
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4d",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 1144133
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 678282
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 705095
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae4a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 706243
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae49",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 706804
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae48",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 708128
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae47",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 708376
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae46",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 709379
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae45",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 710005
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae44",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 711040
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae43",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 794981
+      }
+    ],
+    "synonyms": [
+      "plan"
+    ],
+    "synsetOffset": 704690,
+    "wCnt": 1,
+    "word": "plan"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "__v": 0,
+  "_id": "5b63d89837a764004e2b7a1e",
+  "bio": "Wore a tricorn hat; understood business documents; did not reproduce herself.",
+  "birth": 1887,
+  "created": "2018-08-03T04:22:48.824Z",
+  "death": 1972,
+  "name": "Marianne Moore",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5b39cabd1c76e00054b5f2f8",
+      "background": "",
+      "content": "<p style=\"max-width:none\">Dear Cato I am still yours, a peak body<br/>\nor <em>Union of International Associations</em><br/>and \nyour distant honest Fruit Tree of <br/>\nprotected tended order and your buffer overrun<br/>\nand will you need me any more? once <br/>\nthe new editions of the <em>word en-Masse</em><br/>\nare in harmony? Dear Cato I am inlaid<br/>\nwith business documents and <aa href=\"88,140,34\">school-books</aa>.\n</p>\n<p style=\"max-width:none\">▧▧</p>",
+      "created": "2018-07-02T06:48:29.058Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a387b4d9eba100763a0f4d"
+      ],
+      "page": 107,
+      "parent": "599bade62d4c7455551c4efa",
+      "persons": [
+        "59a7a64ea692ea00760b7977",
+        "5b63d89837a764004e2b7a1e"
+      ],
+      "readme": "What Paul Otlet might have worried about, when he was trying to hold it together.",
+      "slug": "dearestness",
+      "stub": false,
+      "themes": [],
+      "title": "Dearness massing",
+      "word": [
+        "96239s",
+        "9604981n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "marianne-moore"
+}

@@ -1,0 +1,65 @@
+{
+  "__v": 0,
+  "_id": "59a7e1ba7a541d009e8a53e5",
+  "background": "",
+  "content": "<div style=\"margin: 0 auto; text-align:center;\"><lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531461507189-Untitled-3.jpg\" width=\"1920\" height=\"2482\" bg=\"#333\"></lightimg></div>\n<div class=\"indents\">\n    <p>\n    You envy all people. Luckily, it’s not as impossible to now be them as it was to once be them. Being enough of another person requires a decorator function and a cryptographic key and some capacity for deviation. Well, you can get this all in time; watch how their hands are moving on glass and just wait ‘til they’re away.\n    </p>\n    <p>You read about how historical birth certificates are kept in the library. You read about what goes inside the hemisphere of a tennis ball. You saw the picture of a yellow canary load up downward and who you are is stored against your body. You can’t be two people at once except if in secret.\n</p>\n</div>",
+  "created": "2017-08-31T10:15:22.344Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 66,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38775d9eba100763a0f4b",
+    "background": "#feecd8",
+    "content": "<lightimg bg=\"#feecd8\" src=\"http://i.imgur.com/BmBJHp8.jpg\" width=\n\"1080\" height=\"1080\"></lightimg>\n\n<div class=\"indents\">\n<p>A new format of love is the bringing-over of a grey t-shirt to be stashed in the other’s place. The generation that this applies to don’t so much agree to the particular supplier and instance of shirt as much have it decided for them through convention and availability. Most poisons are produced for a particular use. When you wear the grey t-shirt, you look like an ionic column. But you shouldn't wear the shirt; that would reduce the situation unbearably; that would suck out the idea. Instead rest something unbending on the shirt while you’re cleaning up — other shirts, say, or a phone.</p>\n<p>Having the t-shirt stashed promises you an internal market. It sits off just to the side and people do things to it, which creates a form to make sense of the varieties of encounter that relate to you. Keep it by your bedside. You can think about it at work.</p>\n</div>",
+    "created": "2017-08-28T03:01:09.985Z",
+    "fullWidth": false,
+    "lovers": [
+      "59f6f5084a45830075b62638"
+    ],
+    "page": 40,
+    "parent": "599ed1833b4eef3a304462b8",
+    "persons": [
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "A guide like you find in a magazine about to how to behave for a lover. Specifically, what to do with their clothes.",
+    "slug": "dressing-like-the-same-person",
+    "stub": false,
+    "themes": [],
+    "title": "Same dressing",
+    "word": [
+      "3051540n",
+      "7543288n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59dfea2fb9789b6225c9049c",
+      "bio": "",
+      "birth": 1973,
+      "created": "2017-10-12T22:18:23.999Z",
+      "death": null,
+      "name": "Anne Boyer",
+      "relation": [],
+      "slug": "anne-boyer"
+    },
+    {
+      "__v": 0,
+      "_id": "59dfeff5b9789b6225c9049d",
+      "bio": "Drafted <em>The Anarchist Cookbook</em> in 1971.",
+      "birth": 1950,
+      "created": "2017-10-12T22:43:01.707Z",
+      "death": 2016,
+      "name": "William Powell",
+      "relation": [],
+      "slug": "william-powell"
+    }
+  ],
+  "readme": "How to download a how to guide about becoming an off-the-shelf person.",
+  "slug": "impersonation",
+  "stub": false,
+  "themes": [],
+  "title": "Stock impersonating",
+  "word": []
+}

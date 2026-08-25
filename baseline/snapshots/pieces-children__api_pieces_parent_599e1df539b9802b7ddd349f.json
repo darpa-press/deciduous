@@ -1,0 +1,83 @@
+[
+  {
+    "__v": 0,
+    "_id": "59ab87460b5720004f6ee054",
+    "background": "",
+    "content": "<div class=\"piece__inside\">\n    <div style=\"color:rgb(201, 54, 79);\">\n        <p>\n            Community<br/>\n            Regrets:\n        </p>\n        <p>\n            Deciduous's <em>Community Area has for now been taken off-line.<br/>\n            This is due to poor security and SPAM-bot registrations, together with very little activity.</em>\n        </p>\n    </div>\n</div>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510020626766-TN0camo.jpg\" bg=\"rgba(62,62,62,0.95)\" width=\"1255\" height=\"856\" ></lightimg>\n<div class=\"piece__inside\">\n    <p style=\"margin-top:1rem\">\n        Did you unscramble last week's puzzle? Answers below.\n    </p>\n    <p>\n        Its future seems sunny / <br/>\n        Stay together family fish / <br/>\n        My heart is easy /\n    </p>\n</div>",
+    "created": "2017-09-03T04:38:30.891Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 68,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "",
+    "slug": "community-regrets",
+    "stub": false,
+    "themes": [],
+    "title": "Regrets communing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599e9f4143e237306c191af9",
+    "background": "",
+    "content": "<iframe src=\"//www.youtube.com/embed/59x21kaQXjE?vq=hd1080&showinfo=0&rel=0&modestbranding=1\" allowfullscreen=\"allowFullScreen\" height=\"1080\" width=\"1920\" frameborder=\"0\"></iframe>\n\n<div style=\"width:100%\">\n<p>How to navigate:</p>\n\n<p>With dead-reckoning,<br/>\nYou are a figure in the woods<br/>\nTilt towards the thing that you want<br/>\nYou have everything you know and have experienced</p>\n\n<p>Your heart is an inertial platform <br/>\n&nbsp;&nbsp;&nbsp;&nbsp;as far as we can tell<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;or a space-filling curve</p>\n\n<p>&nbsp;</p>\n\n<p>How to start:</p>\n\n<p>The initialisation occurs while you are moving,<br/>\nin the air or on the ground:<br/>\nHoneywell Align-in-Motion<br/>\nYou are in movement</p>\n\n<p>This tree has 拆 painted on it<br/>\nWhich means demolition<br/>\nIt is a two-storey tree with six beds</p>\n\n<p>&nbsp;</p>\n\n<p>Where to go:</p>\n\n<p>One murmur of the limb and you’re <aa href=\"10\">flung in god-knows-which direction</aa> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n</div>",
+    "created": "2017-08-24T09:41:21.086Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 30,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "A navigation log plotting a type of shadow-agility, i.e., being lost; also ft. photos of forests curling outwards anamorphically.",
+    "slug": "wrok",
+    "stub": false,
+    "themes": [],
+    "title": "Dead reckoning",
+    "word": [
+      "8438533n",
+      "1932704v",
+      "1061017v",
+      "2620992a"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "59a389fbd9eba100763a0f5e",
+    "background": "",
+    "content": "<p>A chrome extension which replaces the words of your research via a round-robin dictionary.</p>\n<p>\n    <em>Available for installation soon.</em>\n    <!-- <a href=\"#\">Install here »</a> -->\n</p>",
+    "created": "2017-08-28T03:11:55.636Z",
+    "fullWidth": false,
+    "lovers": [
+      "5b35ea261c76e00054b5f2f4"
+    ],
+    "page": 59,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "",
+    "slug": "saying-something-else",
+    "stub": false,
+    "themes": [],
+    "title": "Else saying",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b430d13e12b740053eab725",
+    "background": "#eae9eb",
+    "content": "<div>\n    <video autoplay loop mute>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531120870974-lines-because%202.mp4\" type=\"video/mp4\">\n    </video>\n</div>",
+    "created": "2018-07-09T07:21:55.258Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 109,
+    "parent": "599e1df539b9802b7ddd349f",
+    "persons": null,
+    "readme": "",
+    "slug": "because",
+    "stub": false,
+    "themes": [],
+    "title": "Be causing",
+    "word": [
+      "7347n"
+    ]
+  }
+]

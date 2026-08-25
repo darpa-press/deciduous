@@ -1,0 +1,1071 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "19128n",
+      "def": "an object occurring naturally",
+      "exp": [
+        "not made by man"
+      ],
+      "gloss": "an object occurring naturally; not made by man  ",
+      "lemma": "natural_object",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3553
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 21939
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2312744
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5216365
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5217859
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9208496
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9222406
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9224911
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9236766
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9239740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9252586
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9252970
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9257949
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9277686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9349797
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9369169
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9403211
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9416076
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9421425
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9454412
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9466280
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13086908
+        }
+      ],
+      "synonyms": [
+        "natural_object"
+      ],
+      "synsetOffset": 19128,
+      "wCnt": 1
+    },
+    {
+      "_id": "3553n",
+      "def": "an assemblage of parts that is regarded as a single entity",
+      "exp": [
+        "how big is that part compared to the whole?",
+        "the team is a unit"
+      ],
+      "gloss": "an assemblage of parts that is regarded as a single entity; \"how big is that part compared to the whole?\"; \"the team is a unit\"  ",
+      "lemma": "whole",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0204",
+          "synsetOffset": 1462005
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 367685
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1385458
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 368109
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 784215
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3993
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4258
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 19128
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 21939
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2749953
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3588414
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3892891
+        },
+        {
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4164989
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4353803
+        }
+      ],
+      "synonyms": [
+        "whole",
+        "unit"
+      ],
+      "synsetOffset": 3553,
+      "wCnt": 2
+    },
+    {
+      "_id": "2684n",
+      "def": "a tangible and visible entity",
+      "exp": [
+        "an entity that can cast a shadow",
+        "it was full of rackets, balls and other objects"
+      ],
+      "gloss": "a tangible and visible entity; an entity that can cast a shadow; \"it was full of rackets, balls and other objects\"  ",
+      "lemma": "object",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0105",
+          "synsetOffset": 532607
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3553
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 27167
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3009633
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3149951
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3233423
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3338648
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3532080
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3595179
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3610270
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3714721
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3892891
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4012260
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4248010
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4345288
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4486445
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7851054
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9238143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9251689
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9267490
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9279458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9281777
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9283193
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9287968
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9295338
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9300905
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9302031
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9308398
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9334396
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9335240
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9358550
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9368224
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9407346
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9409203
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9432990
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9468237
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9474162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9477037
+        }
+      ],
+      "synonyms": [
+        "object",
+        "physical_object"
+      ],
+      "synsetOffset": 2684,
+      "wCnt": 2
+    },
+    {
+      "_id": "1930n",
+      "def": "an entity that has physical existence  ",
+      "exp": [],
+      "gloss": "an entity that has physical existence  ",
+      "lemma": "physical_entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2452
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2684
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7347
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 20827
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29677
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 14580597
+        }
+      ],
+      "synonyms": [
+        "physical_entity"
+      ],
+      "synsetOffset": 1930,
+      "wCnt": 1
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599baddb2d4c7455551c4ef9",
+      "background": "",
+      "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+      "created": "2017-08-22T04:06:51.565Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 2,
+      "parent": null,
+      "persons": [
+        {
+          "__v": 0,
+          "_id": "59a7a64ea692ea00760b7977",
+          "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+          "birth": 1868,
+          "created": "2017-08-31T06:01:50.823Z",
+          "death": 1944,
+          "name": "Paul Otlet",
+          "relation": [],
+          "slug": "paul-otlet"
+        }
+      ],
+      "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+      "slug": "edition",
+      "stub": false,
+      "themes": [],
+      "title": "Edition placing",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "13912260n",
+          "def": "a figure that branches from a single root",
+          "exp": [
+            "genealogical tree"
+          ],
+          "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+          "lemma": "tree",
+          "lexFilenum": 25,
+          "lexId": "0",
+          "parent": "13863186n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8353",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13863186
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8352",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912424
+            },
+            {
+              "_id": "5ba1ebb57eefb32d4a2b8351",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 13912540
+            }
+          ],
+          "synonyms": [
+            "tree",
+            "tree_diagram"
+          ],
+          "synsetOffset": 13912260,
+          "wCnt": 2,
+          "word": "tree"
+        },
+        {
+          "__v": 0,
+          "_id": "96239s",
+          "def": "destitute of blood or apparently so",
+          "exp": [
+            "the bloodless carcass of my Hector sold- John Dryden"
+          ],
+          "gloss": "destitute of blood or apparently so; \"the bloodless carcass of my Hector sold\"- John Dryden  ",
+          "lemma": "bloodless",
+          "lexFilenum": 0,
+          "lexId": "0",
+          "parent": null,
+          "pos": "s",
+          "ptrs": [
+            {
+              "_id": "5ba1e8ff7eefb32d4a2b563f",
+              "pointerSymbol": "&",
+              "pos": "a",
+              "sourceTarget": "0000",
+              "synsetOffset": 95280
+            }
+          ],
+          "synonyms": [
+            "bloodless",
+            "exsanguine",
+            "exsanguinous"
+          ],
+          "synsetOffset": 96239,
+          "wCnt": 3,
+          "word": "bloodless"
+        },
+        {
+          "__v": 0,
+          "_id": "9466280n",
+          "def": "everything that exists anywhere",
+          "exp": [
+            "they study the evolution of the universe",
+            "the biggest tree in existence"
+          ],
+          "gloss": "everything that exists anywhere; \"they study the evolution of the universe\"; \"the biggest tree in existence\"  ",
+          "lemma": "universe",
+          "lexFilenum": 17,
+          "lexId": "0",
+          "parent": "19128n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8646",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 19128
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8645",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0601",
+              "synsetOffset": 2903062
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8644",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 1385663
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8643",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0501",
+              "synsetOffset": 2702807
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8642",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0105",
+              "synsetOffset": 527188
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8641",
+              "pointerSymbol": "%m",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 8271042
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b8640",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9239740
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863f",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9247071
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863e",
+              "pointerSymbol": "%p",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9277686
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366597
+            },
+            {
+              "_id": "5ba1ebd37eefb32d4a2b863c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 9366762
+            }
+          ],
+          "synonyms": [
+            "universe",
+            "existence",
+            "creation",
+            "world",
+            "cosmos",
+            "macrocosm"
+          ],
+          "synsetOffset": 9466280,
+          "wCnt": 6,
+          "word": "world"
+        },
+        {
+          "__v": 0,
+          "_id": "1640855v",
+          "def": "put in effect",
+          "exp": [
+            "carry out a task",
+            "execute the decision of the people",
+            "He actioned the operation"
+          ],
+          "gloss": "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\"  ",
+          "lemma": "carry_through",
+          "lexFilenum": 36,
+          "lexId": "0",
+          "parent": "1642924v",
+          "pos": "v",
+          "ptrs": [
+            {
+              "_id": "5ba1e7772e28482ce380ae08",
+              "pointerSymbol": "$",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 486018
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae07",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 484166
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae06",
+              "pointerSymbol": "@",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1642924
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae05",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0702",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae04",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0601",
+              "synsetOffset": 62451
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae03",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0301",
+              "synsetOffset": 3017922
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae02",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0301",
+              "synsetOffset": 1127379
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae01",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 1821690
+            },
+            {
+              "_id": "5ba1e7772e28482ce380ae00",
+              "pointerSymbol": "+",
+              "pos": "n",
+              "sourceTarget": "0201",
+              "synsetOffset": 35189
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adff",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641341
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfe",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641545
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfd",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641632
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfc",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 1641751
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfb",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2561995
+            },
+            {
+              "_id": "5ba1e7772e28482ce380adfa",
+              "pointerSymbol": "~",
+              "pos": "v",
+              "sourceTarget": "0000",
+              "synsetOffset": 2563724
+            }
+          ],
+          "synonyms": [
+            "carry_through",
+            "accomplish",
+            "execute",
+            "carry_out",
+            "action",
+            "fulfill",
+            "fulfil"
+          ],
+          "synsetOffset": 1640855,
+          "wCnt": 7,
+          "word": "action"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "9466280n",
+    "def": "everything that exists anywhere",
+    "exp": [
+      "they study the evolution of the universe",
+      "the biggest tree in existence"
+    ],
+    "gloss": "everything that exists anywhere; \"they study the evolution of the universe\"; \"the biggest tree in existence\"  ",
+    "lemma": "universe",
+    "lexFilenum": 17,
+    "lexId": "0",
+    "parent": "19128n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8646",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 19128
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8645",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0601",
+        "synsetOffset": 2903062
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8644",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0501",
+        "synsetOffset": 1385663
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8643",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0501",
+        "synsetOffset": 2702807
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8642",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0105",
+        "synsetOffset": 527188
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8641",
+        "pointerSymbol": "%m",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8271042
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b8640",
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9239740
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b863f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9247071
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b863e",
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9277686
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b863d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9366597
+      },
+      {
+        "_id": "5ba1ebd37eefb32d4a2b863c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9366762
+      }
+    ],
+    "synonyms": [
+      "universe",
+      "existence",
+      "creation",
+      "world",
+      "cosmos",
+      "macrocosm"
+    ],
+    "synsetOffset": 9466280,
+    "wCnt": 6,
+    "word": "world"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "__v": 0,
+  "_id": "5b4c6b38b8d881004fe83cd5",
+  "background": "",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531735190298-in-lieu-of.png\" bg=\"white\" width=\"2085\" height=\"3000\"></lightimg>",
+  "created": "2018-07-16T09:54:00.291Z",
+  "fullWidth": false,
+  "lovers": [
+    "5b48187eef732e0054886ac2"
+  ],
+  "page": 117,
+  "parent": {
+    "__v": 0,
+    "_id": "5b35f11d1c76e00054b5f2f5",
+    "background": "",
+    "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530261768802-schema.png\" style=\"max-width:95%; width: 500px\" width=\"500\" height=\"389\" />\n<p>\n    This document is a class. It describes a connecting urge and provides a swaddled toolset to satisfy that urge. The swaddled toolset is initially inoperative; it's set to <aa href=\"138\">False</aa>. There is one comment in the body of the class (see below). This document was written by a blemmyae, one who gave up the Hill of Being Documented to be a computer programmer.\n<p>\n    Only <aa to=\"91\">Blemmyes</aa> can write documents I think. There is a permanent cyclonic gale across the surface of the earth at a height of our heads that makes it impossible to write documents. The gale contains what words refer to. Some of what words refer to swerve out of the permanent gale at the height of our heads. They fall like <aa href=\"112\">lepidoptera</aa> on the knees of the blemmyes underneath the gale, otherwise lounging. Blemmyes take and order the swerved what-words-refer-to on the floor of the world like mosaic or thatch. You cannot become a blemmyae after the fact, not even if you cut off your head. \n</p>\n</p>\n<p><em>\n    # TODO: <aa to=\"113\">In my head</aa>, I want you to be able to have and use this book-thing, too, and to share it with you it has to have <span style=\"opacity:0.1\">AN INTERNAL REPRESENTATION OF THE WORLD; AN <aa to=\"118\">ORGANIZATION</aa> OF CONCEPTS AND ACTIONS THAT CAN BE REVISED BY NEW INFORMATION ABOUT THE WORLD</span>; (👆) because that is the only place open at this hour (11:53pm) but within such a setup let's counter those [...] by stopping the use of [...] which hold a particular type of unanalogical water. Until at least the concept doesn't prop itself up. I mean [...]. And keep going until [...] get to nothing and its joints—like this: [...], [...] [...] [...] [...] <em>!!</em>\n</em></p>",
+    "created": "2018-06-29T08:43:09.417Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 104,
+    "parent": "599baddb2d4c7455551c4ef9",
+    "persons": null,
+    "readme": "The chest-of-drawers or the shape of a document within the codex; where things are weighted; how they should slide; what contents are expected.",
+    "slug": "schema",
+    "stub": false,
+    "themes": [],
+    "title": "Schema calling",
+    "word": [
+      "3217458n",
+      "5927813n",
+      "4677385n",
+      "293253r",
+      "3660664n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "5b4c6b6db8d881004fe83cd6",
+      "bio": "Threw type into a river; took his wife's name",
+      "birth": 1840,
+      "created": "2018-07-16T09:54:53.146Z",
+      "death": 1922,
+      "name": "T. J. Cobden-Sanderson",
+      "relation": [],
+      "slug": "t--j--cobden-sanderson"
+    }
+  ],
+  "readme": "In the form of a Doves Press book, what this work might stand in for or take the place of.",
+  "slug": "in-lieu",
+  "stub": false,
+  "themes": [],
+  "title": "Lieu being",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2159427v",
+      "def": "use as a guide",
+      "exp": [
+        "They had the lights to guide on"
+      ],
+      "gloss": "use as a guide; \"They had the lights to guide on\"  ",
+      "lemma": "guide",
+      "lexFilenum": 39,
+      "lexId": "0",
+      "parent": "2159197v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1e9e37eefb32d4a2b66ce",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2159197
+        },
+        {
+          "_id": "5ba1e9e37eefb32d4a2b66cd",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10151570
+        },
+        {
+          "_id": "5ba1e9e37eefb32d4a2b66cc",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0103",
+          "synsetOffset": 10562749
+        }
+      ],
+      "synonyms": [
+        "guide",
+        "guide_on"
+      ],
+      "synsetOffset": 2159427,
+      "wCnt": 2,
+      "word": "guide"
+    },
+    {
+      "__v": 0,
+      "_id": "5696425n",
+      "def": "a person or thing that takes or can take the place of another  ",
+      "exp": [],
+      "gloss": "a person or thing that takes or can take the place of another  ",
+      "lemma": "substitute",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5695554n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c1a",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5695554
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c19",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 2405390
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c18",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 162688
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c17",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0103",
+          "synsetOffset": 1853934
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c16",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2258617
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c15",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2257767
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c14",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5696701
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c13",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5696803
+        },
+        {
+          "_id": "5ba1eb3c7eefb32d4a2b7c12",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5696941
+        }
+      ],
+      "synonyms": [
+        "substitute",
+        "replacement"
+      ],
+      "synsetOffset": 5696425,
+      "wCnt": 2,
+      "word": "replacement"
+    }
+  ]
+}

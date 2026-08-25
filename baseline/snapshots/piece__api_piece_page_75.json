@@ -1,0 +1,184 @@
+{
+  "__v": 0,
+  "_id": "59ffb87b0d38e60074a75114",
+  "background": "#333333",
+  "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931092947-serpentine2.jpg\" bg=\"#333\" width=\"1280\" height=\"1024\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931381386-serpentine3.jpg\" bg=\"#333\" width=\"1300\" height=\"730\"></lightimg>\n<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509931087269-serpentine.jpg\" bg=\"#333\" width=\"1280\" height=\"960\"></lightimg>",
+  "created": "2017-11-06T01:18:51.373Z",
+  "fullWidth": true,
+  "lovers": null,
+  "page": 75,
+  "parent": {
+    "__v": 0,
+    "_id": "59f178b07d9c7500766c97b6",
+    "background": "",
+    "content": "<div class=\"indents\"><p>The question of how Portuguese ants founded a colony in the exurbs here fascinates us now ▤ the question of what was in the shipping containers that carried a fortunate handful of ants fascinates us now ▧ the question of what type of abdomen the jetliner piled high with clothing has fascinates us now ◯ the question of the business logic of a payment gateway which prepared the translation of figures to declare the pile of clothing fascinates us now ▲ the question of how the burst of sockets and requests which moves quicker than ants of course and has an overlay of a queen superimposed mainly on plateau continents and repeated again but still as one fascinates us now ◌ the question of getting to the one by proximity within an overlay fascinates us now ▣ the question of our volume of blood as a mansion in itself and possible to be cast and possible to be given over and possible to be connected to other mansions by means of what fascinates us now.</p></div>",
+    "created": "2017-10-26T05:54:56.271Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 70,
+    "parent": "59a38829d9eba100763a0f50",
+    "persons": null,
+    "readme": "An indenting list, separated by marks, around the daily-indenting mythos of SOS and Asos arriving by planes.",
+    "slug": "questions",
+    "stub": false,
+    "themes": [],
+    "title": "Questions fascinating",
+    "word": [
+      "2219486n",
+      "4689450n",
+      "752764v"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "serpentine-mining",
+  "stub": false,
+  "themes": [],
+  "title": "Serpentine mining",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "2190166n",
+      "def": "two-winged insects characterized by active flight  ",
+      "exp": [],
+      "gloss": "two-winged insects characterized by active flight  ",
+      "lemma": "fly",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "2188699n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61d0",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2188699
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61cf",
+          "pointerSymbol": "#m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2188065
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61ce",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1940403
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61cd",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2190465
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61cc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2190790
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61cb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2191273
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61ca",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2191773
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61c9",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2192513
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61c8",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2192814
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61c7",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2193009
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61c6",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2195819
+        },
+        {
+          "_id": "5ba1e9b57eefb32d4a2b61c5",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2199502
+        }
+      ],
+      "synonyms": [
+        "fly"
+      ],
+      "synsetOffset": 2190166,
+      "wCnt": 1,
+      "word": "fly"
+    },
+    {
+      "__v": 0,
+      "_id": "6646628n",
+      "def": "an indication that something has been present",
+      "exp": [
+        "there wasn't a trace of evidence for the claim",
+        "a tincture of condescension"
+      ],
+      "gloss": "an indication that something has been present; \"there wasn't a trace of evidence for the claim\"; \"a tincture of condescension\"  ",
+      "lemma": "trace",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6797169n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebb17eefb32d4a2b8317",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6797169
+        },
+        {
+          "_id": "5ba1ebb17eefb32d4a2b8316",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6646854
+        }
+      ],
+      "synonyms": [
+        "trace",
+        "vestige",
+        "tincture",
+        "shadow"
+      ],
+      "synsetOffset": 6646628,
+      "wCnt": 4,
+      "word": "trace"
+    }
+  ]
+}

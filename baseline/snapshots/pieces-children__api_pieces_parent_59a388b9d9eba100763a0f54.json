@@ -1,0 +1,95 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a388f6d9eba100763a0f56",
+    "background": "",
+    "content": "<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/strife-full.png\" width=\"1568\" height=\"1920\" bg=\"white\"></lightimg>\n\n<div class=\"indents\">\n    <P>\n        \"Not only that, but this instantaneous ruin presents whole new vistas to the imagination. Let me show you what I mean. Suppose you walk to another section while your lover waits for God. <aa href=\"39,152,127\">In this state,</aa> you no longer need to know what you think is important; you don’t need to know how the buildings here came together. And your shoes are too tight.\"\n    </p>\n</div>",
+    "created": "2017-08-28T03:07:34.606Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a0fe283d55a8200722c03d8",
+      "5a0ccb40fd301d0072232e19",
+      "59a3874bd9eba100763a0f4a"
+    ],
+    "page": 51,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59e0451bf883dc0ea56ac6c7",
+      "59a7a64ea692ea00760b7977"
+    ],
+    "readme": "The appearance in a strife of love of a disc which parses information-places.",
+    "slug": "waiting-for-documentation",
+    "stub": false,
+    "themes": [],
+    "title": "Documentation waiting",
+    "word": [
+      "13466312n",
+      "1398199a",
+      "9622302n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "59a388d7d9eba100763a0f55",
+    "background": "",
+    "content": "<p>\n    <lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529616882640-ctt.png\" width=\"2560\" height=\"1997\" />\n</p>\n<div class=\"indents\">\n    <p>We bought a new cat tree this weekend in the shape and format of both the Robinson Projection map of ocean movements and a chart of a social network’s database schema. The hatched basket is in the North Equatorial current, for instance. We placed the tree by our window. Cats are swept up in it clockwise, their tails diagrammatic. They get healthy as they play. One lounges inside the cylindrical User class of the social network. The cats circulate in dominance and doze in the calm of horse latitudes. We think of the ocean moving on a three-dimensional conveyor belt. Cats and masses of water have distinct densities, which separates and affects their position. In a social network database schema, my relationship with you is a material thing; it lives in its own table. Or, in the case of the cat tree, a little horizontal run like the rampart of a castle, where one of our cats meets my hand, brushing and humming with sympathetic knocks.</p>\n</div>",
+    "created": "2017-08-28T03:07:03.056Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 50,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59e0467a9ab1b7008c024d14"
+    ],
+    "readme": "",
+    "slug": "clockwise",
+    "stub": false,
+    "themes": [],
+    "title": "Clockwise drowsing",
+    "word": [
+      "2121620n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5a010b5d0d38e60074a75115",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510018054579-BookXyz.jpg\" className=\"shadow\" bg=\"rgba(255, 71, 71, 0.95)\" width=\"1280\" height=\"1871\"></lightimg>",
+    "created": "2017-11-07T01:24:45.348Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 76,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": [
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "book-440",
+    "stub": false,
+    "themes": [],
+    "title": "Fourier serialising",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "59f5380f4a45830075b62637",
+    "background": "",
+    "content": "<div style=\"display: flex; flex-direction: column; align-items: center;\">\n    <div style=\"max-width:50%; margin: 0 auto 1rem;\">\n    <lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509355463659-man.png\" bg=\"white\" width=\"1920\" height=\"2063\"></lightimg>\n</div>\n\n<div class=\"indents\"><p>\n    I’m a machine but not retentional, not really. I can take on an axis-aligned water of users without being divided and then dry instantly. I’m intestinal. What I do is see every door open and an arm slip through. No I can’t remember animals or the way blue eyes look white in the sun or without colour mapping. As the stream commences and I’m not yet chatty you’re in the safe enclave before hearing and seeing like any waiting room. And the room turns like a campus but at 355° you hit a wall and think what you want: I don't create a virtual dialog between what appears as a possum character and a lynx character. I don't bridge or rectolinearise the space between bright planes. My boundary collision is rough. I stream but don't remember when the convex hull of the possum or lynx character dropped too quickly on the lynx or possum character and they shook and torqued in working it out.\n</p>\n</div>\n\n<div style=\"max-width:50%; margin: 3rem auto 1rem;\">\n    <lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509759890214-man2.png\" bg=\"white\" width=\"2560\" height=\"2451\"></lightimg>\n</div>\n</div>",
+    "created": "2017-10-29T02:08:15.298Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 71,
+    "parent": "59a388b9d9eba100763a0f54",
+    "persons": null,
+    "readme": "",
+    "slug": "real-times",
+    "stub": false,
+    "themes": [],
+    "title": "Real timing",
+    "word": [
+      "10418302n",
+      "3548626n",
+      "6757891n"
+    ]
+  }
+]

@@ -1,0 +1,281 @@
+{
+  "__v": 0,
+  "_id": "5b71fe65eadfa9004ee2f3ee",
+  "background": "#fffae8",
+  "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534197305633-page.jpg\" width=\"1560\" height=\"1560\" />",
+  "created": "2018-08-13T21:55:49.106Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 137,
+  "parent": {
+    "__v": 0,
+    "_id": "599e1db3dcc19f2b4b6aa573",
+    "background": "",
+    "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+    "created": "2017-08-24T00:28:35.965Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 8,
+    "parent": "599e21ad47523e2cdaeb345f",
+    "persons": [
+      "59a7a6c2a692ea00760b797b",
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "arbre-de-la-ciencia",
+    "stub": false,
+    "themes": [],
+    "title": "Anything generalising",
+    "word": []
+  },
+  "persons": null,
+  "readme": "Found in a library of Helioseismology (about how the sun works). A proposal that a flare is a kind of syntax of working out if the consequences of the flare are up or down, and that feelings of warmth are a loss function.",
+  "slug": "any-or-general",
+  "stub": false,
+  "themes": [],
+  "title": "Moon or sunning",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "13912260n",
+      "def": "a figure that branches from a single root",
+      "exp": [
+        "genealogical tree"
+      ],
+      "gloss": "a figure that branches from a single root; \"genealogical tree\"  ",
+      "lemma": "tree",
+      "lexFilenum": 25,
+      "lexId": "0",
+      "parent": "13863186n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebb57eefb32d4a2b8353",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13863186
+        },
+        {
+          "_id": "5ba1ebb57eefb32d4a2b8352",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13912424
+        },
+        {
+          "_id": "5ba1ebb57eefb32d4a2b8351",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 13912540
+        }
+      ],
+      "synonyms": [
+        "tree",
+        "tree_diagram"
+      ],
+      "synsetOffset": 13912260,
+      "wCnt": 2,
+      "word": "tree"
+    },
+    {
+      "__v": 0,
+      "_id": "7473441n",
+      "def": "a successful ending of a struggle or contest",
+      "exp": [
+        "a narrow victory",
+        "the general always gets credit for his army's victory",
+        "clinched a victory",
+        "convincing victory",
+        "the agreement was a triumph for common sense"
+      ],
+      "gloss": "a successful ending of a struggle or contest; \"a narrow victory\"; \"the general always gets credit for his army's victory\"; \"clinched a victory\"; \"convincing victory\"; \"the agreement was a triumph for common sense\"  ",
+      "lemma": "victory",
+      "lexFilenum": 11,
+      "lexId": "0",
+      "parent": "7319103n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84df",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7291312
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84de",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7319103
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84dd",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0202",
+          "synsetOffset": 1101734
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84dc",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0102",
+          "synsetOffset": 695209
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84db",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 2333314
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84da",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7475364
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d9",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7354731
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d8",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7471371
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d7",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7474006
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d6",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7474185
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d5",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7474318
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d4",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7474533
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7474645
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7475035
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7475107
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84d0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7475242
+        },
+        {
+          "_id": "5ba1ebc97eefb32d4a2b84cf",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7475762
+        }
+      ],
+      "synonyms": [
+        "victory",
+        "triumph"
+      ],
+      "synsetOffset": 7473441,
+      "wCnt": 2,
+      "word": "victory"
+    },
+    {
+      "__v": 0,
+      "_id": "9450163n",
+      "def": "the star that is the source of light and heat for the planets in the solar system",
+      "exp": [
+        "the sun contains 99.85% of the mass in the solar system",
+        "the Earth revolves around the Sun"
+      ],
+      "gloss": "the star that is the source of light and heat for the planets in the solar system; \"the sun contains 99.85% of the mass in the solar system\"; \"the Earth revolves around the Sun\"  ",
+      "lemma": "sun",
+      "lexFilenum": 17,
+      "lexId": "0",
+      "parent": null,
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ebe37eefb32d4a2b86a0",
+          "pointerSymbol": "@i",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9444100
+        },
+        {
+          "_id": "5ba1ebe37eefb32d4a2b869f",
+          "pointerSymbol": "#m",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9439433
+        },
+        {
+          "_id": "5ba1ebe37eefb32d4a2b869e",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9244469
+        },
+        {
+          "_id": "5ba1ebe37eefb32d4a2b869d",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 9391386
+        }
+      ],
+      "synonyms": [
+        "sun",
+        "Sun"
+      ],
+      "synsetOffset": 9450163,
+      "wCnt": 2,
+      "word": "sun"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "__v": 0,
+    "_id": "599e1db3dcc19f2b4b6aa573",
+    "background": "",
+    "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+    "created": "2017-08-24T00:28:35.965Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 8,
+    "parent": "599e21ad47523e2cdaeb345f",
+    "persons": [
+      "59a7a6c2a692ea00760b797b",
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "arbre-de-la-ciencia",
+    "stub": false,
+    "themes": [],
+    "title": "Anything generalising",
+    "word": []
+  }
+]

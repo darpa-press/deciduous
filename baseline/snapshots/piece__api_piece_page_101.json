@@ -1,0 +1,586 @@
+{
+  "__v": 0,
+  "_id": "5b31f5aa1c76e00054b5f2f2",
+  "background": "",
+  "content": "<p>Our mascot is a Bell frog<br/>\nin the eye of the bole of a tree.<br/>\nAnd each part a ghost. You can tell<br/>\njust by the way their edges dash.</p>\n\n<p>The <aa to=\"102,103,99\">Bell frog</aa> is ringing like a web-<br/>\nsocket—every three seconds—<br/>\n\"be see, be see,\" on it rings. And<br/>\nwe chose their metatarsal hop.</p>\n\n<p>You, trance-ending particle. You<br/>\namphibious service call.</p>",
+  "created": "2018-06-26T08:13:30.441Z",
+  "fullWidth": false,
+  "lovers": [
+    "59a38965d9eba100763a0f59",
+    "5b31fd271c76e00054b5f2f3"
+  ],
+  "page": 101,
+  "parent": {
+    "__v": 0,
+    "_id": "5a13c2c6de1f950071ab6547",
+    "background": "",
+    "content": "Silver Sword<br/>\nHirundo<br/>\nAerundo<br/>\nHurricane Hirundo (swallow)<br/>\nHurricane Aquila (eagle)<br/>\nHurricane Accipter (hawk)<br/>\nThe Impeccable<br/>\nSymmechromatic<br/>\nThunderblender<br/>\nThe Resilient Bullet<br/>\nIntelligent Bullet<br/>\nBullet Cloisoné<br/>\nBullet Lavolta<br/>\nThe Intelligent Whale<br/>\nThe Arc-en-Ciel (the rainbow)<br/>\nArcenciel<br/>\nMongoose Civique<br/>\nAnticipator<br/>\nRegna Racer (couronne a couronne)<br/>\nAeroterre<br/>\nFée Rapide<br/>\nComme Il Faire<br/>\nTonnere Alifère<br/>\n(winged thunder)<br/>\nAliforme Alifère<br/>\n(wing-slender a-wing)<br/>\nTurbotorc<br/>\nThunderbird Allié<br/>\n(Cousin Thunderbird)<br/>\nThunder Crester<br/>\nDearborn Diamanté<br/>\nMagigravure<br/>\nPastelogram<br/>\nRegina-Rex<br/>\nTaper Racer<br/>\nVarsity Stroke<br/>\nAngelastro<br/>\nAstranaut<br/>\nChaparral<br/>\nTir á l'arc (bull's eye)<br/>\nCresta Lark<br/>\nTriskelion (three legs running)<br/>\nPluma Piluma (hairfine, feather-foot)<br/>\nTurcotinga (solid indigo)<br/>\nUtopian Turtletop<br/>",
+    "created": "2017-11-21T06:08:06.407Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 84,
+    "parent": "5a0fe283d55a8200722c03d8",
+    "persons": null,
+    "readme": "",
+    "slug": "cars",
+    "stub": true,
+    "themes": [],
+    "title": "Car naming",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a64ea692ea00760b7977",
+      "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+      "birth": 1868,
+      "created": "2017-08-31T06:01:50.823Z",
+      "death": 1944,
+      "name": "Paul Otlet",
+      "relation": [],
+      "slug": "paul-otlet"
+    }
+  ],
+  "readme": "",
+  "slug": "a-mascot",
+  "stub": false,
+  "themes": [],
+  "title": "Mascot shaping",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "10297234n",
+      "def": "a person or animal that is adopted by a team or other group as a symbolic figure  ",
+      "exp": [],
+      "gloss": "a person or animal that is adopted by a team or other group as a symbolic figure  ",
+      "lemma": "mascot",
+      "lexFilenum": 18,
+      "lexId": "0",
+      "parent": "4475n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1ea737eefb32d4a2b73df",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4475
+        }
+      ],
+      "synonyms": [
+        "mascot"
+      ],
+      "synsetOffset": 10297234,
+      "wCnt": 1,
+      "word": "mascot"
+    },
+    {
+      "__v": 0,
+      "_id": "1639765n",
+      "def": "any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "exp": [
+        "semiaquatic and terrestrial species"
+      ],
+      "gloss": "any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species  ",
+      "lemma": "frog",
+      "lexFilenum": 5,
+      "lexId": "0",
+      "parent": "1627424n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64c2",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1627424
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64c1",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0502",
+          "synsetOffset": 2631238
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64c0",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0401",
+          "synsetOffset": 2631238
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64bf",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1382818
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64be",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1640846
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64bd",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1642943
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64bc",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1643255
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64bb",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1643507
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64ba",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1643896
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b9",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1644373
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b8",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1644900
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b7",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1645466
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b6",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1645776
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b5",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1648139
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b4",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1648356
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b3",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1648620
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b2",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1649170
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b1",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1650167
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64b0",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1653026
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64af",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1653223
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64ae",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1653509
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64ad",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1653773
+        },
+        {
+          "_id": "5ba1e9c17eefb32d4a2b64ac",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1654863
+        }
+      ],
+      "synonyms": [
+        "frog",
+        "toad",
+        "toad_frog",
+        "anuran",
+        "batrachian",
+        "salientian"
+      ],
+      "synsetOffset": 1639765,
+      "wCnt": 6,
+      "word": "frog"
+    },
+    {
+      "__v": 0,
+      "_id": "5833840n",
+      "def": "the content of cognition",
+      "exp": [
+        "the main thing you are thinking about",
+        "it was not a good idea",
+        "the thought never entered my mind"
+      ],
+      "gloss": "the content of cognition; the main thing you are thinking about; \"it was not a good idea\"; \"the thought never entered my mind\"  ",
+      "lemma": "idea",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5809192n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5cdf134b05823b0062ac9157",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9156",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 689344
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9155",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 631737
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9154",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0207",
+          "synsetOffset": 607780
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9153",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 723056
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9152",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 739082
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9151",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 629738
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9150",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1637166
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914f",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 12689
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914e",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1636397
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5834567
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914c",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835568
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914b",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835747
+        },
+        {
+          "_id": "5cdf134b05823b0062ac914a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836921
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9149",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5893653
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9148",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5898568
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9147",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913160
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9146",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913275
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9145",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916155
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9144",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916739
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9143",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5917328
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9142",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5918267
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9141",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919549
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9140",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919866
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913f",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920159
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913e",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920272
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5923696
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913c",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5924408
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913b",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926049
+        },
+        {
+          "_id": "5cdf134b05823b0062ac913a",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926150
+        },
+        {
+          "_id": "5cdf134b05823b0062ac9139",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 608808
+        }
+      ],
+      "synonyms": [
+        "idea",
+        "thought"
+      ],
+      "synsetOffset": 5833840,
+      "wCnt": 2,
+      "word": "idea"
+    },
+    {
+      "__v": 0,
+      "_id": "6757891n",
+      "def": "a deliberately false or improbable account  ",
+      "exp": [],
+      "gloss": "a deliberately false or improbable account  ",
+      "lemma": "fabrication",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6756407n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f86",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6756407
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f85",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 645982
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f84",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 10075529
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f83",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0203",
+          "synsetOffset": 1935935
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f82",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0203",
+          "synsetOffset": 1116857
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f81",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1635176
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f80",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1634424
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f7f",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6758135
+        }
+      ],
+      "synonyms": [
+        "fabrication",
+        "fiction",
+        "fable"
+      ],
+      "synsetOffset": 6757891,
+      "wCnt": 3,
+      "word": "fable"
+    }
+  ]
+}

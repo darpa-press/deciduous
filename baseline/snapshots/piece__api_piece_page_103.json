@@ -1,0 +1,108 @@
+{
+  "__v": 0,
+  "_id": "5b35ea261c76e00054b5f2f4",
+  "background": "#191919",
+  "content": "<aa to=\"146,119\">\n    <video autoPlay autoplay loop muted>\n        <source src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530259913695-no.mp4\" type=\"video/mp4\">\n    </video>\n</aa>",
+  "created": "2018-06-29T08:13:26.369Z",
+  "fullWidth": true,
+  "lovers": [
+    "59a38829d9eba100763a0f50",
+    "59a387fad9eba100763a0f4f"
+  ],
+  "page": 103,
+  "parent": {
+    "__v": 0,
+    "_id": "5b31f5aa1c76e00054b5f2f2",
+    "background": "",
+    "content": "<p>Our mascot is a Bell frog<br/>\nin the eye of the bole of a tree.<br/>\nAnd each part a ghost. You can tell<br/>\njust by the way their edges dash.</p>\n\n<p>The <aa to=\"102,103,99\">Bell frog</aa> is ringing like a web-<br/>\nsocket—every three seconds—<br/>\n\"be see, be see,\" on it rings. And<br/>\nwe chose their metatarsal hop.</p>\n\n<p>You, trance-ending particle. You<br/>\namphibious service call.</p>",
+    "created": "2018-06-26T08:13:30.441Z",
+    "fullWidth": false,
+    "lovers": [
+      "59a38965d9eba100763a0f59",
+      "5b31fd271c76e00054b5f2f3"
+    ],
+    "page": 101,
+    "parent": "5a13c2c6de1f950071ab6547",
+    "persons": [
+      "59a7a64ea692ea00760b7977"
+    ],
+    "readme": "",
+    "slug": "a-mascot",
+    "stub": false,
+    "themes": [],
+    "title": "Mascot shaping",
+    "word": [
+      "10297234n",
+      "1639765n",
+      "5833840n",
+      "6757891n"
+    ]
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a64ea692ea00760b7977",
+      "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+      "birth": 1868,
+      "created": "2017-08-31T06:01:50.823Z",
+      "death": 1944,
+      "name": "Paul Otlet",
+      "relation": [],
+      "slug": "paul-otlet"
+    },
+    {
+      "__v": 0,
+      "_id": "5b7a3e0ec5894d0053bc013f",
+      "bio": "",
+      "birth": 1908,
+      "created": "2018-08-20T04:05:34.003Z",
+      "death": 1966,
+      "name": "Elio Vittorini",
+      "relation": [],
+      "slug": "elio-vittorini"
+    }
+  ],
+  "readme": "Not the News and Observer!  A knife-grinder!",
+  "slug": "ah-and-no",
+  "stub": false,
+  "themes": [],
+  "title": "Ah! declining",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "7205104n",
+      "def": "a negative",
+      "exp": [
+        "his no was loud and clear"
+      ],
+      "gloss": "a negative; \"his no was loud and clear\"  ",
+      "lemma": "no",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "7204911n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb0d7eefb32d4a2b778e",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7204911
+        },
+        {
+          "_id": "5ba1eb0d7eefb32d4a2b778d",
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 7203900
+        }
+      ],
+      "synonyms": [
+        "no"
+      ],
+      "synsetOffset": 7205104,
+      "wCnt": 1,
+      "word": "no"
+    }
+  ]
+}

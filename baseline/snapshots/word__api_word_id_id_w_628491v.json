@@ -1,0 +1,232 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "628491v",
+    "def": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",
+    "exp": [
+      "I've been thinking all day and getting nowhere"
+    ],
+    "gloss": "use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments; \"I've been thinking all day and getting nowhere\"  ",
+    "lemma": "think",
+    "lexFilenum": 31,
+    "lexId": "0",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6f",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0304",
+        "synsetOffset": 5770926
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6e",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 2419933
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6d",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 2898433
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6c",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 5784242
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6b",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 5770926
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae6a",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 5786372
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae69",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10708292
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae68",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10708454
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae67",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 5770926
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae66",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 630380
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae65",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 629889
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae64",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1634142
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae63",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 621653
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae62",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 629257
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae61",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 629738
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae60",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 630026
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 630223
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 630380
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 632627
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 634472
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 670261
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae5a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 704388
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae59",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 704690
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae58",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 713167
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae57",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 722232
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae56",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 732224
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae55",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 734348
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae54",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 739082
+      },
+      {
+        "_id": "5ce31a1afef2fb4e3c89ae53",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 739340
+      }
+    ],
+    "synonyms": [
+      "think",
+      "cogitate",
+      "cerebrate"
+    ],
+    "synsetOffset": 628491,
+    "wCnt": 3,
+    "word": "think"
+  }
+}

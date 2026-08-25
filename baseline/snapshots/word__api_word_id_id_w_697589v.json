@@ -1,0 +1,141 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "697589v",
+    "def": "reach, make, or come to a decision about something",
+    "exp": [
+      "We finally decided after lengthy deliberations"
+    ],
+    "gloss": "reach, make, or come to a decision about something; \"We finally decided after lengthy deliberations\"  ",
+    "lemma": "decide",
+    "lexFilenum": 31,
+    "lexId": "0",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba9",
+        "pointerSymbol": "*",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 812580
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba8",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0302",
+        "synsetOffset": 684782
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba7",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0302",
+        "synsetOffset": 5838176
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba6",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0302",
+        "synsetOffset": 162632
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba5",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 685638
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba4",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 162632
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba3",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 5788149
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba2",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 647094
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba1",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 674607
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6ba0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 698398
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 698732
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 699626
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 715868
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2159197
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2501278
+      },
+      {
+        "_id": "5ba1ea347eefb32d4a2b6b9a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2511551
+      }
+    ],
+    "synonyms": [
+      "decide",
+      "make_up_one's_mind",
+      "determine"
+    ],
+    "synsetOffset": 697589,
+    "wCnt": 3,
+    "word": "decide"
+  }
+}

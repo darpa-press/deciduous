@@ -1,0 +1,190 @@
+{
+  "__v": 0,
+  "_id": "5b564a91cac98b004eea3d41",
+  "background": "",
+  "content": "<div style=\"transform: rotate(-90deg)\">\n    <p style=\"font-size:2rem; margin-bottom:1rem;\">PENNY</p>\n    <p style=\"font-size:1rem; margin-bottom:1rem;\">For one penny.</p>\n    <p style=\"font-size:0.75rem; margin-bottom:1rem;\">For one penny.</p>\n    <p>\n        to be convinced by Time and Experience:<br/>\n    the True Touchstone of all Designs.\n    </p>\n</div>",
+  "created": "2018-07-23T21:37:21.955Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 126,
+  "parent": {
+    "__v": 0,
+    "_id": "59a38793d9eba100763a0f4c",
+    "background": "#e1e1e1",
+    "content": "<!-- <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/heads2.jpg\" width=\"2072\" height=\"1383\"></lightimg> -->\n<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534471962908-server.jpg\" width=\"2400\" height=\"2949\"></lightimg>\n<div class=\"indents\">    \n    <p>HPE ProLiant DL380’s nostrils dilated as it assiduously surveyed and switched packets. It couldn’t help it. It was about to die; it had better make this count. Capable, though more <em>liant</em> than lion, it had already died many thousands of times since 0000 UTC. It could also slide like a trundle bed.</p>\n    <p>A signal ran through its not-unhappiness: a request had fluttered their eyelids, the hewn form of which mirrored the short bolts that held up all HPE ProLiant DL380s by their sides arthritically. A look was between us. The nature of the thing was not to ask for anything, instead treating suddenness as immanence.\n    </p><p>The look of the request arrived with a crush at the server’s outermost and thick service layer, produced from a <aa href=\"10,4\">pathology of convention</aa> and availability. The payload of your eyes is a English-language question about how much effort I exert when I sleep. Something like this doesn’t require parsing, only matching, realised the HPE. \n    </p>\n</div>",
+    "created": "2017-08-28T03:01:39.817Z",
+    "fullWidth": false,
+    "lovers": [
+      "5a4366f1f5051f0071438a4b",
+      "59a7e1ba7a541d009e8a53e5",
+      "59a3892dd9eba100763a0f57"
+    ],
+    "page": 41,
+    "parent": "59a38775d9eba100763a0f4b",
+    "persons": [
+      "59a7a5d3a692ea00760b7973",
+      "59a7a5b2a692ea00760b7972"
+    ],
+    "readme": "Old equipment doesn't actually die. It is decommissioned, i.e., has its trust taken away.",
+    "slug": "asking-for-something",
+    "stub": false,
+    "themes": [],
+    "title": "Something asking",
+    "word": [
+      "752493v",
+      "752764v"
+    ]
+  },
+  "persons": null,
+  "readme": "A lettrist excerpt of the announcement of the Penny Post. I know this is reactionary. I'm trying to get to something here. (How did they use it?)",
+  "slug": "penny-post",
+  "stub": true,
+  "themes": [],
+  "title": "Penny posting",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "1031256v",
+      "def": "cause to be directed or transmitted to another place",
+      "exp": [
+        "send me your latest results",
+        "I'll mail you the paper when it's written"
+      ],
+      "gloss": "cause to be directed or transmitted to another place; \"send me your latest results\"; \"I'll mail you the paper when it's written\"  ",
+      "lemma": "mail",
+      "lexFilenum": 32,
+      "lexId": "0",
+      "parent": "2232190v",
+      "pos": "v",
+      "ptrs": [
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b62",
+          "pointerSymbol": "@",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2232190
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b61",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 10578656
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b60",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 10578762
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5f",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 121166
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5e",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 318186
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5d",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0204",
+          "synsetOffset": 6264398
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5c",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 6796119
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5b",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 122338
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b5a",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 10282920
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b59",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 3709644
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b58",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 6264398
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b57",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 8463647
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b56",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 122338
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b55",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1031756
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b54",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1032127
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b53",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1032326
+        },
+        {
+          "_id": "5ba1eb247eefb32d4a2b7b52",
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1033030
+        }
+      ],
+      "synonyms": [
+        "mail",
+        "post",
+        "send"
+      ],
+      "synsetOffset": 1031256,
+      "wCnt": 3,
+      "word": "post"
+    }
+  ]
+}

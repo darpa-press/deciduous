@@ -1,0 +1,85 @@
+{
+  "__v": 0,
+  "_id": "59a7a6c2a692ea00760b797b",
+  "bio": "Brought volvelles to Europe, visited by god while composing a love song, produced <em>The Abbreviated Art of Finding Truth</em> in trees and circular mechanics.",
+  "birth": 1232,
+  "created": "2017-08-31T06:03:46.105Z",
+  "death": 1315,
+  "name": "Ramon Llull",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599e1db3dcc19f2b4b6aa573",
+      "background": "",
+      "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+      "created": "2017-08-24T00:28:35.965Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 8,
+      "parent": "599e21ad47523e2cdaeb345f",
+      "persons": [
+        "59a7a6c2a692ea00760b797b",
+        "59a7a7d5a692ea00760b7980"
+      ],
+      "readme": "",
+      "slug": "arbre-de-la-ciencia",
+      "stub": false,
+      "themes": [],
+      "title": "Anything generalising",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "59a3889bd9eba100763a0f53",
+      "background": "",
+      "content": "<p>Thanks for coming and<br/>\nyou made it<br/>\nYou made to the Volvelle Social Club<br/>\nIt’s our annual meeting<br/>\nand thanks for coming\n</p>\n<p>We are moving devices yet <br/>\nclubs of five are outlawed.<br/>\nEveryone signs up in a round-robin<br/>\nand we can’t have a pentagram<br/>\nSo no clubs of five\n</p>\n<p>It’s hot today<br/>\nReally hot inside<br/>\nIt feels about 72 degrees<br/>\nNot very good weather<br/>\nfor an annual meeting.\n</p>\n<p>But let’s press on<br/>\nThe heat of our bodies<br/>\nhas made things worse <br/>\n(The heat) Let’s start.<br/>\nAdd a disc to the Volvelle.\n</p>\n<p>An ionic column and<br/>\nour volunteers and <br/>\npartners are energetic. You <br/>\nlook so well I hardly believe it<br/>\nLike an ionic column\n</p>\n<p>Dearest members note<br/>\nwe begin the program<br/>\n<aa href=\"94,83\">very energetically</aa>.<br/>\nYou can change your mind<br/>\nIf you want you can\n</p>\n<p>When the fifth person joins<br/>\nYou go into hibernation.<br/>\nIt’s imperative that<br/>\nyou sleep until the next<br/>\nInterested person is found.\n</p>\n<p>At first this was painful<br/>\nBut it’s adventure really<br/>\nAll five of you there and<br/>\na sleeping adventure<br/>\nand not Convening\n</p>\n<p>You will be fine but<br/>\nthings don’t look good though.<br/>\nIt’s sort-of stuck between two.<br/>\nJust rattle the pin and<br/>\nAdd a disc to the Volvelle please\n</p>",
+      "created": "2017-08-28T03:06:03.816Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a3898ed9eba100763a0f5a"
+      ],
+      "page": 48,
+      "parent": "59a38775d9eba100763a0f4b",
+      "persons": [
+        "59a7a6c2a692ea00760b797b"
+      ],
+      "readme": "The minutes of a group which meets, rotates, meets again.",
+      "slug": "volvelle-social-club",
+      "stub": false,
+      "themes": [],
+      "title": "Social spinning",
+      "word": [
+        "1230965n",
+        "4628192n",
+        "676271s",
+        "4422875n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "59a3898ed9eba100763a0f5a",
+      "background": "",
+      "content": "<div className=\"indents small-images\">\n    <p>Two scapegoats bounded up underneath the footbridge. They locked horns. They ate food—seagrass and walnuts—from each other's mouths. They had tested and chewed through fences opportunistically and were now here. Their left eyes were foggy, like an old person's. The irises of these eyes bloomed. <img src=\"//placehold.it/20x20\" /> In lieu of any other type of routine, the food that they ate from each other's mouths helped to make their circulatory systems go.</p>\n\n    <p>Visitors on the footbridge looked down and could see parts of the scapegoats. The visitors would have liked to repurpose them, but it is tricky to get down where the scapegoats are. The visitors wore white jeans and carried big white plastic bags. The scapegoats were naked.</p>\n\n    <p>Each animal with a brain inherits and does work on a four-dimensional taxonomic tree of the available forms of animal and their features. Efforts are underway to externalise these via the use of a <img src=\"//placehold.it/20x20\" /> neural scanner, <img src=\"//placehold.it/20x20\" /> grid paper, and a series of printed images of available animals. While the animal—such as a scapegoat—has a circulatory system which is going, the taxonomic tree is oriented on polar coordinates. At the moment that this isn't so, an organisational downward wave rattles through the brain of the animal, restructuring the tree into a proper <img src=\"//placehold.it/20x20\" /> Cartesian setup. This is felt as a brief <em>thinking-of-all-animals</em> and their features.</p>\n</div>\n\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/goat.png\" width=\"1920\" height=\"1920\"></lightimg>",
+      "created": "2017-08-28T03:10:06.288Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 55,
+      "parent": "59a38965d9eba100763a0f59",
+      "persons": [
+        "59a7a687a692ea00760b797a",
+        "59a7a6c2a692ea00760b797b"
+      ],
+      "readme": "",
+      "slug": "scapegoats",
+      "stub": false,
+      "themes": [],
+      "title": "Scape goating",
+      "word": [
+        "10555311n",
+        "5611302n"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "ramon-llul"
+}

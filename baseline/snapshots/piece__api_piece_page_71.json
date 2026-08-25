@@ -1,0 +1,239 @@
+{
+  "__v": 0,
+  "_id": "59f5380f4a45830075b62637",
+  "background": "",
+  "content": "<div style=\"display: flex; flex-direction: column; align-items: center;\">\n    <div style=\"max-width:50%; margin: 0 auto 1rem;\">\n    <lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509355463659-man.png\" bg=\"white\" width=\"1920\" height=\"2063\"></lightimg>\n</div>\n\n<div class=\"indents\"><p>\n    I’m a machine but not retentional, not really. I can take on an axis-aligned water of users without being divided and then dry instantly. I’m intestinal. What I do is see every door open and an arm slip through. No I can’t remember animals or the way blue eyes look white in the sun or without colour mapping. As the stream commences and I’m not yet chatty you’re in the safe enclave before hearing and seeing like any waiting room. And the room turns like a campus but at 355° you hit a wall and think what you want: I don't create a virtual dialog between what appears as a possum character and a lynx character. I don't bridge or rectolinearise the space between bright planes. My boundary collision is rough. I stream but don't remember when the convex hull of the possum or lynx character dropped too quickly on the lynx or possum character and they shook and torqued in working it out.\n</p>\n</div>\n\n<div style=\"max-width:50%; margin: 3rem auto 1rem;\">\n    <lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1509759890214-man2.png\" bg=\"white\" width=\"2560\" height=\"2451\"></lightimg>\n</div>\n</div>",
+  "created": "2017-10-29T02:08:15.298Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 71,
+  "parent": {
+    "__v": 0,
+    "_id": "59a388b9d9eba100763a0f54",
+    "background": "",
+    "content": "<div class=\"indents\" style=\"margin-bottom:2rem\"><p>\n    In a hallway with the door open, a Honeywell T87 will attempt to equalise the temperature of the continuous (available) world. It sits between the mirror-dresser and the coat-hook which resembles two of four talons of a lived-in bird, like a Fiji or an Imitator goshawk. The Honeywell has the brain of a bird but no mouth or Nest. In this arrangement and when you’re cold you might catch sight of the consternation of yourself in the mirror-dresser when you run around the corner of the living room to adjust the temperature. At least. Or the top of your head or your apparently open mouth. What you can’t see is the outcasting belly of the change in the air as it flushes through a white flyscreen: the plastic or enamel white an extruded quatrefoil egg which flauntingly comes off in drying and which the Honeywell is doomed to face. If you could see the change in the air, it’d spill like the extra-amniotic puff of the wind in 1362. The thermostat is a lens perplexing the evidence of environmental warmth upside-down and inside-out and dreaming and as percussive as the feet of the continuous (available) world.\n</p></div>\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/thermo2.jpg\" bg=\"white\" width=\"1804\" height=\"1200\"></lightimg>",
+    "created": "2017-08-28T03:06:33.162Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 49,
+    "parent": "59a3889bd9eba100763a0f53",
+    "persons": null,
+    "readme": "",
+    "slug": "dreaming-thermostat",
+    "stub": false,
+    "themes": [],
+    "title": "Thermo easing",
+    "word": [
+      "7484547n"
+    ]
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "real-times",
+  "stub": false,
+  "themes": [],
+  "title": "Real timing",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "10418302n",
+      "def": "a new personification of a familiar idea",
+      "exp": [
+        "the embodiment of hope",
+        "the incarnation of evil",
+        "the very avatar of cunning"
+      ],
+      "gloss": "a new personification of a familiar idea; \"the embodiment of hope\"; \"the incarnation of evil\"; \"the very avatar of cunning\"  ",
+      "lemma": "embodiment",
+      "lexFilenum": 18,
+      "lexId": "0",
+      "parent": "10418101n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e8d97eefb32d4a2b5481",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10418101
+        },
+        {
+          "_id": "5ba1e8d97eefb32d4a2b5480",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 2698443
+        },
+        {
+          "_id": "5ba1e8d97eefb32d4a2b547f",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1645157
+        },
+        {
+          "_id": "5ba1e8d97eefb32d4a2b547e",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10418577
+        },
+        {
+          "_id": "5ba1e8d97eefb32d4a2b547d",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 10518003
+        }
+      ],
+      "synonyms": [
+        "embodiment",
+        "incarnation",
+        "avatar"
+      ],
+      "synsetOffset": 10418302,
+      "wCnt": 3,
+      "word": "avatar"
+    },
+    {
+      "__v": 0,
+      "_id": "3548626n",
+      "def": "the frame or body of ship  ",
+      "exp": [],
+      "gloss": "the frame or body of ship  ",
+      "lemma": "hull",
+      "lexFilenum": 6,
+      "lexId": "0",
+      "parent": "4341686n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b6793",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4341686
+        },
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b6792",
+          "pointerSymbol": "#p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4530566
+        },
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b6791",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3609542
+        },
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b6790",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 3609959
+        },
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b678f",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4087126
+        },
+        {
+          "_id": "5ba1e9ed7eefb32d4a2b678e",
+          "pointerSymbol": "%p",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4088982
+        }
+      ],
+      "synonyms": [
+        "hull"
+      ],
+      "synsetOffset": 3548626,
+      "wCnt": 1,
+      "word": "hull"
+    },
+    {
+      "__v": 0,
+      "_id": "6757891n",
+      "def": "a deliberately false or improbable account  ",
+      "exp": [],
+      "gloss": "a deliberately false or improbable account  ",
+      "lemma": "fabrication",
+      "lexFilenum": 10,
+      "lexId": "0",
+      "parent": "6756407n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f86",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6756407
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f85",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0301",
+          "synsetOffset": 645982
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f84",
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0301",
+          "synsetOffset": 10075529
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f83",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0203",
+          "synsetOffset": 1935935
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f82",
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0203",
+          "synsetOffset": 1116857
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f81",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1635176
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f80",
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 1634424
+        },
+        {
+          "_id": "5ba1e99b7eefb32d4a2b5f7f",
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6758135
+        }
+      ],
+      "synonyms": [
+        "fabrication",
+        "fiction",
+        "fable"
+      ],
+      "synsetOffset": 6757891,
+      "wCnt": 3,
+      "word": "fable"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "__v": 0,
+  "_id": "599badb12d4c7455551c4ef7",
+  "background": "#333",
+  "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+  "created": "2017-08-22T04:06:09.167Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 0,
+  "parent": {
+    "__v": 0,
+    "_id": "599e1db3dcc19f2b4b6aa573",
+    "background": "",
+    "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+    "created": "2017-08-24T00:28:35.965Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 8,
+    "parent": "599e21ad47523e2cdaeb345f",
+    "persons": [
+      "59a7a6c2a692ea00760b797b",
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "arbre-de-la-ciencia",
+    "stub": false,
+    "themes": [],
+    "title": "Anything generalising",
+    "word": []
+  },
+  "persons": [
+    {
+      "__v": 0,
+      "_id": "59a7a64ea692ea00760b7977",
+      "bio": "<img src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1507869836643-otlet-palais-inv.jpg\" />",
+      "birth": 1868,
+      "created": "2017-08-31T06:01:50.823Z",
+      "death": 1944,
+      "name": "Paul Otlet",
+      "relation": [],
+      "slug": "paul-otlet"
+    },
+    {
+      "__v": 0,
+      "_id": "59e0451bf883dc0ea56ac6c7",
+      "bio": "",
+      "birth": 1433,
+      "created": "2017-10-13T04:46:19.587Z",
+      "death": 1527,
+      "name": "Francesco Colonna",
+      "relation": [],
+      "slug": "francesco-colonna"
+    },
+    {
+      "__v": 0,
+      "_id": "59a7a5eba692ea00760b7974",
+      "bio": "",
+      "birth": 1499,
+      "created": "2017-08-31T06:00:11.259Z",
+      "death": 1499,
+      "name": "Poliphilo & Polia",
+      "relation": [],
+      "slug": "poliphilo--polia"
+    }
+  ],
+  "readme": "",
+  "slug": "ark",
+  "stub": false,
+  "themes": [],
+  "title": "Ark refactoring",
+  "word": []
+}

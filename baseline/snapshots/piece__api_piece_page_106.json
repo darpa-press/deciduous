@@ -1,0 +1,66 @@
+{
+  "__v": 0,
+  "_id": "5b39c0a21c76e00054b5f2f7",
+  "background": "#a65353",
+  "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1530512716998-rabbit-2.png\" bg=\"#a65353\" width=\"1920\" height=\"1920\"></lightimg>\n\n<p>Light-ribbon study for <br/><em>A Stanford Bunny Asleep in the Downs</em></p>",
+  "created": "2018-07-02T06:05:22.887Z",
+  "fullWidth": false,
+  "lovers": null,
+  "page": 106,
+  "parent": {
+    "__v": 0,
+    "_id": "599badcb2d4c7455551c4ef8",
+    "background": "#f3ab7b",
+    "content": "<div style=\"text-align:center\"><lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/rabbit2.png\" width=\"1513\" height=\"2192\" bg=\"#f4ab7c\"></lightimg></div>\n\n<div class=\"indents\">\n    <p>\n        The bunny, a known issue, hopped into the aura cage of the User. This hadn't been accounted for, so the bunny had no texture map. This made it colourless amongst all the remembered light.\n    </p>\n    <p>\n        What was interesting about this known issue was that it was as close to conflict as could be imagined, even though this island of light -before-movement was full of lighthouses and miles of prim cliffline. It was a bunny-haunted world.\n    </p>\n</div>\n\n<div style=\"margin-top:15rem; display:flex; align-items:center; justify-content: center\">\n   (<img style=\"height:1rem; margin: 0 0.5rem; width: auto;\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/light2.png\" />)\n</div>",
+    "created": "2017-08-22T04:06:35.270Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 1,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "colourless-bunnies",
+    "stub": false,
+    "themes": [],
+    "title": "Colourless hopping",
+    "word": []
+  },
+  "persons": null,
+  "readme": "",
+  "slug": "stanford-bunny-linocut",
+  "stub": false,
+  "themes": [],
+  "title": "Stanford watching",
+  "word": [
+    {
+      "__v": 0,
+      "_id": "5844881n",
+      "def": "a specific kind of something",
+      "exp": [
+        "a species of molecule",
+        "a species of villainy"
+      ],
+      "gloss": "a specific kind of something; \"a species of molecule\"; \"a species of villainy\"  ",
+      "lemma": "species",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "parent": "5839024n",
+      "pos": "n",
+      "ptrs": [
+        {
+          "_id": "5ba1eb8e7eefb32d4a2b7fe6",
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5839024
+        }
+      ],
+      "synonyms": [
+        "species"
+      ],
+      "synsetOffset": 5844881,
+      "wCnt": 1,
+      "word": "species"
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+[
+  {
+    "def": "cause to take roots  ",
+    "exp": [],
+    "gloss": "cause to take roots  ",
+    "lemma": "root",
+    "lexFilenum": 30,
+    "lexId": "1",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 358135
+      },
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 245457
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13552124
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 358314,
+    "wCnt": 1
+  },
+  {
+    "def": "become settled or established and stable in one's residence or life style",
+    "exp": [
+      "He finally settled down"
+    ],
+    "gloss": "become settled or established and stable in one's residence or life style; \"He finally settled down\"  ",
+    "lemma": "settle",
+    "lexFilenum": 30,
+    "lexId": "2",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 271946
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 415635
+      }
+    ],
+    "synonyms": [
+      "settle",
+      "root",
+      "take_root",
+      "steady_down",
+      "settle_down"
+    ],
+    "synsetOffset": 415398,
+    "wCnt": 5
+  },
+  {
+    "def": "dig with the snout",
+    "exp": [
+      "the pig was rooting for truffles"
+    ],
+    "gloss": "dig with the snout; \"the pig was rooting for truffles\"  ",
+    "lemma": "rout",
+    "lexFilenum": 35,
+    "lexId": "1",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1309701
+      }
+    ],
+    "synonyms": [
+      "rout",
+      "root",
+      "rootle"
+    ],
+    "synsetOffset": 1282413,
+    "wCnt": 3
+  },
+  {
+    "def": "plant by the roots  ",
+    "exp": [],
+    "gloss": "plant by the roots  ",
+    "lemma": "root",
+    "lexFilenum": 35,
+    "lexId": "4",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1567275
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13125117
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 1529194,
+    "wCnt": 1
+  },
+  {
+    "def": "come into existence, originate",
+    "exp": [
+      "The problem roots in her depression"
+    ],
+    "gloss": "come into existence, originate; \"The problem roots in her depression\"  ",
+    "lemma": "root",
+    "lexFilenum": 42,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2623529
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0103",
+        "synsetOffset": 8507558
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0104",
+        "synsetOffset": 8507558
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 2623731,
+    "wCnt": 1
+  },
+  {
+    "def": "take root and begin to grow",
+    "exp": [
+      "this plant roots quickly"
+    ],
+    "gloss": "take root and begin to grow; \"this plant roots quickly\"  ",
+    "lemma": "root",
+    "lexFilenum": 30,
+    "lexId": "0",
+    "pos": "v",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 230746
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13125117
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13552124
+      },
+      {
+        "pointerSymbol": "$",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 358314
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 358135,
+    "wCnt": 1
+  },
+  {
+    "def": "the part of a tooth that is embedded in the jaw and serves as support  ",
+    "exp": [],
+    "gloss": "the part of a tooth that is embedded in the jaw and serves as support  ",
+    "lemma": "root",
+    "lexFilenum": 8,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5225602
+      },
+      {
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5282746
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5308810
+      }
+    ],
+    "synonyms": [
+      "root",
+      "tooth_root"
+    ],
+    "synsetOffset": 5308310,
+    "wCnt": 2
+  },
+  {
+    "def": "a simple form inferred as the common basis from which related words in several languages can be derived by linguistic processes  ",
+    "exp": [],
+    "gloss": "a simple form inferred as the common basis from which related words in several languages can be derived by linguistic processes  ",
+    "lemma": "etymon",
+    "lexFilenum": 10,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6290637
+      }
+    ],
+    "synonyms": [
+      "etymon",
+      "root"
+    ],
+    "synsetOffset": 6300445,
+    "wCnt": 2
+  },
+  {
+    "def": "someone from whom you are descended (but usually more remote than a grandparent)  ",
+    "exp": [],
+    "gloss": "someone from whom you are descended (but usually more remote than a grandparent)  ",
+    "lemma": "ancestor",
+    "lexFilenum": 18,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10235549
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0401",
+        "synsetOffset": 121865
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 1314197
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0101",
+        "synsetOffset": 2604913
+      },
+      {
+        "pointerSymbol": "!",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 10006511
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 9792896
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10102369
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10102800
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10103155
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 10126806
+      }
+    ],
+    "synonyms": [
+      "ancestor",
+      "ascendant",
+      "ascendent",
+      "antecedent",
+      "root"
+    ],
+    "synsetOffset": 9792555,
+    "wCnt": 5
+  },
+  {
+    "def": "the set of values that give a true statement when substituted into an equation  ",
+    "exp": [],
+    "gloss": "the set of values that give a true statement when substituted into an equation  ",
+    "lemma": "solution",
+    "lexFilenum": 14,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7999699
+      }
+    ],
+    "synonyms": [
+      "solution",
+      "root"
+    ],
+    "synsetOffset": 8005954,
+    "wCnt": 2
+  },
+  {
+    "def": "a number that, when multiplied by itself some number of times, equals a given number  ",
+    "exp": [],
+    "gloss": "a number that, when multiplied by itself some number of times, equals a given number  ",
+    "lemma": "root",
+    "lexFilenum": 23,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13582013
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13731840
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13731959
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 13731669,
+    "wCnt": 1
+  },
+  {
+    "def": "(linguistics) the form of a word after all affixes are removed",
+    "exp": [
+      "thematic vowels are part of the stem"
+    ],
+    "gloss": "(linguistics) the form of a word after all affixes are removed; \"thematic vowels are part of the stem\"  ",
+    "lemma": "root",
+    "lexFilenum": 10,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6290637
+      },
+      {
+        "pointerSymbol": ";c",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6172789
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0401",
+        "synsetOffset": 176137
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0401",
+        "synsetOffset": 2627753
+      }
+    ],
+    "synonyms": [
+      "root",
+      "root_word",
+      "base",
+      "stem",
+      "theme",
+      "radical"
+    ],
+    "synsetOffset": 6300193,
+    "wCnt": 6
+  },
+  {
+    "def": "the place where something begins, where it springs into being",
+    "exp": [
+      "the Italian beginning of the Renaissance",
+      "Jupiter was the origin of the radiation",
+      "Pittsburgh is the source of the Ohio River",
+      "communism's Russian root"
+    ],
+    "gloss": "the place where something begins, where it springs into being; \"the Italian beginning of the Renaissance\"; \"Jupiter was the origin of the radiation\"; \"Pittsburgh is the source of the Ohio River\"; \"communism's Russian root\"  ",
+    "lemma": "beginning",
+    "lexFilenum": 15,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8620061
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0401",
+        "synsetOffset": 2623731
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0301",
+        "synsetOffset": 2623731
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 2743343
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508105
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508361
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508449
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508629
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508736
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8508834
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8510456
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8585158
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8585298
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 8585447
+      }
+    ],
+    "synonyms": [
+      "beginning",
+      "origin",
+      "root",
+      "rootage",
+      "source"
+    ],
+    "synsetOffset": 8507558,
+    "wCnt": 5
+  },
+  {
+    "def": "(botany) the usually underground organ that lacks buds or leaves or nodes",
+    "exp": [
+      "absorbs water and mineral salts",
+      "usually it anchors the plant to the ground"
+    ],
+    "gloss": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground  ",
+    "lemma": "root",
+    "lexFilenum": 20,
+    "lexId": "0",
+    "pos": "n",
+    "ptrs": [
+      {
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13087625
+      },
+      {
+        "pointerSymbol": "#p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13125003
+      },
+      {
+        "pointerSymbol": ";c",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 6066555
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 13126580
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 1529194
+      },
+      {
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 358135
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11781176
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11786843
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11800236
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11873182
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11894958
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 11953610
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12027538
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12089178
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12227909
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12412987
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12470329
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12533437
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12706240
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12906771
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12927013
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12937678
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 12941914
+      },
+      {
+        "pointerSymbol": "%s",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13096317
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13125882
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126050
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126192
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126428
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126580
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126684
+      },
+      {
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13126856
+      },
+      {
+        "pointerSymbol": "%p",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 13162297
+      }
+    ],
+    "synonyms": [
+      "root"
+    ],
+    "synsetOffset": 13125117,
+    "wCnt": 1
+  }
+]

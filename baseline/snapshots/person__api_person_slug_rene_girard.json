@@ -1,0 +1,85 @@
+{
+  "__v": 0,
+  "_id": "59a7a687a692ea00760b797a",
+  "bio": "",
+  "birth": 1923,
+  "created": "2017-08-31T06:02:47.443Z",
+  "death": 2015,
+  "name": "Rene Girard",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "5ab72fde47723f0079cd015f",
+      "background": "#615e5f",
+      "content": "<aa href=\"55,124\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531456786909-lamb.jpg\" bg=\"#615e5f\" width=\"1416\" height=\"1702\"/></aa>",
+      "created": "2018-03-25T05:13:02.319Z",
+      "fullWidth": false,
+      "lovers": [
+        "599badcb2d4c7455551c4ef8",
+        "5ce0cb1805823b0062ac96a8"
+      ],
+      "page": 95,
+      "parent": "59a3898ed9eba100763a0f5a",
+      "persons": [
+        "59a7a687a692ea00760b797a"
+      ],
+      "readme": "The apparition of a young goat in the acid development of something kept of a material which wasn't supposed to last. ",
+      "slug": "kid-leather",
+      "stub": false,
+      "themes": [],
+      "title": "Kid leathering",
+      "word": [
+        "2416820n",
+        "5935060n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "59a3898ed9eba100763a0f5a",
+      "background": "",
+      "content": "<div className=\"indents small-images\">\n    <p>Two scapegoats bounded up underneath the footbridge. They locked horns. They ate food—seagrass and walnuts—from each other's mouths. They had tested and chewed through fences opportunistically and were now here. Their left eyes were foggy, like an old person's. The irises of these eyes bloomed. <img src=\"//placehold.it/20x20\" /> In lieu of any other type of routine, the food that they ate from each other's mouths helped to make their circulatory systems go.</p>\n\n    <p>Visitors on the footbridge looked down and could see parts of the scapegoats. The visitors would have liked to repurpose them, but it is tricky to get down where the scapegoats are. The visitors wore white jeans and carried big white plastic bags. The scapegoats were naked.</p>\n\n    <p>Each animal with a brain inherits and does work on a four-dimensional taxonomic tree of the available forms of animal and their features. Efforts are underway to externalise these via the use of a <img src=\"//placehold.it/20x20\" /> neural scanner, <img src=\"//placehold.it/20x20\" /> grid paper, and a series of printed images of available animals. While the animal—such as a scapegoat—has a circulatory system which is going, the taxonomic tree is oriented on polar coordinates. At the moment that this isn't so, an organisational downward wave rattles through the brain of the animal, restructuring the tree into a proper <img src=\"//placehold.it/20x20\" /> Cartesian setup. This is felt as a brief <em>thinking-of-all-animals</em> and their features.</p>\n</div>\n\n<lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/goat.png\" width=\"1920\" height=\"1920\"></lightimg>",
+      "created": "2017-08-28T03:10:06.288Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 55,
+      "parent": "59a38965d9eba100763a0f59",
+      "persons": [
+        "59a7a687a692ea00760b797a",
+        "59a7a6c2a692ea00760b797b"
+      ],
+      "readme": "",
+      "slug": "scapegoats",
+      "stub": false,
+      "themes": [],
+      "title": "Scape goating",
+      "word": [
+        "10555311n",
+        "5611302n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "599ed1833b4eef3a304462b8",
+      "background": "#fff6c2",
+      "content": "<style type=\"text/css\">\n    .yellow-paper {\n        border-radius: 2px;\n        color: rgba(0, 0, 0, .75);\n        /* filter: blur(0.28px); */\n        font-family: P22 Cezanne;\n        font-size: 141%;\n        line-height: 1.1;\n        overflow: hidden;\n        padding: 1rem 1rem 1rem 3rem;\n    }\n</style>\n<div className=\"yellow-paper\">\n    <p>\n        MEMO<br/>\n        All students-teachers<br/>\n        Changes to School No. 76326<br/>\n        Principal G.R.\n    </p>\n    <ol style=\"margin-bottom:3rem;\">    \n        <li>\n            I’m taking the ink out of the wells. Let’s write on our paper with nothing at all.\n        </li>\n        <li>\n            At your and all ages, its difficult to tell between a thought and a manoeuvre. The training camp will be closed indefinitely.\n        </li>\n        <li>\n            All paradigms will become umbrellas. All fixed phone lines will now travel through two hidden connection points between destinations. This will probably make discussion more accurate.\n        </li>\n        <li>\n            School is now an apartment complex. I’ve opened the doors to all the rooms. I can’t believe we’re all here together. Welcome!\n        </li>\n        <li>\n            Our numerals depicted have slid too far from one another in form. We’ll bring them together by drawing them like this: (( FIG. 1 ))\n        </li>\n        <li>\n            Like many principals, I’m not convinced that individuation is anything but a cleaving from the world. To avoid resultant triangulations of desire, I’ve stacked all the bunkbeds up inside the trunk of the apartment complex. We’ll interlive on top of one another.\n        </li>\n        <li>\n            A hardwood beam will be installed from the top left corner to the bottom right corner of each classroom. It’s the distributed Energy Descent beam. Students will wind graduating ribbons and paint slogans, write love notes to each other on the beam. This ought to locate, in reduction, a point of crisis.\n        </li>\n        <li>\n            We don’t have uniforms, as our style is decoupled. Our style is the look of a thing — its texture and light — and not the room that it takes up or its sum. Style transfer is the a rearrangement of granular parts. Thus, please exchange clothes with whoever arrives at the school gate after you each morning.\n        </li>\n        <li>\n            nb. I’m not here to schematise your time here at No. 76326. Be social and in-transition; unwrap your relations to your neighbour. Dart to the river.\n        </li>\n    </ol>\n    <p>\n        Join me in the school song:\n    </p>\n\n    <p>\n        We’re high-dimensional objects /<br/>\n        In the air or on the ground /<br/>\n        Honeywell Align-in-Motion /<br/>\n        We are in movement,\n    </p>\n\n    <p>\n        Principal Genet Rirard ∎\n    </p>\n</div>",
+      "created": "2017-08-24T13:15:47.304Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 34,
+      "parent": "599e9f4143e237306c191af9",
+      "persons": [
+        "59a7a687a692ea00760b797a",
+        "59e04283f883dc0ea56ac6c6",
+        "59a42059f84055628c1ff191"
+      ],
+      "readme": "Correspondance from the principal of a school to their students about a form of sentimental education. \"Dart to the river [Dart].\"",
+      "slug": "school-songs",
+      "stub": false,
+      "themes": [],
+      "title": "School singing",
+      "word": []
+    }
+  ],
+  "relation": [],
+  "slug": "rene-girard"
+}

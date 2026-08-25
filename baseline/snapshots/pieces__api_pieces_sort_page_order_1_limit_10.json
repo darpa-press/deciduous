@@ -1,0 +1,255 @@
+[
+  {
+    "__v": 0,
+    "_id": "599badb12d4c7455551c4ef7",
+    "background": "#333",
+    "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+    "created": "2017-08-22T04:06:09.167Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": null,
+    "page": 0,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": [
+      "59a7a64ea692ea00760b7977",
+      "59e0451bf883dc0ea56ac6c7",
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "",
+    "slug": "ark",
+    "stub": false,
+    "themes": [],
+    "title": "Ark refactoring",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599badcb2d4c7455551c4ef8",
+    "background": "#f3ab7b",
+    "content": "<div style=\"text-align:center\"><lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/rabbit2.png\" width=\"1513\" height=\"2192\" bg=\"#f4ab7c\"></lightimg></div>\n\n<div class=\"indents\">\n    <p>\n        The bunny, a known issue, hopped into the aura cage of the User. This hadn't been accounted for, so the bunny had no texture map. This made it colourless amongst all the remembered light.\n    </p>\n    <p>\n        What was interesting about this known issue was that it was as close to conflict as could be imagined, even though this island of light -before-movement was full of lighthouses and miles of prim cliffline. It was a bunny-haunted world.\n    </p>\n</div>\n\n<div style=\"margin-top:15rem; display:flex; align-items:center; justify-content: center\">\n   (<img style=\"height:1rem; margin: 0 0.5rem; width: auto;\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/light2.png\" />)\n</div>",
+    "created": "2017-08-22T04:06:35.270Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": null,
+    "page": 1,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "colourless-bunnies",
+    "stub": false,
+    "themes": [],
+    "title": "Colourless hopping",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599baddb2d4c7455551c4ef9",
+    "background": "",
+    "content": "<aa to=\"138,104,30,140,48,52\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1533531724121-Otlet-Cover-%283%29.png\" width=\"914\" height=\"1281\" /></aa>",
+    "created": "2017-08-22T04:06:51.565Z",
+    "fullWidth": false,
+    "hasLink": true,
+    "lovers": [
+      "5a010b5d0d38e60074a75115"
+    ],
+    "page": 2,
+    "parent": null,
+    "persons": [
+      "59a7a64ea692ea00760b7977"
+    ],
+    "readme": "One cover for a codex, with publishing figures. \"World knowledge / Feeling in the world / Action plan and world map.\" (Trees without Blood)\n\nand actually EDITIONS DARPA, Melbourne 2017–",
+    "slug": "edition",
+    "stub": false,
+    "themes": [],
+    "title": "Edition placing",
+    "word": [
+      "13912260n",
+      "96239s",
+      "9466280n",
+      "1640855v"
+    ]
+  },
+  {
+    "__v": 3,
+    "_id": "599bade62d4c7455551c4efa",
+    "background": "",
+    "content": "<div style=\"display:flex;\">\n    <p style=\"margin-right:0.75rem; text-align:justify;\">I heard about a passage that said something I had been trying to say and could not. I asked for the passage and you gave me the passage. At least, you gave me a pointer to the passage. You gave over where to find it. It was in a book in a big cylindrical library with ribs like a oil drum. I went and found it and used it up. Later when I went back it wasn't there any more. It became a wild pointer. A wild pointer is a cat. I took the cat home and fed it anchovies. While I understood you giving over where to find something one day and the possibility of it being there the day after that is no more a promise than me using up something by saying something and not being able to say it again still I was jealous because in asking for the passage it revealed what I had been trying to say and could not.</p>\n    <p style=\"margin-left:0.75rem; text-align:justify;\">You asked for the passage and I gave you the passage. At least, I gave you a pointer to the passage. I gave over where to find it. It was in a book in a big cylindrical library with ribs like an oil drum. You might have went and found it and you might have used it up. If you went back later, it might not have been there any more. If this was so, it would have become a wild pointer. You might have not needed it anymore or you might have killed yourself or you might have asked someone else somewhere else where to find it and they might not have known or they might have told you another place to find it and you might have went and found it or you might not have needed it anymore or you might have went to look for it but it wasn't there anymore in which case it would have become a wild pointer and you might have <aa href=\"41,40\">killed yourself</aa>.</p>\n</div>",
+    "created": "2017-08-22T04:07:02.301Z",
+    "fullWidth": false,
+    "hasLink": true,
+    "lovers": [
+      "59a3892dd9eba100763a0f57"
+    ],
+    "page": 3,
+    "parent": "59a38775d9eba100763a0f4b",
+    "persons": [
+      "59e047149ab1b7008c024d16",
+      "59e047369ab1b7008c024d17"
+    ],
+    "readme": "Two stories at once about how to think or find a particular idea and how easy it is to fall in love with someone who can find or think a particular idea.",
+    "slug": "passage",
+    "stub": false,
+    "themes": [],
+    "title": "Passage finding",
+    "word": [
+      "3660664n",
+      "2937534a",
+      "6818121n",
+      "6398401n",
+      "2121620n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "599baf932982115d5e2ba994",
+    "background": "",
+    "content": "<iframe src=\"//www.youtube.com/embed/COjSzL38cEs?loop=1&vq=hd1080&showinfo=0&rel=0&modestbranding=1&playlist=COjSzL38cEs\" height=\"1080\" width=\"1920\" frameborder=\"0\"></iframe>\n\n<p>\n    \n    In solresol, synonyms are suppressed: \"there is just one word, <em>solla</em>, to express <em>always</em>, <em>without ceasing</em>, <em>perpetually</em>, <em>without end</em>\".\n    Also, the grammar \"expresses the opposite meaning by reversing the word, syllable by syllable\" — <em>fala</em>, good; <em>lafa</em>, bad. (<a href=\"http://www.ifost.org.au/~gregb/solresol/sorsoeng.htm\">via</a>)\n    \n</p>",
+    "created": "2017-08-22T04:14:11.909Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": null,
+    "page": 4,
+    "parent": null,
+    "persons": [
+      "59dff0bfb9789b6225c9049e"
+    ],
+    "readme": "Short video—full of mistakes—spoken in Solresol.",
+    "slug": "practice-sentence",
+    "stub": false,
+    "themes": [],
+    "title": "Practice sentencing",
+    "word": [
+      "5682570n",
+      "13858604n",
+      "6303682n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "599bb820de2a24a8630fbdd2",
+    "background": "",
+    "content": "<div style=\"display:flex;align-items:center;max-width:75%; margin:0 auto; opacity:0.8\">\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/birds.png\" bg=\"white\" width=\"1001\" height=\"754\"></lightimg>\n</div>\n<div class=\"indents\">\n    <p style=\"color:#4c80d6\">This room has two blue shrikes plugged into the wall on either side of the room, which their blueness fills. They are temporary and they can just as soon be plugged out. The thing about shrikes is that they must find the sharp edges of the world to push others onto. (On some, red bursts down their front in a rosy patch of preordained blood.) This room has eight sharp edges but thankfully they’re on the inside-out. If you knew as a child about how shrikes push, you might not have wanted them to fill up your room with blueness. But instead you only knew how they would flicker, looking for the sharp edges of the circumscribed world, but only once you were completely asleep—once you stopped having the trouble of experience that’s bounded by blueness in order to produce a little more of the order of things: in particular the order of others—in particular where your brother goes in the order of things, which the even blue light of the electrical shrikes could set out of motion, put you to the work of a kid’s sleep, only knowing that they would alert you to where your brother in the bed above goes if and when he tries\n    </p>\n</div>",
+    "created": "2017-08-22T04:50:40.127Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": [
+      "59a389add9eba100763a0f5b"
+    ],
+    "page": 7,
+    "parent": "599badcb2d4c7455551c4ef8",
+    "persons": [
+      "59a4202ff84055628c1ff18f"
+    ],
+    "readme": "",
+    "slug": "blue-shrikes",
+    "stub": false,
+    "themes": [],
+    "title": "Blue shriking",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599e1db3dcc19f2b4b6aa573",
+    "background": "",
+    "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+    "created": "2017-08-24T00:28:35.965Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": null,
+    "page": 8,
+    "parent": "599e21ad47523e2cdaeb345f",
+    "persons": [
+      "59a7a6c2a692ea00760b797b",
+      "59a7a7d5a692ea00760b7980"
+    ],
+    "readme": "",
+    "slug": "arbre-de-la-ciencia",
+    "stub": false,
+    "themes": [],
+    "title": "Anything generalising",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599e1dccdcc19f2b4b6aa574",
+    "background": "",
+    "content": "<div class=\"shadow\" style=\"width:100%; min-height:80vh; background-image:url('https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/pur6b.gif'); background-attachment:fixed; padding:1rem;\">\n    <h1>Thyroid Safety Confirmation Information<br/>\n        for Shinichi Mochizuki</h1>\n    <p>As of 13 July 2018, 18:46: I'm doing fine.<br/>\n        Location: Kyoto Prefecture, Japan</p>\n</div>",
+    "created": "2017-08-24T00:29:00.290Z",
+    "fullWidth": false,
+    "hasLink": false,
+    "lovers": null,
+    "page": 9,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": [
+      "59a7a637a692ea00760b7976"
+    ],
+    "readme": "",
+    "slug": "thyroid",
+    "stub": false,
+    "themes": [],
+    "title": "Thyroid saving",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599e1df539b9802b7ddd349f",
+    "background": "#ecffec",
+    "content": "<style type=\"text/css\">\n    .green-paper {\n        /* background: #c4ffc2; */\n        border-radius: 2px;\n        color: rgba(0, 0, 0, 0.75);\n        /* filter: blur(0.25px); */\n        font-family: Futura;\n        font-size: 85%;\n        line-height: 1.25rem;\n        padding: 1rem 3rem 1rem 2rem;\n    }\n    \n    .green-paper h1,\n    .green-paper h2,\n    .green-paper h3 {\n        font-size: 1em;\n    }\n</style>\n\n<div class=\"piece__inside\">\n    <lightimg bg=\"white\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1529615951938-cgensign-sm.png\" class=\"shadow\" width=\"1149\" height=\"1366\"></lightimg>\n</div>\n\n<div class=\"green-paper\" style=\"max-width:30rem;\">\n    \n    <p style=\"margin-bottom:3rem;\">Hotel College<br/>Department of something</p>\n\n    <p><em>Continuous Glossopoeia</em> is not a constructed language (how self-important your flag of a tower of Babel rising to the sun) but a gradual reconfiguration of any natural language into auxiliary new wholes —</p>\n\n    <p>(Why would you complete grammar? <br/>\n    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(You’re giving up!) <br/>\n    And more generally: why realise anything?)</p>\n\n    <p>— and works as an approach, i.e., without specific form,  adaptable. </p>\n\n    <p>The practice of C.G. is that, when you speak, you make unannounced changes to the language a piece at a time while keeping the whole comprehensible. Each change creates a new version of the language. Limiting the extent of changes-at-a-time creates <aa href=\"56\">a self-healing intersubjectivity</aa>. We should be clear and, at the same time, make amendments. Language is vitamins and heat that we offer one another. </p>\n\n    <p>Continuous Glossopoeia is distributed and there is no centralised ‘dictionary’. Everyone keeps a working copy of the language as well as a history of their language versions. Internal inconsistencies are merged on orbit-contact-discussion-intimacy. If I catch my friends’ changes, they are threaded into my own.</p>\n\n    <p>No onset, nucleus or coda: a number of changes serve to underpin your willingness to do Continuous Glossopoeia and put you in a good frame of mind. For one, syllable weight is removed from the intrinsic character of words and instead is dictated by context. ‘Context’ is contextual and so is up to you. One sub-approach is to choose a metrical foot and speak it in a continuous flow from a milestone point (e.g., now! this moment!) onwards. When one conversation ends, say, with a friend on the street, memorise the position of your metrical feet. <aa href=\"40\">When you run into a former lover</aa> just moments later, pick up where you left off—on a long or a short syllable. But this is just one approach. Others are more collaborative; you might choose in discussion to maneuver syllabic stresses around each other like tigers in a rockpool circling in maybe play.</p>\n\n    <p>CG doesn’t get particularly mixed-up with syntactic rules, beyond recommending an additional and optional principle based on a misunderstanding of the concept of dependency grammar—the idea that skiing a sentence begins with the verb. Additional to this, Continuous Glossopoeia proposes, metaphorically, that you have no skis and are in some vehicle or basal rosette of bungee cords at the top of the mountain. One murmur of the limb and you’re flung in god-knows-which direction. This extrasyntax is a mixture of probability, imperative and doubt. Your speech should join anarchic, feeling-type construction with statistics and should rarely finish itself. Stuttering is semantic. In putting yourself together, double-back, bounce, erode, avale, wax and unbind the words that you say. </p>\n\n    <p>How things feel<br/>\n    The world is misleading. Thus, Continuous Glossopoeia shifts around you in a many-to-many fog of haar-like features, <aa href=\"77\">impelling us to stay close</aa>. What does this person mean when they say, “Gmc. root and Gk. kynein \"to kiss,\" Hittite kuwash-anzi \"they kiss,\" Skt. cumbati \"he kisses”? You catch 90%, but something sticks out. To be fine under C.G., use your own models of feeling and logic to gather what this person is saying. The motion vector of this type of thing is meteorological, not linear. Reversions are permitted: if you disagree with someone’s language-change, find a way to switch it back. </p>\n\n    <p>Proper nouns, in particular, float and bob. They can be changed whenever you like. You might say that your <em>Ford</em> is a <em>Tender</em>. You might make that in winter a <em>North Melbourne Community Pool</em> is an <em>Ashcan School</em>. This kind of change will propagate pretty simply, especially in people: you can continue to just guess the person’s name at some party: Viola? Maydt? Owen? It doesn’t matter. However, in accordance with the distributive and branching nature of C.G., it’s still polite to retain a differential history in-mind, so that you can provide it if asked. (Viola-Maydt-Owen.) </p>\n\n    <p>Some of these properties are given to Continuous Glossopoeia to the extent that it may unwind a little of the social stigma attached to conditions and disorders of memory and emotional-cognition. Instead, we float proper nouns in a lake with a pier abutting some small chalet. A speedboat comes from nowhere, doesn’t perceive the pier, hits it! Becomes a splintering 90°! The letters of the name on the speedboat in some Marine Letraset rearrange themselves unperceived, from Acapella to Palace La.</p>\n</div>",
+    "created": "2017-08-24T00:29:41.879Z",
+    "fullWidth": false,
+    "hasLink": true,
+    "lovers": [
+      "59a389cad9eba100763a0f5c",
+      "59d56830f01881005ae5bdf8",
+      "59f80c9a4a45830075b62639"
+    ],
+    "page": 10,
+    "parent": "599baf932982115d5e2ba994",
+    "persons": [
+      "59e046d19ab1b7008c024d15",
+      "59dff0bfb9789b6225c9049e",
+      "5cdf1af905823b0062ac947c",
+      "5b5acff6cac98b004eea3d42",
+      "59a7a725a692ea00760b797c"
+    ],
+    "readme": "A proposal for constructed language. “to make unannounced \nchanges to the language a piece at a time while keeping the whole \ncomprehensible. Each change creates a new version of the language.”",
+    "slug": "cg",
+    "stub": false,
+    "themes": [],
+    "title": "Continued glossing",
+    "word": [
+      "4273569n",
+      "3002816n",
+      "13913263n",
+      "13161998n",
+      "13427078n"
+    ]
+  },
+  {
+    "__v": 8,
+    "_id": "599e21ad47523e2cdaeb345f",
+    "background": "",
+    "content": "<div style=\"width:100%\">\n    <iframe \n        src=\"//www.youtube.com/embed/fEMA3DkG8lA?vq=hd1080&showinfo=0&rel=0&modestbranding=1\" \n        height=\"1080\" \n        width=\"1920\"\n        frameborder=\"0\"\n    ></iframe>\n\n<ol>\n    <li>\n        <a href=\"http://www.wikiart.org/en/about\" target=\"_blank\">Wikiart</a> is asleep.\n    <li>\n        <a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">Neural-style</a> is <aa href=\"113,49\">asleep and iterating</aa>.\n    <li>\n        They are together in the back seat of an <a href=\"https://brand.uber.com/#our-new-look\" target=\"_blank\">uber</a>.\n    <li>\n        The car of the uber is on a <a href=\"http://www.mapitokinawa.com/2013/01/melody-road-futami-nago-city.html\" target=\"_blank\">Okinawan melody road</a>.\n</ol>\n\n<p>\n    <small>\n        (<a href=\"http://arxiv.org/abs/1508.06576\" target=\"_blank\">utilises »</a> by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge)\n    </small>\n</p>",
+    "created": "2017-08-24T00:45:33.663Z",
+    "fullWidth": true,
+    "hasLink": true,
+    "lovers": [
+      "5ae0f217b7de96005451ccdd"
+    ],
+    "page": 11,
+    "parent": "599baf932982115d5e2ba994",
+    "persons": [
+      "5cecc58b745abbd427af7761"
+    ],
+    "readme": "A set of sets (bits and atoms) subjected to another set of sets (an art database), set to bumpy music.",
+    "slug": "a-vision",
+    "stub": false,
+    "themes": [],
+    "title": "Roads singing",
+    "word": [
+      "7392483n",
+      "5700925n",
+      "343600v"
+    ]
+  }
+]

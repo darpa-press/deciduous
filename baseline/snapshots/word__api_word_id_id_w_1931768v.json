@@ -1,0 +1,416 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "2441022v",
+      "def": "exercise authoritative control or power over",
+      "exp": [
+        "control the budget",
+        "Command the military forces"
+      ],
+      "gloss": "exercise authoritative control or power over; \"control the budget\"; \"Command the military forces\"  ",
+      "lemma": "control",
+      "lexFilenum": 41,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 13953608
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5197797
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 9941964
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 9941383
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0202",
+          "synsetOffset": 9780828
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 9941571
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0203",
+          "synsetOffset": 9941964
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0102",
+          "synsetOffset": 10525134
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0101",
+          "synsetOffset": 5196375
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1783394
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1931768
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 1935104
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2433991
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2436349
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2441686
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2441897
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442106
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442205
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442372
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442546
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442737
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2442924
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2443609
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2539334
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2586458
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2586619
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2601271
+        }
+      ],
+      "synonyms": [
+        "control",
+        "command"
+      ],
+      "synsetOffset": 2441022,
+      "wCnt": 2
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "1931768v",
+    "def": "direct the course",
+    "exp": [
+      "determine the direction of travelling"
+    ],
+    "gloss": "direct the course; determine the direction of travelling  ",
+    "lemma": "steer",
+    "lexFilenum": 38,
+    "lexId": "0",
+    "parent": "2441022v",
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7771",
+        "pointerSymbol": "@",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2441022
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7770",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0a02",
+        "synsetOffset": 1142519
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776f",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0802",
+        "synsetOffset": 10741821
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776e",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0801",
+        "synsetOffset": 10151570
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776d",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0702",
+        "synsetOffset": 8572467
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776c",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0701",
+        "synsetOffset": 8482271
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776b",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0702",
+        "synsetOffset": 7372779
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b776a",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0702",
+        "synsetOffset": 8680888
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7769",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0402",
+        "synsetOffset": 556313
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7768",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 1523249
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7767",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 10290422
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7766",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0103",
+        "synsetOffset": 10169796
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7765",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 815173
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7764",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 815173
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7763",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0102",
+        "synsetOffset": 1144876
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7762",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1305731
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7761",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1841471
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7760",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1841591
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1932482
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1932586
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1932704
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1932834
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1932951
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b775a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1933093
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7759",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1933305
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7758",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1933900
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7757",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1934205
+      },
+      {
+        "_id": "5ba1eb0a7eefb32d4a2b7756",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1934427
+      }
+    ],
+    "synonyms": [
+      "steer",
+      "maneuver",
+      "manoeuver",
+      "manoeuvre",
+      "direct",
+      "point",
+      "head",
+      "guide",
+      "channelize",
+      "channelise"
+    ],
+    "synsetOffset": 1931768,
+    "wCnt": 10,
+    "word": "steer"
+  }
+}

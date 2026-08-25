@@ -1,0 +1,142 @@
+[
+  {
+    "__v": 0,
+    "_id": "59a389add9eba100763a0f5b",
+    "background": "#fafafa",
+    "content": "<style type=\"text/css\">\n    .forum-reply {\n    display: flex;\n    margin-bottom: 1rem;\n}\n\n.forum-reply__person {\n    align-items: center;\n    color: #666;\n    display: flex;\n    flex: 0 0 90px;\n    flex-direction: column;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.65rem;\n    font-weight: 600;\n    margin-right: 2rem;\n}\n\n@media (max-width: 767px) {\n    .forum-reply {\n        flex-direction: column;\n    }\n    .forum-reply__person {\n        display:none;\n    }\n}\n\n.forum-reply__person img {\n    border-radius: 50%;\n    height: auto;\n    margin: 0;\n    margin-bottom: 0.65rem;\n    width: 90px;\n}\n\n.forum-reply__content {\n    background: white;\n    border-radius: 2px;\n    box-shadow: 0 0 4px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.08);\n    color: #444;\n    flex: 1 0 120px;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.8rem;\n    line-height: 1.4;\n    padding: 1rem;\n}\n\n.forum-reply__content p:first-child {\n    margin-top: 0;\n}\n\n.forum-reply__content p:last-child {\n    margin-bottom: 0;\n}\n</style>\n<lightimg class=\"shadow\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/magoo-thing-2.jpg\" width=\"1280\" height=\"624\"></lightimg>\n\n<div className=\"forum\">\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            QuincyAgain\n        </div>\n        <div className=\"forum-reply__content\">\n            <p>\n                Hey Magoovians,\n            </p>\n            <p>\n                Does anyone remember seeing the episode where our man-in-common befriends a bowerbird? I would be grateful if anyone had a copy to share or just an idea about it. Someone told me 'it does not exist', but I saw it when I was a boy in circa 1956, I think. We had an Emerson. Emerson produces a lot of manganese. In the show, Magoo couldn’t work out what kind of bird his friend was. When it brought him a dried lilypad, he thought it was a dragonfly. When it brought him a sheaf of buckwheat, he thought it was a sparrow. When it brought him a piece of a cast-off buoy, he thought it was a seagull. (When he caught the red blur of the bowerbird’s crest, he became suspicious.)\n            </p>\n            <p>\n                Anyway, these gifts were of use to Magoo—I think he used the lilypad to shore up an umbrella—and the bird appreciated Magoo’s unpredictable movements, and the way he would back and front into the walls of his small room. I laughed at this setup of mutual support. He was stoutly tender, as depicted in his hands. The bird laid out the objects that it would offer into a plan with wings. Each had a distinct capacity for sound: some loud, some soft. In the plan, interpersonal use-cases would form around such levels. It brought a mirrorball for the left wing. It was the first time I had seen a mirrorball, and I wondered at it—even if only on TV and even though was drawn poorly.\n            <p>\n                Magoo saw in a blear the stupid plan that the bird was building—its plastic, limbs, eggshell, and drinking cups—and started to figure it was a social model. He tried to talk to his neighbour about it, but the neighbour told him 'it does not exist'. The gall!, addressed Magoo to the imaginary frame of the audience, before tripping on the sprocket of a motorcycle, which the bird had newly augured as a caravansary.\n            <p>\n                There followed a nauseous dream sequence where the social model of the passerine-type thing's nest came to be. The dream broke out of the cartoon format and was shot on film, though Magoo and encounters between people were rendered on cels above places. This part was not funny. After his dream, Magoo was certain that the plan was a 'fall-and-stir', after his dream. Eventually the bird moved on. Magoo starts to eat the objects.\n            </p>\n        </div>\n    </div>\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            GammaRho\n        </div>\n        <div className=\"forum-reply__content\">\n            <p className=\"quiet\">\n                [reply removed]\n            </p>\n        </div>\n    </div>\n</div>\n<!-- <div className=\"full-image-overlay\" style=\"background-image: url('//content.deciduous.site/uploads/images/mirrorball2.gif'); opacity:0.2;\"></div> -->",
+    "created": "2017-08-28T03:10:37.123Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 56,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": [
+      "59a7a677a692ea00760b7979",
+      "59a7a74ba692ea00760b797e"
+    ],
+    "readme": "",
+    "slug": "mr-magoo-and-the-phalanstere",
+    "stub": false,
+    "themes": [],
+    "title": "Bird fooling",
+    "word": [
+      "7484547n",
+      "2734725n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "5a18b826de1f950071ab6549",
+    "background": "",
+    "content": "<lightimg src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1515385489593-demons%402x.png\" bg=\"white\" width=\"3200\" height=\"2607\"></lightimg>",
+    "created": "2017-11-25T00:24:06.386Z",
+    "fullWidth": true,
+    "lovers": null,
+    "page": 86,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "microservice-demons",
+    "stub": false,
+    "themes": [],
+    "title": "Micro servicing",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5ab72fde47723f0079cd015f",
+    "background": "#615e5f",
+    "content": "<aa href=\"55,124\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1531456786909-lamb.jpg\" bg=\"#615e5f\" width=\"1416\" height=\"1702\"/></aa>",
+    "created": "2018-03-25T05:13:02.319Z",
+    "fullWidth": false,
+    "lovers": [
+      "599badcb2d4c7455551c4ef8",
+      "5ce0cb1805823b0062ac96a8"
+    ],
+    "page": 95,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": [
+      "59a7a687a692ea00760b797a"
+    ],
+    "readme": "The apparition of a young goat in the acid development of something kept of a material which wasn't supposed to last. ",
+    "slug": "kid-leather",
+    "stub": false,
+    "themes": [],
+    "title": "Kid leathering",
+    "word": [
+      "2416820n",
+      "5935060n"
+    ]
+  },
+  {
+    "__v": 0,
+    "_id": "599badcb2d4c7455551c4ef8",
+    "background": "#f3ab7b",
+    "content": "<div style=\"text-align:center\"><lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/rabbit2.png\" width=\"1513\" height=\"2192\" bg=\"#f4ab7c\"></lightimg></div>\n\n<div class=\"indents\">\n    <p>\n        The bunny, a known issue, hopped into the aura cage of the User. This hadn't been accounted for, so the bunny had no texture map. This made it colourless amongst all the remembered light.\n    </p>\n    <p>\n        What was interesting about this known issue was that it was as close to conflict as could be imagined, even though this island of light -before-movement was full of lighthouses and miles of prim cliffline. It was a bunny-haunted world.\n    </p>\n</div>\n\n<div style=\"margin-top:15rem; display:flex; align-items:center; justify-content: center\">\n   (<img style=\"height:1rem; margin: 0 0.5rem; width: auto;\" src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/light2.png\" />)\n</div>",
+    "created": "2017-08-22T04:06:35.270Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 1,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "colourless-bunnies",
+    "stub": false,
+    "themes": [],
+    "title": "Colourless hopping",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b5121bb48ec52004f10a21f",
+    "background": "",
+    "content": "<p style=\"max-width:25rem\">In the crisis of the aftermath there's more scapegoats escaping. They're fed in like additional items with an endless scroll and faint. Help says one in the stream of the escape. But the others don't care about language apart from its presence as a payload. Help says another. They float ludicrously or fall together in bursts of fluffy white shards in parallel to an illuminated coast. As they fall, the scapegoats spin on their own axes within variations in particular. We see this as a circulatory system. They must have axes to rotate but Help they say in order to hold out against being spun or matted. Bleat we translate Help as. Not to be independent they wish towards, or How to share the blame in shards of fur. Bleat says one. The scapegoats falling are felted together into a big white plastic bag and their lifespan is measured in frames. Help help help. They're not evil, Scapegoats or Marks. Not really evil. But in the felting, off goes the particular sky of the Scapegoats' blameless red garland and shift. Now it's not overcast. Here's the Assistant rainbow to Help\n</p>",
+    "created": "2018-07-19T23:41:47.037Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 123,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "more-scapegoats",
+    "stub": false,
+    "themes": [],
+    "title": "More scapegoating",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b55696fc6dcbea686e05a77",
+    "background": "",
+    "content": "<p>\n    Format: Paperback | 32 pages<br/>\nGenre: Childrens'<br/>\nDate: 6 Aug 2018<br/>\nImprint: Orion / Myotonia<br/>\n</p>\n\n\n<p>\n<span style=\"font-family: Figgins\">About this book:</span><br/>\n(One scapegoat—<br/>\nthe scapegoat's scapegoat—<br/>\nis set aside from the group<br/>\nand not set off, but cast in.)\n</p>",
+    "created": "2018-07-23T05:36:47.412Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 124,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "scapegoats-scapegoat",
+    "stub": false,
+    "themes": [],
+    "title": "Scapegoats scapegoating",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b50246848ec52004f10a21d",
+    "background": "",
+    "content": "<p>There are many ways to describe what this technology of going-between is, the one we’re now dealing with. You can talk about the methods of dwellings and traps made by animals, or the way we pack and sort cars, for instance, but there are many more. These ways all seem wrong, partly because they are so one-dimensional and are made for catching. But one thing is for sure—you have pinned something, high up, in the corner of the room, as you left the house this morning. And I found the ladder and have pulled it down to look at. And am startled. And am trying to understand what you mean by it. And am not sure. And don’t know who to turn to for help.</p>",
+    "created": "2018-07-19T05:40:56.234Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 121,
+    "parent": "59a3898ed9eba100763a0f5a",
+    "persons": null,
+    "readme": "",
+    "slug": "myotonia",
+    "stub": false,
+    "themes": [],
+    "title": "Myotonic pleading",
+    "word": []
+  }
+]

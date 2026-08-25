@@ -1,0 +1,104 @@
+{
+  "__v": 0,
+  "_id": "59a7a7d5a692ea00760b7980",
+  "bio": "",
+  "birth": 1937,
+  "created": "2017-08-31T06:08:21.430Z",
+  "death": null,
+  "name": "Theodore Nelson",
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "599e1db3dcc19f2b4b6aa573",
+      "background": "",
+      "content": "<div style=\"width:50vw\"><Tree></Tree></div>",
+      "created": "2017-08-24T00:28:35.965Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 8,
+      "parent": "599e21ad47523e2cdaeb345f",
+      "persons": [
+        "59a7a6c2a692ea00760b797b",
+        "59a7a7d5a692ea00760b7980"
+      ],
+      "readme": "",
+      "slug": "arbre-de-la-ciencia",
+      "stub": false,
+      "themes": [],
+      "title": "Anything generalising",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "5a010b5d0d38e60074a75115",
+      "background": "",
+      "content": "<lightimg src=\"https://codex-content.s3-us-west-2.amazonaws.com/uploads/images/1510018054579-BookXyz.jpg\" className=\"shadow\" bg=\"rgba(255, 71, 71, 0.95)\" width=\"1280\" height=\"1871\"></lightimg>",
+      "created": "2017-11-07T01:24:45.348Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 76,
+      "parent": "59a388b9d9eba100763a0f54",
+      "persons": [
+        "59a7a7d5a692ea00760b7980"
+      ],
+      "readme": "",
+      "slug": "book-440",
+      "stub": false,
+      "themes": [],
+      "title": "Fourier serialising",
+      "word": []
+    },
+    {
+      "__v": 0,
+      "_id": "5bee549fdb78190050f53c69",
+      "background": "",
+      "content": "There is no ∗∗∗∗ in this Net<br/>\nor detritus and it is <br/>\nnot useful when things shiver <br/>\nor disappear and there is<br/>\nno way to ask or reply. <br/>\nThis is not a record of <br/>\nan aerosol line of thought. <br/>\nIt is not a forgetful <br/>\npayload. And you tidied our<br/> \nmachinery by saying <br/>\n<em>it is <aa to=\"72,124\">eusocial</aa></em> but I <br/>\ndon’t want to know about how <br/> \nto absolve hungry termites<br/> \nin a middleware of blue<br/>\nexceptions. I want to be <br/>\nreddened and fed away from <br/>\nthe tasteless cellulose of <br/>\nknowing or whatever it’s<br/>\nmade up in. Maybe a cup.<br/>\nI want to remember the <br/>\nactually yes there always<br/>\nsentiment of waterless <br/>\nhunting in the world before <br/>\nit is swallowed by a <em>you</em><br/>\nsound and its young petrichor.",
+      "created": "2018-11-16T05:24:47.254Z",
+      "fullWidth": false,
+      "lovers": [
+        "59a388b9d9eba100763a0f54"
+      ],
+      "page": 147,
+      "parent": "5b7abfca07dc7028fe08a4cc",
+      "persons": [
+        "59a7a7d5a692ea00760b7980"
+      ],
+      "readme": "* Biological unity, a tempting analogy, is another matter—it takes a long time and millions of mistakes, and does not necessarily act in our particular interests.",
+      "slug": "fruitnet",
+      "stub": false,
+      "title": "Fruit netting",
+      "word": [
+        "2223266n",
+        "4652635n",
+        "651176n"
+      ]
+    },
+    {
+      "__v": 0,
+      "_id": "5ae0f217b7de96005451ccdd",
+      "background": "",
+      "content": "<aa href=\"154,82\"><img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1524691707571-screen2.jpg\" bg=\"white\" width=\"1920\" height=\"1423\"></img></aa>",
+      "created": "2018-04-25T21:24:39.961Z",
+      "fullWidth": false,
+      "lovers": [
+        "5a010b5d0d38e60074a75115"
+      ],
+      "page": 96,
+      "parent": "5a0ccb40fd301d0072232e19",
+      "persons": [
+        "59a7a7d5a692ea00760b7980"
+      ],
+      "readme": "Something of a lost cause spotted 'in the wild'.",
+      "slug": "abilities-to-see",
+      "stub": false,
+      "themes": [],
+      "title": "Ability seeing",
+      "word": [
+        "2622234v",
+        "1083044v"
+      ]
+    }
+  ],
+  "relation": [],
+  "slug": "theodore-nelson"
+}

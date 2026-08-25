@@ -1,0 +1,46 @@
+{
+  "antonyms": [],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "1740n",
+    "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+    "exp": [],
+    "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+    "lemma": "entity",
+    "lexFilenum": 3,
+    "lexId": "0",
+    "parent": null,
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "6555f9d2f1ad750008176b2d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1930
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b2e",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2137
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b2f",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 4424418
+      }
+    ],
+    "synonyms": [
+      "entity"
+    ],
+    "synsetOffset": 1740,
+    "wCnt": 1,
+    "word": "entity"
+  }
+}

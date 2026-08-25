@@ -1,0 +1,679 @@
+{
+  "antonyms": [
+    {
+      "def": "resist doing something",
+      "exp": [
+        "He refrained from hitting him back",
+        "she could not forbear weeping"
+      ],
+      "gloss": "resist doing something; \"He refrained from hitting him back\"; \"she could not forbear weeping\"  ",
+      "lemma": "refrain",
+      "lexFilenum": 42,
+      "lexId": "0",
+      "pos": "v",
+      "ptrs": [
+        {
+          "pointerSymbol": "+",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 1066689
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 2367363
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 136991
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2371239
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2463426
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2464583
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2726044
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2726164
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2726385
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "v",
+          "sourceTarget": "0000",
+          "synsetOffset": 2726543
+        }
+      ],
+      "synonyms": [
+        "refrain",
+        "forbear"
+      ],
+      "synsetOffset": 2725714,
+      "wCnt": 2
+    }
+  ],
+  "hypernyms": [],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "2367363v",
+    "def": "perform an action, or work out or perform (an action)",
+    "exp": [
+      "think before you act",
+      "We must move quickly",
+      "The governor should act on the new energy bill",
+      "The nanny acted quickly by grabbing the toddler and covering him with a wet towel"
+    ],
+    "gloss": "perform an action, or work out or perform (an action); \"think before you act\"; \"We must move quickly\"; \"The governor should act on the new energy bill\"; \"The nanny acted quickly by grabbing the toddler and covering him with a wet towel\"  ",
+    "lemma": "act",
+    "lexFilenum": 41,
+    "lexId": "0",
+    "parent": null,
+    "pos": "v",
+    "ptrs": [
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e2c",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0201",
+        "synsetOffset": 165942
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e2b",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 14006945
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e2a",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 37396
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e29",
+        "pointerSymbol": "+",
+        "pos": "n",
+        "sourceTarget": "0101",
+        "synsetOffset": 30358
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e28",
+        "pointerSymbol": "!",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2725714
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e27",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0103",
+        "synsetOffset": 2376429
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e26",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 2517655
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e25",
+        "pointerSymbol": "^",
+        "pos": "v",
+        "sourceTarget": "0102",
+        "synsetOffset": 2536557
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e24",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 121214
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e23",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 352558
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e22",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 459498
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e21",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 520019
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e20",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 717358
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 781303
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1118449
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1350449
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 1685313
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2089174
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e1a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2344381
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e19",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2369123
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e18",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2369390
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e17",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2369633
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e16",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2369811
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e15",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2369948
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e14",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2370131
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e13",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2370433
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e12",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2370650
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e11",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2370987
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e10",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2371684
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0f",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2371811
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0e",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2372161
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0d",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2372326
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0c",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2372605
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0b",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2373974
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e0a",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2374764
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e09",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2374924
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e08",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2375131
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e07",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2376631
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e06",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2376958
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e05",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2378623
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e04",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2402271
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e03",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2417098
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e02",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2425112
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e01",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2428316
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5e00",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2437465
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dff",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2439281
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dfe",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2450256
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dfd",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2517202
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dfc",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2517827
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dfb",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2518161
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dfa",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2519666
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df9",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2530167
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df8",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2534492
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df7",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2534761
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df6",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2545045
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df5",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2560767
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df4",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2564841
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df3",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2565491
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df2",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2581900
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df1",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2582615
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5df0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2584906
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5def",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2587532
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dee",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2591312
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5ded",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2591455
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dec",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2591597
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5deb",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2593551
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dea",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2594290
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de9",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2595234
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de8",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2595662
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de7",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2596493
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de6",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2597449
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de5",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2597601
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de4",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2599636
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de3",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2599878
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de2",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2600948
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de1",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2602458
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5de0",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2641463
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5ddf",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2684924
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5dde",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2723564
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5ddd",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2747709
+      },
+      {
+        "_id": "5ba1e97b7eefb32d4a2b5ddc",
+        "pointerSymbol": "~",
+        "pos": "v",
+        "sourceTarget": "0000",
+        "synsetOffset": 2747922
+      }
+    ],
+    "synonyms": [
+      "act",
+      "move"
+    ],
+    "synsetOffset": 2367363,
+    "wCnt": 2,
+    "word": "act"
+  }
+}

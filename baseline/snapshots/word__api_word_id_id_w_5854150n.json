@@ -1,0 +1,1078 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "5835747n",
+      "def": "an abstract or general idea inferred or derived from specific instances  ",
+      "exp": [],
+      "gloss": "an abstract or general idea inferred or derived from specific instances  ",
+      "lemma": "concept",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5833840
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0201",
+          "synsetOffset": 12071
+        },
+        {
+          "pointerSymbol": "!",
+          "pos": "n",
+          "sourceTarget": "0201",
+          "synsetOffset": 5893653
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 12362
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0102",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0104",
+          "synsetOffset": 1633343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836275
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836598
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5838765
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5846054
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5849040
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5854150
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5855125
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5867413
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5869584
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5870916
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5872982
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5873884
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5888929
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5889896
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7259772
+        }
+      ],
+      "synonyms": [
+        "concept",
+        "conception",
+        "construct"
+      ],
+      "synsetOffset": 5835747,
+      "wCnt": 3
+    },
+    {
+      "_id": "5833840n",
+      "def": "the content of cognition",
+      "exp": [
+        "the main thing you are thinking about",
+        "it was not a good idea",
+        "the thought never entered my mind"
+      ],
+      "gloss": "the content of cognition; the main thing you are thinking about; \"it was not a good idea\"; \"the thought never entered my mind\"  ",
+      "lemma": "idea",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 689344
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 631737
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0207",
+          "synsetOffset": 607780
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 723056
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 739082
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 629738
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 1637166
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0101",
+          "synsetOffset": 12689
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0103",
+          "synsetOffset": 1636397
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5834567
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835568
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5835747
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5836921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5893653
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5898568
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913160
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5913275
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916155
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5916739
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5917328
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5918267
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919549
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5919866
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920159
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5920272
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5923696
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5924408
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926049
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926150
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0201",
+          "synsetOffset": 608808
+        }
+      ],
+      "synonyms": [
+        "idea",
+        "thought"
+      ],
+      "synsetOffset": 5833840,
+      "wCnt": 2
+    },
+    {
+      "_id": "5809192n",
+      "def": "the sum or range of what has been perceived, discovered, or learned  ",
+      "exp": [],
+      "gloss": "the sum or range of what has been perceived, discovered, or learned  ",
+      "lemma": "content",
+      "lexFilenum": 9,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809745
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810948
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5811214
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5813457
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814162
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814291
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5814650
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5833840
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5921123
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926236
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5926676
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5941423
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5979909
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5980412
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5980875
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984584
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5984936
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5985381
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5988282
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5999266
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5999455
+        }
+      ],
+      "synonyms": [
+        "content",
+        "cognitive_content",
+        "mental_object"
+      ],
+      "synsetOffset": 5809192,
+      "wCnt": 3
+    },
+    {
+      "_id": "23271n",
+      "def": "the psychological result of perception and learning and reasoning  ",
+      "exp": [],
+      "gloss": "the psychological result of perception and learning and reasoning  ",
+      "lemma": "cognition",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "a",
+          "sourceTarget": "0303",
+          "synsetOffset": 1780343
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611302
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5611822
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612067
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5612358
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5616246
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5644922
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651068
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5651242
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5667196
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5686481
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5695554
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701363
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5701738
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5710020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5726345
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5809192
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5816287
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6156752
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 6193203
+        }
+      ],
+      "synonyms": [
+        "cognition",
+        "knowledge",
+        "noesis"
+      ],
+      "synsetOffset": 23271,
+      "wCnt": 3
+    },
+    {
+      "_id": "23100n",
+      "def": "a feature of the mental life of a living organism  ",
+      "exp": [],
+      "gloss": "a feature of the mental life of a living organism  ",
+      "lemma": "psychological_feature",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23271
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23773
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 29378
+        }
+      ],
+      "synonyms": [
+        "psychological_feature"
+      ],
+      "synsetOffset": 23100,
+      "wCnt": 1
+    },
+    {
+      "_id": "2137n",
+      "def": "a general concept formed by extracting common features from specific examples  ",
+      "exp": [],
+      "gloss": "a general concept formed by extracting common features from specific examples  ",
+      "lemma": "abstraction",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "@",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1740
+        },
+        {
+          "pointerSymbol": "+",
+          "pos": "v",
+          "sourceTarget": "0101",
+          "synsetOffset": 692329
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 23100
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 24264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31264
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 31921
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33020
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 33615
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 5810143
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 7999699
+        }
+      ],
+      "synonyms": [
+        "abstraction",
+        "abstract_entity"
+      ],
+      "synsetOffset": 2137,
+      "wCnt": 2
+    },
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [
+    {
+      "__v": 0,
+      "_id": "59a389cad9eba100763a0f5c",
+      "background": "",
+      "content": "<p>⁂</p>",
+      "created": "2017-08-28T03:11:06.500Z",
+      "fullWidth": false,
+      "lovers": null,
+      "page": 57,
+      "parent": {
+        "__v": 0,
+        "_id": "59a389add9eba100763a0f5b",
+        "background": "#fafafa",
+        "content": "<style type=\"text/css\">\n    .forum-reply {\n    display: flex;\n    margin-bottom: 1rem;\n}\n\n.forum-reply__person {\n    align-items: center;\n    color: #666;\n    display: flex;\n    flex: 0 0 90px;\n    flex-direction: column;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.65rem;\n    font-weight: 600;\n    margin-right: 2rem;\n}\n\n@media (max-width: 767px) {\n    .forum-reply {\n        flex-direction: column;\n    }\n    .forum-reply__person {\n        display:none;\n    }\n}\n\n.forum-reply__person img {\n    border-radius: 50%;\n    height: auto;\n    margin: 0;\n    margin-bottom: 0.65rem;\n    width: 90px;\n}\n\n.forum-reply__content {\n    background: white;\n    border-radius: 2px;\n    box-shadow: 0 0 4px rgba(0, 0, 0, 0.03), 0 3px 12px rgba(0, 0, 0, 0.08);\n    color: #444;\n    flex: 1 0 120px;\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 0.8rem;\n    line-height: 1.4;\n    padding: 1rem;\n}\n\n.forum-reply__content p:first-child {\n    margin-top: 0;\n}\n\n.forum-reply__content p:last-child {\n    margin-bottom: 0;\n}\n</style>\n<lightimg class=\"shadow\" src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/magoo-thing-2.jpg\" width=\"1280\" height=\"624\"></lightimg>\n\n<div className=\"forum\">\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            QuincyAgain\n        </div>\n        <div className=\"forum-reply__content\">\n            <p>\n                Hey Magoovians,\n            </p>\n            <p>\n                Does anyone remember seeing the episode where our man-in-common befriends a bowerbird? I would be grateful if anyone had a copy to share or just an idea about it. Someone told me 'it does not exist', but I saw it when I was a boy in circa 1956, I think. We had an Emerson. Emerson produces a lot of manganese. In the show, Magoo couldn’t work out what kind of bird his friend was. When it brought him a dried lilypad, he thought it was a dragonfly. When it brought him a sheaf of buckwheat, he thought it was a sparrow. When it brought him a piece of a cast-off buoy, he thought it was a seagull. (When he caught the red blur of the bowerbird’s crest, he became suspicious.)\n            </p>\n            <p>\n                Anyway, these gifts were of use to Magoo—I think he used the lilypad to shore up an umbrella—and the bird appreciated Magoo’s unpredictable movements, and the way he would back and front into the walls of his small room. I laughed at this setup of mutual support. He was stoutly tender, as depicted in his hands. The bird laid out the objects that it would offer into a plan with wings. Each had a distinct capacity for sound: some loud, some soft. In the plan, interpersonal use-cases would form around such levels. It brought a mirrorball for the left wing. It was the first time I had seen a mirrorball, and I wondered at it—even if only on TV and even though was drawn poorly.\n            <p>\n                Magoo saw in a blear the stupid plan that the bird was building—its plastic, limbs, eggshell, and drinking cups—and started to figure it was a social model. He tried to talk to his neighbour about it, but the neighbour told him 'it does not exist'. The gall!, addressed Magoo to the imaginary frame of the audience, before tripping on the sprocket of a motorcycle, which the bird had newly augured as a caravansary.\n            <p>\n                There followed a nauseous dream sequence where the social model of the passerine-type thing's nest came to be. The dream broke out of the cartoon format and was shot on film, though Magoo and encounters between people were rendered on cels above places. This part was not funny. After his dream, Magoo was certain that the plan was a 'fall-and-stir', after his dream. Eventually the bird moved on. Magoo starts to eat the objects.\n            </p>\n        </div>\n    </div>\n    <div className=\"forum-reply\">\n        <div className=\"forum-reply__person\">\n            <img src=\"//placehold.it/160x160\" />\n            GammaRho\n        </div>\n        <div className=\"forum-reply__content\">\n            <p className=\"quiet\">\n                [reply removed]\n            </p>\n        </div>\n    </div>\n</div>\n<!-- <div className=\"full-image-overlay\" style=\"background-image: url('//content.deciduous.site/uploads/images/mirrorball2.gif'); opacity:0.2;\"></div> -->",
+        "created": "2017-08-28T03:10:37.123Z",
+        "fullWidth": false,
+        "lovers": null,
+        "page": 56,
+        "parent": "59a3898ed9eba100763a0f5a",
+        "persons": [
+          "59a7a677a692ea00760b7979",
+          "59a7a74ba692ea00760b797e"
+        ],
+        "readme": "",
+        "slug": "mr-magoo-and-the-phalanstere",
+        "stub": false,
+        "themes": [],
+        "title": "Bird fooling",
+        "word": [
+          "7484547n",
+          "2734725n"
+        ]
+      },
+      "persons": null,
+      "readme": "You are stopped on the thing on which you go.",
+      "slug": "abstraction-layer-turnpike",
+      "stub": true,
+      "themes": [],
+      "title": "Alayer turnpiking",
+      "word": [
+        {
+          "__v": 0,
+          "_id": "5700625n",
+          "def": "preoccupation with something to the exclusion of all else  ",
+          "exp": [],
+          "gloss": "preoccupation with something to the exclusion of all else  ",
+          "lemma": "abstractedness",
+          "lexFilenum": 9,
+          "lexId": "0",
+          "parent": "5700087n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cecc5198b28dd5a1f166f32",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5700087
+            },
+            {
+              "_id": "5cecc5198b28dd7f80166f31",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0103",
+              "synsetOffset": 165171
+            },
+            {
+              "_id": "5cecc5198b28dd7263166f30",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5700793
+            }
+          ],
+          "synonyms": [
+            "abstractedness",
+            "abstraction"
+          ],
+          "synsetOffset": 5700625,
+          "wCnt": 2,
+          "word": "abstractedness"
+        },
+        {
+          "__v": 0,
+          "_id": "5854150n",
+          "def": "a concept or idea not associated with any specific instance",
+          "exp": [
+            "he loved her only in the abstract--not in person"
+          ],
+          "gloss": "a concept or idea not associated with any specific instance; \"he loved her only in the abstract--not in person\"  ",
+          "lemma": "abstraction",
+          "lexFilenum": 9,
+          "lexId": "0",
+          "parent": "5835747n",
+          "pos": "n",
+          "ptrs": [
+            {
+              "_id": "5cdf134a05823b0062ac9122",
+              "pointerSymbol": "@",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5835747
+            },
+            {
+              "_id": "5cdf134a05823b0062ac9121",
+              "pointerSymbol": "+",
+              "pos": "a",
+              "sourceTarget": "0201",
+              "synsetOffset": 11757
+            },
+            {
+              "_id": "5cdf134a05823b0062ac9120",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 734587
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911f",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0201",
+              "synsetOffset": 692329
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911e",
+              "pointerSymbol": "+",
+              "pos": "v",
+              "sourceTarget": "0101",
+              "synsetOffset": 692329
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911d",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5174653
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911c",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5854474
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911b",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5854812
+            },
+            {
+              "_id": "5cdf134a05823b0062ac911a",
+              "pointerSymbol": "~",
+              "pos": "n",
+              "sourceTarget": "0000",
+              "synsetOffset": 5855004
+            }
+          ],
+          "synonyms": [
+            "abstraction",
+            "abstract"
+          ],
+          "synsetOffset": 5854150,
+          "wCnt": 2,
+          "word": "abstraction"
+        }
+      ]
+    }
+  ],
+  "word": {
+    "__v": 0,
+    "_id": "5854150n",
+    "def": "a concept or idea not associated with any specific instance",
+    "exp": [
+      "he loved her only in the abstract--not in person"
+    ],
+    "gloss": "a concept or idea not associated with any specific instance; \"he loved her only in the abstract--not in person\"  ",
+    "lemma": "abstraction",
+    "lexFilenum": 9,
+    "lexId": "0",
+    "parent": "5835747n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "5cdf134a05823b0062ac9122",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5835747
+      },
+      {
+        "_id": "5cdf134a05823b0062ac9121",
+        "pointerSymbol": "+",
+        "pos": "a",
+        "sourceTarget": "0201",
+        "synsetOffset": 11757
+      },
+      {
+        "_id": "5cdf134a05823b0062ac9120",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 734587
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911f",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0201",
+        "synsetOffset": 692329
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911e",
+        "pointerSymbol": "+",
+        "pos": "v",
+        "sourceTarget": "0101",
+        "synsetOffset": 692329
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911d",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5174653
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5854474
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5854812
+      },
+      {
+        "_id": "5cdf134a05823b0062ac911a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 5855004
+      }
+    ],
+    "synonyms": [
+      "abstraction",
+      "abstract"
+    ],
+    "synsetOffset": 5854150,
+    "wCnt": 2,
+    "word": "abstraction"
+  }
+}

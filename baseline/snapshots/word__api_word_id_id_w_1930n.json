@@ -1,0 +1,110 @@
+{
+  "antonyms": [],
+  "hypernyms": [
+    {
+      "_id": "1740n",
+      "def": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "exp": [],
+      "gloss": "that which is perceived or known or inferred to have its own distinct existence (living or nonliving)  ",
+      "lemma": "entity",
+      "lexFilenum": 3,
+      "lexId": "0",
+      "pos": "n",
+      "ptrs": [
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 1930
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 2137
+        },
+        {
+          "pointerSymbol": "~",
+          "pos": "n",
+          "sourceTarget": "0000",
+          "synsetOffset": 4424418
+        }
+      ],
+      "synonyms": [
+        "entity"
+      ],
+      "synsetOffset": 1740,
+      "wCnt": 1
+    }
+  ],
+  "pieces": [],
+  "word": {
+    "__v": 0,
+    "_id": "1930n",
+    "def": "an entity that has physical existence  ",
+    "exp": [],
+    "gloss": "an entity that has physical existence  ",
+    "lemma": "physical_entity",
+    "lexFilenum": 3,
+    "lexId": "0",
+    "parent": "1740n",
+    "pos": "n",
+    "ptrs": [
+      {
+        "_id": "6555f9d2f1ad750008176b26",
+        "pointerSymbol": "@",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 1740
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b27",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2452
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b28",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 2684
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b29",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 7347
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b2a",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 20827
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b2b",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 29677
+      },
+      {
+        "_id": "6555f9d2f1ad750008176b2c",
+        "pointerSymbol": "~",
+        "pos": "n",
+        "sourceTarget": "0000",
+        "synsetOffset": 14580597
+      }
+    ],
+    "synonyms": [
+      "physical_entity"
+    ],
+    "synsetOffset": 1930,
+    "wCnt": 1,
+    "word": "physical_entity"
+  }
+}

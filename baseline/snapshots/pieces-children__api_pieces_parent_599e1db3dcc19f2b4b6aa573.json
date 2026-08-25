@@ -1,0 +1,66 @@
+[
+  {
+    "__v": 0,
+    "_id": "599badb12d4c7455551c4ef7",
+    "background": "#333",
+    "content": "<div>\n    <lightimg src=\"https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/ark.png\" bg=\"black\" width=\"4001\" height=\"4229\" />\n</div>\n<div class=\"indents\">\n    <p>Polia,</p>\n    <p>We saw these scraps on a whiteboard—the one before the room—I mean outside it—I gathered or collected all that was possible: <em>(x,y)</em></p>\n    <p>\n        (14,54) You know a little basket can be found in a chimney or the reeds. And we will keep that chimney clear or hew those reeds as a collective good / (35,24) The particle-set of the leaves will flutter off the tree when the request is filled / (20,43) Not everyone can do this! / (17,90) August Bank Holiday Island? / Our lack of ourness (maybe areness) / (53,53) Problem with using is the User / (15,110) The boundary of this truce \n    </p>\n    <p>\n        (A placeholder: \"most people are fools—most authority is malignant—God does not exist—and everything is wrong\")\n    </p>\n</div>",
+    "created": "2017-08-22T04:06:09.167Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 0,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": [
+      "59a7a64ea692ea00760b7977",
+      "59e0451bf883dc0ea56ac6c7",
+      "59a7a5eba692ea00760b7974"
+    ],
+    "readme": "",
+    "slug": "ark",
+    "stub": false,
+    "themes": [],
+    "title": "Ark refactoring",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "599e1dccdcc19f2b4b6aa574",
+    "background": "",
+    "content": "<div class=\"shadow\" style=\"width:100%; min-height:80vh; background-image:url('https://s3-us-west-2.amazonaws.com/codex-content/uploads/images/pur6b.gif'); background-attachment:fixed; padding:1rem;\">\n    <h1>Thyroid Safety Confirmation Information<br/>\n        for Shinichi Mochizuki</h1>\n    <p>As of 13 July 2018, 18:46: I'm doing fine.<br/>\n        Location: Kyoto Prefecture, Japan</p>\n</div>",
+    "created": "2017-08-24T00:29:00.290Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 9,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": [
+      "59a7a637a692ea00760b7976"
+    ],
+    "readme": "",
+    "slug": "thyroid",
+    "stub": false,
+    "themes": [],
+    "title": "Thyroid saving",
+    "word": []
+  },
+  {
+    "__v": 0,
+    "_id": "5b71fe65eadfa9004ee2f3ee",
+    "background": "#fffae8",
+    "content": "<img src=\"https://codex-content.s3.us-west-2.amazonaws.com/uploads/images/1534197305633-page.jpg\" width=\"1560\" height=\"1560\" />",
+    "created": "2018-08-13T21:55:49.106Z",
+    "fullWidth": false,
+    "lovers": null,
+    "page": 137,
+    "parent": "599e1db3dcc19f2b4b6aa573",
+    "persons": null,
+    "readme": "Found in a library of Helioseismology (about how the sun works). A proposal that a flare is a kind of syntax of working out if the consequences of the flare are up or down, and that feelings of warmth are a loss function.",
+    "slug": "any-or-general",
+    "stub": false,
+    "themes": [],
+    "title": "Moon or sunning",
+    "word": [
+      "13912260n",
+      "7473441n",
+      "9450163n"
+    ]
+  }
+]
