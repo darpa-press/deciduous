@@ -32,10 +32,7 @@
   ],
   "exclude": [
     "node_modules",
-    "backend",
-    "frontend",
     "baseline",
-    "new",
     "dump"
   ]
 }
