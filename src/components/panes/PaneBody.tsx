@@ -14,8 +14,21 @@ import { GraphPane } from "./GraphPane";
  * The contents of one pane, chosen by its segment. No chrome, no wrapper —
  * PaneHost provides those — so that this can be rendered either with the page
  * or later, on its own, by the pane action.
+ *
+ * `loggedIn` arrives as a prop rather than being read here. Reading cookies
+ * inside this component would make every pane a dynamic hole, and content
+ * inside such a hole never hydrates: the server markup arrives, then the
+ * client replaces it with the Suspense fallback.
  */
-export function PaneBody({ segment, index }: { segment: string; index: number }) {
+export function PaneBody({
+    segment,
+    index,
+    loggedIn = false,
+}: {
+    segment: string;
+    index: number;
+    loggedIn?: boolean;
+}) {
     const pane: Pane = parseSegment(segment);
 
     switch (pane.kind) {
@@ -26,7 +39,7 @@ export function PaneBody({ segment, index }: { segment: string; index: number })
         case "word":
             return <WordPane id={pane.id} index={index} />;
         case "index":
-            return <IndexPane variant={pane.variant} index={index} />;
+            return <IndexPane variant={pane.variant} index={index} loggedIn={loggedIn} />;
         case "persons":
             return <PersonsPane index={index} />;
         case "words":
@@ -35,10 +48,13 @@ export function PaneBody({ segment, index }: { segment: string; index: number })
             return <AllPiecesPane index={index} />;
         case "graph":
             return <GraphPane index={index} />;
+        // Editors are admin-only. Logged out, the segment simply does not
+        // resolve — the same as any other unknown path.
         case "edit-piece":
         case "edit-person":
         case "new-piece":
         case "new-person":
+            if (!loggedIn) return <NotFoundPane segment={segment} />;
             return <PlaceholderPane label="editor" phase="Phase 5" />;
         case "notfound":
             return <NotFoundPane segment={pane.segment} />;

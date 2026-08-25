@@ -812,3 +812,61 @@
     justify-content: space-between;
     margin-top: auto;
 }
+
+/* ---------------------------------------------------------------- login */
+
+.login-container {
+    font-size: 0.8rem;
+    font-family: var(--font-system);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.login-input {
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0.28rem;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    font-family: var(--font-system);
+}
+
+.login-submit {
+    align-items: center;
+    display: flex;
+    font-family: var(--font-system);
+    justify-content: center;
+    padding: 0.4rem 0.28rem;
+    text-align: left;
+    width: 4rem;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login-back {
+    color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+}
+
+.login-error {
+    color: var(--color-ink);
+    margin-top: 0.75rem;
+    opacity: 0.7;
+}

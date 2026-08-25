@@ -3,6 +3,9 @@ import "./globals.css";
 import { Search } from "@/components/Search";
 import { LoginLink } from "@/components/LoginLink";
 import { PaneTitleSync } from "@/components/PaneTitleSync";
+import { Suspense } from "react";
+
+import { SessionDot } from "@/components/SessionDot";
 
 export const metadata: Metadata = {
     // The legacy app set this via react-helmet in App.js; per-piece titles are
@@ -17,7 +20,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <body className="h-full">
                 {children}
                 <Search />
-                <LoginLink loggedIn={false} />
+                {/* The dot needs the session; keep that read out of the
+                    layout body so the rest of the app can still prerender. */}
+                <Suspense fallback={<LoginLink loggedIn={false} />}>
+                    <SessionDot />
+                </Suspense>
                 <PaneTitleSync />
             </body>
         </html>

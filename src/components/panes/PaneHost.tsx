@@ -24,10 +24,13 @@ import { renderPane } from "@/app/pane-action";
 export function PaneHost({
     index,
     initialSegment,
+    loggedIn = false,
     children,
 }: {
     index: number;
     initialSegment: string;
+    /** Whether the admin session is active, for the chrome's edit actions. */
+    loggedIn?: boolean;
     /** Server-rendered contents for `initialSegment`. */
     children: ReactNode;
 }) {
@@ -68,7 +71,7 @@ export function PaneHost({
     return (
         <div className="pane" data-pane={index}>
             <div className="pane-scroll">{content}</div>
-            <ActionBar index={index} cardLink={cardLink} editTarget={editTarget} loggedIn={false} />
+            <ActionBar index={index} cardLink={cardLink} editTarget={editTarget} loggedIn={loggedIn} />
         </div>
     );
 }

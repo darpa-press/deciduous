@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import { headers } from "next/headers";
 
 import "@/styles/content.css";
@@ -6,6 +5,7 @@ import { PaneHost } from "@/components/panes/PaneHost";
 import { PaneBody } from "@/components/panes/PaneBody";
 import { paneMetadata } from "@/lib/pane-metadata";
 import { PANE_HEADER } from "@/proxy";
+import { isLoggedIn } from "@/lib/auth/session";
 
 /**
  * Every URL in the codex is a stack of panes: `/2/125` is piece 2 beside piece
@@ -53,14 +53,18 @@ export async function generateMetadata({ params }: PageProps<"/[[...panes]]">) {
 async function Stack({ params }: { params: PageProps<"/[[...panes]]">["params"] }) {
     const { panes } = await params;
     const segments = await resolveSegments(panes);
+    const loggedIn = await isLoggedIn();
 
     return (
         <>
             {segments.map((segment, index) => (
-                <PaneHost key={index} index={index} initialSegment={segment}>
-                    <Suspense fallback={<div className="piece-title">⋅</div>}>
-                        <PaneBody segment={segment} index={index} />
-                    </Suspense>
+                <PaneHost key={index} index={index} initialSegment={segment} loggedIn={loggedIn}>
+                    {/* No Suspense boundary. The route blocks, so a boundary
+                        here would only turn the pane into a streamed hole —
+                        and client components inside one never hydrate, which
+                        left slow panes such as the index stuck on a fallback
+                        forever. */}
+                    <PaneBody segment={segment} index={index} loggedIn={loggedIn} />
                 </PaneHost>
             ))}
         </>

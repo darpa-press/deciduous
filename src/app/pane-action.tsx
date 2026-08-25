@@ -1,8 +1,9 @@
 "use server";
 
-import { Suspense, type ReactNode } from "react";
+import type { ReactNode } from "react";
 
 import { PaneBody } from "@/components/panes/PaneBody";
+import { isLoggedIn } from "@/lib/auth/session";
 
 /**
  * Renders one pane on the server, on demand.
@@ -19,9 +20,9 @@ import { PaneBody } from "@/components/panes/PaneBody";
  * content is still rendered on the server; only the request for it moves.
  */
 export async function renderPane(segment: string, index: number): Promise<ReactNode> {
-    return (
-        <Suspense fallback={<div className="piece-title">⋅</div>}>
-            <PaneBody segment={segment} index={index} />
-        </Suspense>
-    );
+    // Read the session here, in the action body — not inside the boundary
+    // below. See PaneBody for why that distinction matters.
+    const loggedIn = await isLoggedIn();
+
+    return <PaneBody segment={segment} index={index} loggedIn={loggedIn} />;
 }
