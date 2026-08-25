@@ -619,45 +619,34 @@
     }
 }
 
-/* Approximates CardContent from CardCatalogue — the card catalogue proper is
-   not ported yet, so results use its shell rather than the full card. */
-.search-card {
-    background: white;
-    border-radius: 2px;
-    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.08);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+/* Results are the real catalogue card, shrunk to fit the grid. */
+.search-card-link {
+    display: block;
     height: 100%;
-    width: 100%;
-    padding: 3em 2em 1em 15%;
+}
+
+.search-card-link .card-content {
+    height: 100%;
+    min-height: 0;
     font-size: 0.85rem;
-    text-align: left;
-    cursor: pointer;
+    overflow: auto;
     border: 1px solid transparent;
     transition: all 0.1s ease;
-    overflow: auto;
-    font-family: var(--font-body);
-    color: inherit;
 }
 
 @media screen and (min-width: 768px) {
-    .search-card:hover {
+    .search-card-link:hover .card-content {
         border-color: black;
     }
 }
 
-.search-card-title {
-    font-variant: small-caps;
-    letter-spacing: 0.5px;
-    margin-right: 0.5em;
+.search-sigil {
+    margin-right: 0.5rem;
 }
 
-.search-card-meta {
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    font-family: var(--font-display);
+.search-searching {
+    user-select: none;
+    margin-left: 0.5rem;
     opacity: 0.5;
 }
 
@@ -1170,4 +1159,54 @@
     color: rgba(0, 0, 0, 0.5);
     flex: 0 0 1.5rem;
     margin-right: 1rem;
+}
+
+/* ------------------------------------------------------------- word pane */
+
+.word-head {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--color-rule);
+}
+
+.word-head-line {
+    display: flex;
+}
+
+.word-gloss {
+    flex: 1;
+}
+
+.word-lemma {
+    font-variant: small-caps;
+}
+
+.word-count {
+    font-family: var(--font-display);
+    margin-left: 2rem;
+}
+
+/* The chain up to "entity", separated by chevrons. */
+.word-hypernyms {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+}
+
+.word-hypernyms > div:not(:last-child)::after {
+    content: "›";
+    margin: 0 0.333rem;
+    opacity: 0.5;
+}
+
+/* Gaps flagged beside a title in the alphabetical index, for the author only. */
+.index-gaps {
+    margin-left: 0.25rem;
+    display: inline-flex;
+    font-family: var(--font-system);
+    color: red;
+    font-size: 0.75rem;
+}
+
+.index-gap {
+    margin-right: 0.25rem;
 }

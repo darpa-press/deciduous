@@ -79,7 +79,29 @@ async function IndexTree({ index, loggedIn }: { index: number; loggedIn: boolean
     );
 }
 
-async function IndexAlpha({ index }: { index: number }) {
+/**
+ * Fields worth filling in, flagged beside a title so gaps are visible while
+ * reading the index rather than only when opening each piece. Shown only to
+ * the author.
+ *
+ * The legacy check could never flag an empty array: it tested
+ * `!piece[key].length === 0`, which parses as `(!length) === 0` — a boolean
+ * compared against a number, always false. So `word`, `persons` and `lovers`
+ * were effectively never reported. Fixed here, which means more markers than
+ * before, not fewer.
+ */
+const CHECKED_FIELDS = ["readme", "word", "persons", "lovers", "hasLink"] as const;
+
+function missingFields(piece: Record<string, unknown>): string[] {
+    return CHECKED_FIELDS.filter((key) => {
+        const value = piece[key];
+        if (value === undefined || value === null || value === "" || value === false) return true;
+        if (Array.isArray(value)) return value.length === 0;
+        return false;
+    });
+}
+
+async function IndexAlpha({ index, loggedIn }: { index: number; loggedIn: boolean }) {
     const pieces = await getAllPieces({ sort: "title", order: 1 });
 
     // Grouped by first letter of the title, in the order the sorted list
@@ -102,6 +124,17 @@ async function IndexAlpha({ index }: { index: number }) {
                             <div className="index-alpha-piece" key={String(piece._id)}>
                                 <PaneLink target={String(piece.page)} index={index}>
                                     {piece.title}
+                                    {loggedIn && (
+                                        <span className="index-gaps">
+                                            {missingFields(
+                                                piece as unknown as Record<string, unknown>
+                                            ).map((field) => (
+                                                <span className="index-gap" key={field}>
+                                                    {field}
+                                                </span>
+                                            ))}
+                                        </span>
+                                    )}
                                 </PaneLink>
                             </div>
                         ))}
@@ -147,7 +180,7 @@ export async function IndexPane({
             {variant === "tree" ? (
                 <IndexTree index={index} loggedIn={loggedIn} />
             ) : (
-                <IndexAlpha index={index} />
+                <IndexAlpha index={index} loggedIn={loggedIn} />
             )}
         </div>
     );

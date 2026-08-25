@@ -52,6 +52,16 @@ export async function getPersonBySlug(slug: string) {
     return plain({ ...person, pieces });
 }
 
+/**
+ * A synset with everything the word pane shows: the pieces that use it, its
+ * hypernym chain, and its antonyms.
+ *
+ * All resolved from the `words` collection, never from WordNet. The legacy
+ * endpoint walked the chain and each antonym through node-wordnet on every
+ * request, which is the code path that brought the live site down. The
+ * collection already mirrors WordNet's schema and stores the parent links, so
+ * reading needs no dictionary files at all.
+ */
 export async function getWordById(id: string) {
     await connect();
     const word = await Word.findOne({ _id: id }).lean();
@@ -61,7 +71,44 @@ export async function getWordById(id: string) {
         .populate("parent")
         .populate({ path: "word", model: "Word" })
         .lean();
-    return plain({ word, pieces });
+
+    // Hypernyms, by following the stored parent links upward.
+    const hypernyms = [];
+    const seen = new Set<string>([id]);
+    let cursor = word.parent;
+    while (cursor && !seen.has(cursor) && hypernyms.length < 40) {
+        seen.add(cursor);
+        const next = await Word.findOne({ _id: cursor })
+            .select("word lemma pos gloss parent")
+            .lean();
+        if (!next) break;
+        hypernyms.push(next);
+        cursor = next.parent ?? null;
+    }
+
+    // Antonyms come from the synset's own "!" pointers, resolved against the
+    // collection only.
+    //
+    // A WordNet fallback was tried here for pointers the collection does not
+    // hold, and backed out: node-wordnet returns bluebird 2.x promises, and
+    // awaiting one inside a `use cache` boundary breaks React's streaming with
+    // "failed to pipe response: n.finally is not a function" — the word page
+    // returns an empty body. That is the same shape of failure the legacy
+    // endpoint shows in production, reproduced locally, and it is the reason
+    // WordNet stays on admin paths only.
+    //
+    // In practice antonyms appear for synsets the author has attached, which
+    // is where they are most likely to be wanted.
+    const antonymIds = (word.ptrs ?? [])
+        .filter((pointer) => pointer.pointerSymbol === "!")
+        .map((pointer) => `${pointer.synsetOffset}${pointer.pos}`);
+    const antonyms = antonymIds.length
+        ? await Word.find({ _id: { $in: antonymIds } })
+              .select("word lemma pos gloss")
+              .lean()
+        : [];
+
+    return plain({ word, pieces, hypernyms, antonyms });
 }
 
 export async function getChildPieces(parentId: string) {

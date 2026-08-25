@@ -1,11 +1,14 @@
 "use server";
 
 import { searchPieces } from "@/lib/queries";
+import type { CardPiece } from "@/components/panes/PieceCard";
 
 export interface SearchHit {
     id: string;
     page?: number;
     title?: string;
+    /** Everything the catalogue card needs; results render as cards. */
+    card: CardPiece;
 }
 
 /**
@@ -24,5 +27,6 @@ export async function search(term: string): Promise<SearchHit[]> {
         id: String(piece._id),
         page: piece.page,
         title: piece.title,
+        card: piece as unknown as CardPiece,
     }));
 }

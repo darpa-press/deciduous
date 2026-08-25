@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { parseSegment } from "@/lib/panes";
-import { getPieceByPage } from "@/lib/queries";
+import { getPieceByPage, getWordById } from "@/lib/queries";
 
 /**
  * Document title for a pane stack.
@@ -20,6 +20,11 @@ export async function paneMetadata(segments: string[]): Promise<Metadata> {
             if (pane.kind === "piece") {
                 const piece = await getPieceByPage(pane.page);
                 return piece?.title ?? "\u22c5";
+            }
+            if (pane.kind === "word") {
+                const result = await getWordById(pane.id);
+                const word = result?.word as { lemma?: string; word?: string } | undefined;
+                return word ? `"${word.lemma ?? word.word ?? segment}"` : segment;
             }
             if (pane.kind === "index") return "Index";
             if (pane.kind === "persons") return "People";
