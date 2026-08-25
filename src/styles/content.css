@@ -194,3 +194,249 @@
         padding-bottom: 3rem;
     }
 }
+
+/* ---------------------------------------------------------------- indexes */
+
+.pane-inside {
+    padding: 1rem 2rem 3rem;
+}
+
+@media (max-width: 767px) {
+    .pane-inside {
+        padding: 0.75rem;
+    }
+}
+
+.index-types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem 2rem;
+    user-select: none;
+}
+
+.index-types a {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.index-type-icon {
+    height: 24px;
+    width: auto;
+}
+
+.index-item {
+    margin: 0.25rem 0;
+    font-family: var(--font-display-italic);
+    user-select: none;
+}
+
+.index-children {
+    padding-left: 1.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-left: 0.5px solid var(--color-rule);
+}
+
+@media screen and (max-width: 767px) {
+    .index-children {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        border-left: 0;
+    }
+}
+
+/* The page number sits out to the right of each index entry. */
+.index-number {
+    float: right;
+    font-family: var(--font-display);
+}
+
+@media screen and (max-width: 767px) {
+    .index-number {
+        display: none;
+    }
+}
+
+.index-link a {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .index-link {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .index-link a:hover {
+        opacity: 0.5;
+    }
+}
+
+.index-alpha-row {
+    display: flex;
+    margin-bottom: 1rem;
+    font-family: var(--font-display-italic);
+    user-select: none;
+}
+
+.index-alpha-letter {
+    flex: 0 0 3rem;
+    font-family: var(--font-display);
+}
+
+.index-alpha-piece {
+    margin-bottom: 0.333rem;
+}
+
+/* ---------------------------------------------------------------- people */
+
+.persons-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.persons-table th {
+    text-align: left;
+    font-family: var(--font-display);
+    font-weight: normal;
+    border-bottom: 1px solid var(--color-rule);
+    padding: 0.25rem 0.5rem 0.25rem 0;
+}
+
+.persons-table td {
+    padding: 0.125rem 0.5rem 0.125rem 0;
+    vertical-align: top;
+}
+
+.person-link {
+    display: block;
+    padding: 0.125rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .person-link:hover {
+        opacity: 0.5;
+    }
+}
+
+/* ---------------------------------------------------------------- words */
+
+.words-list {
+    font-family: var(--font-display-italic);
+    user-select: none;
+}
+
+.word-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ancestry reads as a dimmed breadcrumb; the word itself is full strength. */
+.word-name {
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+}
+
+.word-name span {
+    opacity: 0.5;
+    margin-right: 0.5em;
+}
+
+.word-name span:last-child {
+    opacity: 1;
+}
+
+/* ---------------------------------------------------------------- graph */
+
+.graph-canvas {
+    height: 100%;
+    width: 100%;
+    min-height: calc(100vh - 2.5rem);
+}
+
+/* ---------------------------------------------------------------- search */
+
+.search-icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem 0.75rem;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    z-index: 50;
+    opacity: 0.5;
+}
+
+.search-icon:hover {
+    opacity: 1;
+}
+
+.search-screen {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.985);
+    z-index: 100;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.search-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    opacity: 0.4;
+}
+
+.search-inner {
+    width: 100%;
+    max-width: 32rem;
+    padding: 4rem 2rem;
+}
+
+.search-input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--color-rule);
+    background: none;
+    font-family: var(--font-body);
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    outline: none;
+}
+
+.search-results {
+    margin-top: 2rem;
+    font-family: var(--font-display-italic);
+}
+
+.search-hit {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0.25rem 0;
+    font: inherit;
+    color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+    .search-hit:hover {
+        opacity: 0.5;
+    }
+}

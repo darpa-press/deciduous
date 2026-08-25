@@ -10,6 +10,11 @@ import { PersonPane } from "@/components/panes/PersonPane";
 import { WordPane } from "@/components/panes/WordPane";
 import { NotFoundPane } from "@/components/panes/NotFoundPane";
 import { PlaceholderPane } from "@/components/panes/PlaceholderPane";
+import { IndexPane } from "@/components/panes/IndexPane";
+import { PersonsPane } from "@/components/panes/PersonsPane";
+import { WordsPane } from "@/components/panes/WordsPane";
+import { AllPiecesPane } from "@/components/panes/AllPiecesPane";
+import { GraphPane } from "@/components/panes/GraphPane";
 import { getPieceByPage } from "@/lib/queries";
 
 /**
@@ -38,15 +43,15 @@ function renderPane(pane: Pane, pathArray: string[], index: number) {
             return <WordPane id={pane.id} pathArray={pathArray} index={index} />;
 
         case "index":
-            return <PlaceholderPane label={pane.variant === "alpha" ? "index-a" : "index"} phase="Phase 4" />;
+            return <IndexPane variant={pane.variant} pathArray={pathArray} index={index} />;
         case "persons":
-            return <PlaceholderPane label="persons" phase="Phase 4" />;
+            return <PersonsPane pathArray={pathArray} index={index} />;
         case "words":
-            return <PlaceholderPane label="words" phase="Phase 4" />;
+            return <WordsPane pathArray={pathArray} index={index} />;
         case "all":
-            return <PlaceholderPane label="all" phase="Phase 4" />;
+            return <AllPiecesPane pathArray={pathArray} index={index} />;
         case "graph":
-            return <PlaceholderPane label="graph" phase="Phase 4" />;
+            return <GraphPane pathArray={pathArray} index={index} />;
 
         case "edit-piece":
         case "edit-person":
@@ -83,6 +88,10 @@ export async function generateMetadata({
                 const piece = await getPieceByPage(pane.page);
                 return piece?.title ?? "⋅";
             }
+            if (pane.kind === "index") return "Index";
+            if (pane.kind === "persons") return "People";
+            if (pane.kind === "words") return "Words";
+            if (pane.kind === "graph") return "Graph";
             return segment;
         })
     );

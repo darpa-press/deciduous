@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Search } from "@/components/Search";
 
 export const metadata: Metadata = {
     // The legacy app set this via react-helmet in App.js; per-piece titles are
@@ -11,7 +12,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
     return (
         <html lang="en" className="h-full">
-            <body className="h-full">{children}</body>
+            <body className="h-full">
+                {children}
+                <Search />
+            </body>
         </html>
     );
 }

@@ -19,6 +19,13 @@ import { connect } from "../src/lib/mongodb";
 import { Piece } from "../src/models/Piece";
 import { Person } from "../src/models/Person";
 import "../src/models/Word";
+import {
+    getPieceTree,
+    getWordTree,
+    getGraph,
+    getAllPersons,
+    searchPieces,
+} from "../src/lib/queries";
 
 const OUT = path.resolve("baseline");
 const manifest = JSON.parse(readFileSync(path.join(OUT, "manifest.json"), "utf8"));
@@ -176,6 +183,27 @@ const parentIds: string[] = manifest.discovered.parentIds;
 process.stdout.write(`    ${parentIds.length} parent queries… `);
 for (const id of parentIds) {
     check(`/api/pieces?parent=${encodeURIComponent(id)}`, await Piece.find({ parent: id }).lean());
+}
+console.log("done");
+
+// --- composed endpoints -------------------------------------------------
+// These carry real controller logic rather than being plain queries: the
+// list-to-tree transcription, the graph assembly, and full-text search.
+
+process.stdout.write(`    tree, graph, word tree… `);
+check("/api/pieces?tree=1", await getPieceTree());
+check("/api/pieces?graph=1", await getGraph());
+check("/api/word", await getWordTree());
+console.log("done");
+
+process.stdout.write(`    persons listing (lean)… `);
+check("/api/persons", await getAllPersons());
+console.log("done");
+
+const searchTerms: string[] = manifest.discovered.searchTerms ?? [];
+process.stdout.write(`    ${searchTerms.length} searches… `);
+for (const term of searchTerms) {
+    check(`/api/search?q=${encodeURIComponent(term)}`, await searchPieces(term));
 }
 console.log("done");
 
