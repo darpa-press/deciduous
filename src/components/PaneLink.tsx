@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import type { ReactNode, CSSProperties, MouseEvent } from "react";
 
 import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
-import { pushPane, isModifiedClick } from "@/lib/navigate";
+import { pushPane, isModifiedClick, isOtherPaneClick } from "@/lib/navigate";
 
 /**
  * A link that targets a pane position.
@@ -13,6 +13,12 @@ import { pushPane, isModifiedClick } from "@/lib/navigate";
  * directly rather than going through the router, so panes that did not change
  * are left alone. The real href stays on the anchor, so middle-click, copy and
  * no-JS all behave.
+ *
+ * Option-click sends the link to the *other* pane — it inverts `contextual`,
+ * so an index entry, which normally writes over the index itself, opens beside
+ * it instead, on the right from the left-hand pane and on the left from the
+ * right-hand one. In a one-pane stack the two are the same position and the
+ * gesture does nothing.
  */
 export function PaneLink({
     target,
@@ -42,9 +48,19 @@ export function PaneLink({
 }) {
     const pathname = usePathname();
     const segments = segmentsFromPathname(pathname);
-    const href = buildCreateLink(segments, index)(target, contextual);
+    const createLink = buildCreateLink(segments, index);
+    const href = createLink(target, contextual);
+    /** Where Option-click sends it: the pane a plain click would have left alone. */
+    const otherHref = createLink(target, !contextual);
 
     function onClick(event: MouseEvent<HTMLAnchorElement>) {
+        // Before isModifiedClick, which counts Alt among the modifiers it hands
+        // to the browser.
+        if (isOtherPaneClick(event)) {
+            event.preventDefault();
+            pushPane(otherHref);
+            return;
+        }
         if (isModifiedClick(event)) return;
         event.preventDefault();
         pushPane(href);

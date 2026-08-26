@@ -15,6 +15,27 @@ export function pushPane(href: string) {
     window.history.pushState(null, "", href);
 }
 
+/**
+ * An Option/Alt click with nothing else held.
+ *
+ * The gesture for "put this in the *other* pane": a link that would normally
+ * write over its own pane writes over the one next door, and vice versa. It is
+ * checked before isModifiedClick, which would otherwise hand the click to the
+ * browser — where Option-click means download, which is never what a link in
+ * the codex wants.
+ */
+export function isOtherPaneClick(event: {
+    metaKey: boolean;
+    ctrlKey: boolean;
+    shiftKey: boolean;
+    altKey: boolean;
+    button: number;
+}) {
+    return (
+        event.altKey && !event.metaKey && !event.ctrlKey && !event.shiftKey && event.button === 0
+    );
+}
+
 /** True for clicks the browser should handle itself — new tab, download, etc. */
 export function isModifiedClick(event: {
     metaKey: boolean;
