@@ -8,7 +8,7 @@ import { Field, Checkbox, ColourField } from "./fields";
 import { FileUpload } from "./FileUpload";
 import { WordFinder } from "./WordFinder";
 import { savePiece, deletePiece, type PieceInput } from "@/app/editor-actions";
-import { buildCreateLink } from "@/lib/panes";
+import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
 import { pushPane } from "@/lib/navigate";
 import { usePathname } from "next/navigation";
 
@@ -30,6 +30,8 @@ export interface PieceEditorProps {
     /** Absent when creating. */
     id?: string | null;
     page?: number | null;
+    /** Document version this form was loaded from. */
+    version?: number | null;
     initial: {
         title: string;
         content: string;
@@ -50,6 +52,7 @@ export function PieceEditor({
     index,
     id,
     page,
+    version,
     initial,
     pieceOptions,
     personOptions,
@@ -57,6 +60,15 @@ export function PieceEditor({
     const pathname = usePathname();
     const [pending, startTransition] = useTransition();
     const [error, setError] = useState<string | null>(null);
+    /**
+     * A save stays committed until the pane is replaced.
+     *
+     * `pending` clears the moment the action resolves, but the editor stays
+     * mounted until the pane finishes a server round-trip — so on a slow link
+     * the button came back to life on a form that had already created a piece,
+     * and a second click created a second one.
+     */
+    const [committed, setCommitted] = useState(false);
 
     const [title, setTitle] = useState(initial.title);
     const [content, setContent] = useState(initial.content);
@@ -70,14 +82,14 @@ export function PieceEditor({
     const [words, setWords] = useState(initial.word);
 
     const go = (target: string) => {
-        const segments = pathname.split("/").filter(Boolean);
-        pushPane(buildCreateLink(segments, index)(target, false));
+        pushPane(buildCreateLink(segmentsFromPathname(pathname), index)(target, false));
     };
 
     function onSave() {
         setError(null);
         const input: PieceInput = {
             id: id ?? null,
+            version: version ?? null,
             title,
             content,
             readme,
@@ -92,6 +104,7 @@ export function PieceEditor({
         startTransition(async () => {
             try {
                 const { page: savedPage } = await savePiece(input);
+                setCommitted(true);
                 go(String(savedPage));
             } catch (e) {
                 setError(e instanceof Error ? e.message : "Could not save.");
@@ -106,6 +119,7 @@ export function PieceEditor({
         startTransition(async () => {
             try {
                 await deletePiece(id, page);
+                setCommitted(true);
                 go("index");
             } catch (e) {
                 setError(e instanceof Error ? e.message : "Could not delete.");
@@ -194,11 +208,16 @@ export function PieceEditor({
             {error && <div className="form-error">{error}</div>}
 
             <div className="form-buttons">
-                <button type="button" onClick={onSave} disabled={pending}>
+                <button type="button" onClick={onSave} disabled={pending || committed}>
                     {pending ? "…" : "Save"}
                 </button>
                 {id && (
-                    <button type="button" style={{ color: "red" }} onClick={onDelete} disabled={pending}>
+                    <button
+                        type="button"
+                        style={{ color: "red" }}
+                        onClick={onDelete}
+                        disabled={pending || committed}
+                    >
                         Delete
                     </button>
                 )}

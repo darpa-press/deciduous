@@ -4,6 +4,7 @@ import "@/styles/content.css";
 import { PaneHost } from "@/components/panes/PaneHost";
 import { PaneBody } from "@/components/panes/PaneBody";
 import { paneMetadata } from "@/lib/pane-metadata";
+import { MAX_PANES } from "@/lib/panes";
 import { PANE_HEADER } from "@/proxy";
 import { isLoggedIn } from "@/lib/auth/session";
 
@@ -26,7 +27,10 @@ import { isLoggedIn } from "@/lib/auth/session";
  * header — see src/proxy.ts.
  */
 async function resolveSegments(panes: string[] | undefined): Promise<string[]> {
-    if (panes?.length) return panes;
+    // Capped: every extra segment is another database read here *and* another
+    // in generateMetadata, so an unbounded path let one anonymous request fan
+    // out into thousands of queries.
+    if (panes?.length) return panes.slice(0, MAX_PANES);
     const marked = (await headers()).get(PANE_HEADER);
     return marked ? [marked] : [];
 }

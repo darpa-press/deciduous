@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 import { PaneLink } from "@/components/PaneLink";
 import { CODEX_IMPRINT, CODEX_NAME, cardWordLabel, shelfMark, type CardWord } from "@/lib/card";
 
@@ -24,7 +26,44 @@ export interface CardPiece {
     word?: CardWord[];
 }
 
-export function PieceCard({ piece, index }: { piece: CardPiece; index: number }) {
+/**
+ * Card links are suppressed where the whole card is already one link — the
+ * search overlay wraps each result in an anchor, and an anchor inside an
+ * anchor is invalid markup whose click handlers compose wrongly: the inner
+ * link pushed its target and the outer one immediately overwrote it, so every
+ * link inside a result went to the result's own piece instead.
+ */
+function CardLink({
+    linked,
+    target,
+    index,
+    contextual = false,
+    children,
+}: {
+    linked: boolean;
+    target: string;
+    index: number;
+    contextual?: boolean;
+    children: ReactNode;
+}) {
+    if (!linked) return <>{children}</>;
+    return (
+        <PaneLink target={target} index={index} contextual={contextual}>
+            {children}
+        </PaneLink>
+    );
+}
+
+export function PieceCard({
+    piece,
+    index,
+    linked = true,
+}: {
+    piece: CardPiece;
+    index: number;
+    /** False where an ancestor is already the link for the whole card. */
+    linked?: boolean;
+}) {
     const { page, title, readme, parent, persons, word } = piece;
 
     return (
@@ -33,9 +72,9 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
                 <div>
                     <div className="card-title">
                         {/* Not contextual: this drops the card and shows the piece. */}
-                        <PaneLink target={String(page)} index={index}>
+                        <CardLink linked={linked} target={String(page)} index={index}>
                             {title}
-                        </PaneLink>
+                        </CardLink>
                         .
                     </div>
                     <div className="card-background">
@@ -45,9 +84,9 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
 
                 <div className="card-inherit">
                     {parent && (
-                        <PaneLink target={String(parent.page)} index={index} contextual>
+                        <CardLink linked={linked} target={String(parent.page)} index={index} contextual>
                             @{parent.title}
-                        </PaneLink>
+                        </CardLink>
                     )}
                 </div>
 
@@ -55,14 +94,15 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
                     <span className="card-smallcaps">Words</span>—
                     {word?.map((item, i) => (
                         <span key={`${item.synsetOffset}${item.pos}-${i}`}>
-                            <PaneLink
+                            <CardLink
+                                linked={linked}
                                 target={`w-${item.synsetOffset}${item.pos}`}
                                 index={index}
                                 contextual
                             >
                                 {i ? ", " : ""}
                                 {cardWordLabel(item, i)}
-                            </PaneLink>
+                            </CardLink>
                         </span>
                     ))}
                 </div>
@@ -71,9 +111,9 @@ export function PieceCard({ piece, index }: { piece: CardPiece; index: number })
             <div className="card-people">
                 {persons?.map((person, i) => (
                     <div className="card-person" key={person.slug ?? i}>
-                        <PaneLink target={`p-${person.slug}`} index={index} contextual>
+                        <CardLink linked={linked} target={`p-${person.slug}`} index={index} contextual>
                             {i + 1}. {person.name} ({person.birth})
-                        </PaneLink>
+                        </CardLink>
                     </div>
                 ))}
             </div>

@@ -60,15 +60,23 @@ export async function attachWord(term: string, id: string): Promise<WordResult |
     for (let i = ancestors.length - 1; i >= 0; i--) {
         const synset = ancestors[i];
         const parent = i + 1 < ancestors.length ? synsetId(ancestors[i + 1]) : null;
+        // `word` is set only by $setOnInsert below, so it must not also appear
+        // in the spread — the two would conflict on the same path.
+        const { word: _ignored, ...fields } = synset;
+        void _ignored;
+
         await Word.findOneAndUpdate(
             { _id: synsetId(synset) },
             {
-                ...synset,
+                ...fields,
                 _id: synsetId(synset),
-                // Ancestors are filed under their lemma; only the chosen synset
-                // keeps the term the author actually searched for.
-                word: synset.lemma,
                 parent,
+                // Ancestors are filed under their lemma — but only when they
+                // are new. Writing it unconditionally meant a synset already
+                // stored under the term its author searched for got silently
+                // relabelled the next time it turned up as somebody else's
+                // hypernym.
+                $setOnInsert: { word: synset.lemma },
             },
             { new: true, upsert: true, runValidators: true }
         ).exec();
@@ -79,7 +87,11 @@ export async function attachWord(term: string, id: string): Promise<WordResult |
         {
             ...chosen,
             _id: id,
-            word: chosen.lemma ?? term,
+            // The searched term, not the lemma. `lemma` is always present on a
+            // lookup result, so `chosen.lemma ?? term` never once reached the
+            // fallback — search "autumn", attach the season, and the chip and
+            // the printed index both read "fall".
+            word: term || chosen.lemma,
             parent: ancestors.length ? synsetId(ancestors[0]) : null,
         },
         { new: true, upsert: true, runValidators: true }

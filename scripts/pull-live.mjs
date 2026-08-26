@@ -85,14 +85,30 @@ if (!DRY) {
     dstDb = dst.db(TARGET_DB);
 }
 
+// Copied in batches off a cursor. Reading a whole collection into an array
+// first is fine at 118 pieces and is not what a restore tool should promise.
+const BATCH = 500;
+
 for (const name of collections) {
-    const docs = await srcDb.collection(name).find({}).toArray();
     if (DRY) {
-        console.log(`    ${name.padEnd(20)} ${String(docs.length).padStart(5)} docs`);
+        const n = await srcDb.collection(name).countDocuments();
+        console.log(`    ${name.padEnd(20)} ${String(n).padStart(5)} docs`);
         continue;
     }
+
     await dstDb.collection(name).drop().catch(() => {});
-    if (docs.length) await dstDb.collection(name).insertMany(docs, { ordered: false });
+
+    const cursor = srcDb.collection(name).find({}).batchSize(BATCH);
+    let batch = [];
+    for await (const doc of cursor) {
+        batch.push(doc);
+        if (batch.length >= BATCH) {
+            await dstDb.collection(name).insertMany(batch, { ordered: false });
+            batch = [];
+        }
+    }
+    if (batch.length) await dstDb.collection(name).insertMany(batch, { ordered: false });
+
     const n = await dstDb.collection(name).countDocuments();
     console.log(`    ${name.padEnd(20)} ${String(n).padStart(5)} docs copied`);
 }

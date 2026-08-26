@@ -1,5 +1,6 @@
 import mongoose, { Schema, type Model, type Types } from "mongoose";
 import slug from "slugs";
+import { uniqueSlug } from "@/lib/unique-slug";
 import { nextPage, raiseCounterTo } from "@/lib/page-counter";
 
 /**
@@ -55,6 +56,15 @@ const pieceSchema = new Schema<PieceDoc>({
 // Full-text search index, matching the one on the live collection.
 pieceSchema.index({ content: "text", title: "text", readme: "text" });
 
+// `page` is the permalink — every pane render looks a piece up by it, and
+// without this that is a collection scan. The rest back the index tree, the
+// person pane and the word pane, which all filter on them.
+pieceSchema.index({ page: 1 });
+pieceSchema.index({ slug: 1 });
+pieceSchema.index({ parent: 1 });
+pieceSchema.index({ persons: 1 });
+pieceSchema.index({ word: 1 });
+
 // Assign the page number on insert. Replaces mongoose-auto-increment-fix.
 pieceSchema.pre("save", async function (next) {
     if (!this.isNew) return next();
@@ -74,16 +84,11 @@ pieceSchema.pre("save", async function (next) {
 pieceSchema.pre("save", async function (next) {
     if (!this.isModified("title")) return next();
 
-    this.slug = slug(this.title);
-
-    const slugRegEx = new RegExp(`^(${this.slug})((-[0-9]*$)?)$`, "i");
-    const piecesWithSlug = await (this.constructor as Model<PieceDoc>).find({
-        slug: slugRegEx,
-    });
-
-    if (piecesWithSlug.length) {
-        this.slug = `${this.slug}-${piecesWithSlug.length + 1}`;
-    }
+    this.slug = await uniqueSlug(
+        this.constructor as Model<PieceDoc>,
+        slug(this.title),
+        this._id
+    );
 
     next();
 });

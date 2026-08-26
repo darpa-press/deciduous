@@ -3,6 +3,7 @@ import "server-only";
 import { createHmac, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
 import { promisify } from "node:util";
 import { cookies } from "next/headers";
+import { unstable_rethrow } from "next/navigation";
 
 /**
  * Single-admin session.
@@ -107,8 +108,14 @@ export async function isLoggedIn(): Promise<boolean> {
     try {
         const store = await cookies();
         return tokenIsValid(store.get(SESSION_COOKIE)?.value);
-    } catch {
-        // Reading cookies throws outside a request scope; treat as logged out.
+    } catch (error) {
+        // Under Cache Components `cookies()` rejects as a control-flow signal
+        // when a prerender aborts, and as an error if it is ever reached from
+        // inside `use cache`. Swallowing those failed closed, so it was not a
+        // way in — but it silently defeated the Suspense boundary SessionDot
+        // exists for, and would have hidden the `use cache` misuse outright.
+        unstable_rethrow(error);
+        // What is left is a genuine read outside any request scope.
         return false;
     }
 }

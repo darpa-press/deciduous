@@ -18,7 +18,15 @@ const argOf = (name, fallback) => {
 };
 
 const BASE = argOf("base", "http://localhost:3100").replace(/\/$/, "");
-const CONCURRENCY = Number(argOf("concurrency", 6));
+/** A positive integer, or the default — `Number("x")` is NaN, and
+ * `Array.from({length: NaN})` is empty, so a typo silently ran zero workers
+ * and then crashed on the undefined results it had not filled in. */
+const positiveInt = (value, fallback) => {
+    const n = Number(value);
+    return Number.isFinite(n) && n >= 1 ? Math.floor(n) : fallback;
+};
+
+const CONCURRENCY = positiveInt(argOf("concurrency", 6), 6);
 const TIMEOUT_MS = 45000;
 
 async function get(path, options = {}) {
@@ -100,15 +108,28 @@ check(
     `${editor.status}`
 );
 
+// A body the upload route will actually carry as far as its auth check. `{}`
+// failed the storage library's own body validation first and came back 400 —
+// which the old assertion accepted as proof of refusal, alongside the 501 that
+// means Blob is simply not configured. Between them the check could not fail,
+// so deleting the auth gate outright would still have printed "pass".
 const upload = await get("/api/upload", {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: "{}",
+    body: JSON.stringify({
+        type: "blob.generate-client-token",
+        payload: {
+            pathname: "preflight-probe.png",
+            callbackUrl: `${BASE}/api/upload`,
+            multipart: false,
+            clientPayload: null,
+        },
+    }),
 });
 check(
     "upload route refuses anonymous callers",
-    upload.status === 501 || upload.status === 400,
-    `${upload.status}${upload.status === 501 ? " (Blob not configured)" : ""}`
+    upload.status === 401,
+    `${upload.status} — expected 401`
 );
 
 const login = await get("/login");
@@ -116,14 +137,15 @@ check("login page serves", login.status === 200, `${login.status}`);
 
 // --- exports --------------------------------------------------------------
 
+// The exports are the whole catalogue in one response — and with `?content=1`,
+// every piece's stored HTML — so they are behind the admin session now. What
+// preflight can assert without credentials is that they are closed.
 const exportJson = await get("/export/cards.json");
-let cardCount = 0;
-try {
-    cardCount = JSON.parse(exportJson.text).count;
-} catch {
-    /* reported below */
-}
-check("card export serves", exportJson.status === 200 && cardCount > 0, `${cardCount} cards`);
+check(
+    "card export refuses anonymous callers",
+    exportJson.status === 401,
+    `${exportJson.status} — expected 401`
+);
 
 // --- content fidelity against the captured baseline -----------------------
 

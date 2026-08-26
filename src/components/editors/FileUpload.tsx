@@ -13,6 +13,21 @@ import { upload } from "@vercel/blob/client";
  * Existing images stay on S3 — the URLs already baked into published pieces go
  * on resolving from there. Only new uploads land in Blob.
  */
+/**
+ * Exactly what /api/upload will issue a token for. `image/*,video/*` let the
+ * picker accept an iPhone photo or clip (image/heic, video/quicktime) that the
+ * route then refused, surfacing the storage library's own error message.
+ */
+const ACCEPTED = [
+    "image/jpeg",
+    "image/png",
+    "image/gif",
+    "image/webp",
+    "image/svg+xml",
+    "video/mp4",
+    "video/webm",
+];
+
 export function FileUpload() {
     const [uploading, setUploading] = useState(false);
     const [error, setError] = useState<string | null>(null);
@@ -23,6 +38,11 @@ export function FileUpload() {
         if (!file) return;
 
         setError(null);
+        if (!ACCEPTED.includes(file.type)) {
+            setError(`${file.type || "That file type"} cannot be uploaded.`);
+            event.target.value = "";
+            return;
+        }
         setUploading(true);
         try {
             const blob = await upload(file.name, file, {
@@ -42,7 +62,7 @@ export function FileUpload() {
         <div className="form-flex file-upload">
             <label>Upload</label>
             <div className="form-field">
-                <input type="file" onChange={onChange} disabled={uploading} accept="image/*,video/*" />
+                <input type="file" onChange={onChange} disabled={uploading} accept={ACCEPTED.join(",")} />
 
                 {uploading && (
                     <div className="progress-bar">

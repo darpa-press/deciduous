@@ -19,8 +19,16 @@ const argOf = (n, d) => {
 };
 
 const BASE = argOf("base", "http://localhost:3100").replace(/\/$/, "");
-const CONCURRENCY = Number(argOf("concurrency", 8));
-const SAMPLE = Number(argOf("sample", 0));
+/** A positive integer, or the default — `Number("x")` is NaN, and
+ * `Array.from({length: NaN})` is empty, so a typo silently ran zero workers
+ * and then crashed on the undefined results it had not filled in. */
+const positiveInt = (value, fallback) => {
+    const n = Number(value);
+    return Number.isFinite(n) && n >= 1 ? Math.floor(n) : fallback;
+};
+
+const CONCURRENCY = positiveInt(argOf("concurrency", 8), 8);
+const SAMPLE = positiveInt(argOf("sample", 0), 0);
 const TIMEOUT_MS = 45000;
 
 let urls = readFileSync(argOf("urls", "baseline/urls.txt"), "utf8")

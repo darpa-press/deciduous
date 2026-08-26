@@ -67,11 +67,25 @@ export async function nextPage(): Promise<number> {
     return counter?.count ?? START_AT;
 }
 
-/** Raise the counter to `page` if it is currently lower. */
+/**
+ * Raise the counter to `page` if it is currently lower.
+ *
+ * `$max` rather than a `count: { $lt: page }` filter, so that it also seeds a
+ * counter that does not exist yet. With the filter, importing a piece carrying
+ * an explicit page into a fresh database matched nothing and wrote nothing —
+ * the counter stayed absent, the next piece saved without a page seeded it
+ * from scratch, and it climbed back through a number already in use. Two
+ * pieces answering to one permalink, with no unique index to catch it.
+ *
+ * The upsert is safe here in a way it is not with an inequality filter: the
+ * query is the counter's unique key, so a concurrent create matches the same
+ * document rather than racing to insert a second one.
+ */
 export async function raiseCounterTo(page: number): Promise<void> {
-    await IdentityCounterModel.findOneAndUpdate(
-        { model: COUNTER_MODEL, field: COUNTER_FIELD, count: { $lt: page } },
-        { count: page }
+    await IdentityCounterModel.updateOne(
+        { model: COUNTER_MODEL, field: COUNTER_FIELD },
+        { $max: { count: page } },
+        { upsert: true }
     ).exec();
 }
 

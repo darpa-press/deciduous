@@ -37,8 +37,29 @@ export interface GraphEdge {
     dashes?: boolean;
 }
 
-/** How long to let the layout settle before freezing it. */
-const SETTLE_MS = 6000;
+/** How long the layout is allowed to move freely before the brake comes on. */
+const FREE_MS = 4000;
+/** How long the brake takes to bring the layout to a standstill. */
+const BRAKE_MS = 2500;
+/** How often the brake is tightened while it is easing on. */
+const BRAKE_STEP_MS = 100;
+/** The most a single frame may contribute — see the timing note below. */
+const MAX_FRAME_MS = 100;
+
+/** vis's own defaults for the two values the brake works against. */
+const FREE_DAMPING = 0.09;
+const FREE_MAX_VELOCITY = 50;
+/**
+ * Where the brake ends up: heavy drag, and a speed limit low enough that a
+ * node moving flat out along both axes is still slower than `MIN_VELOCITY` —
+ * which is what lets vis call the layout stable and stop of its own accord.
+ */
+const BRAKED_DAMPING = 0.9;
+const BRAKED_MAX_VELOCITY = 0.4;
+/** The velocity below which vis considers the layout at rest. */
+const MIN_VELOCITY = 0.75;
+
+const lerp = (from: number, to: number, t: number) => from + (to - from) * t;
 
 const options: Options = {
     autoResize: true,
@@ -62,7 +83,7 @@ const options: Options = {
             avoidOverlap: 0.2,
             gravitationalConstant: -20000,
         },
-        minVelocity: 0.75,
+        minVelocity: MIN_VELOCITY,
         // No stabilization burst. vis-network 10 runs stabilization
         // synchronously, and with this graph — 178 nodes, 286 edges, and a
         // support node per smoothed edge — it locks the main thread hard
@@ -104,14 +125,63 @@ export function GraphCanvas({
         const network = new Network(container.current, data, options);
 
         // Physics has no natural end without a stabilization phase, so it
-        // would otherwise simulate forever and hold a core at 100%. Freeze the
-        // layout once it settles, with a timeout in case it never does.
-        const freeze = () => network.setOptions({ physics: false });
-        const settleTimer = setTimeout(freeze, SETTLE_MS);
-        network.once("stabilized", () => {
-            clearTimeout(settleTimer);
-            freeze();
-        });
+        // would otherwise simulate forever and hold a core at 100%. Rather
+        // than cutting the motion dead on a timer, ease the layout to a halt:
+        // let it move freely for a moment, then wind the damping up and the
+        // speed limit down until the nodes are barely creeping. That final
+        // speed limit sits below `minVelocity`, so vis calls the layout stable
+        // and stops the simulation itself; freezing afterwards is only the
+        // tidy-up that keeps physics from picking back up later.
+        let frame = 0;
+        // Time is counted in frames actually drawn rather than off the clock:
+        // vis steps the physics from the render loop, so a tab in the
+        // background makes no progress and must lose no ground — otherwise
+        // the graph is braked and frozen while still in its opening huddle.
+        // A gap between frames counts for one frame at most, for the same
+        // reason.
+        let elapsed = 0;
+        let previous = 0;
+        let applied = -Infinity;
+
+        const freeze = () => {
+            cancelAnimationFrame(frame);
+            network.setOptions({ physics: false });
+        };
+
+        const brake = (now: number) => {
+            if (previous) elapsed += Math.min(now - previous, MAX_FRAME_MS);
+            previous = now;
+
+            if (elapsed >= FREE_MS && elapsed - applied >= BRAKE_STEP_MS) {
+                applied = elapsed;
+                // Eased in, so the brake bites gently and then firmly.
+                const t = Math.min((elapsed - FREE_MS) / BRAKE_MS, 1);
+                const eased = t * t;
+                network.setOptions({
+                    physics: {
+                        barnesHut: {
+                            damping: lerp(FREE_DAMPING, BRAKED_DAMPING, eased),
+                        },
+                        maxVelocity: lerp(
+                            FREE_MAX_VELOCITY,
+                            BRAKED_MAX_VELOCITY,
+                            eased,
+                        ),
+                    },
+                });
+                // A backstop: by the end of the ramp nothing is moving fast
+                // enough to see, and "stabilized" has normally fired already.
+                if (t === 1) return freeze();
+            }
+
+            frame = requestAnimationFrame(brake);
+        };
+
+        frame = requestAnimationFrame(brake);
+
+        // Whenever the layout comes to rest of its own accord — which is what
+        // the brake is for, but a small graph can get there on its own first.
+        network.once("stabilized", freeze);
 
         network.on("selectNode", (event: { nodes: string[] }) => {
             const node = nodes.find((n) => n.id === event.nodes[0]);
@@ -121,7 +191,7 @@ export function GraphCanvas({
         });
 
         return () => {
-            clearTimeout(settleTimer);
+            cancelAnimationFrame(frame);
             network.destroy();
         };
     }, [nodes, edges, index]);

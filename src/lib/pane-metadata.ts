@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 
-import { parseSegment } from "@/lib/panes";
+import { parseSegment, MAX_PANES } from "@/lib/panes";
 import { getPieceByPage, getWordById } from "@/lib/queries";
 import { ALL_PIECES_LIMIT } from "@/components/panes/AllPiecesPane";
+
+/** An unresolved segment is echoed into the title; keep it a title-sized thing. */
+const label = (segment: string) => (segment.length > 64 ? `${segment.slice(0, 64)}\u2026` : segment);
 
 /**
  * Document title for a pane stack.
@@ -15,8 +18,10 @@ import { ALL_PIECES_LIMIT } from "@/components/panes/AllPiecesPane";
  * sees every segment — the pane layouts above it deliberately do not.
  */
 export async function paneMetadata(segments: string[]): Promise<Metadata> {
+    // Capped here as well as in the route: paneTitle is a Server Action, so
+    // this is reachable with any array a caller cares to send.
     const titles = await Promise.all(
-        segments.map(async (segment) => {
+        segments.slice(0, MAX_PANES).map(async (segment) => {
             const pane = parseSegment(segment);
             if (pane.kind === "piece") {
                 const piece = await getPieceByPage(pane.page);
@@ -25,14 +30,14 @@ export async function paneMetadata(segments: string[]): Promise<Metadata> {
             if (pane.kind === "word") {
                 const result = await getWordById(pane.id);
                 const word = result?.word as { lemma?: string; word?: string } | undefined;
-                return word ? `"${word.lemma ?? word.word ?? segment}"` : segment;
+                return word ? `"${word.lemma ?? word.word ?? label(segment)}"` : label(segment);
             }
             if (pane.kind === "index") return "Index";
             if (pane.kind === "persons") return "People";
             if (pane.kind === "words") return "Words";
             if (pane.kind === "graph") return "Graph";
             if (pane.kind === "all") return `Last ${ALL_PIECES_LIMIT}`;
-            return segment;
+            return label(segment);
         })
     );
 

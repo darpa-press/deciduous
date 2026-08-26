@@ -30,6 +30,7 @@ export function PieceBody({
     isInList?: boolean;
 }) {
     const background = piece.background;
+    const scope = `piece-scope-${piece.page ?? "x"}`;
 
     // Text colour is derived from the piece's own background so light-on-dark
     // stays readable. The #000000 -> #333 step is the legacy "monkey patch the
@@ -55,7 +56,10 @@ export function PieceBody({
             />
 
             <div className={`piece-content ${piece.fullWidth ? "piece__full" : ""}`}>
-                <div>{renderContent(piece.content, index)}</div>
+                {/* The scope class confines the piece's own <style> block to
+                    the piece — several are shown at once, and one unscoped
+                    rule used to restyle its neighbours. See lib/content/scope-css. */}
+                <div className={scope}>{renderContent(piece.content, index, scope)}</div>
             </div>
         </div>
     );

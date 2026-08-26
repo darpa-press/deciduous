@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import type { ReactNode, CSSProperties, MouseEvent } from "react";
 
-import { buildCreateLink } from "@/lib/panes";
+import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
 import { pushPane, isModifiedClick } from "@/lib/navigate";
 
 /**
@@ -41,7 +41,7 @@ export function PaneLink({
     "aria-label"?: string;
 }) {
     const pathname = usePathname();
-    const segments = pathname.split("/").filter(Boolean);
+    const segments = segmentsFromPathname(pathname);
     const href = buildCreateLink(segments, index)(target, contextual);
 
     function onClick(event: MouseEvent<HTMLAnchorElement>) {

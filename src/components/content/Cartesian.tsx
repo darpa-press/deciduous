@@ -41,7 +41,9 @@ export function Cartesian({
     useEffect(() => {
         let out = product(contents ?? []);
         if (shuffle) out = shuffled(out);
-        if (limit) out = out.slice(0, limit);
+        // `limit != null`, not `limit` — `limit="0"` asks for no rows, and a
+        // truthiness test read that as "no limit" and rendered all of them.
+        if (limit != null) out = out.slice(0, limit);
         // Deliberate: the value is random, so it cannot be produced during
         // render without either re-rolling on every re-render or mismatching
         // what the server sent. Computing it after mount is the point.

@@ -1,6 +1,7 @@
 "use server";
 
 import { searchPieces } from "@/lib/queries";
+import { searchQuery } from "@/lib/search-term";
 import type { CardPiece } from "@/components/panes/PieceCard";
 
 export interface SearchHit {
@@ -19,10 +20,12 @@ export interface SearchHit {
  * rather than any piece containing either word. Preserved.
  */
 export async function search(term: string): Promise<SearchHit[]> {
-    const trimmed = term.trim();
-    if (!trimmed) return [];
+    // Bounded and quote-stripped before it can reach the cached wrapper — see
+    // lib/search-term for why both matter on a public entry point.
+    const query = searchQuery(term);
+    if (!query) return [];
 
-    const pieces = await searchPieces(`"${trimmed}"`);
+    const pieces = await searchPieces(query);
     return pieces.map((piece) => ({
         id: String(piece._id),
         page: piece.page,

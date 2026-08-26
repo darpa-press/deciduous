@@ -17,14 +17,27 @@ const globalForMongoose = globalThis as unknown as {
     _deciduousMongoose?: {
         conn: typeof mongoose | null;
         promise: Promise<typeof mongoose> | null;
+        /** Which mongoose the cached connection belongs to. */
+        instance: typeof mongoose | null;
     };
 };
 
 const cache =
     globalForMongoose._deciduousMongoose ??
-    (globalForMongoose._deciduousMongoose = { conn: null, promise: null });
+    (globalForMongoose._deciduousMongoose = { conn: null, promise: null, instance: null });
 
 export async function connect(): Promise<typeof mongoose> {
+    // The connection is cached across module re-evaluation, but the models are
+    // not — they compile against whichever mongoose their own module saw. If a
+    // hot reload gives us a fresh mongoose while the cache still holds the old
+    // one, returning early hands back a connection the new models know nothing
+    // about, and every query buffers until it times out. Reconnect instead.
+    if (cache.instance && cache.instance !== mongoose) {
+        cache.conn = null;
+        cache.promise = null;
+    }
+    cache.instance = mongoose;
+
     if (cache.conn) return cache.conn;
 
     // Read the URI lazily rather than at module scope: Next evaluates modules

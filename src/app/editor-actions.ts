@@ -23,6 +23,8 @@ import { requireAdmin } from "@/lib/auth/session";
 
 export interface PieceInput {
     id?: string | null;
+    /** Document version the form was loaded from; guards against a lost update. */
+    version?: number | null;
     title: string;
     content: string;
     readme: string;
@@ -37,6 +39,8 @@ export interface PieceInput {
 
 export interface PersonInput {
     id?: string | null;
+    /** Document version the form was loaded from; guards against a lost update. */
+    version?: number | null;
     name: string;
     bio: string;
     birth: number | null;
@@ -50,10 +54,57 @@ const objectId = (value: string | null | undefined) =>
 const objectIds = (values: string[] | undefined) =>
     (values ?? []).map(objectId).filter((id): id is mongoose.Types.ObjectId => id !== null);
 
+const STALE =
+    "This was edited somewhere else since you opened it. Reload the pane and reapply your change.";
+
+/**
+ * Match on the version the form was loaded with, and bump it on write.
+ *
+ * The update used to be a blind $set of every field, over a snapshot taken
+ * whenever the pane last rendered — which can be a long time, since panes do
+ * not refetch on their own. Two tabs on the same piece meant the second save
+ * silently erased the first, with nothing shown to either. A version that does
+ * not match now fails the edit rather than the other author's work.
+ */
+const versioned = (id: string, version: number | null | undefined) =>
+    version == null ? { _id: id } : { _id: id, __v: version };
+
+/**
+ * Would filing `id` under `parent` put it in a loop?
+ *
+ * Walks up from the proposed parent looking for the piece itself. Bounded by a
+ * hop count as well as the answer, so a loop that is already in the data
+ * cannot spin here.
+ */
+async function wouldCycle(
+    id: string | null | undefined,
+    parent: mongoose.Types.ObjectId | null
+): Promise<boolean> {
+    if (!id || !parent) return false;
+    if (String(parent) === String(id)) return true;
+
+    let current: mongoose.Types.ObjectId | null = parent;
+
+    for (let hops = 0; current && hops < 64; hops++) {
+        const ancestor: { parent?: mongoose.Types.ObjectId | null } | null = await Piece.findById(
+            current
+        )
+            .select("parent")
+            .lean();
+        if (!ancestor?.parent) return false;
+        if (String(ancestor.parent) === String(id)) return true;
+        current = ancestor.parent;
+    }
+
+    return true;
+}
+
 /** Returns the page number to navigate to. */
 export async function savePiece(input: PieceInput): Promise<{ page: number }> {
     await requireAdmin();
     await connect();
+
+    const parent = objectId(input.parent);
 
     const doc = {
         title: input.title,
@@ -62,7 +113,12 @@ export async function savePiece(input: PieceInput): Promise<{ page: number }> {
         background: input.background,
         stub: Boolean(input.stub),
         fullWidth: Boolean(input.fullWidth),
-        parent: objectId(input.parent),
+        // A piece that is its own ancestor is filed as its own child and never
+        // reaches the index tree — it and everything beneath it disappear from
+        // the site's main navigation with no error. The editor no longer offers
+        // the piece itself, and the walk below covers the longer loops it
+        // cannot see.
+        parent: (await wouldCycle(input.id, parent)) ? null : parent,
         lovers: objectIds(input.lovers),
         persons: objectIds(input.persons),
         word: input.word ?? [],
@@ -73,11 +129,15 @@ export async function savePiece(input: PieceInput): Promise<{ page: number }> {
     if (input.id) {
         // findOneAndUpdate, as the legacy controller did — which means the
         // pre-save hooks do not run and the slug is left alone on edit.
-        const updated = await Piece.findOneAndUpdate({ _id: input.id }, doc, {
-            new: true,
-            runValidators: true,
-        }).exec();
-        if (!updated) throw new Error("That piece no longer exists.");
+        const updated = await Piece.findOneAndUpdate(
+            versioned(input.id, input.version),
+            { ...doc, $inc: { __v: 1 } },
+            { new: true, runValidators: true }
+        ).exec();
+        if (!updated) {
+            const exists = await Piece.exists({ _id: input.id });
+            throw new Error(exists ? STALE : "That piece no longer exists.");
+        }
         page = updated.page ?? 0;
     } else {
         // A new document goes through save(), so it gets its page number from
@@ -122,11 +182,15 @@ export async function savePerson(input: PersonInput): Promise<{ slug: string }> 
     let slug: string;
 
     if (input.id) {
-        const updated = await Person.findOneAndUpdate({ _id: input.id }, doc, {
-            new: true,
-            runValidators: true,
-        }).exec();
-        if (!updated) throw new Error("That person no longer exists.");
+        const updated = await Person.findOneAndUpdate(
+            versioned(input.id, input.version),
+            { ...doc, $inc: { __v: 1 } },
+            { new: true, runValidators: true }
+        ).exec();
+        if (!updated) {
+            const exists = await Person.exists({ _id: input.id });
+            throw new Error(exists ? STALE : "That person no longer exists.");
+        }
         slug = updated.slug ?? "";
     } else {
         const created = await new Person(doc).save();
@@ -135,6 +199,10 @@ export async function savePerson(input: PersonInput): Promise<{ slug: string }> 
 
     updateTag("persons");
     updateTag(`person-${slug}`);
+    // Piece reads populate `persons`, and the card prints the name, slug and
+    // birth year — so without this a renamed person kept their old name on
+    // every cached card indefinitely. The reverse pairing was already handled.
+    updateTag("pieces");
     return { slug };
 }
 
@@ -146,4 +214,7 @@ export async function deletePerson(id: string, slug: string): Promise<void> {
 
     updateTag("persons");
     updateTag(`person-${slug}`);
+    // As in savePerson: a deleted person otherwise goes on being listed, and
+    // linked to, by every cached piece card that named them.
+    updateTag("pieces");
 }

@@ -1,5 +1,6 @@
 import mongoose, { Schema, type Model, type Types } from "mongoose";
 import slug from "slugs";
+import { uniqueSlug } from "@/lib/unique-slug";
 
 /** People entries in the codex. Ported from backend/models/Person.js. */
 
@@ -32,19 +33,18 @@ const personSchema = new Schema<PersonDoc>({
     ],
 });
 
+// `slug` is the routing key and `name` is what the person index sorts on.
+personSchema.index({ slug: 1 });
+personSchema.index({ name: 1 });
+
 personSchema.pre("save", async function (next) {
     if (!this.isModified("name")) return next();
 
-    this.slug = slug(this.name);
-
-    const slugRegEx = new RegExp(`^(${this.slug})((-[0-9]*$)?)$`, "i");
-    const personsWithSlug = await (this.constructor as Model<PersonDoc>).find({
-        slug: slugRegEx,
-    });
-
-    if (personsWithSlug.length) {
-        this.slug = `${this.slug}-${personsWithSlug.length + 1}`;
-    }
+    this.slug = await uniqueSlug(
+        this.constructor as Model<PersonDoc>,
+        slug(this.name),
+        this._id
+    );
 
     next();
 });

@@ -42,6 +42,36 @@ function unique<T>(values: T[]): T[] {
     return values.filter((value, index, array) => array.indexOf(value) === index);
 }
 
+/**
+ * Detach any node that is its own ancestor.
+ *
+ * A node in a parent cycle always has a parent that resolves, so the loop
+ * below files it as somebody's child and never pushes it to the result — and
+ * no root's subtree can reach it either. It simply vanished from the tree,
+ * silently, taking every descendant with it. One mis-set parent in the editor
+ * was enough to drop a piece and its children out of the index.
+ *
+ * Making such a node a root keeps the whole collection reachable. Nothing in
+ * the current data is cyclic, so this changes no existing output.
+ */
+function breakCycles<T extends Node>(items: T[], keyId: string, keyParent: string) {
+    const byId = new Map<unknown, T>();
+    for (const item of items) byId.set(item[keyId], item);
+
+    for (const item of items) {
+        let ancestor = byId.get(item[keyParent]);
+        let hops = 0;
+
+        while (ancestor && hops++ <= items.length) {
+            if (ancestor === item) {
+                (item as Node)[keyParent] = "";
+                break;
+            }
+            ancestor = byId.get(ancestor[keyParent]);
+        }
+    }
+}
+
 export function listToTree<T extends Node>(list: T[], options: TreeOptions = {}): T[] {
     const keyId = options.keyId ?? "id";
     const keyParent = options.keyParent ?? "parent";
@@ -50,6 +80,7 @@ export function listToTree<T extends Node>(list: T[], options: TreeOptions = {})
     // The original mutates the array it is handed. Callers pass freshly mapped
     // arrays, but copying keeps that from mattering.
     const items = sortByParentThenId([...list], keyParent, keyId);
+    breakCycles(items, keyId, keyParent);
     const groupParent = unique(items.map((item) => item[keyParent]));
 
     const result: T[] = [];

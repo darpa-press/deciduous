@@ -24,8 +24,32 @@ const argOf = (n, d) => {
 };
 
 const DUMP = path.resolve(argOf("dump", "dump/deciduous"));
-const URI = process.env.MONGODB_URI || argOf("uri", "mongodb://127.0.0.1:27017");
+// The flag wins over the environment, not the other way round. With the old
+// precedence a shell that had sourced .env.local — which is what `vercel env
+// pull` produces, and where MONGODB_URI is the Atlas string — could not be
+// overridden from the command line at all.
+const URI = argOf("uri", process.env.MONGODB_URI || "mongodb://127.0.0.1:27017");
 const DB = argOf("db", "deciduous");
+
+/**
+ * This script only ever writes to a local database.
+ *
+ * It restores the 2020 dump, and with --drop it drops the collections first.
+ * Handed a production URI — which needs nothing more than a shell that has
+ * sourced .env.local — that is the catalogue gone. Its sibling pull-live.mjs
+ * has refused a non-local target from the start, on exactly these grounds;
+ * this one had no guard at all.
+ */
+const targetIsLocal =
+    /(^|@|\/\/)(localhost|127\.0\.0\.1|0\.0\.0\.0|host\.docker\.internal)(:|\/|$)/.test(URI);
+
+if (!targetIsLocal || /mongodb\+srv:/.test(URI)) {
+    const redacted = URI.replace(/\/\/[^@]*@/, "//***:***@");
+    console.error(`\n  Refusing to write to a non-local target:\n    ${redacted}\n`);
+    console.error(`  This script only restores into localhost.`);
+    console.error(`  Pass --uri mongodb://127.0.0.1:27017 to be explicit.\n`);
+    process.exit(1);
+}
 
 function readBson(file) {
     const buf = readFileSync(file);
@@ -49,27 +73,37 @@ const files = readdirSync(DUMP)
     .filter((f) => f.endsWith(".bson"))
     .sort();
 
-const collections = files.map((f) => ({
-    name: path.basename(f, ".bson"),
-    docs: readBson(path.join(DUMP, f)),
-}));
+// Names only. The documents are read one collection at a time, at the point of
+// use — holding every collection's parsed documents at once, on top of each
+// file's own buffer, is a lot of memory for no reason.
+const collections = files.map((f) => path.basename(f, ".bson"));
 
 console.log(`\n  dump: ${DUMP}\n`);
-for (const c of collections) {
-    console.log(`    ${c.name.padEnd(20)} ${String(c.docs.length).padStart(5)} docs`);
+for (const name of collections) {
+    console.log(`    ${name}`);
 }
 
 if (hasFlag("inspect")) {
-    const pieces = collections.find((c) => c.name === "pieces");
-    if (pieces?.docs.length) {
-        const pages = pieces.docs.map((p) => p.page).filter((p) => p != null);
-        console.log(
-            `\n    pieces pages ${Math.min(...pages)}–${Math.max(...pages)} (${pages.length} numbered)`
-        );
-        console.log(`    piece fields: ${Object.keys(pieces.docs[0]).join(", ")}`);
+    if (collections.includes("pieces")) {
+        const docs = readBson(path.join(DUMP, "pieces.bson"));
+        const pages = docs.map((d) => d.page).filter((p) => typeof p === "number");
+        // Guarded on the page count, not the document count: with no numbered
+        // pages, Math.min of nothing is Infinity. Reduced rather than spread,
+        // because spreading a large array is a RangeError, not a slow path.
+        if (pages.length) {
+            const lo = pages.reduce((a, b) => (b < a ? b : a), pages[0]);
+            const hi = pages.reduce((a, b) => (b > a ? b : a), pages[0]);
+            console.log(`\n    pieces pages ${lo}–${hi} (${pages.length} numbered)`);
+        } else {
+            console.log(`\n    pieces: ${docs.length} docs, none numbered`);
+        }
+        if (docs.length) console.log(`    piece fields: ${Object.keys(docs[0]).join(", ")}`);
     }
-    const counters = collections.find((c) => c.name === "identitycounters");
-    if (counters) console.log(`\n    counters: ${JSON.stringify(counters.docs)}`);
+    if (collections.includes("identitycounters")) {
+        console.log(
+            `\n    counters: ${JSON.stringify(readBson(path.join(DUMP, "identitycounters.bson")))}`
+        );
+    }
     console.log("");
     process.exit(0);
 }
@@ -88,15 +122,18 @@ try {
 const db = client.db(DB);
 console.log(`\n  restoring into ${DB} at ${URI}\n`);
 
-for (const c of collections) {
+const BATCH = 500;
+
+for (const name of collections) {
     if (hasFlag("drop")) {
-        await db.collection(c.name).drop().catch(() => {});
+        await db.collection(name).drop().catch(() => {});
     }
-    if (c.docs.length) {
-        await db.collection(c.name).insertMany(c.docs, { ordered: false });
+    const docs = readBson(path.join(DUMP, `${name}.bson`));
+    for (let i = 0; i < docs.length; i += BATCH) {
+        await db.collection(name).insertMany(docs.slice(i, i + BATCH), { ordered: false });
     }
-    const count = await db.collection(c.name).countDocuments();
-    console.log(`    ${c.name.padEnd(20)} ${String(count).padStart(5)} docs in db`);
+    const count = await db.collection(name).countDocuments();
+    console.log(`    ${name.padEnd(20)} ${String(count).padStart(5)} docs in db`);
 }
 
 // The text index the legacy Piece schema declares. Search fails without it,

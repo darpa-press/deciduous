@@ -1,10 +1,12 @@
 import { getPersonBySlug } from "@/lib/queries";
+import { renderContent } from "@/lib/content/render";
 import { PieceBody } from "./PieceBody";
 import { NotFoundPane } from "./NotFoundPane";
 
 /**
  * A person, followed by every piece they appear in. The bio is stored as HTML
- * and rendered as such, as the legacy component did.
+ * and rendered as such, as the legacy component did — through the content
+ * pipeline, so it goes past the same sanitiser everything else does.
  */
 export async function PersonPane({ slug, index }: { slug: string; index: number }) {
     const person = await getPersonBySlug(slug);
@@ -19,7 +21,16 @@ export async function PersonPane({ slug, index }: { slug: string; index: number 
                         {person.birth || ""}—{person.death || ""}
                     </div>
                 </div>
-                <div className="person-bio" dangerouslySetInnerHTML={{ __html: person.bio ?? "" }} />
+                {/* Through the same allowlist as piece content. The bio was
+                    the one stored-HTML field written straight to the DOM, and
+                    nothing sanitised it on the way in either — a sink waiting
+                    for one imported record, and at odds with the model the
+                    content schema documents for itself. */}
+                {person.bio && (
+                    <div className={`person-bio person-scope-${slug}`}>
+                        {renderContent(person.bio, index, `person-scope-${slug}`)}
+                    </div>
+                )}
             </div>
 
             {person.pieces?.length > 0 && (

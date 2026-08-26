@@ -57,30 +57,78 @@ export function parseSegment(segment: string): Pane {
 }
 
 /**
+ * The most panes one URL may ask for.
+ *
+ * Every segment costs a database read in the page *and* another in
+ * generateMetadata, so an unbounded path is an unauthenticated way to fan one
+ * request out into thousands. Well past anything the codex reads with.
+ */
+export const MAX_PANES = 8;
+
+/**
+ * The decoded segments of a pathname.
+ *
+ * `usePathname` returns the URL still percent-encoded, while the server
+ * decodes `params` per segment. Mixing the two made a pane throw away correct
+ * server HTML and refetch itself with the escaped string. Everything inside
+ * the app works in decoded segments; encoding happens once, on the way out.
+ */
+export function segmentsFromPathname(pathname: string): string[] {
+    return pathname
+        .split("/")
+        .filter(Boolean)
+        .map((segment) => {
+            try {
+                return decodeURIComponent(segment);
+            } catch {
+                // A malformed escape is not a segment we can decode; leave it
+                // as written and let it resolve to notfound.
+                return segment;
+            }
+        })
+        .slice(0, MAX_PANES);
+}
+
+/** A segment as it appears in a URL. */
+export function encodeSegment(segment: string): string {
+    return encodeURIComponent(segment);
+}
+
+/** A path from decoded segments. */
+export function panePath(segments: string[]): string {
+    return `/${segments.map(encodeSegment).join("/")}`;
+}
+
+/**
  * Build the link factory for the pane at `index`.
  *
- * Ported verbatim from Leaves.jsx. A *contextual* link — which is what every
- * `<aa>` in the content is — does not replace the pane it was clicked in. It
- * replaces the pane next door: the one to the right, unless this is already
- * the rightmost pane, in which case the one to the left. That is what makes
- * the codex read as a pair of facing pages rather than a single column.
+ * Ported from Leaves.jsx. A *contextual* link — which is what every `<aa>` in
+ * the content is — does not replace the pane it was clicked in. It replaces
+ * the pane next door: the one to the right, unless this is already the
+ * rightmost pane, in which case the one to the left. That is what makes the
+ * codex read as a pair of facing pages rather than a single column.
  *
  * Note the stack never grows this way; a link always writes over an existing
  * pane. Adding a pane is done by editing the URL.
+ *
+ * The original computed the target position without reference to the stack's
+ * length, so an index at or past the end wrote into a hole that `join` then
+ * rendered as an empty segment: a one-pane stack produced `//5`, which is
+ * protocol-relative and sends the browser to another origin, and a stale index
+ * produced `/7/index//p-x`. Both positions are clamped into the stack.
  */
 export function buildCreateLink(pathArray: string[], index: number) {
     return function createLink(newItem: string, contextual = true): string {
-        const target = contextual
-            ? index === pathArray.length - 1
-                ? index - 1 >= 0
-                    ? index - 1
-                    : 0
-                : index + 1
-            : index;
+        // `/index` is served from the root path, so the live pathname can carry
+        // no segments at all. That stack still has one position to write into.
+        const stack = pathArray.length ? pathArray.slice(0) : [""];
+        const last = stack.length - 1;
+        const here = Math.min(Math.max(index, 0), last);
 
-        const next = pathArray.slice(0);
-        next[target] = newItem;
-        return `/${next.join("/")}`;
+        const target = contextual ? (here >= last ? Math.max(here - 1, 0) : here + 1) : here;
+
+        stack[target] = newItem;
+        return panePath(stack);
     };
 }
 
@@ -115,6 +163,3 @@ export function paneIdentity(segment: string): string {
             return pane.kind;
     }
 }
-
-/** The URL the legacy app redirected `/` to. */
-export const HOME_PANES = ["2", "125"];

@@ -49,12 +49,21 @@ function WordEntry({
         </>
     );
 
+    // The three buckets are word entries with no synset behind them, so they
+    // carry an empty id — and `??` does not catch "". Linking them anyway sent
+    // "Qualities", "Things" and "Acts" to `/w-`, which resolves to not found.
+    const id = node.id ?? "";
+
     return (
         <div className="word-item">
             <div className="word-name">
-                <PaneLink target={`w-${node.id ?? ""}`} index={index}>
-                    {label}
-                </PaneLink>
+                {id ? (
+                    <PaneLink target={`w-${id}`} index={index}>
+                        {label}
+                    </PaneLink>
+                ) : (
+                    label
+                )}
             </div>
             <div>
                 {(node.children ?? []).map((child) => (

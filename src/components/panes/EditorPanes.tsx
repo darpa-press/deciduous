@@ -49,7 +49,11 @@ export async function PieceEditPane({ page, index }: { page: number; index: numb
             index={index}
             id={String(piece._id)}
             page={piece.page ?? null}
-            pieceOptions={pieces}
+            version={piece.__v ?? null}
+            // A piece cannot be its own parent or its own lover; offering it
+            // was how a piece got filed under itself and dropped out of the
+            // index tree. The person editor already did this for relations.
+            pieceOptions={pieces.filter((option) => option.value !== String(piece._id))}
             personOptions={persons}
             initial={{
                 title: piece.title ?? "",
@@ -102,6 +106,7 @@ export async function PersonEditPane({ slug, index }: { slug: string; index: num
             index={index}
             id={String(person._id)}
             slug={person.slug ?? null}
+            version={person.__v ?? null}
             personOptions={persons.filter((option) => option.value !== String(person._id))}
             initial={{
                 name: person.name ?? "",

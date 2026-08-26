@@ -28,6 +28,38 @@ export const CUSTOM_ELEMENTS = [
     "tree",
 ] as const;
 
+type PropertyDefinition = NonNullable<SanitizeSchema["attributes"]>[string][number];
+
+/**
+ * Let `className` through on every tag.
+ *
+ * The GitHub-derived default restricts it to fixed values on seven tags —
+ * `code: [["className", {}]]`, `li: [["className", "task-list-item"]]` and so
+ * on. hast-util-sanitize applies the tag-specific rule first and never falls
+ * through to the `"*"` entry, and an array-valued property whose value is not
+ * permitted sanitises to `class=""`. So an authored class on <a>, <code>,
+ * <li>, <ol>, <ul>, <h2> or <section> was not preserved, it was *emptied* —
+ * silently, with no error, which is the worst way for content to be lost.
+ *
+ * Dropping the inherited tuples lets the unrestricted entry below stand.
+ */
+function withFreeClassName(
+    attributes: NonNullable<SanitizeSchema["attributes"]>
+): NonNullable<SanitizeSchema["attributes"]> {
+    const out: NonNullable<SanitizeSchema["attributes"]> = {};
+
+    for (const [tag, list] of Object.entries(attributes)) {
+        const kept = list.filter(
+            (entry) => !(Array.isArray(entry) && entry[0] === "className")
+        ) as PropertyDefinition[];
+        out[tag] = kept.includes("className") ? kept : [...kept, "className"];
+    }
+
+    return out;
+}
+
+const base = withFreeClassName(defaultSchema.attributes ?? {});
+
 export const contentSchema: SanitizeSchema = {
     ...defaultSchema,
 
@@ -55,18 +87,19 @@ export const contentSchema: SanitizeSchema = {
         "figcaption",
         // Per-piece CSS. Four pieces define classes like .green-paper and
         // .forum-reply that carry their entire visual design; dropping these
-        // silently flattens those pages.
+        // silently flattens those pages. Rules are scoped to the piece at
+        // render time — see scopeStyles in lib/content/render.tsx.
         "style",
         "link",
     ],
 
     attributes: {
-        ...defaultSchema.attributes,
+        ...base,
 
         // Presentation is content here — the codex styles inline constantly.
-        "*": [...(defaultSchema.attributes?.["*"] ?? []), "className", "style", "title"],
+        "*": [...(base["*"] ?? []), "className", "style", "title"],
 
-        a: [...(defaultSchema.attributes?.a ?? []), "href", "target", "rel", "style"],
+        a: [...(base.a ?? []), "href", "target", "rel", "style"],
         img: ["src", "alt", "width", "height", "style", "className", "bg", "title"],
 
         // `mute` is a typo for `muted` on one piece; preserved rather than
@@ -74,7 +107,7 @@ export const contentSchema: SanitizeSchema = {
         video: ["src", "width", "height", "style", "autoPlay", "loop", "muted", "mute", "controls", "poster", "playsInline"],
         source: ["src", "type", "autoPlay"],
 
-        iframe: ["src", "width", "height", "frameBorder", "allowFullScreen", "allow", "title"],
+        iframe: ["src", "width", "height", "frameBorder", "allowFullScreen", "allow", "title", "id"],
 
         style: ["type", "media"],
         link: ["href", "rel", "type", "media"],
@@ -87,6 +120,19 @@ export const contentSchema: SanitizeSchema = {
         tree: [],
         numberofdocuments: [],
     },
+
+    /**
+     * Leave `id` alone.
+     *
+     * The default prefixes `id`, `name` and the two aria id-references with
+     * "user-content-" to stop content clobbering the host page's DOM. Here it
+     * only broke the content's own anchors: `<div id="foo">` became
+     * `id="user-content-foo"` while `<a href="#foo">` was left untouched, so
+     * every in-page link an author wrote silently went nowhere. Nothing in the
+     * app looks elements up by id, and the aria references have to agree with
+     * the ids they point at, so all four pass through as authored.
+     */
+    clobber: [],
 
     protocols: {
         ...defaultSchema.protocols,

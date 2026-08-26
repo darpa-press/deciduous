@@ -35,28 +35,49 @@ const sanitise = (tree: Root) =>
 type Census = {
     elements: Map<string, number>;
     attrs: Map<string, number>;
+    /** Counted by `tag.attr=value`, so a *changed* value reads as a loss. */
+    values: Map<string, number>;
     textLength: number;
+};
+
+/**
+ * Values, not just presence.
+ *
+ * Counting `tag.attr` alone cannot see the failure that actually happened: the
+ * inherited schema restricted `className` on seven tags to a fixed set, so
+ * `<a class="external">` sanitised to `<a class="">`. The key `a.className`
+ * was there before and after, the count never moved, and this gate reported
+ * "118 of 118 survive intact" while the value was destroyed. The same blind
+ * spot hid `id` being rewritten to `user-content-id`.
+ */
+const valueOf = (value: unknown): string => {
+    if (Array.isArray(value)) return value.join(" ");
+    if (value === null || value === undefined) return "";
+    return String(value);
 };
 
 function census(tree: Root): Census {
     const elements = new Map<string, number>();
     const attrs = new Map<string, number>();
+    const values = new Map<string, number>();
     let textLength = 0;
 
     visit(tree, (node) => {
         if (node.type === "element") {
             const el = node as unknown as { tagName: string; properties?: Record<string, unknown> };
             elements.set(el.tagName, (elements.get(el.tagName) ?? 0) + 1);
-            for (const a of Object.keys(el.properties ?? {})) {
+            for (const [a, v] of Object.entries(el.properties ?? {})) {
                 const key = `${el.tagName}.${a}`;
                 attrs.set(key, (attrs.get(key) ?? 0) + 1);
+                const valueKey = `${key}=${valueOf(v)}`;
+                values.set(valueKey, (values.get(valueKey) ?? 0) + 1);
             }
         } else if (node.type === "text") {
             textLength += (node as unknown as { value: string }).value.length;
         }
     });
 
-    return { elements, attrs, textLength };
+    return { elements, attrs, values, textLength };
 }
 
 function lost(before: Map<string, number>, after: Map<string, number>) {
@@ -85,16 +106,18 @@ for (const page of pages) {
 
     const lostElements = lost(before.elements, after.elements);
     const lostAttrs = lost(before.attrs, after.attrs);
+    const lostValues = lost(before.values, after.values);
     const lostText = before.textLength - after.textLength;
 
-    if (lostElements.length || lostAttrs.length || lostText > 0) {
+    if (lostElements.length || lostAttrs.length || lostValues.length || lostText > 0) {
         failures++;
         console.log(`  page ${page}`);
         if (lostElements.length) console.log(`    elements: ${lostElements.join(", ")}`);
         if (lostAttrs.length) console.log(`    attrs:    ${lostAttrs.join(", ")}`);
+        if (lostValues.length) console.log(`    values:   ${lostValues.slice(0, 6).join(", ")}`);
         if (lostText > 0) console.log(`    text:     ${lostText} characters dropped`);
         console.log("");
-        for (const l of [...lostElements, ...lostAttrs]) {
+        for (const l of [...lostElements, ...lostAttrs, ...lostValues]) {
             const key = l.split(" ")[0];
             aggregateLoss.set(key, (aggregateLoss.get(key) ?? 0) + 1);
         }

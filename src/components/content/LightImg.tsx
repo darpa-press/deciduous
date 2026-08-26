@@ -18,6 +18,7 @@ export function LightImg({
     className,
     title,
     alt = "",
+    style,
 }: {
     src?: string;
     width?: string | number;
@@ -26,6 +27,8 @@ export function LightImg({
     className?: string;
     title?: string;
     alt?: string;
+    /** The allowlist keeps `style` on <lightimg>; honour it rather than drop it. */
+    style?: React.CSSProperties;
 }) {
     const [open, setOpen] = useState(false);
 
@@ -52,7 +55,7 @@ export function LightImg({
                     height={height}
                     title={title}
                     className={`${className ?? ""} mb-0 max-w-full align-bottom`}
-                    style={{ backgroundColor: "rgba(0,0,0,0.02)" }}
+                    style={{ backgroundColor: "rgba(0,0,0,0.02)", ...(style ?? {}) }}
                 />
             </button>
 

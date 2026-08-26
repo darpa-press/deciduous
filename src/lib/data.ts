@@ -1,8 +1,16 @@
+import mongoose from "mongoose";
+
 import { connect } from "@/lib/mongodb";
 import { Piece } from "@/models/Piece";
 import { Person } from "@/models/Person";
 import { Word } from "@/models/Word";
 import { listToTree } from "@/lib/list-to-tree";
+
+/**
+ * Case- and accent-insensitive ordering, pinned to "en" rather than the host
+ * default so a listing is the same wherever it is generated.
+ */
+const HUMAN_ORDER = { locale: "en", strength: 1 as const };
 
 /**
  * The data layer: one function per thing a pane needs, and nothing else.
@@ -113,6 +121,10 @@ export async function getWordById(id: string) {
 
 export async function getChildPieces(parentId: string) {
     await connect();
+    // `parent` is an ObjectId path with no validation in front of it, so a
+    // caller-supplied id that is not one threw a CastError — a 500 where an
+    // empty list is the honest answer.
+    if (!mongoose.Types.ObjectId.isValid(parentId)) return [];
     return plain(await Piece.find({ parent: parentId }).lean());
 }
 
@@ -143,6 +155,12 @@ export async function getAllPieces({
     await connect();
     const query = Piece.find()
         .sort({ [sort]: order } as Record<string, 1 | -1>)
+        // Without a collation this is byte order, which puts every lowercase
+        // initial after every uppercase one: `ALOHA building` before `Ability
+        // seeing`, and a title like `ephemera` at the very end — where the
+        // alphabetical index would then staple it onto whichever letter group
+        // was open. Pinned to "en" so a sort is the same wherever it runs.
+        .collation(HUMAN_ORDER)
         .lean();
     if (limit) query.limit(limit);
     const pieces = await query;
@@ -174,7 +192,7 @@ export async function getPiecesWithRelations() {
 
 export async function getAllPersons() {
     await connect();
-    return plain(await Person.find().sort({ name: 1 }).lean());
+    return plain(await Person.find().sort({ name: 1 }).collation(HUMAN_ORDER).lean());
 }
 
 /**
@@ -185,6 +203,11 @@ export async function getAllPersons() {
  * verb appears in both — 490 tree entries for 443 distinct words. That is
  * reproduced rather than corrected; whether it is intentional is a product
  * question, and the golden snapshots assert the current behaviour.
+ *
+ * Adverbs (pos `r`) matched no bucket at all, which is a different thing: not
+ * a duplicate but a drop. The one adverb in the collection was reachable by
+ * URL and served correctly, yet nothing in the word index could ever link to
+ * it. They join the qualities, which is where a modifier belongs.
  */
 export async function getWordTree() {
     await connect();
@@ -201,7 +224,9 @@ export async function getWordTree() {
         keyChild: "children",
     });
 
-    const qualities = tree.filter((w) => w.pos === "a" || w.pos === "v" || w.pos === "s");
+    const qualities = tree.filter(
+        (w) => w.pos === "a" || w.pos === "v" || w.pos === "s" || w.pos === "r"
+    );
     const things = tree.filter((w) => w.pos === "n");
     const acts = tree.filter((w) => w.pos === "v");
 

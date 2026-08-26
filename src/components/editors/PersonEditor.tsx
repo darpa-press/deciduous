@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { CodeEditor } from "./CodeEditor";
 import { Field } from "./fields";
 import { savePerson, deletePerson, type PersonInput } from "@/app/editor-actions";
-import { buildCreateLink } from "@/lib/panes";
+import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
 import { pushPane } from "@/lib/navigate";
 import type { Option } from "./PieceEditor";
 
@@ -16,12 +16,15 @@ export function PersonEditor({
     index,
     id,
     slug,
+    version,
     initial,
     personOptions,
 }: {
     index: number;
     id?: string | null;
     slug?: string | null;
+    /** Document version this form was loaded from. */
+    version?: number | null;
     initial: {
         name: string;
         bio: string;
@@ -34,6 +37,8 @@ export function PersonEditor({
     const pathname = usePathname();
     const [pending, startTransition] = useTransition();
     const [error, setError] = useState<string | null>(null);
+    /** As in PieceEditor: the form outlives the action, so a save is final. */
+    const [committed, setCommitted] = useState(false);
 
     const [name, setName] = useState(initial.name);
     const [bio, setBio] = useState(initial.bio);
@@ -42,8 +47,7 @@ export function PersonEditor({
     const [relation, setRelation] = useState(initial.relation);
 
     const go = (target: string) => {
-        const segments = pathname.split("/").filter(Boolean);
-        pushPane(buildCreateLink(segments, index)(target, false));
+        pushPane(buildCreateLink(segmentsFromPathname(pathname), index)(target, false));
     };
 
     /** Years are stored as signed numbers; blank means unknown, negative is BC. */
@@ -58,6 +62,7 @@ export function PersonEditor({
         setError(null);
         const input: PersonInput = {
             id: id ?? null,
+            version: version ?? null,
             name,
             bio,
             birth: asYear(birth),
@@ -67,6 +72,7 @@ export function PersonEditor({
         startTransition(async () => {
             try {
                 const { slug: savedSlug } = await savePerson(input);
+                setCommitted(true);
                 go(`p-${savedSlug}`);
             } catch (e) {
                 setError(e instanceof Error ? e.message : "Could not save.");
@@ -81,6 +87,7 @@ export function PersonEditor({
         startTransition(async () => {
             try {
                 await deletePerson(id, slug);
+                setCommitted(true);
                 go("person");
             } catch (e) {
                 setError(e instanceof Error ? e.message : "Could not delete.");
@@ -165,11 +172,16 @@ export function PersonEditor({
             {error && <div className="form-error">{error}</div>}
 
             <div className="form-buttons">
-                <button type="button" onClick={onSave} disabled={pending}>
+                <button type="button" onClick={onSave} disabled={pending || committed}>
                     {pending ? "…" : "Save"}
                 </button>
                 {id && (
-                    <button type="button" style={{ color: "red" }} onClick={onDelete} disabled={pending}>
+                    <button
+                        type="button"
+                        style={{ color: "red" }}
+                        onClick={onDelete}
+                        disabled={pending || committed}
+                    >
                         Delete
                     </button>
                 )}
