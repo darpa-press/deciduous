@@ -91,10 +91,10 @@ export async function buildPersonIndex(): Promise<IndexEntry[]> {
 /**
  * Words, by the term itself.
  *
- * The term, not the card's label: `cardWordLabel` alternates gloss and term by
- * position so a card reads half definition, half index, which would put a
- * sentence of glossary text in the heading column here. `lemma` is the
- * fallback for the handful of synsets stored without their searched form.
+ * The term, not the card's label: `cardWordLabel` prints the synset's gloss,
+ * which would put a sentence of glossary text in the heading column here.
+ * `lemma` is the fallback for the handful of synsets stored without their
+ * searched form.
  */
 export async function buildWordIndex(): Promise<IndexEntry[]> {
     const pieces = (await getPiecesWithRelations()) as unknown as RawPiece[];

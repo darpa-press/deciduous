@@ -101,7 +101,7 @@ export function PieceCard({
                                 contextual
                             >
                                 {i ? ", " : ""}
-                                {cardWordLabel(item, i)}
+                                {cardWordLabel(item)}
                             </CardLink>
                         </span>
                     ))}

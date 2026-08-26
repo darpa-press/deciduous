@@ -114,17 +114,23 @@ describe("card", () => {
         assert.equal(shelfMark(undefined), "DC001.");
     });
 
-    test("labels alternate gloss and term by position", () => {
+    test("labels are the gloss, cut at the first semicolon", () => {
         const item = { word: "tree", gloss: "a tall plant; woody" };
-        assert.equal(cardWordLabel(item, 0), "a tall plant");
-        assert.equal(cardWordSource(item, 0), "gloss");
-        assert.equal(cardWordLabel(item, 1), "tree");
-        assert.equal(cardWordSource(item, 1), "term");
+        assert.equal(cardWordLabel(item), "a tall plant");
+        assert.equal(cardWordSource(item), "gloss");
+    });
+
+    test("the label does not depend on the word's position", () => {
+        // It alternated with position until it was turned off; a card of the
+        // same word repeated now reads the same the whole way down.
+        const item = { word: "tree", gloss: "a tall plant; woody" };
+        const labels = [0, 1, 2, 3].map(() => cardWordLabel(item));
+        assert.deepEqual(new Set(labels), new Set(["a tall plant"]));
     });
 
     test("falls back to the term when there is no gloss", () => {
-        assert.equal(cardWordLabel({ word: "tree" }, 0), "tree");
-        assert.equal(cardWordSource({ word: "tree" }, 0), "term");
+        assert.equal(cardWordLabel({ word: "tree" }), "tree");
+        assert.equal(cardWordSource({ word: "tree" }), "term");
     });
 });
 

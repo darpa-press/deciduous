@@ -19,16 +19,22 @@ export interface CardWord {
 }
 
 /**
- * Words on a card alternate between the synset's gloss and the word itself, by
- * position — which is what gives the card its half-definition, half-index
- * reading. Inherited from Components/CardCatalogue.
+ * Words on a card read as their synset's gloss, cut at the first semicolon.
+ *
+ * Inherited from Components/CardCatalogue, where the label alternated with
+ * position — gloss on the first word, the term on the second, and so on down
+ * the list — so a card read half definition, half index. Which of the two a
+ * word got depended on nothing but where it landed in the piece's list, so the
+ * same synset printed as a definition on one card and as a bare word on
+ * another. Turned off for now in favour of the gloss throughout; the term
+ * remains the fallback for a synset stored without one.
  */
-export function cardWordLabel(item: CardWord, index: number): string {
-    if (index % 2 === 0 && item.gloss) return item.gloss.split(";", 1)[0].trim();
+export function cardWordLabel(item: CardWord): string {
+    if (item.gloss) return item.gloss.split(";", 1)[0].trim();
     return item.word ? item.word.trim() : "";
 }
 
 /** Which of the two the label was taken from — useful when typesetting. */
-export function cardWordSource(item: CardWord, index: number): "gloss" | "term" {
-    return index % 2 === 0 && item.gloss ? "gloss" : "term";
+export function cardWordSource(item: CardWord): "gloss" | "term" {
+    return item.gloss ? "gloss" : "term";
 }

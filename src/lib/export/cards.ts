@@ -83,10 +83,10 @@ export async function buildCardExport({
     const pieces = (await getPiecesWithRelations()) as unknown as RawPiece[];
 
     const cards: ExportedCard[] = pieces.map((piece) => {
-        const words = (piece.word ?? []).map((item, index) => ({
+        const words = (piece.word ?? []).map((item) => ({
             id: String(item._id ?? `${item.synsetOffset ?? ""}${item.pos ?? ""}`),
-            label: cardWordLabel(item, index),
-            source: cardWordSource(item, index),
+            label: cardWordLabel(item),
+            source: cardWordSource(item),
             term: nn(item.word),
             gloss: nn(item.gloss),
             synsetOffset: nn(item.synsetOffset),
