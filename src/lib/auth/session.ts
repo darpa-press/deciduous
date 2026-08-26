@@ -3,6 +3,7 @@ import "server-only";
 import { createHmac, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
 import { promisify } from "node:util";
 import { cookies } from "next/headers";
+import { connection } from "next/server";
 import { unstable_rethrow } from "next/navigation";
 
 /**
@@ -106,6 +107,14 @@ export async function endSession() {
 /** Whether the current request carries a valid session. */
 export async function isLoggedIn(): Promise<boolean> {
     try {
+        // Before the cookie read, because tokenIsValid compares the expiry
+        // against Date.now(). Under Cache Components an unstable value read
+        // while prerendering is an error, and this runs inside the layout's
+        // static shell as well as at request time — where it threw, took the
+        // whole route's render down with it, and answered 500. Reading the
+        // cookie was not enough on its own to defer the render; this is.
+        await connection();
+
         const store = await cookies();
         return tokenIsValid(store.get(SESSION_COOKIE)?.value);
     } catch (error) {

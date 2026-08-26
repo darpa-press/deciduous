@@ -53,12 +53,37 @@ const globalForWordNet = globalThis as unknown as { _deciduousWordNet?: WordNetL
 /** One instance for the life of the process. */
 function wordnet(): WordNetLike {
     if (!globalForWordNet._deciduousWordNet) {
-        // Required lazily so that merely importing this module — which happens
-        // on any page that imports the editor tree — does not open the
-        // dictionary files.
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const WordNet = require("node-wordnet");
-        globalForWordNet._deciduousWordNet = new WordNet() as WordNetLike;
+        // node-wordnet requires es6-shim, which overwrites the global Promise,
+        // Map and Set with ES6-era polyfills — and its Promise has no
+        // `.finally`, which is ES2018. Next calls `allReady.finally()` on
+        // every response it streams, so the first WordNet lookup in a process
+        // left every later render throwing "allReady.finally is not a
+        // function": the response failed to pipe and the site answered 200
+        // with an empty body until it was restarted. Attaching a word
+        // refreshes the route, which made that first broken render the click
+        // itself — the editor appeared to reload, and the unsaved edits went
+        // with it.
+        //
+        // Nothing here needs the shim: node-wordnet uses its own bluebird, and
+        // the natives it is shadowing have been in Node for a decade. So they
+        // are put straight back, in a finally so a failed require cannot leave
+        // the process running on the polyfills.
+        const natives = {
+            Promise: globalThis.Promise,
+            Map: globalThis.Map,
+            Set: globalThis.Set,
+        };
+
+        try {
+            // Required lazily so that merely importing this module — which
+            // happens on any page that imports the editor tree — does not open
+            // the dictionary files.
+            // eslint-disable-next-line @typescript-eslint/no-require-imports
+            const WordNet = require("node-wordnet");
+            globalForWordNet._deciduousWordNet = new WordNet() as WordNetLike;
+        } finally {
+            Object.assign(globalThis, natives);
+        }
     }
     return globalForWordNet._deciduousWordNet;
 }
