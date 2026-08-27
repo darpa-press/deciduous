@@ -1,7 +1,5 @@
 "use server";
 
-import { updateTag } from "next/cache";
-
 import { connect } from "@/lib/mongodb";
 import { Word } from "@/models/Word";
 import { requireAdmin } from "@/lib/auth/session";
@@ -97,8 +95,21 @@ export async function attachWord(term: string, id: string): Promise<WordResult |
         { new: true, upsert: true, runValidators: true }
     ).exec();
 
-    updateTag("words");
-    updateTag(`word-${id}`);
+    // Deliberately no updateTag here — see savePiece, which carries "words"
+    // instead.
+    //
+    // updateTag refreshes the route as part of the action's response, and this
+    // is the one editing action that leaves the pane where it is. The refresh
+    // then rendered the whole page a second time into the body: two pane
+    // stacks, the fresh one on top showing what is stored and the one being
+    // typed into pushed below the fold. Attaching a word looked like the editor
+    // resetting itself, and the author's unsaved work was one scroll away but
+    // effectively gone. Saving does not do this — it pushes the pane to the
+    // piece first, so there is nothing left for the refresh to collide with.
+    //
+    // Nothing on screen is stale in the meantime, either. A synset attached
+    // here is not linked to anything until the piece is saved, and that is what
+    // puts it in the word tree.
 
     return stored ? toResult(chosen, term) : null;
 }

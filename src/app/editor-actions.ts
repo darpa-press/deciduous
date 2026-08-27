@@ -148,6 +148,10 @@ export async function savePiece(input: PieceInput): Promise<{ page: number }> {
 
     updateTag("pieces");
     updateTag(`piece-${page}`);
+    // The piece's word links are written here, and attachWord deliberately
+    // leaves the tag alone — refreshing the route from under an open editor
+    // rendered the page twice. This is where the word tree catches up.
+    updateTag("words");
     return { page };
 }
 
