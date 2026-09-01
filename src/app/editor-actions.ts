@@ -1,11 +1,8 @@
 "use server";
 
 import { updateTag } from "next/cache";
-import mongoose from "mongoose";
 
-import { connect } from "@/lib/mongodb";
-import { Piece } from "@/models/Piece";
-import { Person } from "@/models/Person";
+import * as edit from "@/lib/edit";
 import { requireAdmin } from "@/lib/auth/session";
 
 /**
@@ -19,132 +16,21 @@ import { requireAdmin } from "@/lib/auth/session";
  * rather than revalidateTag: the author must see their own edit immediately,
  * and revalidateTag's stale-while-revalidate would show them the previous
  * version straight after saving it.
- */
-
-export interface PieceInput {
-    id?: string | null;
-    /** Document version the form was loaded from; guards against a lost update. */
-    version?: number | null;
-    title: string;
-    content: string;
-    readme: string;
-    background: string;
-    stub: boolean;
-    fullWidth: boolean;
-    parent: string | null;
-    lovers: string[];
-    persons: string[];
-    word: string[];
-}
-
-export interface PersonInput {
-    id?: string | null;
-    /** Document version the form was loaded from; guards against a lost update. */
-    version?: number | null;
-    name: string;
-    bio: string;
-    birth: number | null;
-    death: number | null;
-    relation: { relatedPerson: string; relatedReason: string }[];
-}
-
-const objectId = (value: string | null | undefined) =>
-    value && mongoose.Types.ObjectId.isValid(value) ? new mongoose.Types.ObjectId(value) : null;
-
-const objectIds = (values: string[] | undefined) =>
-    (values ?? []).map(objectId).filter((id): id is mongoose.Types.ObjectId => id !== null);
-
-const STALE =
-    "This was edited somewhere else since you opened it. Reload the pane and reapply your change.";
-
-/**
- * Match on the version the form was loaded with, and bump it on write.
  *
- * The update used to be a blind $set of every field, over a snapshot taken
- * whenever the pane last rendered — which can be a long time, since panes do
- * not refetch on their own. Two tabs on the same piece meant the second save
- * silently erased the first, with nothing shown to either. A version that does
- * not match now fails the edit rather than the other author's work.
+ * The writes themselves are in lib/edit.ts — auth and cache tags are the only
+ * things here that need the framework, and keeping them apart is what lets the
+ * writes be tested. See the note at the top of that file.
  */
-const versioned = (id: string, version: number | null | undefined) =>
-    version == null ? { _id: id } : { _id: id, __v: version };
 
-/**
- * Would filing `id` under `parent` put it in a loop?
- *
- * Walks up from the proposed parent looking for the piece itself. Bounded by a
- * hop count as well as the answer, so a loop that is already in the data
- * cannot spin here.
- */
-async function wouldCycle(
-    id: string | null | undefined,
-    parent: mongoose.Types.ObjectId | null
-): Promise<boolean> {
-    if (!id || !parent) return false;
-    if (String(parent) === String(id)) return true;
-
-    let current: mongoose.Types.ObjectId | null = parent;
-
-    for (let hops = 0; current && hops < 64; hops++) {
-        const ancestor: { parent?: mongoose.Types.ObjectId | null } | null = await Piece.findById(
-            current
-        )
-            .select("parent")
-            .lean();
-        if (!ancestor?.parent) return false;
-        if (String(ancestor.parent) === String(id)) return true;
-        current = ancestor.parent;
-    }
-
-    return true;
-}
+export type PieceInput = edit.PieceInput;
+export type PersonInput = edit.PersonInput;
+export type PersonDraft = edit.PersonDraft;
 
 /** Returns the page number to navigate to. */
 export async function savePiece(input: PieceInput): Promise<{ page: number }> {
     await requireAdmin();
-    await connect();
 
-    const parent = objectId(input.parent);
-
-    const doc = {
-        title: input.title,
-        content: input.content,
-        readme: input.readme,
-        background: input.background,
-        stub: Boolean(input.stub),
-        fullWidth: Boolean(input.fullWidth),
-        // A piece that is its own ancestor is filed as its own child and never
-        // reaches the index tree — it and everything beneath it disappear from
-        // the site's main navigation with no error. The editor no longer offers
-        // the piece itself, and the walk below covers the longer loops it
-        // cannot see.
-        parent: (await wouldCycle(input.id, parent)) ? null : parent,
-        lovers: objectIds(input.lovers),
-        persons: objectIds(input.persons),
-        word: input.word ?? [],
-    };
-
-    let page: number;
-
-    if (input.id) {
-        // findOneAndUpdate, as the legacy controller did — which means the
-        // pre-save hooks do not run and the slug is left alone on edit.
-        const updated = await Piece.findOneAndUpdate(
-            versioned(input.id, input.version),
-            { ...doc, $inc: { __v: 1 } },
-            { new: true, runValidators: true }
-        ).exec();
-        if (!updated) {
-            const exists = await Piece.exists({ _id: input.id });
-            throw new Error(exists ? STALE : "That piece no longer exists.");
-        }
-        page = updated.page ?? 0;
-    } else {
-        // A new document goes through save(), so it gets its page number from
-        // the counter and its slug from the title.
-        const created = await new Piece(doc).save();
-        page = created.page ?? 0;
-    }
+    const { page } = await edit.savePiece(input);
 
     updateTag("pieces");
     updateTag(`piece-${page}`);
@@ -152,14 +38,16 @@ export async function savePiece(input: PieceInput): Promise<{ page: number }> {
     // leaves the tag alone — refreshing the route from under an open editor
     // rendered the page twice. This is where the word tree catches up.
     updateTag("words");
+    // createPerson leaves the `persons` tag alone for the same reason, so this
+    // is where a person made from inside this form reaches the person index.
+    updateTag("persons");
     return { page };
 }
 
 export async function deletePiece(id: string, page: number): Promise<void> {
     await requireAdmin();
-    await connect();
 
-    await Piece.deleteOne({ _id: id });
+    await edit.deletePiece(id);
 
     updateTag("pieces");
     updateTag(`piece-${page}`);
@@ -168,38 +56,8 @@ export async function deletePiece(id: string, page: number): Promise<void> {
 /** Returns the slug to navigate to. */
 export async function savePerson(input: PersonInput): Promise<{ slug: string }> {
     await requireAdmin();
-    await connect();
 
-    const doc = {
-        name: input.name,
-        bio: input.bio,
-        birth: input.birth,
-        death: input.death,
-        relation: (input.relation ?? [])
-            .filter((entry) => entry.relatedPerson)
-            .map((entry) => ({
-                relatedPerson: objectId(entry.relatedPerson),
-                relatedReason: entry.relatedReason,
-            })),
-    };
-
-    let slug: string;
-
-    if (input.id) {
-        const updated = await Person.findOneAndUpdate(
-            versioned(input.id, input.version),
-            { ...doc, $inc: { __v: 1 } },
-            { new: true, runValidators: true }
-        ).exec();
-        if (!updated) {
-            const exists = await Person.exists({ _id: input.id });
-            throw new Error(exists ? STALE : "That person no longer exists.");
-        }
-        slug = updated.slug ?? "";
-    } else {
-        const created = await new Person(doc).save();
-        slug = created.slug ?? "";
-    }
+    const { slug } = await edit.savePerson(input);
 
     updateTag("persons");
     updateTag(`person-${slug}`);
@@ -210,11 +68,24 @@ export async function savePerson(input: PersonInput): Promise<{ slug: string }> 
     return { slug };
 }
 
+/**
+ * Create a person from the piece editor.
+ *
+ * As with attachWord, this deliberately does not call updateTag: refreshing
+ * the route would re-render the pane under the open piece form and lose
+ * everything typed into it. savePiece updates the `persons` tag instead.
+ */
+export async function createPerson(
+    input: PersonDraft
+): Promise<{ id: string; name: string; created: boolean }> {
+    await requireAdmin();
+    return edit.createPerson(input);
+}
+
 export async function deletePerson(id: string, slug: string): Promise<void> {
     await requireAdmin();
-    await connect();
 
-    await Person.deleteOne({ _id: id });
+    await edit.deletePerson(id);
 
     updateTag("persons");
     updateTag(`person-${slug}`);

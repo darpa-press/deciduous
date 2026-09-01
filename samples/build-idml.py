@@ -7,8 +7,9 @@ spread is cloned from the sample's card spread, so the geometry lands byte for
 byte where the sample put it. Only the ids, the page numbers, the spread's
 vertical offset and the story text change.
 
-Cards go on the recto of every spread, i.e. pages 3, 5, 7 ... — page 1 stands
-alone, as in the sample.
+Cards go on the verso of every spread, i.e. pages 2, 4, 6 ... — page 1 stands
+alone, as in the sample — and the facing recto carries nothing but the piece
+number, centred at the top.
 
 A card whose text will not fit its frame continues onto a second (or third) card,
 its body frames threaded so InDesign flows the copy itself. The bottom line —
@@ -16,7 +17,7 @@ imprint and shelf mark — repeats on every card of the run. Whether a card need
 continuing is measured against the real font, so it needs Louize NP; see --font.
 
     python3 build-idml.py                       # cards.idml, next to this file
-    python3 build-idml.py --out ../out/deck.idml --trailing-blank
+    python3 build-idml.py --out ../out/deck.idml
     python3 build-idml.py --split index --no-split passage   # override the measure
 """
 
@@ -36,23 +37,23 @@ SPREAD_PITCH = 973.7007874015748
 CS_SC = "CharacterStyle/SC"
 CS_NONE = "CharacterStyle/$ID/[No character style]"
 PS_NORMAL = "ParagraphStyle/$ID/NormalParagraphStyle"
+PS_CENTRED = "ParagraphStyle/Centred"
 PS_LINKS = "ParagraphStyle/Links"
 PS_WORDS = "ParagraphStyle/Words"
 
 # The template ids we swap out. Order matters only in that every one of these
 # must be unique within its own file, which it is.
-TPL_SPREAD = "ud7"
-TPL_PAGE_VERSO = "ufa"
-TPL_PAGE_RECTO = "ufb"
+TPL_SPREAD = "ud8"
+TPL_PAGE_VERSO = "ufb"  # the card's own page, even numbered
+TPL_PAGE_RECTO = "ufc"  # facing it, the piece number and nothing else
 TPL_RECT = "u121"
 TPL_FRAMES = [  # (TextFrame Self, ParentStory) in the order they appear
     ("u162", "u150"),  # card body
     ("u166", "u16a"),  # imprint
     ("u180", "u183"),  # shelf mark
 ]
-TPL_BLANK_SPREAD = "u108"
-TPL_BLANK_PAGE = "u10d"
-TPL_FIRST_SPREAD = "ud1"
+TPL_NUMBER = ("u2b8", "u2bb")  # the piece number, on the facing recto
+TPL_FIRST_SPREAD = "ud7"
 
 # InDesign's own ids in this document all sit well below 0x10000, so counting
 # up from there cannot collide with anything we copy over.
@@ -61,16 +62,9 @@ _ID_SEED = 0x10000
 # The sample encodes a forced line break inside a paragraph as U+2028.
 LINE_SEPARATOR = " "
 
-# Type spec, read off Resources/Styles.xml: 12pt Louize NP on fixed 15pt leading,
-# 5.669pt after every paragraph, and a 28.346pt indent on Links and Words.
-POINT_SIZE = 12.0
-LEADING = 15.0
-SPACE_AFTER = 5.669291338582678
-INDENT = 28.34645669291339
-
 # A card that runs long repeats down the page: the last block keeps the
-# sample's position and the earlier ones stack above it, 1cm apart.
-STACK_GAP = 28.346456692913385
+# sample's position and the earlier ones stack above it, 3mm apart.
+STACK_GAP = 8.503937007874017
 
 # Where to look for Louize NP if --font is not given.
 FONT_CANDIDATES = [
@@ -78,6 +72,51 @@ FONT_CANDIDATES = [
     Path("/Library/Fonts/louize-reg.otf"),
     HERE.parent / "public/fonts/louize-reg.otf",
 ]
+
+
+def _style(text, name):
+    """One <ParagraphStyle> block, by name."""
+    start = text.index('<ParagraphStyle Self="ParagraphStyle/%s"' % name)
+    return text[start : text.index("</ParagraphStyle>", start)]
+
+
+def _attr(block, name):
+    match = re.search(r'\s%s="([^"]*)"' % name, block)
+    return float(match.group(1)) if match else None
+
+
+def _unit(block, name):
+    """A <Leading type="unit">16</Leading> style property."""
+    match = re.search(r'<%s type="unit">([^<]*)</%s>' % (name, name), block)
+    return float(match.group(1)) if match else None
+
+
+class TypeSpec:
+    """The type the template sets, read off Resources/Styles.xml.
+
+    Point size, leading and the indents belong to the template, not to this
+    script, and they move whenever the layout is re-cut — so they are read
+    rather than restated. Anything the paragraph style leaves unsaid it
+    inherits from the document's TextDefault, which is where InDesign puts a
+    size that has never been overridden.
+    """
+
+    def __init__(self, styles_xml, prefs_xml):
+        normal = _style(styles_xml, "$ID/NormalParagraphStyle")
+        default = re.search(r"<TextDefault [^>]*>", prefs_xml).group(0)
+        prefs = prefs_xml[prefs_xml.index(default) :]
+
+        self.point_size = _attr(normal, "PointSize") or _attr(default, "PointSize") or 12.0
+        # Auto leading is a percentage of the size; a fixed one is a length.
+        self.leading = _unit(normal, "Leading") or _unit(prefs, "Leading") or self.point_size * 1.2
+        self.space_after = _attr(normal, "SpaceAfter") or _attr(default, "SpaceAfter") or 0.0
+        # Links indents every line, Words only the first — see how frames()
+        # picks a width for the first line and a width for the rest.
+        self.links_indent = _attr(_style(styles_xml, "Links"), "LeftIndent") or 0.0
+        self.words_indent = _attr(_style(styles_xml, "Words"), "FirstLineIndent") or 0.0
+
+    def __str__(self):
+        return "%gpt on %gpt" % (self.point_size, self.leading)
 
 
 class Measurer:
@@ -90,14 +129,15 @@ class Measurer:
     not. --split/--no-split override it per card.
     """
 
-    def __init__(self, font_path):
+    def __init__(self, font_path, spec):
         from fontTools.ttLib import TTFont
 
         font = TTFont(str(font_path), lazy=True)
+        self.spec = spec
         self.upem = font["head"].unitsPerEm
         self.cmap = font.getBestCmap()
         self.hmtx = font["hmtx"]
-        self.ascent = font["hhea"].ascent / self.upem * POINT_SIZE
+        self.ascent = font["hhea"].ascent / self.upem * spec.point_size
         self.smcp = self._smallcaps(font)
         self._cache = {}
 
@@ -123,7 +163,7 @@ class Measurer:
             name = self.cmap.get(ord(ch)) or self.cmap.get(ord("n"))
             if small_caps:
                 name = self.smcp.get(name, name)
-            self._cache[key] = self.hmtx[name][0] / self.upem * POINT_SIZE
+            self._cache[key] = self.hmtx[name][0] / self.upem * self.spec.point_size
         return self._cache[key]
 
     def lines(self, runs, first_width, rest_width):
@@ -154,9 +194,9 @@ class Measurer:
         """How many threaded frames this story needs."""
         counts = []
         for para in paras:
-            indent = INDENT if para["style"] in (PS_LINKS, PS_WORDS) else 0.0
-            first = frame_width - indent
-            rest = frame_width - (INDENT if para["style"] == PS_LINKS else 0.0)
+            hang = {PS_LINKS: self.spec.links_indent, PS_WORDS: self.spec.words_indent}
+            first = frame_width - hang.get(para["style"], 0.0)
+            rest = frame_width - (self.spec.links_indent if para["style"] == PS_LINKS else 0.0)
             # A U+2028 forced break starts a new line but not a new paragraph,
             # so only the paragraph's very first line takes the first-line width.
             n, group = 0, []
@@ -173,20 +213,20 @@ class Measurer:
         for i, n in enumerate(counts):
             for line in range(n):
                 if i or line:
-                    y += LEADING + (SPACE_AFTER if line == 0 else 0.0)
+                    y += self.spec.leading + (self.spec.space_after if line == 0 else 0.0)
                 if y > frame_height:
                     frames += 1
                     y = self.ascent
         return frames
 
 
-def load_measurer(font_arg):
+def load_measurer(font_arg, spec):
     """Best-effort: without the font we cannot measure, so we do not guess."""
     candidates = [Path(font_arg)] if font_arg else FONT_CANDIDATES
     for path in candidates:
         if path.exists():
             try:
-                return Measurer(path), path
+                return Measurer(path, spec), path
             except ImportError:
                 print("note: fontTools not installed — cards will not be continued", file=sys.stderr)
                 return None, None
@@ -314,6 +354,12 @@ def imprint_paragraphs(codex):
     ]
 
 
+def number_paragraphs(card):
+    """The piece number, alone and centred at the top of the facing page."""
+    number = card.get("page")
+    return [paragraph(PS_CENTRED, [run(CS_NONE, "" if number is None else str(number))])]
+
+
 def shelfmark_paragraphs(card):
     return [
         paragraph(
@@ -360,6 +406,8 @@ def spread_template(text):
     for i, (frame_id, story_id) in enumerate(TPL_FRAMES):
         text = text.replace('Self="%s"' % frame_id, 'Self="@@FRAME%d@@"' % i)
         text = text.replace('ParentStory="%s"' % story_id, 'ParentStory="@@STORY%d@@"' % i)
+    text = text.replace('Self="%s"' % TPL_NUMBER[0], 'Self="@@NUMFRAME@@"')
+    text = text.replace('ParentStory="%s"' % TPL_NUMBER[1], 'ParentStory="@@NUMSTORY@@"')
     return frame_prefs(text)
 
 
@@ -375,8 +423,9 @@ def frame_prefs(text):
     auto-sizing frame never overflows, so it would never push a long card onto
     its continuation. Overflow is what drives the threading instead.
     """
-    for i in range(len(TPL_FRAMES)):
-        start = text.index('<TextFrame Self="@@FRAME%d@@"' % i)
+    tokens = ["@@FRAME%d@@" % i for i in range(len(TPL_FRAMES))] + ["@@NUMFRAME@@"]
+    for token in tokens:
+        start = text.index('<TextFrame Self="%s"' % token)
         end = text.index("</TextFrame>", start)
         block = text[start:end]
 
@@ -386,7 +435,7 @@ def frame_prefs(text):
             "<TextFramePreference", '<TextFramePreference UseFixedColumnWidth="false"', 1
         )
         block = block.replace(pref, updated, 1)
-        if i == 0:  # the card body carries the thread
+        if token == "@@FRAME0@@":  # the card body carries the thread
             block = block.replace('PreviousTextFrame="n"', 'PreviousTextFrame="@@PREV@@"', 1)
             block = block.replace('NextTextFrame="n"', 'NextTextFrame="@@NEXT@@"', 1)
         text = text[:start] + block + text[end:]
@@ -397,11 +446,13 @@ def split_template(text):
     """Cut the spread into (head, one card block, tail).
 
     The block is the tint rectangle plus its three text frames — the unit that
-    repeats down the page when a card runs over.
+    repeats down the page when a card runs over. The piece number sits on the
+    facing page, one per spread, so it stays behind in the tail.
     """
     start = text.index('<Rectangle Self="@@RECT@@"')
     start = text.rfind("\n", 0, start) + 1
-    end = text.rindex("</TextFrame>") + len("</TextFrame>")
+    last = text.index('<TextFrame Self="@@FRAME2@@"')
+    end = text.index("</TextFrame>", last) + len("</TextFrame>")
     return text[:start], text[start:end], text[end:]
 
 
@@ -426,7 +477,7 @@ def block_metrics(block):
 
 def page_top(text):
     """The top edge of the card's page, in spread coordinates."""
-    page = re.search(r'<Page Self="@@PAGE_R@@"[^>]*>', text).group(0)
+    page = re.search(r'<Page Self="@@PAGE_L@@"[^>]*>', text).group(0)
     bounds = re.search(r'GeometricBounds="([^"]*)"', page).group(1).split()
     ty = re.search(r'ItemTransform="([^"]*)"', page).group(1).split()
     return float(bounds[0]) + float(ty[5])
@@ -457,25 +508,6 @@ def page_template(text, page_id, id_token, no_token):
         "<ListItem type=\"long\">%s</ListItem>" % no_token,
     )
     return text[:start] + block + text[end:]
-
-
-def blank_spread(text, spread_id, page_id, page_no, spread_y):
-    """The sample's lone trailing verso, renumbered."""
-    text = text.replace('<Spread Self="%s"' % TPL_BLANK_SPREAD, '<Spread Self="%s"' % spread_id)
-    text = re.sub(
-        r'(<Spread Self="%s"[^>]*?ItemTransform=")[^"]*(")' % spread_id,
-        lambda m: m.group(1) + "1 0 0 1 0 %r" % spread_y + m.group(2),
-        text,
-        count=1,
-    )
-    old_name = re.search(r'<Page Self="%s"[^>]*\sName="([^"]*)"' % TPL_BLANK_PAGE, text).group(1)
-    text = text.replace('<Page Self="%s"' % TPL_BLANK_PAGE, '<Page Self="%s"' % page_id)
-    text = text.replace(' Name="%s"' % old_name, ' Name="%d"' % page_no, 1)
-    text = text.replace(
-        "<ListItem type=\"long\">%s</ListItem>" % old_name,
-        "<ListItem type=\"long\">%d</ListItem>" % page_no,
-    )
-    return text
 
 
 def rewrite_designmap(text, spread_files, story_files, story_ids, page_count, first_page_id):
@@ -537,6 +569,7 @@ def build(cards_path, template_path, out_path, opts):
     body_shell = story_shell(src["Stories/Story_%s.xml" % TPL_FRAMES[0][1]])
     imprint_shell = story_shell(src["Stories/Story_%s.xml" % TPL_FRAMES[1][1]])
     mark_shell = story_shell(src["Stories/Story_%s.xml" % TPL_FRAMES[2][1]])
+    number_shell = story_shell(src["Stories/Story_%s.xml" % TPL_NUMBER[1]])
 
     box_w, box_h = body_frame_box(block_tpl)
     block_top, block_h = block_metrics(block_tpl)
@@ -545,7 +578,8 @@ def build(cards_path, template_path, out_path, opts):
     room = int((block_top - page_top(spread_tpl)) // pitch) + 1
 
     # How many blocks each card runs over, measured then overridden by hand.
-    measurer, font_path = load_measurer(opts.font)
+    spec = TypeSpec(src["Resources/Styles.xml"], src["Resources/Preferences.xml"])
+    measurer, font_path = load_measurer(opts.font, spec)
     runs = []
     for card in cards:
         paras = card_paragraphs(card)
@@ -611,7 +645,13 @@ def build(cards_path, template_path, out_path, opts):
             block = block.replace("@@FRAME2@@", ids.next()).replace("@@STORY2@@", mark_story)
             blocks.append(block)
 
-        text = head + "\n".join(blocks) + tail
+        # The facing page carries the piece number and nothing else.
+        number_story = ids.next()
+        add_story(number_story, number_shell, number_paragraphs(card))
+        spread_tail = tail.replace("@@NUMFRAME@@", ids.next())
+        spread_tail = spread_tail.replace("@@NUMSTORY@@", number_story)
+
+        text = head + "\n".join(blocks) + spread_tail
         text = text.replace("@@SPREAD@@", spread_id)
         text = text.replace("@@SPREAD_Y@@", repr(SPREAD_PITCH * spread_no))
         text = text.replace("@@PAGE_L@@", page_l).replace("@@PAGE_L_NO@@", str(page_no + 1))
@@ -620,20 +660,6 @@ def build(cards_path, template_path, out_path, opts):
 
         name = "Spreads/Spread_%s.xml" % spread_id
         out[name] = text
-        spread_files.append(name)
-
-    if opts.trailing_blank:
-        spread_no += 1
-        spread_id, page_id = ids.next(), ids.next()
-        page_no += 1
-        name = "Spreads/Spread_%s.xml" % spread_id
-        out[name] = blank_spread(
-            src["Spreads/Spread_%s.xml" % TPL_BLANK_SPREAD],
-            spread_id,
-            page_id,
-            page_no,
-            SPREAD_PITCH * spread_no,
-        )
         spread_files.append(name)
 
     for name, text in src.items():
@@ -645,7 +671,7 @@ def build(cards_path, template_path, out_path, opts):
     )
 
     write_package(out_path, out)
-    return page_no, runs, font_path
+    return page_no, runs, font_path, spec
 
 
 def write_package(out_path, entries):
@@ -666,11 +692,6 @@ def main(argv=None):
     ap.add_argument("--cards", type=Path, default=HERE / "cards.json")
     ap.add_argument("--template", type=Path, default=HERE / "testlayout.idml")
     ap.add_argument("--out", type=Path, default=HERE / "cards.idml")
-    ap.add_argument(
-        "--trailing-blank",
-        action="store_true",
-        help="append one blank verso so the document ends on an even page",
-    )
     ap.add_argument("--font", help="Louize NP file to measure against")
     ap.add_argument(
         "--split", default="", help="comma-separated slugs to continue regardless"
@@ -682,16 +703,16 @@ def main(argv=None):
     args.split = {s for s in args.split.split(",") if s}
     args.no_split = {s for s in args.no_split.split(",") if s}
 
-    pages, runs, font_path = build(args.cards, args.template, args.out, args)
+    pages, runs, font_path, spec = build(args.cards, args.template, args.out, args)
     continued = [(c, n) for c, _, n in runs if n > 1]
     print(
-        "%s — %d cards on pages 3–%d, %d pages total%s"
+        "%s — %d cards on pages 2–%d, %d pages total%s"
         % (
             args.out,
             len(runs),
-            1 + 2 * len(runs),
+            2 * len(runs),
             pages,
-            "" if not font_path else "\nmeasured against %s" % font_path,
+            "" if not font_path else "\nset %s, measured against %s" % (spec, font_path),
         )
     )
     if continued:

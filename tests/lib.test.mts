@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 
 import { listToTree } from "../src/lib/list-to-tree";
 import { shelfMark, cardWordLabel, cardWordSource } from "../src/lib/card";
-import { formatIndexText, type IndexEntry } from "../src/lib/export/index-text";
+import { formatIndexText, sortableName, type IndexEntry } from "../src/lib/export/index-text";
 import { searchQuery, MAX_TERM } from "../src/lib/search-term";
 import { claimAttempt, clearAttempts } from "../src/lib/auth/throttle";
 
@@ -159,6 +159,56 @@ describe("formatIndexText", () => {
 
     test("nothing in, nothing out", () => {
         assert.equal(formatIndexText([]), "");
+    });
+});
+
+describe("sortableName", () => {
+    test("files a person under the last word", () => {
+        assert.equal(sortableName("Marie Curie"), "Curie, Marie");
+        assert.equal(sortableName("Jorge Luis Borges"), "Borges, Jorge Luis");
+        assert.equal(sortableName("Tim Berners-Lee"), "Berners-Lee, Tim");
+    });
+
+    // Initials and a parenthetical middle name both ride along with the
+    // forenames — the last word is still the surname in each.
+    test("initials and parentheticals stay with the forenames", () => {
+        assert.equal(sortableName("T. J. Cobden-Sanderson"), "Cobden-Sanderson, T. J.");
+        assert.equal(sortableName("Laura (Riding) Jackson"), "Jackson, Laura (Riding)");
+        assert.equal(sortableName("David L. Mills"), "Mills, David L.");
+    });
+
+    test("a particle files under the name it precedes, as Chicago has it", () => {
+        assert.equal(sortableName("Ludwig van Beethoven"), "Beethoven, Ludwig van");
+    });
+
+    test("a suffix trails the forenames rather than being taken for a surname", () => {
+        assert.equal(sortableName("Martin Luther King Jr."), "King, Martin Luther Jr.");
+        assert.equal(sortableName("Henry Ford III"), "Ford, Henry III");
+    });
+
+    test("a name that is only a surname and a suffix is left whole", () => {
+        assert.equal(sortableName("King Jr."), "King Jr.");
+    });
+
+    test("a mononym has no forename to move", () => {
+        assert.equal(sortableName("Epicurus"), "Epicurus");
+        assert.equal(sortableName("Thayaht"), "Thayaht");
+    });
+
+    test("a pair is not a person", () => {
+        assert.equal(sortableName("Poliphilo & Polia"), "Poliphilo & Polia");
+        assert.equal(sortableName("Bouvard & Pecuchet"), "Bouvard & Pecuchet");
+    });
+
+    // Otherwise the second pass would file "Curie, Marie" under Marie.
+    test("a name already inverted is left alone", () => {
+        assert.equal(sortableName("Curie, Marie"), "Curie, Marie");
+    });
+
+    test("stray whitespace does not become part of a heading", () => {
+        assert.equal(sortableName("  Marie   Curie  "), "Curie, Marie");
+        assert.equal(sortableName(""), "");
+        assert.equal(sortableName(undefined), "");
     });
 });
 

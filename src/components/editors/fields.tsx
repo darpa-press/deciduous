@@ -2,6 +2,19 @@
 
 import type { ReactNode } from "react";
 
+/**
+ * Years are stored as signed numbers; blank means unknown, negative is BC.
+ *
+ * Shared by both editors that take a birth and a death — the piece editor can
+ * make a person too, and the two must read a typed year the same way.
+ */
+export function asYear(value: string): number | null {
+    const trimmed = value.trim();
+    if (!trimmed) return null;
+    const n = Number(trimmed);
+    return Number.isFinite(n) ? n : null;
+}
+
 /** A labelled row. The label column is fixed, as in the legacy form. */
 export function Field({ label, children }: { label: string; children: ReactNode }) {
     return (

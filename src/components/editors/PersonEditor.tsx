@@ -5,7 +5,7 @@ import Select from "react-select";
 import { usePathname } from "next/navigation";
 
 import { CodeEditor } from "./CodeEditor";
-import { Field } from "./fields";
+import { Field, asYear } from "./fields";
 import { savePerson, deletePerson, type PersonInput } from "@/app/editor-actions";
 import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
 import { pushPane } from "@/lib/navigate";
@@ -48,14 +48,6 @@ export function PersonEditor({
 
     const go = (target: string) => {
         pushPane(buildCreateLink(segmentsFromPathname(pathname), index)(target, false));
-    };
-
-    /** Years are stored as signed numbers; blank means unknown, negative is BC. */
-    const asYear = (value: string) => {
-        const trimmed = value.trim();
-        if (!trimmed) return null;
-        const n = Number(trimmed);
-        return Number.isFinite(n) ? n : null;
     };
 
     function onSave() {

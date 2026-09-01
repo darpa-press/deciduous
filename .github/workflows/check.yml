@@ -1,0 +1,90 @@
+name: check
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Run the HTTP suite against this origin (leave blank to skip it)"
+        required: false
+        default: ""
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    # The unit suites run anywhere; the data suite needs a database and skips
+    # itself when there is none — which is right on a laptop and useless here,
+    # where a silent skip reads as a pass. So CI provides one.
+    services:
+      mongo:
+        image: mongo:8
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --quiet --eval 'db.runCommand({ping:1})'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      MONGODB_URI: mongodb://127.0.0.1:27017/deciduous
+      TEST_MONGODB_URI: mongodb://127.0.0.1:27017/deciduous
+      # Only has to exist and be well formed — nothing here logs in.
+      SESSION_SECRET: ci-not-a-real-secret
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run typecheck
+
+      - run: npm run lint
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      # Writes: creates pieces and people against the service container above,
+      # and tears them down. helpers.mts refuses any non-local database, so
+      # this cannot reach anything but the container.
+      - name: Data and editor tests
+        run: npm run test:data
+
+      - run: npm run build
+
+  # The HTTP suite is not part of the push check, because it cannot be: it
+  # reads baseline/manifest.json — 118 page numbers and the person slugs
+  # captured from the live catalogue — and the dump that would satisfy them is
+  # deliberately not in the repo. Against an empty database every permalink is
+  # a 404 and the suite fails for a reason that has nothing to do with the
+  # change under test.
+  #
+  # So it runs on demand, against something with the catalogue behind it:
+  #
+  #   gh workflow run check.yml -f base_url=https://deciduous.example
+  site:
+    if: github.event_name == 'workflow_dispatch' && inputs.base_url != ''
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Site tests
+        env:
+          BASE_URL: ${{ inputs.base_url }}
+        run: npm run test:site

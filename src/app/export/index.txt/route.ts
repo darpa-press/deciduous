@@ -1,0 +1,46 @@
+import { connection } from "next/server";
+
+import { buildCombinedIndex, formatIndexText } from "@/lib/export/index-text";
+import { isLoggedIn } from "@/lib/auth/session";
+
+/**
+ * The combined back-of-book index as plain text, for typesetting a print
+ * edition.
+ *
+ *   /export/index.txt
+ *
+ * People and words in one alphabetical sequence, one entry per line: the
+ * heading, a tab, then the pages it appears on, comma separated and ascending.
+ * People are filed surname first ("Borges, Jorge Luis"); words print as the
+ * term. Headings that appear on no page are left out.
+ *
+ * Nothing marks a line as a person or a word — it is one uniform list, so the
+ * file places into an InDesign text frame under a single paragraph style with
+ * one tab stop. `/export/people.txt` and `/export/words.txt` remain available
+ * for setting the two indexes separately.
+ */
+export async function GET() {
+    // The exports are the whole catalogue in one response, and `?content=1`
+    // on the XML is every piece's raw stored HTML. They exist to feed a print
+    // run, not to be a public mirror of the database.
+    if (!(await isLoggedIn())) {
+        return new Response("Not authorised.", { status: 401 });
+    }
+
+    // Stops prerendering. Unlike the card exports, this route reads no search
+    // params, so under Cache Components it would otherwise be treated as fully
+    // static and built at deploy time — which both needs a database the build
+    // has no reason to reach and bakes one snapshot of the index into the
+    // deployment, contradicting the no-store below.
+    await connection();
+
+    const body = formatIndexText(await buildCombinedIndex());
+
+    return new Response(body, {
+        headers: {
+            "content-type": "text/plain; charset=utf-8",
+            // Regenerated from live data on request; do not let a proxy pin it.
+            "cache-control": "no-store",
+        },
+    });
+}

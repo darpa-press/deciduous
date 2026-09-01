@@ -2,12 +2,13 @@
 
 import { useState, useTransition } from "react";
 import Select from "react-select";
+import CreatableSelect from "react-select/creatable";
 
 import { CodeEditor } from "./CodeEditor";
-import { Field, Checkbox, ColourField } from "./fields";
+import { Field, Checkbox, ColourField, asYear } from "./fields";
 import { FileUpload } from "./FileUpload";
 import { WordFinder } from "./WordFinder";
-import { savePiece, deletePiece, type PieceInput } from "@/app/editor-actions";
+import { savePiece, deletePiece, createPerson, type PieceInput } from "@/app/editor-actions";
 import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
 import { pushPane } from "@/lib/navigate";
 import { usePathname } from "next/navigation";
@@ -80,6 +81,22 @@ export function PieceEditor({
     const [lovers, setLovers] = useState<string[]>(initial.lovers);
     const [persons, setPersons] = useState<string[]>(initial.persons);
     const [words, setWords] = useState(initial.word);
+    /**
+     * People can be made from here, so the list is state rather than the prop.
+     *
+     * A person made here is written straight away — the piece holds ids, so
+     * there is nothing to point at until the person exists — and the new option
+     * is appended so it can be selected without a round-trip through the pane.
+     */
+    const [people, setPeople] = useState(personOptions);
+    /**
+     * A name typed into the People field opens this rather than writing at
+     * once: a person is worth very little without their dates, and the person
+     * index reads as a chronology. Everything else about them — bio, relations
+     * — belongs in their own editor, a pane away.
+     */
+    const [draft, setDraft] = useState<{ name: string; birth: string; death: string } | null>(null);
+    const [note, setNote] = useState<string | null>(null);
 
     const go = (target: string) => {
         pushPane(buildCreateLink(segmentsFromPathname(pathname), index)(target, false));
@@ -108,6 +125,38 @@ export function PieceEditor({
                 go(String(savedPage));
             } catch (e) {
                 setError(e instanceof Error ? e.message : "Could not save.");
+            }
+        });
+    }
+
+    function onCreatePerson() {
+        if (!draft) return;
+        setError(null);
+        setNote(null);
+        startTransition(async () => {
+            try {
+                const person = await createPerson({
+                    name: draft.name,
+                    birth: asYear(draft.birth),
+                    death: asYear(draft.death),
+                });
+                setPeople((current) =>
+                    current.some((o) => o.value === person.id)
+                        ? current
+                        : [...current, { value: person.id, label: person.name }]
+                );
+                setPersons((current) =>
+                    current.includes(person.id) ? current : [...current, person.id]
+                );
+                // A name that already belonged to someone selects them instead
+                // of making a second record — say so, since the dates just
+                // typed were theirs to keep and have been left alone.
+                if (!person.created) {
+                    setNote(`${person.name} already existed, so they were added as they are.`);
+                }
+                setDraft(null);
+            } catch (e) {
+                setError(e instanceof Error ? e.message : "Could not create that person.");
             }
         });
     }
@@ -167,14 +216,68 @@ export function PieceEditor({
             </Field>
 
             <Field label="People">
-                <Select
-                    className="select"
-                    classNamePrefix="select"
-                    isMulti
-                    options={personOptions}
-                    value={byValue(personOptions, persons)}
-                    onChange={(options) => setPersons(options.map((o) => o.value))}
-                />
+                <div className="person-field">
+                    <CreatableSelect
+                        className="select"
+                        classNamePrefix="select"
+                        isMulti
+                        isLoading={pending}
+                        options={people}
+                        value={byValue(people, persons)}
+                        onChange={(options) => setPersons(options.map((o) => o.value))}
+                        onCreateOption={(name) => {
+                            setNote(null);
+                            setDraft({ name, birth: "", death: "" });
+                        }}
+                        formatCreateLabel={(input) => `Add ${input} as a new person`}
+                    />
+
+                    {draft && (
+                        <div
+                            className="person-draft"
+                            onKeyDown={(e) => {
+                                if (e.key === "Enter") onCreatePerson();
+                                if (e.key === "Escape") setDraft(null);
+                            }}
+                        >
+                            <input
+                                type="text"
+                                placeholder="Name"
+                                value={draft.name}
+                                autoFocus
+                                onChange={(e) => setDraft({ ...draft, name: e.target.value })}
+                            />
+                            <input
+                                type="text"
+                                className="person-draft-year"
+                                placeholder="Born"
+                                title="Year, negative for BC"
+                                value={draft.birth}
+                                onChange={(e) => setDraft({ ...draft, birth: e.target.value })}
+                            />
+                            <input
+                                type="text"
+                                className="person-draft-year"
+                                placeholder="Died"
+                                title="Year, negative for BC"
+                                value={draft.death}
+                                onChange={(e) => setDraft({ ...draft, death: e.target.value })}
+                            />
+                            <button
+                                type="button"
+                                onClick={onCreatePerson}
+                                disabled={pending || !draft.name.trim()}
+                            >
+                                Create
+                            </button>
+                            <button type="button" onClick={() => setDraft(null)}>
+                                Cancel
+                            </button>
+                        </div>
+                    )}
+
+                    {note && <div className="person-note">{note}</div>}
+                </div>
             </Field>
 
             <Field label="Words">
@@ -206,9 +309,16 @@ export function PieceEditor({
             </Field>
 
             {error && <div className="form-error">{error}</div>}
+            {/* Saving over an open draft would quietly drop the person being
+                typed, since they are not written until Create. */}
+            {draft && <div className="form-error">Finish or cancel the new person first.</div>}
 
             <div className="form-buttons">
-                <button type="button" onClick={onSave} disabled={pending || committed}>
+                <button
+                    type="button"
+                    onClick={onSave}
+                    disabled={pending || committed || draft !== null}
+                >
                     {pending ? "…" : "Save"}
                 </button>
                 {id && (

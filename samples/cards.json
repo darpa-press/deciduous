@@ -3,21 +3,40 @@
     "name": "Deciduous",
     "imprint": "Arbes san sang"
   },
-  "count": 118,
+  "count": 112,
   "cards": [
     {
       "page": 0,
       "shelfMark": "DC001.0",
       "title": "Ark refactoring",
       "slug": "ark",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Incomplete projects are always up for grabs for those in search of progenitorial grounding. Look: sometimes all it takes is a splash of colour.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 8,
         "title": "Anything generalising"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "13776971n",
+          "label": "anything apparently limitless in quantity or volume",
+          "source": "gloss",
+          "term": "sea",
+          "gloss": "anything apparently limitless in quantity or volume  ",
+          "synsetOffset": 13776971,
+          "pos": "n"
+        },
+        {
+          "id": "2472987n",
+          "label": "all of the living human inhabitants of the earth",
+          "source": "gloss",
+          "term": "world",
+          "gloss": "all of the living human inhabitants of the earth; \"all the world loves a lover\"; \"she always used `humankind' because `mankind' seemed to slight the women\"  ",
+          "synsetOffset": 2472987,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -47,14 +66,33 @@
       "shelfMark": "DC001.1",
       "title": "Colourless hopping",
       "slug": "colourless-bunnies",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "More or less a children's story: the uninvited guest, the one outside the lightmap.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
         "title": "Scape goating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "6757891n",
+          "label": "a deliberately false or improbable account",
+          "source": "gloss",
+          "term": "fable",
+          "gloss": "a deliberately false or improbable account  ",
+          "synsetOffset": 6757891,
+          "pos": "n"
+        },
+        {
+          "id": "6631506n",
+          "label": "kindness in welcoming guests or strangers",
+          "source": "gloss",
+          "term": "hospitality",
+          "gloss": "kindness in welcoming guests or strangers  ",
+          "synsetOffset": 6631506,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -78,8 +116,8 @@
         },
         {
           "id": "96239s",
-          "label": "bloodless",
-          "source": "term",
+          "label": "destitute of blood or apparently so",
+          "source": "gloss",
           "term": "bloodless",
           "gloss": "destitute of blood or apparently so; \"the bloodless carcass of my Hector sold\"- John Dryden  ",
           "synsetOffset": 96239,
@@ -96,8 +134,8 @@
         },
         {
           "id": "1640855v",
-          "label": "action",
-          "source": "term",
+          "label": "put in effect",
+          "source": "gloss",
           "term": "action",
           "gloss": "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\"  ",
           "synsetOffset": 1640855,
@@ -138,8 +176,8 @@
         },
         {
           "id": "2937534a",
-          "label": "indexical",
-          "source": "term",
+          "label": "of or relating to or serving as an index",
+          "source": "gloss",
           "term": "indexical",
           "gloss": "of or relating to or serving as an index  ",
           "synsetOffset": 2937534,
@@ -156,8 +194,8 @@
         },
         {
           "id": "6398401n",
-          "label": "close",
-          "source": "term",
+          "label": "the last section of a communication",
+          "source": "gloss",
           "term": "close",
           "gloss": "the last section of a communication; \"in conclusion I want to say...\"  ",
           "synsetOffset": 6398401,
@@ -211,8 +249,8 @@
         },
         {
           "id": "13858604n",
-          "label": "reverse",
-          "source": "term",
+          "label": "a relation of direct opposition",
+          "source": "gloss",
           "term": "reverse",
           "gloss": "a relation of direct opposition; \"we thought Sue was older than Bill but just the reverse was true\"  ",
           "synsetOffset": 13858604,
@@ -243,14 +281,42 @@
       "shelfMark": "DC001.7",
       "title": "Blue shriking",
       "slug": "blue-shrikes",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A sort of confessional, if I'm honest with you, a sort of a Rage.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 1,
         "title": "Colourless hopping"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "9876454n",
+          "label": "a male with the same parents as someone else",
+          "source": "gloss",
+          "term": "brother",
+          "gloss": "a male with the same parents as someone else; \"my brother still lives with our parents\"  ",
+          "synsetOffset": 9876454,
+          "pos": "n"
+        },
+        {
+          "id": "7524529n",
+          "label": "an anxious feeling",
+          "source": "gloss",
+          "term": "fear",
+          "gloss": "an anxious feeling; \"care had aged him\"; \"they hushed it up out of fear of public reaction\"  ",
+          "synsetOffset": 7524529,
+          "pos": "n"
+        },
+        {
+          "id": "8056471n",
+          "label": "an unusually large enterprise",
+          "source": "gloss",
+          "term": "giant",
+          "gloss": "an unusually large enterprise; \"Walton built a retail giant\"  ",
+          "synsetOffset": 8056471,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -266,14 +332,33 @@
       "shelfMark": "DC001.8",
       "title": "Anything generalising",
       "slug": "arbre-de-la-ciencia",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "To get from a singing road to a stolen sea, I had to pass a tree with leaves that lit up like the lights on the marquee of an old theatre. But its circuits were fragile; they broke soon after I passed by.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 11,
         "title": "Roads singing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "23271n",
+          "label": "the psychological result of perception and learning and reasoning",
+          "source": "gloss",
+          "term": "knowledge",
+          "gloss": "the psychological result of perception and learning and reasoning  ",
+          "synsetOffset": 23271,
+          "pos": "n"
+        },
+        {
+          "id": "13152742n",
+          "label": "the main organ of photosynthesis and transpiration in higher plants",
+          "source": "gloss",
+          "term": "leaf",
+          "gloss": "the main organ of photosynthesis and transpiration in higher plants  ",
+          "synsetOffset": 13152742,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -296,14 +381,42 @@
       "shelfMark": "DC001.9",
       "title": "Thyroid saving",
       "slug": "thyroid",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The order of the humours through the body matters! You won't understand if I explain why, but it does!",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 8,
         "title": "Anything generalising"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "3180969n",
+          "label": "any device that receives a signal or stimulus (as heat or pressure or light or motion etc.) and responds to it in a distinctive manner",
+          "source": "gloss",
+          "term": "sensor",
+          "gloss": "any device that receives a signal or stimulus (as heat or pressure or light or motion etc.) and responds to it in a distinctive manner  ",
+          "synsetOffset": 3180969,
+          "pos": "n"
+        },
+        {
+          "id": "5773923n",
+          "label": "reasoning that involves the formation of conclusions from incomplete evidence",
+          "source": "gloss",
+          "term": "conjecture",
+          "gloss": "reasoning that involves the formation of conclusions from incomplete evidence  ",
+          "synsetOffset": 5773923,
+          "pos": "n"
+        },
+        {
+          "id": "165971v",
+          "label": "make resistant (to harm)",
+          "source": "gloss",
+          "term": "proof",
+          "gloss": "make resistant (to harm); \"proof the materials against shrinking in the dryer\"  ",
+          "synsetOffset": 165971,
+          "pos": "v"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -338,8 +451,8 @@
         },
         {
           "id": "3002816n",
-          "label": "chalet",
-          "source": "term",
+          "label": "a Swiss house with a sloping roof and wide eaves or a house built in this style",
+          "source": "gloss",
           "term": "chalet",
           "gloss": "a Swiss house with a sloping roof and wide eaves or a house built in this style  ",
           "synsetOffset": 3002816,
@@ -356,8 +469,8 @@
         },
         {
           "id": "13161998n",
-          "label": "rosette",
-          "source": "term",
+          "label": "a cluster of leaves growing in crowded circles from a common center or crown (usually at or close to the ground)",
+          "source": "gloss",
           "term": "rosette",
           "gloss": "a cluster of leaves growing in crowded circles from a common center or crown (usually at or close to the ground)  ",
           "synsetOffset": 13161998,
@@ -435,8 +548,8 @@
         },
         {
           "id": "5700925n",
-          "label": "dream",
-          "source": "term",
+          "label": "a state of mind characterized by abstraction and release from reality",
+          "source": "gloss",
           "term": "dream",
           "gloss": "a state of mind characterized by abstraction and release from reality; \"he went about his work as if in a dream\"  ",
           "synsetOffset": 5700925,
@@ -486,8 +599,8 @@
         },
         {
           "id": "1932704v",
-          "label": "navigate",
-          "source": "term",
+          "label": "direct carefully and safely",
+          "source": "gloss",
           "term": "navigate",
           "gloss": "direct carefully and safely; \"He navigated his way to the altar\"  ",
           "synsetOffset": 1932704,
@@ -504,8 +617,8 @@
         },
         {
           "id": "2620992a",
-          "label": "anamorphic",
-          "source": "term",
+          "label": "pertaining to gradual evolution from one type of organism to another",
+          "source": "gloss",
           "term": "anamorphic",
           "gloss": "pertaining to gradual evolution from one type of organism to another  ",
           "synsetOffset": 2620992,
@@ -526,7 +639,53 @@
         "page": 30,
         "title": "Dead reckoning"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "222485n",
+          "label": "the act of killing yourself",
+          "source": "gloss",
+          "term": "suicide",
+          "gloss": "the act of killing yourself; \"it is a crime to commit suicide\"  ",
+          "synsetOffset": 222485,
+          "pos": "n"
+        },
+        {
+          "id": "9411430n",
+          "label": "a large natural stream of water (larger than a creek)",
+          "source": "gloss",
+          "term": "river",
+          "gloss": "a large natural stream of water (larger than a creek); \"the river was navigable for 50 miles\"  ",
+          "synsetOffset": 9411430,
+          "pos": "n"
+        },
+        {
+          "id": "785959n",
+          "label": "a venture at something new or different",
+          "source": "gloss",
+          "term": "experiment",
+          "gloss": "a venture at something new or different; \"as an experiment he decided to grow a beard\"  ",
+          "synsetOffset": 785959,
+          "pos": "n"
+        },
+        {
+          "id": "11428023n",
+          "label": "a column of light (as from a beacon)",
+          "source": "gloss",
+          "term": "beam",
+          "gloss": "a column of light (as from a beacon)  ",
+          "synsetOffset": 11428023,
+          "pos": "n"
+        },
+        {
+          "id": "2815950n",
+          "label": "long thick piece of wood or metal or concrete, etc., used in construction",
+          "source": "gloss",
+          "term": "beam",
+          "gloss": "long thick piece of wood or metal or concrete, etc., used in construction  ",
+          "synsetOffset": 2815950,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -552,33 +711,37 @@
       ]
     },
     {
-      "page": 37,
-      "shelfMark": "DC001.37",
-      "title": "Crisis issuing",
-      "slug": "crisis-in-the-human",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
-      "parent": {
-        "page": 34,
-        "title": "School singing"
-      },
-      "words": [],
-      "people": []
-    },
-    {
       "page": 39,
       "shelfMark": "DC001.39",
       "title": "Translation heating",
       "slug": "you-and-i-fell-asleep-in-you-and-i",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Warmth sleeps submerged in a two-phase immersion coolant. (Is blood dielectric?)",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 50,
         "title": "Clockwise drowsing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "370126v",
+          "label": "lose intensity",
+          "source": "gloss",
+          "term": "cool",
+          "gloss": "lose intensity; \"His enthusiasm cooled considerably\"  ",
+          "synsetOffset": 370126,
+          "pos": "v"
+        },
+        {
+          "id": "507927r",
+          "label": "in each other's company",
+          "source": "gloss",
+          "term": "together",
+          "gloss": "in each other's company; \"we went to the movies together\"; \"the family that prays together stays together\"  ",
+          "synsetOffset": 507927,
+          "pos": "r"
+        }
+      ],
       "people": []
     },
     {
@@ -605,8 +768,8 @@
         },
         {
           "id": "7543288n",
-          "label": "love",
-          "source": "term",
+          "label": "a strong positive emotion of regard and affection",
+          "source": "gloss",
           "term": "love",
           "gloss": "a strong positive emotion of regard and affection; \"his love for his work\"; \"children need a lot of love\"  ",
           "synsetOffset": 7543288,
@@ -647,8 +810,8 @@
         },
         {
           "id": "752764v",
-          "label": "request",
-          "source": "term",
+          "label": "express the need or desire for",
+          "source": "gloss",
           "term": "request",
           "gloss": "express the need or desire for; ask for; \"She requested an extra bed in her room\"; \"She called for room service\"  ",
           "synsetOffset": 752764,
@@ -673,33 +836,55 @@
       ]
     },
     {
-      "page": 42,
-      "shelfMark": "DC001.42",
-      "title": "Giving not-giving",
-      "slug": "no-lover-gives-you-the-universe",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
-      "parent": {
-        "page": 41,
-        "title": "Something asking"
-      },
-      "words": [],
-      "people": []
-    },
-    {
       "page": 44,
       "shelfMark": "DC001.44",
       "title": "Socket unclosing",
       "slug": "uncloseable-sockets",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Thilke 'cage of aura' is the firste that deviseth a Spacial Manere of Entrecomunyng, the whiche governeth alle speche and message evere-chaungyngly, acordaunt to wher that the folk stonden and whiderward they caste hir loke.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 41,
         "title": "Something asking"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1355518v",
+          "label": "join or connect",
+          "source": "gloss",
+          "term": "communicate",
+          "gloss": "join or connect; \"The rooms communicated\"  ",
+          "synsetOffset": 1355518,
+          "pos": "v"
+        },
+        {
+          "id": "2231661v",
+          "label": "transfer to another",
+          "source": "gloss",
+          "term": "communicate",
+          "gloss": "transfer to another; \"communicate a disease\"  ",
+          "synsetOffset": 2231661,
+          "pos": "v"
+        },
+        {
+          "id": "4727214n",
+          "label": "a distinctive but intangible quality surrounding a person or thing",
+          "source": "gloss",
+          "term": "aura",
+          "gloss": "a distinctive but intangible quality surrounding a person or thing; \"an air of mystery\"; \"the house had a neglected air\"; \"an atmosphere of defeat pervaded the candidate's headquarters\"; \"the place had an aura of romance\"  ",
+          "synsetOffset": 4727214,
+          "pos": "n"
+        },
+        {
+          "id": "1537448s",
+          "label": "as if belonging to the Middle Ages",
+          "source": "gloss",
+          "term": "medieval",
+          "gloss": "as if belonging to the Middle Ages; old-fashioned and unenlightened; \"a medieval attitude toward dating\"  ",
+          "synsetOffset": 1537448,
+          "pos": "s"
+        }
+      ],
       "people": []
     },
     {
@@ -726,8 +911,8 @@
         },
         {
           "id": "12580457n",
-          "label": "wisteria",
-          "source": "term",
+          "label": "any flowering vine of the genus Wisteria",
+          "source": "gloss",
           "term": "wisteria",
           "gloss": "any flowering vine of the genus Wisteria  ",
           "synsetOffset": 12580457,
@@ -744,8 +929,8 @@
         },
         {
           "id": "8236438n",
-          "label": "consortium",
-          "source": "term",
+          "label": "an association of companies for some definite purpose",
+          "source": "gloss",
           "term": "consortium",
           "gloss": "an association of companies for some definite purpose  ",
           "synsetOffset": 8236438,
@@ -786,8 +971,8 @@
         },
         {
           "id": "6570110n",
-          "label": "application",
-          "source": "term",
+          "label": "a program that gives a computer instructions that provide the user with tools to accomplish a task",
+          "source": "gloss",
           "term": "application",
           "gloss": "a program that gives a computer instructions that provide the user with tools to accomplish a task; \"he has tried several different word processing applications\"  ",
           "synsetOffset": 6570110,
@@ -804,8 +989,8 @@
         },
         {
           "id": "13479380n",
-          "label": "feedback",
-          "source": "term",
+          "label": "the process in which part of the output of a system is returned to its input in order to regulate its further output",
+          "source": "gloss",
           "term": "feedback",
           "gloss": "the process in which part of the output of a system is returned to its input in order to regulate its further output  ",
           "synsetOffset": 13479380,
@@ -822,8 +1007,8 @@
         },
         {
           "id": "8478018n",
-          "label": "camp",
-          "source": "term",
+          "label": "a group of people living together in a camp",
+          "source": "gloss",
           "term": "camp",
           "gloss": "a group of people living together in a camp; \"the whole camp laughed at his mistake\"  ",
           "synsetOffset": 8478018,
@@ -840,8 +1025,8 @@
         },
         {
           "id": "4981941n",
-          "label": "voice",
-          "source": "term",
+          "label": "the distinctive quality or pitch or condition of a person's speech",
+          "source": "gloss",
           "term": "voice",
           "gloss": "the distinctive quality or pitch or condition of a person's speech; \"A shrill voice sounded behind us\"  ",
           "synsetOffset": 4981941,
@@ -855,14 +1040,42 @@
       "shelfMark": "DC001.47",
       "title": "Straw heathering",
       "slug": "heather-to-straw",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The doom of being parented will give anyone a gloomy eye, even while on holiday.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 44,
         "title": "Socket unclosing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "8075287n",
+          "label": "the class of people engaged in growing food",
+          "source": "gloss",
+          "term": "agriculture",
+          "gloss": "the class of people engaged in growing food  ",
+          "synsetOffset": 8075287,
+          "pos": "n"
+        },
+        {
+          "id": "13262913n",
+          "label": "that which is inherited",
+          "source": "gloss",
+          "term": "inheritance",
+          "gloss": "that which is inherited; a title or property or estate that passes by law to the heir on the death of the owner  ",
+          "synsetOffset": 13262913,
+          "pos": "n"
+        },
+        {
+          "id": "12102133n",
+          "label": "narrow-leaved green herbage: grown as lawns",
+          "source": "gloss",
+          "term": "grass",
+          "gloss": "narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay  ",
+          "synsetOffset": 12102133,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -904,8 +1117,8 @@
         },
         {
           "id": "4628192n",
-          "label": "heat",
-          "source": "term",
+          "label": "the trait of being intensely emotional",
+          "source": "gloss",
           "term": "heat",
           "gloss": "the trait of being intensely emotional  ",
           "synsetOffset": 4628192,
@@ -922,8 +1135,8 @@
         },
         {
           "id": "4422875n",
-          "label": "thermostat",
-          "source": "term",
+          "label": "a regulator for automatically regulating temperature by starting or stopping the supply of heat",
+          "source": "gloss",
           "term": "thermostat",
           "gloss": "a regulator for automatically regulating temperature by starting or stopping the supply of heat  ",
           "synsetOffset": 4422875,
@@ -945,8 +1158,8 @@
       "shelfMark": "DC001.49",
       "title": "Thermo easing",
       "slug": "dreaming-thermostat",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "How a child imagines the home environment.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 48,
@@ -961,6 +1174,15 @@
           "gloss": "a cherished desire; \"his ambition is to own his own business\"  ",
           "synsetOffset": 7484547,
           "pos": "n"
+        },
+        {
+          "id": "2741032a",
+          "label": "related to or characterized by homeostasis",
+          "source": "gloss",
+          "term": "homeostatic",
+          "gloss": "related to or characterized by homeostasis  ",
+          "synsetOffset": 2741032,
+          "pos": "a"
         }
       ],
       "people": []
@@ -970,8 +1192,8 @@
       "shelfMark": "DC001.50",
       "title": "Clockwise drowsing",
       "slug": "clockwise",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A change to the structure of a database entails a sometimes difficult, often one-way procedure known as a migration. You must be careful when you imagine such a change.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 49,
@@ -1022,8 +1244,8 @@
         },
         {
           "id": "1398199a",
-          "label": "tight",
-          "source": "term",
+          "label": "of such close construction as to be impermeable",
+          "source": "gloss",
           "term": "tight",
           "gloss": "of such close construction as to be impermeable; \"a tight roof\"; \"warm in our tight little house\"  ",
           "synsetOffset": 1398199,
@@ -1061,14 +1283,42 @@
       "shelfMark": "DC001.52",
       "title": "Library using",
       "slug": "using-the-library",
-      "summary": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you. ",
+      "summary": "Sitting in a satellite office of the Cite Mundiale, falling in love either with you or that which is just immediately before you.",
       "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 48,
         "title": "Social spinning"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "3348454n",
+          "label": "(usually plural) a device with an explosive that burns at a low rate and with colored flames",
+          "source": "gloss",
+          "term": "firework",
+          "gloss": "(usually plural) a device with an explosive that burns at a low rate and with colored flames; can be used to illuminate areas or send signals etc.  ",
+          "synsetOffset": 3348454,
+          "pos": "n"
+        },
+        {
+          "id": "15147097n",
+          "label": "the time of person's life when they are a child",
+          "source": "gloss",
+          "term": "childhood",
+          "gloss": "the time of person's life when they are a child  ",
+          "synsetOffset": 15147097,
+          "pos": "n"
+        },
+        {
+          "id": "3455488n",
+          "label": "a stone that is used to mark a grave",
+          "source": "gloss",
+          "term": "tombstone",
+          "gloss": "a stone that is used to mark a grave  ",
+          "synsetOffset": 3455488,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -1091,7 +1341,44 @@
         "page": 52,
         "title": "Library using"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "5813109n",
+          "label": "an object of extravagant short-lived passion",
+          "source": "gloss",
+          "term": "infatuation",
+          "gloss": "an object of extravagant short-lived passion  ",
+          "synsetOffset": 5813109,
+          "pos": "n"
+        },
+        {
+          "id": "606600v",
+          "label": "teach and impress by frequent repetitions or admonitions",
+          "source": "gloss",
+          "term": "inculcate",
+          "gloss": "teach and impress by frequent repetitions or admonitions; \"inculcate values into the young generation\"  ",
+          "synsetOffset": 606600,
+          "pos": "v"
+        },
+        {
+          "id": "494269v",
+          "label": "place or set apart",
+          "source": "gloss",
+          "term": "insulate",
+          "gloss": "place or set apart; \"They isolated the political prisoners from the other inmates\"  ",
+          "synsetOffset": 494269,
+          "pos": "v"
+        },
+        {
+          "id": "495038v",
+          "label": "protect from heat, cold, or noise by surrounding with insulating material",
+          "source": "gloss",
+          "term": "insulate",
+          "gloss": "protect from heat, cold, or noise by surrounding with insulating material; \"We had his bedroom insulated before winter came\"  ",
+          "synsetOffset": 495038,
+          "pos": "v"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -1121,8 +1408,8 @@
       "shelfMark": "DC001.54",
       "title": "Energy descending",
       "slug": "swedish-energy-descent-corn-goats",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A very cheap children's story, produced by a prior municipal authority, aligned against certain other social priorities.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 34,
@@ -1146,8 +1433,8 @@
       "shelfMark": "DC001.55",
       "title": "Scape goating",
       "slug": "scapegoats",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "They'll take blossoms along with leaves and twigs, though not oleander, lupines, larkspur, narcissus...",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 54,
@@ -1165,8 +1452,8 @@
         },
         {
           "id": "5611302n",
-          "label": "brain",
-          "source": "term",
+          "label": "that which is responsible for one's thoughts and feelings",
+          "source": "gloss",
           "term": "brain",
           "gloss": "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason; \"his mind wandered\"; \"I couldn't get his words out of my head\"  ",
           "synsetOffset": 5611302,
@@ -1195,8 +1482,8 @@
       "shelfMark": "DC001.56",
       "title": "Bird fooling",
       "slug": "mr-magoo-and-the-phalanstere",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "I followed once an anti-giraffe to his cousin's house, where this was playing on a small CRT television.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
@@ -1214,8 +1501,8 @@
         },
         {
           "id": "2734725n",
-          "label": "architecture",
-          "source": "term",
+          "label": "an architectural product or work",
+          "source": "gloss",
           "term": "architecture",
           "gloss": "an architectural product or work  ",
           "synsetOffset": 2734725,
@@ -1240,68 +1527,55 @@
       ]
     },
     {
-      "page": 57,
-      "shelfMark": "DC001.57",
-      "title": "Alayer turnpiking",
-      "slug": "abstraction-layer-turnpike",
-      "summary": "You are stopped on the thing on which you go.",
+      "page": 58,
+      "shelfMark": "DC001.58",
+      "title": "Cedar hatting",
+      "slug": "cedar-in-a-hat",
+      "summary": "The—what?—desperate ramblings? of a positivist, helplessly in love with someone who is—what?—the highest concrete representation of Humanity?",
       "hasSummary": true,
-      "stub": true,
+      "stub": false,
       "parent": {
         "page": 56,
         "title": "Bird fooling"
       },
       "words": [
         {
-          "id": "5700625n",
-          "label": "preoccupation with something to the exclusion of all else",
+          "id": "10780632n",
+          "label": "a married woman",
           "source": "gloss",
-          "term": "abstractedness",
-          "gloss": "preoccupation with something to the exclusion of all else  ",
-          "synsetOffset": 5700625,
+          "term": "wife",
+          "gloss": "a married woman; a man's partner in marriage  ",
+          "synsetOffset": 10780632,
           "pos": "n"
         },
         {
-          "id": "5854150n",
-          "label": "abstraction",
-          "source": "term",
-          "term": "abstraction",
-          "gloss": "a concept or idea not associated with any specific instance; \"he loved her only in the abstract--not in person\"  ",
-          "synsetOffset": 5854150,
+          "id": "14486274n",
+          "label": "a state in which all hope is lost or absent",
+          "source": "gloss",
+          "term": "desperation",
+          "gloss": "a state in which all hope is lost or absent; \"in the depths of despair\"; \"they were rescued from despair at the last minute\"; \"courage born of desperation\"  ",
+          "synsetOffset": 14486274,
+          "pos": "n"
+        },
+        {
+          "id": "8179689n",
+          "label": "people in general considered as a whole",
+          "source": "gloss",
+          "term": "world",
+          "gloss": "people in general considered as a whole; \"he is a hero in the eyes of the public\"  ",
+          "synsetOffset": 8179689,
           "pos": "n"
         }
       ],
-      "people": []
-    },
-    {
-      "page": 58,
-      "shelfMark": "DC001.58",
-      "title": "Cedar hatting",
-      "slug": "cedar-in-a-hat",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
-      "parent": {
-        "page": 56,
-        "title": "Bird fooling"
-      },
-      "words": [],
-      "people": []
-    },
-    {
-      "page": 59,
-      "shelfMark": "DC001.59",
-      "title": "Else saying",
-      "slug": "saying-something-else",
-      "summary": null,
-      "hasSummary": false,
-      "stub": false,
-      "parent": {
-        "page": 10,
-        "title": "Continued glossing"
-      },
-      "words": [],
-      "people": []
+      "people": [
+        {
+          "position": 1,
+          "name": "Paul Otlet",
+          "slug": "paul-otlet",
+          "birth": 1868,
+          "death": 1944
+        }
+      ]
     },
     {
       "page": 60,
@@ -1311,10 +1585,7 @@
       "summary": "A temporary architectural proposal for the natural surrounds of a celebration.",
       "hasSummary": true,
       "stub": false,
-      "parent": {
-        "page": 59,
-        "title": "Else saying"
-      },
+      "parent": null,
       "words": [
         {
           "id": "6770275n",
@@ -1327,8 +1598,8 @@
         },
         {
           "id": "14421585n",
-          "label": "marriage",
-          "source": "term",
+          "label": "a close and intimate union",
+          "source": "gloss",
           "term": "marriage",
           "gloss": "a close and intimate union; \"the marriage of music and dance\"; \"a marriage of ideas\"  ",
           "synsetOffset": 14421585,
@@ -1362,21 +1633,6 @@
       ]
     },
     {
-      "page": 62,
-      "shelfMark": "DC001.62",
-      "title": "Oracles surplusing",
-      "slug": "surplus-of-oracles",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
-      "parent": {
-        "page": 59,
-        "title": "Else saying"
-      },
-      "words": [],
-      "people": []
-    },
-    {
       "page": 66,
       "shelfMark": "DC001.66",
       "title": "Stock impersonating",
@@ -1388,7 +1644,44 @@
         "page": 40,
         "title": "Same dressing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "2866578n",
+          "label": "an explosive device fused to explode under specific conditions",
+          "source": "gloss",
+          "term": "bomb",
+          "gloss": "an explosive device fused to explode under specific conditions  ",
+          "synsetOffset": 2866578,
+          "pos": "n"
+        },
+        {
+          "id": "2248349a",
+          "label": "living together or enjoying life in communities or organized groups",
+          "source": "gloss",
+          "term": "social",
+          "gloss": "living together or enjoying life in communities or organized groups; \"a human being is a social animal\"; \"mature social behavior\"  ",
+          "synsetOffset": 2248349,
+          "pos": "a"
+        },
+        {
+          "id": "710005v",
+          "label": "plan and direct (a complex undertaking)",
+          "source": "gloss",
+          "term": "engineer",
+          "gloss": "plan and direct (a complex undertaking); \"he masterminded the robbery\"  ",
+          "synsetOffset": 710005,
+          "pos": "v"
+        },
+        {
+          "id": "4743024n",
+          "label": "exact sameness",
+          "source": "gloss",
+          "term": "identity",
+          "gloss": "exact sameness; \"they shared an identity of interests\"  ",
+          "synsetOffset": 4743024,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -1411,8 +1704,8 @@
       "shelfMark": "DC001.67",
       "title": "Underwater cabling",
       "slug": "underwater-cables",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "When the first cable failed, the first conversation: Q:\"Can you hear me?\" A: \"Can you hear me?\"",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 44,
@@ -1436,14 +1729,42 @@
       "shelfMark": "DC001.68",
       "title": "Regrets communing",
       "slug": "community-regrets",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Small endeavours are at the heart of large coalitions. Each constituent part—an audio recorder and cassettes, video camera and tapes, red pens, black pens, silver pens, a bulging wallet, a spiral notebook in a leather case, an enormous key ring on a long, retractable chain, an Olfa knife, sticky notes, old receipts, cutlery, condiments, a set of white, specially cut file folders—plays their part.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 10,
         "title": "Continued glossing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "3009111n",
+          "label": "a light four-wheel horse-drawn ceremonial carriage",
+          "source": "gloss",
+          "term": "chariot",
+          "gloss": "a light four-wheel horse-drawn ceremonial carriage  ",
+          "synsetOffset": 3009111,
+          "pos": "n"
+        },
+        {
+          "id": "2497062v",
+          "label": "grant freedom to",
+          "source": "gloss",
+          "term": "liberate",
+          "gloss": "grant freedom to; \"The students liberated their slaves upon graduating from the university\"  ",
+          "synsetOffset": 2497062,
+          "pos": "v"
+        },
+        {
+          "id": "7484547n",
+          "label": "a cherished desire",
+          "source": "gloss",
+          "term": "dream",
+          "gloss": "a cherished desire; \"his ambition is to own his own business\"  ",
+          "synsetOffset": 7484547,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -1451,8 +1772,8 @@
       "shelfMark": "DC001.69",
       "title": "Idiots moving",
       "slug": "extremely-fast-unseen-idiot",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Something of an arXiv abstract.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 67,
@@ -1470,8 +1791,8 @@
         },
         {
           "id": "13841213n",
-          "label": "reciprocity",
-          "source": "term",
+          "label": "a relation of mutual dependence or action or influence",
+          "source": "gloss",
           "term": "reciprocity",
           "gloss": "a relation of mutual dependence or action or influence  ",
           "synsetOffset": 13841213,
@@ -1504,8 +1825,8 @@
         },
         {
           "id": "4689450n",
-          "label": "fascination",
-          "source": "term",
+          "label": "the capacity to attract intense interest",
+          "source": "gloss",
           "term": "fascination",
           "gloss": "the capacity to attract intense interest; \"he held the children spellbound with magic tricks and other fascinations\"  ",
           "synsetOffset": 4689450,
@@ -1528,8 +1849,8 @@
       "shelfMark": "DC001.71",
       "title": "Real timing",
       "slug": "real-times",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The question of how to regularise presence has a long history, not that we'd recall it. Instead we're left with dronings-on like this one, lost in a non-clipped present.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 49,
@@ -1547,8 +1868,8 @@
         },
         {
           "id": "3548626n",
-          "label": "hull",
-          "source": "term",
+          "label": "the frame or body of ship",
+          "source": "gloss",
           "term": "hull",
           "gloss": "the frame or body of ship  ",
           "synsetOffset": 3548626,
@@ -1571,14 +1892,51 @@
       "shelfMark": "DC001.72",
       "title": "Piled clothing",
       "slug": "piles-of-clothing",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "On the other side of this pile of useless clothing, all of which, mostly the same, there's an inverse world of invasive ants, of course, all of which, mostly the same.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 70,
         "title": "Questions fascinating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1059711s",
+          "label": "securely fixed in place",
+          "source": "gloss",
+          "term": "fast",
+          "gloss": "securely fixed in place; \"the post was still firm after being hit by the car\"  ",
+          "synsetOffset": 1059711,
+          "pos": "s"
+        },
+        {
+          "id": "1270486s",
+          "label": "hurried and brief",
+          "source": "gloss",
+          "term": "fast",
+          "gloss": "hurried and brief; \"paid a flying visit\"; \"took a flying glance at the book\"; \"a quick inspection\"; \"a fast visit\"  ",
+          "synsetOffset": 1270486,
+          "pos": "s"
+        },
+        {
+          "id": "415226n",
+          "label": "characteristic or habitual practice",
+          "source": "gloss",
+          "term": "fashion",
+          "gloss": "characteristic or habitual practice  ",
+          "synsetOffset": 415226,
+          "pos": "n"
+        },
+        {
+          "id": "13923929n",
+          "label": "a particular functioning condition or arrangement",
+          "source": "gloss",
+          "term": "mode",
+          "gloss": "a particular functioning condition or arrangement; \"switched from keyboard to voice mode\"  ",
+          "synsetOffset": 13923929,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -1586,13 +1944,10 @@
       "shelfMark": "DC001.73",
       "title": "Exactly zeroing",
       "slug": "ot",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A devoted inscription, an attempt at apprehending an Instant.",
+      "hasSummary": true,
       "stub": false,
-      "parent": {
-        "page": 59,
-        "title": "Else saying"
-      },
+      "parent": null,
       "words": [
         {
           "id": "6000644n",
@@ -1605,11 +1960,20 @@
         },
         {
           "id": "15121625n",
-          "label": "future",
-          "source": "term",
+          "label": "the time yet to come",
+          "source": "gloss",
           "term": "future",
           "gloss": "the time yet to come  ",
           "synsetOffset": 15121625,
+          "pos": "n"
+        },
+        {
+          "id": "5813229n",
+          "label": "any object of warm affection or devotion",
+          "source": "gloss",
+          "term": "love",
+          "gloss": "any object of warm affection or devotion; \"the theater was her first love\"; \"he has a passion for cock fighting\";  ",
+          "synsetOffset": 5813229,
           "pos": "n"
         }
       ],
@@ -1627,16 +1991,52 @@
         "page": 40,
         "title": "Same dressing"
       },
-      "words": [],
-      "people": []
+      "words": [
+        {
+          "id": "281132n",
+          "label": "the act of approaching or entering",
+          "source": "gloss",
+          "term": "access",
+          "gloss": "the act of approaching or entering; \"he gained access to the building\"  ",
+          "synsetOffset": 281132,
+          "pos": "n"
+        },
+        {
+          "id": "1210816n",
+          "label": "the act of providing something (lodging or seat or food) to meet a need",
+          "source": "gloss",
+          "term": "accommodation",
+          "gloss": "the act of providing something (lodging or seat or food) to meet a need  ",
+          "synsetOffset": 1210816,
+          "pos": "n"
+        },
+        {
+          "id": "7177437n",
+          "label": "a settlement of differences",
+          "source": "gloss",
+          "term": "accommodation",
+          "gloss": "a settlement of differences; \"they reached an accommodation with Japan\"  ",
+          "synsetOffset": 7177437,
+          "pos": "n"
+        }
+      ],
+      "people": [
+        {
+          "position": 1,
+          "name": "Hirotsugu Akaike",
+          "slug": "hirotsugu-akaike",
+          "birth": 1927,
+          "death": 2009
+        }
+      ]
     },
     {
       "page": 75,
       "shelfMark": "DC001.75",
       "title": "Serpentine mining",
       "slug": "serpentine-mining",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The miner doesn’t preserve its language, the porous tissue of the leaf, it uses it up, to the horror of its respective imaginable Vocabula. Its communication results in poorness, leaf drop, reduced yield, wild troubles with the partial and cultivated usage of land.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 70,
@@ -1654,8 +2054,8 @@
         },
         {
           "id": "6646628n",
-          "label": "trace",
-          "source": "term",
+          "label": "an indication that something has been present",
+          "source": "gloss",
           "term": "trace",
           "gloss": "an indication that something has been present; \"there wasn't a trace of evidence for the claim\"; \"a tincture of condescension\"  ",
           "synsetOffset": 6646628,
@@ -1669,14 +2069,33 @@
       "shelfMark": "DC001.76",
       "title": "Fourier serialising",
       "slug": "book-440",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A novel which takes the form of a user's guide for a workstation only operable while asleep.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 49,
         "title": "Thermo easing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1916960v",
+          "label": "walk in one's sleep",
+          "source": "gloss",
+          "term": "sleepwalk",
+          "gloss": "walk in one's sleep  ",
+          "synsetOffset": 1916960,
+          "pos": "v"
+        },
+        {
+          "id": "6277803n",
+          "label": "the visible part of a television transmission",
+          "source": "gloss",
+          "term": "video",
+          "gloss": "the visible part of a television transmission; \"they could still receive the sound but the picture was gone\"  ",
+          "synsetOffset": 6277803,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -1684,6 +2103,13 @@
           "slug": "theodore-nelson",
           "birth": 1937,
           "death": null
+        },
+        {
+          "position": 2,
+          "name": "Anton Kippenberg",
+          "slug": "anton-kippenberg",
+          "birth": 1874,
+          "death": 1950
         }
       ]
     },
@@ -1711,8 +2137,8 @@
         },
         {
           "id": "9622302n",
-          "label": "lover",
-          "source": "term",
+          "label": "a person who loves someone or is loved by someone",
+          "source": "gloss",
           "term": "lover",
           "gloss": "a person who loves someone or is loved by someone  ",
           "synsetOffset": 9622302,
@@ -1729,8 +2155,8 @@
         },
         {
           "id": "13841213n",
-          "label": "reciprocity",
-          "source": "term",
+          "label": "a relation of mutual dependence or action or influence",
+          "source": "gloss",
           "term": "reciprocity",
           "gloss": "a relation of mutual dependence or action or influence  ",
           "synsetOffset": 13841213,
@@ -1778,8 +2204,8 @@
         },
         {
           "id": "8553132n",
-          "label": "enclave",
-          "source": "term",
+          "label": "an enclosed territory that is culturally distinct from the foreign territory that surrounds it",
+          "source": "gloss",
           "term": "enclave",
           "gloss": "an enclosed territory that is culturally distinct from the foreign territory that surrounds it  ",
           "synsetOffset": 8553132,
@@ -1802,14 +2228,42 @@
       "shelfMark": "DC001.79",
       "title": "Moment airing",
       "slug": "air-network-moments",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A biographical fragment of \"one of the first to foresee\".",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 46,
         "title": "Transport controlling"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "9491966n",
+          "label": "an imaginary creature usually having various human and animal parts",
+          "source": "gloss",
+          "term": "monster",
+          "gloss": "an imaginary creature usually having various human and animal parts  ",
+          "synsetOffset": 9491966,
+          "pos": "n"
+        },
+        {
+          "id": "5636887n",
+          "label": "ability to produce solutions in some problem domain",
+          "source": "gloss",
+          "term": "science",
+          "gloss": "ability to produce solutions in some problem domain; \"the skill of a well-trained boxer\"; \"the sweet science of pugilism\"  ",
+          "synsetOffset": 5636887,
+          "pos": "n"
+        },
+        {
+          "id": "13979977n",
+          "label": "a turbulent state resulting in injuries and destruction etc.",
+          "source": "gloss",
+          "term": "violence",
+          "gloss": "a turbulent state resulting in injuries and destruction etc.  ",
+          "synsetOffset": 13979977,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -1825,15 +2279,42 @@
       "shelfMark": "DC001.80",
       "title": "Exercise airing",
       "slug": "air-network-exercise",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "But issues about learning are seldom quite clear. A pro-dog friend tells me that some dogs can learn to look where you are pointing.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 46,
         "title": "Transport controlling"
       },
-      "words": [],
-      "people": []
+      "words": [
+        {
+          "id": "1089483n",
+          "label": "voluntary promotion of human welfare",
+          "source": "gloss",
+          "term": "philanthropy",
+          "gloss": "voluntary promotion of human welfare  ",
+          "synsetOffset": 1089483,
+          "pos": "n"
+        },
+        {
+          "id": "1841054s",
+          "label": "having a mental age of between eight and twelve years",
+          "source": "gloss",
+          "term": "moronic",
+          "gloss": "having a mental age of between eight and twelve years  ",
+          "synsetOffset": 1841054,
+          "pos": "s"
+        }
+      ],
+      "people": [
+        {
+          "position": 1,
+          "name": "Nicholas Negroponte",
+          "slug": "nicholas-negroponte",
+          "birth": 1943,
+          "death": null
+        }
+      ]
     },
     {
       "page": 81,
@@ -1859,8 +2340,8 @@
         },
         {
           "id": "6749729n",
-          "label": "meteorology",
-          "source": "term",
+          "label": "predicting what the weather will be",
+          "source": "gloss",
           "term": "meteorology",
           "gloss": "predicting what the weather will be  ",
           "synsetOffset": 6749729,
@@ -1882,8 +2363,8 @@
       "shelfMark": "DC001.82",
       "title": "Two folding",
       "slug": "fold-in-two",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "If you spin around quickly enough, you appear not to be spinning; you appear to 'finish consciousness'.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 76,
@@ -1901,8 +2382,8 @@
         },
         {
           "id": "4677385n",
-          "label": "format",
-          "source": "term",
+          "label": "the general appearance of a publication",
+          "source": "gloss",
           "term": "format",
           "gloss": "the general appearance of a publication  ",
           "synsetOffset": 4677385,
@@ -1943,8 +2424,8 @@
         },
         {
           "id": "13792842n",
-          "label": "communication",
-          "source": "term",
+          "label": "a connection allowing access between persons or places",
+          "source": "gloss",
           "term": "communication",
           "gloss": "a connection allowing access between persons or places; \"how many lines of communication can there be among four people?\"; \"a secret passageway provided communication between the two rooms\"  ",
           "synsetOffset": 13792842,
@@ -1996,14 +2477,42 @@
       "shelfMark": "DC001.84",
       "title": "Car naming",
       "slug": "cars",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
+      "summary": "Immense and versatile, these wheels arrived and sank in their over muchness.",
+      "hasSummary": true,
+      "stub": false,
       "parent": {
         "page": 83,
         "title": "Graphics turning"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1420337s",
+          "label": "characterized by romantic imagery",
+          "source": "gloss",
+          "term": "poetic",
+          "gloss": "characterized by romantic imagery; \"Turner's vision of the rainbow...was poetic\"  ",
+          "synsetOffset": 1420337,
+          "pos": "s"
+        },
+        {
+          "id": "560247v",
+          "label": "prove insufficient",
+          "source": "gloss",
+          "term": "fail",
+          "gloss": "prove insufficient; \"The water supply for the town failed after a long drought\"  ",
+          "synsetOffset": 560247,
+          "pos": "v"
+        },
+        {
+          "id": "6595056n",
+          "label": "a periodical that is published by a special interest group",
+          "source": "gloss",
+          "term": "organ",
+          "gloss": "a periodical that is published by a special interest group; \"the organ of the communist party\"  ",
+          "synsetOffset": 6595056,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -2011,14 +2520,42 @@
       "shelfMark": "DC001.85",
       "title": "Get starting",
       "slug": "getting-started",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "In the quasi-interior of an automobile, you can think about whatever you like.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 0,
         "title": "Ark refactoring"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "14440488n",
+          "label": "state of disgrace or loss of self-respect",
+          "source": "gloss",
+          "term": "humiliation",
+          "gloss": "state of disgrace or loss of self-respect  ",
+          "synsetOffset": 14440488,
+          "pos": "n"
+        },
+        {
+          "id": "5790452n",
+          "label": "a formal expression",
+          "source": "gloss",
+          "term": "pleasure",
+          "gloss": "a formal expression; \"he serves at the pleasure of the President\"  ",
+          "synsetOffset": 5790452,
+          "pos": "n"
+        },
+        {
+          "id": "7490713n",
+          "label": "a fundamental feeling that is hard to define but that people desire to experience",
+          "source": "gloss",
+          "term": "pleasure",
+          "gloss": "a fundamental feeling that is hard to define but that people desire to experience; \"he was tingling with pleasure\"  ",
+          "synsetOffset": 7490713,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -2026,14 +2563,51 @@
       "shelfMark": "DC001.86",
       "title": "Micro servicing",
       "slug": "microservice-demons",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The self-representations of a service manager, when asked what it can handle.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
         "title": "Scape goating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "14448333n",
+          "label": "a state of ill-being due to affliction or misfortune",
+          "source": "gloss",
+          "term": "misery",
+          "gloss": "a state of ill-being due to affliction or misfortune; \"the misery and wretchedness of those slums is intolerable\"  ",
+          "synsetOffset": 14448333,
+          "pos": "n"
+        },
+        {
+          "id": "14530836n",
+          "label": "the susceptibility of something to a particular treatment",
+          "source": "gloss",
+          "term": "capacity",
+          "gloss": "the susceptibility of something to a particular treatment; \"the capability of a metal to be fused\"  ",
+          "synsetOffset": 14530836,
+          "pos": "n"
+        },
+        {
+          "id": "5259823n",
+          "label": "a braid of hair at the back of the head",
+          "source": "gloss",
+          "term": "queue",
+          "gloss": "a braid of hair at the back of the head  ",
+          "synsetOffset": 5259823,
+          "pos": "n"
+        },
+        {
+          "id": "6494816n",
+          "label": "(information processing) an ordered list of tasks to be performed or messages to be transmitted",
+          "source": "gloss",
+          "term": "queue",
+          "gloss": "(information processing) an ordered list of tasks to be performed or messages to be transmitted  ",
+          "synsetOffset": 6494816,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -2041,14 +2615,42 @@
       "shelfMark": "DC001.87",
       "title": "Speech demoning",
       "slug": "speech-demon",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The only impression of the young apprentices, sometimes spirits, sometimes flies, upon whom slips of the tongue might be blamed.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 86,
         "title": "Micro servicing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1021128v",
+          "label": "clarify by giving an example of",
+          "source": "gloss",
+          "term": "illustrate",
+          "gloss": "clarify by giving an example of  ",
+          "synsetOffset": 1021128,
+          "pos": "v"
+        },
+        {
+          "id": "7125786n",
+          "label": "a word used in exclamations of confusion",
+          "source": "gloss",
+          "term": "devil",
+          "gloss": "a word used in exclamations of confusion; \"what the devil\"; \"the deuce with it\"; \"the dickens you say\"  ",
+          "synsetOffset": 7125786,
+          "pos": "n"
+        },
+        {
+          "id": "509100v",
+          "label": "mark, coat, cover, or stain with ink",
+          "source": "gloss",
+          "term": "ink",
+          "gloss": "mark, coat, cover, or stain with ink; \"he inked his finger\"  ",
+          "synsetOffset": 509100,
+          "pos": "v"
+        }
+      ],
       "people": []
     },
     {
@@ -2056,14 +2658,42 @@
       "shelfMark": "DC001.88",
       "title": "Demon communing",
       "slug": "community-demon",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "To be printed on a transparency and overlaid on various agricultural maps.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 86,
         "title": "Micro servicing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "12205694n",
+          "label": "a plant lacking a permanent woody stem",
+          "source": "gloss",
+          "term": "herb",
+          "gloss": "a plant lacking a permanent woody stem; many are flowering garden plants or potherbs; some having medicinal properties; some are pests  ",
+          "synsetOffset": 12205694,
+          "pos": "n"
+        },
+        {
+          "id": "14195315n",
+          "label": "a deficiency of red blood cells",
+          "source": "gloss",
+          "term": "anemia",
+          "gloss": "a deficiency of red blood cells  ",
+          "synsetOffset": 14195315,
+          "pos": "n"
+        },
+        {
+          "id": "1887474n",
+          "label": "any animals kept for use or profit",
+          "source": "gloss",
+          "term": "livestock",
+          "gloss": "any animals kept for use or profit  ",
+          "synsetOffset": 1887474,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -2090,8 +2720,8 @@
         },
         {
           "id": "4744814n",
-          "label": "likeness",
-          "source": "term",
+          "label": "similarity in appearance or character or nature between persons or things",
+          "source": "gloss",
           "term": "likeness",
           "gloss": "similarity in appearance or character or nature between persons or things; \"man created God in his own likeness\"  ",
           "synsetOffset": 4744814,
@@ -2129,14 +2759,33 @@
       "shelfMark": "DC001.90",
       "title": "Lip converging",
       "slug": "convergence",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "\"This phenomenon goes beyond mere coexistence, giving rise to an interdependence that redefines how [X] interacts with their [Y] to develop [Z].\"",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 53,
         "title": "Wear coating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "8195v",
+          "label": "wink briefly",
+          "source": "gloss",
+          "term": "bat",
+          "gloss": "wink briefly; \"bat one's eyelids\"  ",
+          "synsetOffset": 8195,
+          "pos": "v"
+        },
+        {
+          "id": "5863106n",
+          "label": "the approach of an infinite series to a finite limit",
+          "source": "gloss",
+          "term": "convergence",
+          "gloss": "the approach of an infinite series to a finite limit  ",
+          "synsetOffset": 5863106,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -2159,7 +2808,26 @@
         "page": 47,
         "title": "Straw heathering"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "5612358n",
+          "label": "the body of ideas that determine the knowledge that is intellectually certain at any particular time",
+          "source": "gloss",
+          "term": "episteme",
+          "gloss": "the body of ideas that determine the knowledge that is intellectually certain at any particular time  ",
+          "synsetOffset": 5612358,
+          "pos": "n"
+        },
+        {
+          "id": "5833683n",
+          "label": "something that causes great unhappiness",
+          "source": "gloss",
+          "term": "grief",
+          "gloss": "something that causes great unhappiness; \"her death was a great grief to John\"  ",
+          "synsetOffset": 5833683,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -2175,14 +2843,42 @@
       "shelfMark": "DC001.92",
       "title": "Magic leaping",
       "slug": "magic-leaps",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The proceeds of a conceptual childrens' nation, founded in the side channel of the fora for a conceptual adults' nation.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 66,
         "title": "Stock impersonating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "8168978n",
+          "label": "a politically organized body of people under a single government",
+          "source": "gloss",
+          "term": "nation",
+          "gloss": "a politically organized body of people under a single government; \"the state has elected a new president\"; \"African nations\"; \"students who had come to the nation's capitol\"; \"the country's largest manufacturer\"; \"an industrialized land\"  ",
+          "synsetOffset": 8168978,
+          "pos": "n"
+        },
+        {
+          "id": "7973241n",
+          "label": "the occupants of a building",
+          "source": "gloss",
+          "term": "building",
+          "gloss": "the occupants of a building; \"the entire building complained about the noise\"  ",
+          "synsetOffset": 7973241,
+          "pos": "n"
+        },
+        {
+          "id": "8683548n",
+          "label": "a wild and uninhabited area left in its natural condition",
+          "source": "gloss",
+          "term": "wild",
+          "gloss": "a wild and uninhabited area left in its natural condition; \"it was a wilderness preserved for the hawks and mountaineers\"  ",
+          "synsetOffset": 8683548,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -2224,8 +2920,8 @@
         },
         {
           "id": "1903756n",
-          "label": "shell",
-          "source": "term",
+          "label": "hard outer covering or case of certain organisms such as arthropods and turtles",
+          "source": "gloss",
           "term": "shell",
           "gloss": "hard outer covering or case of certain organisms such as arthropods and turtles  ",
           "synsetOffset": 1903756,
@@ -2242,8 +2938,8 @@
         },
         {
           "id": "342164v",
-          "label": "fall",
-          "source": "term",
+          "label": "come as if by falling",
+          "source": "gloss",
           "term": "fall",
           "gloss": "come as if by falling; \"Night fell\"; \"Silence fell\"  ",
           "synsetOffset": 342164,
@@ -2291,8 +2987,8 @@
         },
         {
           "id": "5935060n",
-          "label": "memory",
-          "source": "term",
+          "label": "something that is remembered",
+          "source": "gloss",
           "term": "memory",
           "gloss": "something that is remembered; \"search as he would, the memory was lost\"  ",
           "synsetOffset": 5935060,
@@ -2333,8 +3029,8 @@
         },
         {
           "id": "1083044v",
-          "label": "give up",
-          "source": "term",
+          "label": "give up in the face of defeat of lacking hope",
+          "source": "gloss",
           "term": "give up",
           "gloss": "give up in the face of defeat of lacking hope; admit defeat; \"In the second round, the challenger gave up\"  ",
           "synsetOffset": 1083044,
@@ -2356,14 +3052,42 @@
       "shelfMark": "DC001.97",
       "title": "Easy seeing",
       "slug": "easy-c",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "In syntonic reasoning, is the child a turtle or is the turtle a child?",
+      "hasSummary": true,
       "stub": true,
       "parent": {
         "page": 83,
         "title": "Graphics turning"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "7272084n",
+          "label": "a company emblem or device",
+          "source": "gloss",
+          "term": "logo",
+          "gloss": "a company emblem or device  ",
+          "synsetOffset": 7272084,
+          "pos": "n"
+        },
+        {
+          "id": "598954v",
+          "label": "get to know or become aware of, usually accidentally",
+          "source": "gloss",
+          "term": "learn",
+          "gloss": "get to know or become aware of, usually accidentally; \"I learned that she has two grown-up children\"; \"I see that you have been promoted\"  ",
+          "synsetOffset": 598954,
+          "pos": "v"
+        },
+        {
+          "id": "1893313v",
+          "label": "overturn accidentally",
+          "source": "gloss",
+          "term": "turtle",
+          "gloss": "overturn accidentally; \"Don't rock the boat or it will capsize!\"  ",
+          "synsetOffset": 1893313,
+          "pos": "v"
+        }
+      ],
       "people": []
     },
     {
@@ -2371,14 +3095,33 @@
       "shelfMark": "DC001.99",
       "title": "Anu rumbling",
       "slug": "kaneda",
-      "summary": "(Who left this on my table?) A note about an atom eater on what appears to be a take-away form. ",
+      "summary": "(Who left this on my table?) A note about an atom eater on what appears to be a take-away form.",
       "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 94,
         "title": "Nothing swerving"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "14585519n",
+          "label": "(nontechnical usage) a tiny piece of anything",
+          "source": "gloss",
+          "term": "atom",
+          "gloss": "(nontechnical usage) a tiny piece of anything  ",
+          "synsetOffset": 14585519,
+          "pos": "n"
+        },
+        {
+          "id": "7565083n",
+          "label": "the dishes making up a meal",
+          "source": "gloss",
+          "term": "menu",
+          "gloss": "the dishes making up a meal  ",
+          "synsetOffset": 7565083,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -2394,8 +3137,8 @@
       "shelfMark": "DC001.100",
       "title": "Pellicle shearing",
       "slug": "pellicle-and-gestalt",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "In this particular ergonomics, movement is best understood as a thin film of time forming on the air-liquid interface of space.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 44,
@@ -2413,8 +3156,8 @@
         },
         {
           "id": "13482330n",
-          "label": "flow",
-          "source": "term",
+          "label": "any uninterrupted stream or discharge",
+          "source": "gloss",
           "term": "flow",
           "gloss": "any uninterrupted stream or discharge  ",
           "synsetOffset": 13482330,
@@ -2437,8 +3180,8 @@
       "shelfMark": "DC001.101",
       "title": "Mascot shaping",
       "slug": "a-mascot",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A self-defensive observation on the modulations and demodulations of a poor little creature.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 84,
@@ -2456,8 +3199,8 @@
         },
         {
           "id": "1639765n",
-          "label": "frog",
-          "source": "term",
+          "label": "any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+          "source": "gloss",
           "term": "frog",
           "gloss": "any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species  ",
           "synsetOffset": 1639765,
@@ -2474,8 +3217,8 @@
         },
         {
           "id": "6757891n",
-          "label": "fable",
-          "source": "term",
+          "label": "a deliberately false or improbable account",
+          "source": "gloss",
           "term": "fable",
           "gloss": "a deliberately false or improbable account  ",
           "synsetOffset": 6757891,
@@ -2497,14 +3240,33 @@
       "shelfMark": "DC001.102",
       "title": "Mascot appearing",
       "slug": "a-mascot-2",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A pathetic diagram of a self-defensive observation on the modulations and demodulations of a poor little creature.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 84,
         "title": "Car naming"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "3398382n",
+          "label": "a decorative loop of braid or cord",
+          "source": "gloss",
+          "term": "frog",
+          "gloss": "a decorative loop of braid or cord  ",
+          "synsetOffset": 3398382,
+          "pos": "n"
+        },
+        {
+          "id": "2558703v",
+          "label": "destroy or break",
+          "source": "gloss",
+          "term": "dash",
+          "gloss": "destroy or break; \"dashed ambitions and hopes\"  ",
+          "synsetOffset": 2558703,
+          "pos": "v"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -2579,8 +3341,8 @@
         },
         {
           "id": "5927813n",
-          "label": "schema",
-          "source": "term",
+          "label": "an internal representation of the world",
+          "source": "gloss",
           "term": "schema",
           "gloss": "an internal representation of the world; an organization of concepts and actions that can be revised by new information about the world  ",
           "synsetOffset": 5927813,
@@ -2597,8 +3359,8 @@
         },
         {
           "id": "293253r",
-          "label": "counter",
-          "source": "term",
+          "label": "in the opposite direction",
+          "source": "gloss",
           "term": "counter",
           "gloss": "in the opposite direction; \"run counter\"  ",
           "synsetOffset": 293253,
@@ -2628,7 +3390,53 @@
         "page": 1,
         "title": "Colourless hopping"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "916464n",
+          "label": "the practice of cultivating the land or raising stock",
+          "source": "gloss",
+          "term": "husbandry",
+          "gloss": "the practice of cultivating the land or raising stock  ",
+          "synsetOffset": 916464,
+          "pos": "n"
+        },
+        {
+          "id": "1887474n",
+          "label": "any animals kept for use or profit",
+          "source": "gloss",
+          "term": "livestock",
+          "gloss": "any animals kept for use or profit  ",
+          "synsetOffset": 1887474,
+          "pos": "n"
+        },
+        {
+          "id": "1002297v",
+          "label": "record in detail",
+          "source": "gloss",
+          "term": "document",
+          "gloss": "record in detail; \"The parents documented every step of their child's development\"  ",
+          "synsetOffset": 1002297,
+          "pos": "v"
+        },
+        {
+          "id": "1486854s",
+          "label": "being two identical",
+          "source": "gloss",
+          "term": "twin",
+          "gloss": "being two identical  ",
+          "synsetOffset": 1486854,
+          "pos": "s"
+        },
+        {
+          "id": "1292885v",
+          "label": "bring two objects, ideas, or people together",
+          "source": "gloss",
+          "term": "twin",
+          "gloss": "bring two objects, ideas, or people together; \"This fact is coupled to the other one\"; \"Matchmaker, can you match my daughter with a nice young man?\"; \"The student was paired with a partner for collaboration on the project\"  ",
+          "synsetOffset": 1292885,
+          "pos": "v"
+        }
+      ],
       "people": []
     },
     {
@@ -2636,8 +3444,8 @@
       "shelfMark": "DC001.106",
       "title": "Stanford watching",
       "slug": "stanford-bunny-linocut",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "The grass grew long enough for the ceramic figurine to slip its fate, and instead become a sleeping hlessi.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 1,
@@ -2651,6 +3459,15 @@
           "term": "species",
           "gloss": "a specific kind of something; \"a species of molecule\"; \"a species of villainy\"  ",
           "synsetOffset": 5844881,
+          "pos": "n"
+        },
+        {
+          "id": "10324851n",
+          "label": "someone worthy of imitation",
+          "source": "gloss",
+          "term": "model",
+          "gloss": "someone worthy of imitation; \"every child needs a role model\"  ",
+          "synsetOffset": 10324851,
           "pos": "n"
         }
       ],
@@ -2680,8 +3497,8 @@
         },
         {
           "id": "9604981n",
-          "label": "self",
-          "source": "term",
+          "label": "a person considered as a unique individual",
+          "source": "gloss",
           "term": "self",
           "gloss": "a person considered as a unique individual; \"one's own self\"  ",
           "synsetOffset": 9604981,
@@ -2710,8 +3527,8 @@
       "shelfMark": "DC001.109",
       "title": "Be causing",
       "slug": "because",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "When you think about traffic, do you think about fireworks?",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 10,
@@ -2735,8 +3552,8 @@
       "shelfMark": "DC001.111",
       "title": "Likeness summing",
       "slug": "likeness",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Oh, I can't really tell you.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 96,
@@ -2779,8 +3596,8 @@
         },
         {
           "id": "5764779n",
-          "label": "interface",
-          "source": "term",
+          "label": "the overlap where two theories or phenomena affect each other or have links with each other",
+          "source": "gloss",
           "term": "interface",
           "gloss": "the overlap where two theories or phenomena affect each other or have links with each other; \"the interface between chemistry and biology\"  ",
           "synsetOffset": 5764779,
@@ -2837,8 +3654,8 @@
         },
         {
           "id": "7484547n",
-          "label": "dream",
-          "source": "term",
+          "label": "a cherished desire",
+          "source": "gloss",
           "term": "dream",
           "gloss": "a cherished desire; \"his ambition is to own his own business\"  ",
           "synsetOffset": 7484547,
@@ -2876,12 +3693,12 @@
       "shelfMark": "DC001.114",
       "title": "Forest exporting",
       "slug": "export-layer-forest",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "\"Thus: not the individual person moving through a system of objects, but the object proceeding through the system of people.\"",
+      "hasSummary": true,
       "stub": true,
       "parent": {
-        "page": 57,
-        "title": "Alayer turnpiking"
+        "page": 56,
+        "title": "Bird fooling"
       },
       "words": [
         {
@@ -2937,21 +3754,6 @@
       ]
     },
     {
-      "page": 116,
-      "shelfMark": "DC001.116",
-      "title": "Fall and stirring",
-      "slug": "fall-and-stir",
-      "summary": null,
-      "hasSummary": false,
-      "stub": true,
-      "parent": {
-        "page": 56,
-        "title": "Bird fooling"
-      },
-      "words": [],
-      "people": []
-    },
-    {
       "page": 117,
       "shelfMark": "DC001.117",
       "title": "Lieu being",
@@ -2975,8 +3777,8 @@
         },
         {
           "id": "5696425n",
-          "label": "replacement",
-          "source": "term",
+          "label": "a person or thing that takes or can take the place of another",
+          "source": "gloss",
           "term": "replacement",
           "gloss": "a person or thing that takes or can take the place of another  ",
           "synsetOffset": 5696425,
@@ -2998,14 +3800,60 @@
       "shelfMark": "DC001.118",
       "title": "Platform reading",
       "slug": "platform",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "This is really my best explanation, the one that uses the worst abstractions, the ones that terrifically embarrass me, but the ones that I find myself thinking in, on your behalf. (You? squirrel? acorn?)",
+      "hasSummary": true,
       "stub": true,
       "parent": {
         "page": 104,
         "title": "Schema calling"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "883297n",
+          "label": "the activities of educating or instructing",
+          "source": "gloss",
+          "term": "instruction",
+          "gloss": "the activities of educating or instructing; activities that impart knowledge or skill; \"he received no formal education\"; \"our instruction was carefully programmed\"; \"good classroom teaching is seldom rewarded\"  ",
+          "synsetOffset": 883297,
+          "pos": "n"
+        },
+        {
+          "id": "199463s",
+          "label": "exerting control or influence",
+          "source": "gloss",
+          "term": "guiding",
+          "gloss": "exerting control or influence; \"a guiding principle\"  ",
+          "synsetOffset": 199463,
+          "pos": "s"
+        },
+        {
+          "id": "12267677n",
+          "label": "fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base",
+          "source": "gloss",
+          "term": "acorn",
+          "gloss": "fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base  ",
+          "synsetOffset": 12267677,
+          "pos": "n"
+        },
+        {
+          "id": "526062s",
+          "label": "broad in scope or content",
+          "source": "gloss",
+          "term": "blanket",
+          "gloss": "broad in scope or content; \"across-the-board pay increases\"; \"an all-embracing definition\"; \"blanket sanctions against human-rights violators\"; \"an invention with broad applications\"; \"a panoptic study of Soviet nationality\"- T.G.Winner; \"granted him wide powers\"  ",
+          "synsetOffset": 526062,
+          "pos": "s"
+        },
+        {
+          "id": "9223725n",
+          "label": "anything that covers",
+          "source": "gloss",
+          "term": "blanket",
+          "gloss": "anything that covers; \"there was a blanket of snow\"  ",
+          "synsetOffset": 9223725,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3057,8 +3905,8 @@
         },
         {
           "id": "5840431n",
-          "label": "nature",
-          "source": "term",
+          "label": "a particular type of thing",
+          "source": "gloss",
           "term": "nature",
           "gloss": "a particular type of thing; \"problems of this type are very difficult to solve\"; \"he's interested in trains and things of that nature\"; \"matters of a personal nature\"  ",
           "synsetOffset": 5840431,
@@ -3072,14 +3920,24 @@
       "shelfMark": "DC001.121",
       "title": "Myotonic pleading",
       "slug": "myotonia",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A little domestic scheme or scene. By the by, I only found this scrap nine years later, and today, let me tell you, there are ever many more ways to describe it.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
         "title": "Scape goating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1054876n",
+          "label": "the act of living together and having a sexual relationship (especially without being married)",
+          "source": "gloss",
+          "term": "cohabitation",
+          "gloss": "the act of living together and having a sexual relationship (especially without being married)  ",
+          "synsetOffset": 1054876,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3087,14 +3945,42 @@
       "shelfMark": "DC001.123",
       "title": "More scapegoating",
       "slug": "more-scapegoats",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "\"A particle system is a computer graphics technique that uses a vast collection of many small, simple images, points, or meshes to simulate complex, fuzzy, or chaotic natural phenomena like fire, smoke, rain, [or clouds].\"",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
         "title": "Scape goating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1209220n",
+          "label": "assistance in time of difficulty",
+          "source": "gloss",
+          "term": "relief",
+          "gloss": "assistance in time of difficulty; \"the contributions provided some relief for the victims\"  ",
+          "synsetOffset": 1209220,
+          "pos": "n"
+        },
+        {
+          "id": "1867295a",
+          "label": "having the ability to produce or originate",
+          "source": "gloss",
+          "term": "generative",
+          "gloss": "having the ability to produce or originate; \"generative power\"; \"generative forces\"  ",
+          "synsetOffset": 1867295,
+          "pos": "a"
+        },
+        {
+          "id": "1898731n",
+          "label": "growth of hair or wool or fur covering the body of an animal",
+          "source": "gloss",
+          "term": "coat",
+          "gloss": "growth of hair or wool or fur covering the body of an animal  ",
+          "synsetOffset": 1898731,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3102,14 +3988,42 @@
       "shelfMark": "DC001.124",
       "title": "Scapegoats scapegoating",
       "slug": "scapegoats-scapegoat",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Capsules like these make a book particular, allowing a certain congress, don't you think? The world isn't perfect, of course, but that's not an excuse to not take part.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 55,
         "title": "Scape goating"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "6346891n",
+          "label": "brief description accompanying an illustration",
+          "source": "gloss",
+          "term": "legend",
+          "gloss": "brief description accompanying an illustration  ",
+          "synsetOffset": 6346891,
+          "pos": "n"
+        },
+        {
+          "id": "5317191n",
+          "label": "a structure that encloses a body part",
+          "source": "gloss",
+          "term": "capsule",
+          "gloss": "a structure that encloses a body part  ",
+          "synsetOffset": 5317191,
+          "pos": "n"
+        },
+        {
+          "id": "13135832n",
+          "label": "a small hard fruit",
+          "source": "gloss",
+          "term": "seed",
+          "gloss": "a small hard fruit  ",
+          "synsetOffset": 13135832,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3186,8 +4100,8 @@
         },
         {
           "id": "15121625n",
-          "label": "future",
-          "source": "term",
+          "label": "the time yet to come",
+          "source": "gloss",
           "term": "future",
           "gloss": "the time yet to come  ",
           "synsetOffset": 15121625,
@@ -3256,14 +4170,42 @@
       "shelfMark": "DC001.133",
       "title": "End to ending",
       "slug": "e2e",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "If you ran into Eliza, years later, in a greenhouse or a shopping centre.",
+      "hasSummary": true,
       "stub": true,
       "parent": {
         "page": 104,
         "title": "Schema calling"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "974159s",
+          "label": "out of fashion",
+          "source": "gloss",
+          "term": "ex",
+          "gloss": "out of fashion; \"a suit of rather antique appearance\"; \"demode (or outmoded) attire\"; \"outmoded ideas\"  ",
+          "synsetOffset": 974159,
+          "pos": "s"
+        },
+        {
+          "id": "10020533n",
+          "label": "a woman who was formerly a particular man's wife",
+          "source": "gloss",
+          "term": "ex",
+          "gloss": "a woman who was formerly a particular man's wife; \"all his exes live in Texas\"  ",
+          "synsetOffset": 10020533,
+          "pos": "n"
+        },
+        {
+          "id": "10194231n",
+          "label": "a man who was formerly a certain woman's husband",
+          "source": "gloss",
+          "term": "ex",
+          "gloss": "a man who was formerly a certain woman's husband  ",
+          "synsetOffset": 10194231,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3274,11 +4216,27 @@
       "summary": "(Programming without programmers)",
       "hasSummary": true,
       "stub": true,
-      "parent": {
-        "page": 59,
-        "title": "Else saying"
-      },
-      "words": [],
+      "parent": null,
+      "words": [
+        {
+          "id": "6330401n",
+          "label": "a verb tense that expresses actions or states in the future",
+          "source": "gloss",
+          "term": "future",
+          "gloss": "a verb tense that expresses actions or states in the future  ",
+          "synsetOffset": 6330401,
+          "pos": "n"
+        },
+        {
+          "id": "7427060n",
+          "label": "any weakening or degeneration (especially through lack of use)",
+          "source": "gloss",
+          "term": "atrophy",
+          "gloss": "any weakening or degeneration (especially through lack of use)  ",
+          "synsetOffset": 7427060,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3286,14 +4244,33 @@
       "shelfMark": "DC001.135",
       "title": "Not falling, stirring",
       "slug": "not-falling-stirring",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A more or less hand-colourised scene of a family in remembrance",
+      "hasSummary": true,
       "stub": false,
       "parent": {
-        "page": 116,
-        "title": "Fall and stirring"
+        "page": 56,
+        "title": "Bird fooling"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "5813229n",
+          "label": "any object of warm affection or devotion",
+          "source": "gloss",
+          "term": "love",
+          "gloss": "any object of warm affection or devotion; \"the theater was her first love\"; \"he has a passion for cock fighting\";  ",
+          "synsetOffset": 5813229,
+          "pos": "n"
+        },
+        {
+          "id": "13809920n",
+          "label": "a small part that can be considered separately from the whole",
+          "source": "gloss",
+          "term": "particular",
+          "gloss": "a small part that can be considered separately from the whole; \"it was perfect in all details\"  ",
+          "synsetOffset": 13809920,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3308,7 +4285,26 @@
         "page": 1,
         "title": "Colourless hopping"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "1007222v",
+          "label": "send cables, wires, or telegrams",
+          "source": "gloss",
+          "term": "telegraph",
+          "gloss": "send cables, wires, or telegrams  ",
+          "synsetOffset": 1007222,
+          "pos": "v"
+        },
+        {
+          "id": "4628747n",
+          "label": "temperament or disposition",
+          "source": "gloss",
+          "term": "blood",
+          "gloss": "temperament or disposition; \"a person of hot blood\"  ",
+          "synsetOffset": 4628747,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3335,8 +4331,8 @@
         },
         {
           "id": "7473441n",
-          "label": "victory",
-          "source": "term",
+          "label": "a successful ending of a struggle or contest",
+          "source": "gloss",
           "term": "victory",
           "gloss": "a successful ending of a struggle or contest; \"a narrow victory\"; \"the general always gets credit for his army's victory\"; \"clinched a victory\"; \"convincing victory\"; \"the agreement was a triumph for common sense\"  ",
           "synsetOffset": 7473441,
@@ -3378,8 +4374,8 @@
         },
         {
           "id": "7478318n",
-          "label": "faint",
-          "source": "term",
+          "label": "a spontaneous loss of consciousness caused by insufficient blood to the brain",
+          "source": "gloss",
           "term": "faint",
           "gloss": "a spontaneous loss of consciousness caused by insufficient blood to the brain  ",
           "synsetOffset": 7478318,
@@ -3420,8 +4416,8 @@
         },
         {
           "id": "1021119n",
-          "label": "echo",
-          "source": "term",
+          "label": "an imitation or repetition",
+          "source": "gloss",
           "term": "echo",
           "gloss": "an imitation or repetition; \"the flower arrangement was created as an echo of a client's still life\"  ",
           "synsetOffset": 1021119,
@@ -3478,8 +4474,8 @@
         },
         {
           "id": "4632157n",
-          "label": "spirit",
-          "source": "term",
+          "label": "animation and energy in action or expression",
+          "source": "gloss",
           "term": "spirit",
           "gloss": "animation and energy in action or expression; \"it was a heavy play and the actors tried in vain to give life to it\"  ",
           "synsetOffset": 4632157,
@@ -3536,8 +4532,8 @@
         },
         {
           "id": "7294550n",
-          "label": "fruit",
-          "source": "term",
+          "label": "the consequence of some effort or action",
+          "source": "gloss",
           "term": "fruit",
           "gloss": "the consequence of some effort or action; \"he lived long enough to see the fruit of his policies\"  ",
           "synsetOffset": 7294550,
@@ -3559,14 +4555,33 @@
       "shelfMark": "DC001.142",
       "title": "Pages startling",
       "slug": "aldus",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A kind of wish fulfilment: if only diagrams were subject to epicormic growth.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 69,
         "title": "Idiots moving"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "3417345n",
+          "label": "a plot of ground where plants are cultivated",
+          "source": "gloss",
+          "term": "garden",
+          "gloss": "a plot of ground where plants are cultivated  ",
+          "synsetOffset": 3417345,
+          "pos": "n"
+        },
+        {
+          "id": "8662570n",
+          "label": "a region resembling a laboratory inasmuch as it offers opportunities for observation and practice and experimentation",
+          "source": "gloss",
+          "term": "laboratory",
+          "gloss": "a region resembling a laboratory inasmuch as it offers opportunities for observation and practice and experimentation; \"the new nation is a testing ground for socioeconomic theories\"; \"Pakistan is a laboratory for studying the use of American troops to combat terrorism\"  ",
+          "synsetOffset": 8662570,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3574,14 +4589,51 @@
       "shelfMark": "DC001.143",
       "title": "Unicorns toiling",
       "slug": "unicorns",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A cedere of cedar, a censer in the muzzle, a mouth that tips, a toothy utility.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 140,
         "title": "Affinity electing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "6757891n",
+          "label": "a deliberately false or improbable account",
+          "source": "gloss",
+          "term": "fable",
+          "gloss": "a deliberately false or improbable account  ",
+          "synsetOffset": 6757891,
+          "pos": "n"
+        },
+        {
+          "id": "6372095n",
+          "label": "a short moral story (often with animal characters)",
+          "source": "gloss",
+          "term": "fable",
+          "gloss": "a short moral story (often with animal characters)  ",
+          "synsetOffset": 6372095,
+          "pos": "n"
+        },
+        {
+          "id": "3570372n",
+          "label": "the basic structure or features of a system or organization",
+          "source": "gloss",
+          "term": "infrastructure",
+          "gloss": "the basic structure or features of a system or organization  ",
+          "synsetOffset": 3570372,
+          "pos": "n"
+        },
+        {
+          "id": "14448333n",
+          "label": "a state of ill-being due to affliction or misfortune",
+          "source": "gloss",
+          "term": "misery",
+          "gloss": "a state of ill-being due to affliction or misfortune; \"the misery and wretchedness of those slums is intolerable\"  ",
+          "synsetOffset": 14448333,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -3608,8 +4660,8 @@
         },
         {
           "id": "5293268n",
-          "label": "agonist",
-          "source": "term",
+          "label": "a muscle that contracts while another relaxes",
+          "source": "gloss",
           "term": "agonist",
           "gloss": "a muscle that contracts while another relaxes; \"when bending the elbow the biceps are the agonist\"  ",
           "synsetOffset": 5293268,
@@ -3651,8 +4703,8 @@
         },
         {
           "id": "7186148n",
-          "label": "invitation",
-          "source": "term",
+          "label": "a request (spoken or written) to participate or be present or take part in something",
+          "source": "gloss",
           "term": "invitation",
           "gloss": "a request (spoken or written) to participate or be present or take part in something; \"an invitation to lunch\"; \"she threw the invitation away\"  ",
           "synsetOffset": 7186148,
@@ -3688,8 +4740,8 @@
       "shelfMark": "DC001.146",
       "title": "Light registering",
       "slug": "light-registrar",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Poor alignment causes blurry images, double lines, or fuzzy color halos.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 138,
@@ -3707,8 +4759,8 @@
         },
         {
           "id": "504660n",
-          "label": "bingo",
-          "source": "term",
+          "label": "a game in which numbered balls are drawn at random and players cover the corresponding numbers on their cards",
+          "source": "gloss",
           "term": "bingo",
           "gloss": "a game in which numbered balls are drawn at random and players cover the corresponding numbers on their cards  ",
           "synsetOffset": 504660,
@@ -3758,8 +4810,8 @@
         },
         {
           "id": "4652635n",
-          "label": "sociality",
-          "source": "term",
+          "label": "the tendency to associate with others and to form social groups",
+          "source": "gloss",
           "term": "sociality",
           "gloss": "the tendency to associate with others and to form social groups; \"mammals as a class are not strong on sociality\"  ",
           "synsetOffset": 4652635,
@@ -3790,14 +4842,42 @@
       "shelfMark": "DC001.148",
       "title": "Net fruiting",
       "slug": "netfruit",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A definitional document that relies on a dissolution into description, solely in order to develop reproductive structures that hold seeds or spores.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 147,
         "title": "Fruit netting"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "376106v",
+          "label": "become or cause to become soft or liquid",
+          "source": "gloss",
+          "term": "dissolve",
+          "gloss": "become or cause to become soft or liquid; \"The sun melted the ice\"; \"the ice thawed\"; \"the ice cream melted\"; \"The heat melted the wax\"; \"The giant iceberg dissolved over the years during the global warming phase\"; \"dethaw the meat\"  ",
+          "synsetOffset": 376106,
+          "pos": "v"
+        },
+        {
+          "id": "507927r",
+          "label": "in each other's company",
+          "source": "gloss",
+          "term": "together",
+          "gloss": "in each other's company; \"we went to the movies together\"; \"the family that prays together stays together\"  ",
+          "synsetOffset": 507927,
+          "pos": "r"
+        },
+        {
+          "id": "1308381v",
+          "label": "put something back where it belongs",
+          "source": "gloss",
+          "term": "replace",
+          "gloss": "put something back where it belongs; \"replace the book on the shelf after you have finished reading it\"; \"please put the clean dishes back in the cabinet when you have washed them\"  ",
+          "synsetOffset": 1308381,
+          "pos": "v"
+        }
+      ],
       "people": []
     },
     {
@@ -3824,8 +4904,8 @@
         },
         {
           "id": "6362953n",
-          "label": "writing",
-          "source": "term",
+          "label": "the work of a writer",
+          "source": "gloss",
           "term": "writing",
           "gloss": "the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect); \"the writing in her novels is excellent\"; \"that editorial was a fine piece of writing\"  ",
           "synsetOffset": 6362953,
@@ -3866,8 +4946,8 @@
         },
         {
           "id": "1624169v",
-          "label": "machine",
-          "source": "term",
+          "label": "turn, shape, mold, or otherwise finish by machinery",
+          "source": "gloss",
           "term": "machine",
           "gloss": "turn, shape, mold, or otherwise finish by machinery  ",
           "synsetOffset": 1624169,
@@ -3908,8 +4988,8 @@
         },
         {
           "id": "15245515n",
-          "label": "time",
-          "source": "term",
+          "label": "a suitable moment",
+          "source": "gloss",
           "term": "time",
           "gloss": "a suitable moment; \"it is time to go\"  ",
           "synsetOffset": 15245515,
@@ -3959,8 +5039,8 @@
         },
         {
           "id": "5661996n",
-          "label": "system",
-          "source": "term",
+          "label": "a complex of methods or rules governing behavior",
+          "source": "gloss",
           "term": "system",
           "gloss": "a complex of methods or rules governing behavior; \"they have to operate under a system they oppose\"; \"that language has a complex system for indicating gender\"  ",
           "synsetOffset": 5661996,
@@ -4001,8 +5081,8 @@
         },
         {
           "id": "6254915n",
-          "label": "aether",
-          "source": "term",
+          "label": "a medium that was once supposed to fill all space and to support the propagation of electromagnetic waves",
+          "source": "gloss",
           "term": "aether",
           "gloss": "a medium that was once supposed to fill all space and to support the propagation of electromagnetic waves  ",
           "synsetOffset": 6254915,
@@ -4040,14 +5120,51 @@
       "shelfMark": "DC001.155",
       "title": "Things friending",
       "slug": "friendly-things",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "You don't need to have read or seen them to know they are the same. At least, I think that is the case.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 51,
         "title": "Documentation waiting"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "2749953n",
+          "label": "a unit consisting of components that have been fitted together",
+          "source": "gloss",
+          "term": "assembly",
+          "gloss": "a unit consisting of components that have been fitted together  ",
+          "synsetOffset": 2749953,
+          "pos": "n"
+        },
+        {
+          "id": "13979064n",
+          "label": "lack of agreement or harmony",
+          "source": "gloss",
+          "term": "strife",
+          "gloss": "lack of agreement or harmony  ",
+          "synsetOffset": 13979064,
+          "pos": "n"
+        },
+        {
+          "id": "5813229n",
+          "label": "any object of warm affection or devotion",
+          "source": "gloss",
+          "term": "love",
+          "gloss": "any object of warm affection or devotion; \"the theater was her first love\"; \"he has a passion for cock fighting\";  ",
+          "synsetOffset": 5813229,
+          "pos": "n"
+        },
+        {
+          "id": "7484547n",
+          "label": "a cherished desire",
+          "source": "gloss",
+          "term": "dream",
+          "gloss": "a cherished desire; \"his ambition is to own his own business\"  ",
+          "synsetOffset": 7484547,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -4063,14 +5180,42 @@
       "shelfMark": "DC001.156",
       "title": "Mission closing",
       "slug": "mission",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "A perfect vocation as given.",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 96,
         "title": "Ability seeing"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "7456188n",
+          "label": "an occasion on which a winner is selected from among two or more contestants",
+          "source": "gloss",
+          "term": "competition",
+          "gloss": "an occasion on which a winner is selected from among two or more contestants  ",
+          "synsetOffset": 7456188,
+          "pos": "n"
+        },
+        {
+          "id": "5625465n",
+          "label": "the formation of a mental image of something that is not perceived as real and is not present to the senses",
+          "source": "gloss",
+          "term": "vision",
+          "gloss": "the formation of a mental image of something that is not perceived as real and is not present to the senses; \"popular imagination created a world of demons\"; \"imagination reveals what the world could be\"  ",
+          "synsetOffset": 5625465,
+          "pos": "n"
+        },
+        {
+          "id": "5091770n",
+          "label": "a measure of how likely it is that some event will occur",
+          "source": "gloss",
+          "term": "probability",
+          "gloss": "a measure of how likely it is that some event will occur; a number expressing the ratio of favorable cases to the whole number of cases possible; \"the probability that an unbiased coin will fall with the head up is 0.5\"  ",
+          "synsetOffset": 5091770,
+          "pos": "n"
+        }
+      ],
       "people": []
     },
     {
@@ -4085,7 +5230,35 @@
         "page": 101,
         "title": "Mascot shaping"
       },
-      "words": [],
+      "words": [
+        {
+          "id": "999787n",
+          "label": "the act of adjusting something to match a standard",
+          "source": "gloss",
+          "term": "registration",
+          "gloss": "the act of adjusting something to match a standard  ",
+          "synsetOffset": 999787,
+          "pos": "n"
+        },
+        {
+          "id": "7450842n",
+          "label": "a formal event performed on a special occasion",
+          "source": "gloss",
+          "term": "ceremony",
+          "gloss": "a formal event performed on a special occasion; \"a ceremony commemorating Pearl Harbor\"  ",
+          "synsetOffset": 7450842,
+          "pos": "n"
+        },
+        {
+          "id": "6889138n",
+          "label": "something or someone seen (especially a notable or unusual sight)",
+          "source": "gloss",
+          "term": "spectacle",
+          "gloss": "something or someone seen (especially a notable or unusual sight); \"the tragic spectacle of cripples trying to escape\"  ",
+          "synsetOffset": 6889138,
+          "pos": "n"
+        }
+      ],
       "people": [
         {
           "position": 1,
@@ -4101,8 +5274,8 @@
       "shelfMark": "DC001.158",
       "title": "Wasps alighting",
       "slug": "wasps-alighting",
-      "summary": null,
-      "hasSummary": false,
+      "summary": "Stay Calm; Do Not Swat; Gently Blow or Wait",
+      "hasSummary": true,
       "stub": false,
       "parent": {
         "page": 75,

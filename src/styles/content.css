@@ -1042,6 +1042,33 @@
     margin-bottom: 0;
 }
 
+/* Making a person from inside the piece editor: name and dates, nothing more. */
+.person-draft {
+    display: flex;
+    gap: 0.4rem;
+    align-items: flex-start;
+    margin: -0.5rem 0 1rem;
+}
+
+.person-draft input[type="text"] {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+}
+
+.person-draft-year {
+    flex: 0 1 6rem !important;
+}
+
+.person-draft button {
+    margin: 0 !important;
+}
+
+.person-note {
+    margin: -0.5rem 0 1rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
 /* react-select renders its own markup; keep it in the codex's type. */
 .select {
     margin-bottom: 1rem;
