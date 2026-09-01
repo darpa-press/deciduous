@@ -108,14 +108,17 @@ describe("uniqueSlug", () => {
 
 describe("page counter", () => {
     test("raiseCounterTo only ever raises", { skip: skip() }, async () => {
-        const start = await counter.peekCounter();
-        assert.ok(start !== null, "counter should exist in the seeded data");
+        // A fresh database has no counter row at all — CI runs against an empty
+        // container — so seed one the way the application does rather than
+        // asserting the catalogue is already there. `nextPage` burns a number
+        // to do it, which is the documented cost of asking for one.
+        const start = (await counter.peekCounter()) ?? (await counter.nextPage());
 
-        await counter.raiseCounterTo(start! - 5);
+        await counter.raiseCounterTo(start - 5);
         assert.equal(await counter.peekCounter(), start, "a lower value moved it");
 
-        await counter.raiseCounterTo(start! + 5);
-        assert.equal(await counter.peekCounter(), start! + 5);
+        await counter.raiseCounterTo(start + 5);
+        assert.equal(await counter.peekCounter(), start + 5);
 
         // Put it back so the suite leaves nothing behind.
         await counter.IdentityCounterModel.updateOne(
@@ -146,7 +149,10 @@ describe("page counter", () => {
     test("a new piece never reuses a page number", { skip: skip() }, async () => {
         const before = await counter.peekCounter();
         const piece = await makePiece({ title: `test piece ${Date.now()}` });
-        assert.equal(piece.page, before! + 1);
+
+        // With no counter yet the first page issued is 0, not 1: the counter is
+        // seeded one increment below the start. See lib/page-counter.ts.
+        assert.equal(piece.page, before === null ? 0 : before + 1);
         const clash = await Piece.countDocuments({ page: piece.page });
         assert.equal(clash, 1, "two pieces answer to the same permalink");
     });
