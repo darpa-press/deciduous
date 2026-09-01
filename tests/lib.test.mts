@@ -137,8 +137,14 @@ describe("card", () => {
 describe("formatIndexText", () => {
     const entry = (text: string, pages: number[]): IndexEntry => ({ text, pages });
 
-    test("one entry per line, tab separated, pages comma separated", () => {
-        assert.equal(formatIndexText([entry("Marie Curie", [12, 45, 88])]), "Marie Curie\t12,45,88\n");
+    test("one entry per line, heading and pages parted by a comma and a space", () => {
+        assert.equal(formatIndexText([entry("Marie Curie", [12, 45, 88])]), "Marie Curie, 12,45,88\n");
+    });
+
+    // The separator reads as punctuation, so the pages stay tight against each
+    // other — otherwise the line is a wash of identical commas and spaces.
+    test("pages are packed, unlike the separator", () => {
+        assert.equal(formatIndexText([entry("Curie, Marie", [12, 45])]), "Curie, Marie, 12,45\n");
     });
 
     test("ends on a complete line", () => {
@@ -150,11 +156,11 @@ describe("formatIndexText", () => {
     test("a tab or newline in a heading cannot break the one-per-line contract", () => {
         const out = formatIndexText([entry("Bad\tName\nHere", [1])]);
         assert.equal(out.split("\n").filter(Boolean).length, 1);
-        assert.equal(out.split("\t").length, 2, "only the separator tab may remain");
+        assert.ok(!out.includes("\t"), "no tab survives into the set copy");
     });
 
     test("page 0 is a real page", () => {
-        assert.equal(formatIndexText([entry("X", [0, 3])]), "X\t0,3\n");
+        assert.equal(formatIndexText([entry("X", [0, 3])]), "X, 0,3\n");
     });
 
     test("nothing in, nothing out", () => {

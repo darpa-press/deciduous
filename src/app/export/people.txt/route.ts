@@ -8,9 +8,9 @@ import { isLoggedIn } from "@/lib/auth/session";
  *
  *   /export/people.txt
  *
- * One person per line: name, a tab, then the pages they appear on, comma
- * separated and ascending. Sorted by name; people who appear on no page are
- * left out.
+ * One person per line: name, a comma and a space, then the pages they appear
+ * on, comma separated and ascending. Sorted by name; people who appear on no
+ * page are left out.
  */
 export async function GET() {
     // The exports are the whole catalogue in one response, and `?content=1`

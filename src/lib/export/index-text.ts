@@ -6,13 +6,17 @@ import { getPiecesWithRelations } from "@/lib/queries";
  * Three indexes — people, words, and the two combined — one entry per line, in
  * the form the compositor expects:
  *
- *     Curie, Marie\t12,45,88
+ *     Curie, Marie, 12,45,88
  *
- * The heading, a tab, then the pages it appears on, comma separated and in
- * ascending order. Nothing else on the line — no page prefix, no spaces after
- * the commas — so the line splits on the first tab and the rest parses as a
- * list of integers, and the file drops into an InDesign text frame as a single
- * paragraph style with one tab stop.
+ * The heading, a comma and a space, then the pages it appears on, comma
+ * separated with no space and in ascending order. Nothing else on the line —
+ * no page prefix — so the file drops into an InDesign text frame as running
+ * index copy under a single paragraph style, with no tab stop to set.
+ *
+ * The separator is not a delimiter. A surname-first heading contains ", " too,
+ * so a line cannot be split back into heading and pages by machine; the pages
+ * are the trailing run of digits and commas. That is the trade for copy that
+ * places and reads as printed.
  *
  * All three are inverted from the same read: `getPiecesWithRelations` already
  * returns every piece in page order with its people and words resolved, so
@@ -194,12 +198,13 @@ export const buildCombinedIndex = () => buildIndex({ people: "surname-first", wo
 /**
  * Entries to the text body.
  *
- * Tabs and newlines are stripped from headings rather than escaped: they would
- * break the one-entry-per-line contract, and neither belongs in a name or a
- * term. Trailing newline so the file ends on a complete line.
+ * Tabs and newlines are stripped from headings rather than escaped: a newline
+ * would break the one-entry-per-line contract, and a stray tab in a name or a
+ * term is a typo that would open a gap in the set copy. Trailing newline so
+ * the file ends on a complete line.
  */
 export function formatIndexText(entries: IndexEntry[]): string {
     return entries
-        .map((entry) => `${entry.text.replace(/[\t\r\n]+/g, " ")}\t${entry.pages.join(",")}\n`)
+        .map((entry) => `${entry.text.replace(/[\t\r\n]+/g, " ")}, ${entry.pages.join(",")}\n`)
         .join("");
 }

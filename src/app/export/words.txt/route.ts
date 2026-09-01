@@ -8,9 +8,9 @@ import { isLoggedIn } from "@/lib/auth/session";
  *
  *   /export/words.txt
  *
- * One word per line: the term, a tab, then the pages it appears on, comma
- * separated and ascending. Sorted by term; words attached to no page are left
- * out.
+ * One word per line: the term, a comma and a space, then the pages it appears
+ * on, comma separated and ascending. Sorted by term; words attached to no page
+ * are left out.
  */
 export async function GET() {
     // The exports are the whole catalogue in one response, and `?content=1`

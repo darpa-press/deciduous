@@ -10,14 +10,14 @@ import { isLoggedIn } from "@/lib/auth/session";
  *   /export/index.txt
  *
  * People and words in one alphabetical sequence, one entry per line: the
- * heading, a tab, then the pages it appears on, comma separated and ascending.
- * People are filed surname first ("Borges, Jorge Luis"); words print as the
- * term. Headings that appear on no page are left out.
+ * heading, a comma and a space, then the pages it appears on, comma separated
+ * and ascending. People are filed surname first ("Borges, Jorge Luis"); words
+ * print as the term. Headings that appear on no page are left out.
  *
  * Nothing marks a line as a person or a word — it is one uniform list, so the
- * file places into an InDesign text frame under a single paragraph style with
- * one tab stop. `/export/people.txt` and `/export/words.txt` remain available
- * for setting the two indexes separately.
+ * file places into an InDesign text frame as running copy under a single
+ * paragraph style. `/export/people.txt` and `/export/words.txt` remain
+ * available for setting the two indexes separately.
  */
 export async function GET() {
     // The exports are the whole catalogue in one response, and `?content=1`
