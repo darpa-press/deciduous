@@ -113,6 +113,7 @@ export async function PersonEditPane({ slug, index }: { slug: string; index: num
                 bio: person.bio ?? "",
                 birth: person.birth != null ? String(person.birth) : "",
                 death: person.death != null ? String(person.death) : "",
+                wikidata: person.wikidata ?? "",
                 relation: (person.relation ?? []).map((entry) => ({
                     relatedPerson: entry.relatedPerson ? String(entry.relatedPerson) : "",
                     relatedReason: entry.relatedReason ?? "",
@@ -129,7 +130,7 @@ export async function NewPersonPane({ index }: { index: number }) {
         <PersonEditor
             index={index}
             personOptions={persons}
-            initial={{ name: "", bio: "", birth: "", death: "", relation: [] }}
+            initial={{ name: "", bio: "", birth: "", death: "", wikidata: "", relation: [] }}
         />
     );
 }

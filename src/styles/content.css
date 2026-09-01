@@ -1207,6 +1207,37 @@
     margin-right: 1rem;
 }
 
+/* ----------------------------------------------------------- date finder */
+
+/*
+ * Wikidata candidates, in both editors. The list itself reuses
+ * .word-finder-results and .word-finder-result — the same column of buttons,
+ * and the !important there is what beats .form-page button.
+ */
+
+.date-finder {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+
+/* What a pick filled in, reported where the pick happened — the fields
+ * themselves are below the bio, and often below the fold. */
+.date-finder-taken {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* The years, as they will be written into the fields. */
+.date-finder-years {
+    flex: 0 0 6rem;
+    margin-right: 1rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.date-finder-who {
+    flex: 1;
+    min-width: 0;
+}
+
 /* ------------------------------------------------------------- word pane */
 
 .word-head {

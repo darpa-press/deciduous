@@ -11,6 +11,8 @@ export interface PersonDoc {
     bio?: string;
     birth?: number;
     death?: number;
+    /** The Wikidata item these dates were looked up from, e.g. "Q7259". */
+    wikidata?: string;
     created: Date;
     relation: {
         relatedPerson?: Types.ObjectId;
@@ -24,6 +26,7 @@ const personSchema = new Schema<PersonDoc>({
     bio: { type: String, trim: true },
     birth: Number,
     death: Number,
+    wikidata: { type: String, trim: true },
     created: { type: Date, default: Date.now },
     relation: [
         {

@@ -5,6 +5,7 @@ import Select from "react-select";
 import { usePathname } from "next/navigation";
 
 import { CodeEditor } from "./CodeEditor";
+import { DateFinder } from "./DateFinder";
 import { Field, asYear } from "./fields";
 import { savePerson, deletePerson, type PersonInput } from "@/app/editor-actions";
 import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
@@ -30,6 +31,7 @@ export function PersonEditor({
         bio: string;
         birth: string;
         death: string;
+        wikidata: string;
         relation: { relatedPerson: string; relatedReason: string }[];
     };
     personOptions: Option[];
@@ -44,6 +46,7 @@ export function PersonEditor({
     const [bio, setBio] = useState(initial.bio);
     const [birth, setBirth] = useState(initial.birth);
     const [death, setDeath] = useState(initial.death);
+    const [wikidata, setWikidata] = useState(initial.wikidata);
     const [relation, setRelation] = useState(initial.relation);
 
     const go = (target: string) => {
@@ -59,6 +62,7 @@ export function PersonEditor({
             bio,
             birth: asYear(birth),
             death: asYear(death),
+            wikidata,
             relation,
         };
         startTransition(async () => {
@@ -98,6 +102,19 @@ export function PersonEditor({
                 placeholder="Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
+            />
+
+            <DateFinder
+                name={name}
+                birth={birth}
+                death={death}
+                onPick={(candidate) => {
+                    // Only ever fills. A candidate Wikidata has no settled year
+                    // for must not wipe one the author has already judged.
+                    if (candidate.birth !== null) setBirth(String(candidate.birth));
+                    if (candidate.death !== null) setDeath(String(candidate.death));
+                    setWikidata(candidate.id);
+                }}
             />
 
             {/* The bio is stored as HTML and rendered as such on the person pane. */}

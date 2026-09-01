@@ -1,11 +1,6 @@
 import { getAllPersons } from "@/lib/queries";
+import { formatYear } from "@/lib/year";
 import { PaneLink } from "@/components/PaneLink";
-
-/** Years are stored as signed numbers; negatives are BC. */
-function formatYear(value?: number) {
-    if (!value) return "—";
-    return value > 0 ? String(value) : `BC${Math.abs(value)}`;
-}
 
 /**
  * The people listing. The legacy version used react-table 6 with pagination,

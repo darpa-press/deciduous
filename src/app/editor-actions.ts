@@ -3,6 +3,8 @@
 import { updateTag } from "next/cache";
 
 import * as edit from "@/lib/edit";
+import { type Candidate } from "@/lib/wikidata";
+import { lookupPerson } from "@/lib/wikidata-lookup";
 import { requireAdmin } from "@/lib/auth/session";
 
 /**
@@ -25,6 +27,19 @@ import { requireAdmin } from "@/lib/auth/session";
 export type PieceInput = edit.PieceInput;
 export type PersonInput = edit.PersonInput;
 export type PersonDraft = edit.PersonDraft;
+export type { Candidate };
+
+/**
+ * People on Wikidata matching a name, for the date lookup in both editors.
+ *
+ * A read, so there is no tag to update — and gated all the same, because an
+ * action is reachable by anyone who knows its id and this one spends the
+ * codex's rate limit at Wikimedia.
+ */
+export async function lookupPersonDates(name: string): Promise<Candidate[]> {
+    await requireAdmin();
+    return lookupPerson(name);
+}
 
 /** Returns the page number to navigate to. */
 export async function savePiece(input: PieceInput): Promise<{ page: number }> {

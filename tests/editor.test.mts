@@ -276,6 +276,44 @@ describe("createPerson", () => {
         assert.equal(doc?.birth, 1906, "this form is not where dates get revised");
     });
 
+    test("carries the item id through from the piece editor", { skip: skip() }, async () => {
+        const name = `Curie ${Math.random().toString(36).slice(2, 10)}`;
+        const result = await edit.createPerson({
+            name,
+            birth: 1867,
+            death: 1934,
+            wikidata: "Q7186",
+        });
+        created.push({ model: "Person", id: result.id });
+
+        const doc = await Person.findById(result.id).lean();
+        assert.equal(doc?.wikidata, "Q7186");
+    });
+
+    // As with the dates: this form reuses whoever is already on record, and is
+    // not where what is known about them gets revised.
+    test("reusing a person leaves their item id alone", { skip: skip() }, async () => {
+        const name = `Sappho ${Math.random().toString(36).slice(2, 10)}`;
+        const first = await edit.createPerson({
+            name,
+            birth: null,
+            death: -570,
+            wikidata: "Q17892",
+        });
+        created.push({ model: "Person", id: first.id });
+
+        const again = await edit.createPerson({
+            name,
+            birth: null,
+            death: null,
+            wikidata: "Q999999",
+        });
+        assert.equal(again.created, false);
+
+        const doc = await Person.findById(first.id).lean();
+        assert.equal(doc?.wikidata, "Q17892", "overwrote a person's provenance");
+    });
+
     test("trims before deciding, so spacing does not make a duplicate", { skip: skip() }, async () => {
         const name = `Alan ${Math.random().toString(36).slice(2, 10)}`;
         const first = await edit.createPerson({ name, birth: null, death: null });
@@ -312,6 +350,58 @@ describe("createPerson", () => {
 });
 
 describe("savePerson", () => {
+    test("keeps the Wikidata item the dates were filled from", { skip: skip() }, async () => {
+        const doc = await makePerson({ name: "Ada Provenance" });
+
+        await edit.savePerson({
+            id: String(doc._id),
+            version: doc.__v,
+            name: "Ada Provenance",
+            bio: "",
+            birth: 1815,
+            death: 1852,
+            wikidata: "Q7259",
+            relation: [],
+        });
+
+        const stored = await Person.findById(doc._id).lean();
+        assert.equal(stored?.wikidata, "Q7259");
+        assert.equal(stored?.birth, 1815, "the years the lookup filled");
+    });
+
+    // The form is the whole document, as it is for bio and the years — so a
+    // save that no longer carries an item id clears the one on record rather
+    // than leaving a provenance that is no longer true.
+    test("a person the author has unlinked keeps no item id", { skip: skip() }, async () => {
+        const doc = await makePerson({ name: "Ada Unlinked" });
+
+        await edit.savePerson({
+            id: String(doc._id),
+            version: doc.__v,
+            name: "Ada Unlinked",
+            bio: "",
+            birth: 1815,
+            death: 1852,
+            wikidata: "Q7259",
+            relation: [],
+        });
+
+        const linked = await Person.findById(doc._id).lean();
+        await edit.savePerson({
+            id: String(doc._id),
+            version: linked?.__v,
+            name: "Ada Unlinked",
+            bio: "",
+            birth: 1815,
+            death: 1852,
+            wikidata: "",
+            relation: [],
+        });
+
+        const stored = await Person.findById(doc._id).lean();
+        assert.ok(!stored?.wikidata, "kept an item id the form no longer claims");
+    });
+
     test("a stale version is refused, not applied", { skip: skip() }, async () => {
         const doc = await makePerson();
         const stale = doc.__v;

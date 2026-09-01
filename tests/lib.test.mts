@@ -6,6 +6,13 @@ import { shelfMark, cardWordLabel, cardWordSource } from "../src/lib/card";
 import { formatIndexText, sortableName, type IndexEntry } from "../src/lib/export/index-text";
 import { searchQuery, MAX_TERM } from "../src/lib/search-term";
 import { claimAttempt, clearAttempts } from "../src/lib/auth/throttle";
+import {
+    resolveYear,
+    candidateIds,
+    parseCandidates,
+    lookupTerm,
+} from "../src/lib/wikidata";
+import { formatYear } from "../src/lib/year";
 
 const OPTS = { keyId: "id", keyParent: "parent", keyChild: "children" };
 
@@ -279,5 +286,241 @@ describe("login throttle", () => {
             /* exhaust a */
         }
         assert.equal(claimAttempt(b), "ok", "one caller's attempts blocked another's");
+    });
+});
+
+/**
+ * Payloads trimmed from real responses — Q7259, Q114068528, Q1541 and Q17892 —
+ * keeping the statements that decide a year and dropping the references, the
+ * hashes and the other four hundred claims.
+ */
+const time = (value: string, precision: number, rank = "normal") => ({
+    rank,
+    mainsnak: {
+        snaktype: "value",
+        datavalue: { value: { time: value, precision } },
+    },
+});
+
+const instanceOf = (id: string) => ({
+    mainsnak: { snaktype: "value", datavalue: { value: { id } } },
+});
+
+const entity = (
+    name: string,
+    description: string,
+    claims: Record<string, unknown[]>,
+    article?: string
+) => ({
+    labels: { en: { value: name } },
+    descriptions: { en: { value: description } },
+    sitelinks: article ? { enwiki: { url: article } } : {},
+    claims: { P31: [instanceOf("Q5")], ...claims },
+});
+
+const ENTITIES = {
+    entities: {
+        Q7259: entity(
+            "Ada Lovelace",
+            "English mathematician (1815–1852)",
+            {
+                P569: [time("+1815-12-10T00:00:00Z", 11)],
+                P570: [time("+1852-11-27T00:00:00Z", 11)],
+            },
+            "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        ),
+        // The second thing Wikidata offers for that name.
+        Q114068528: {
+            labels: { en: { value: "Ada Lovelace" } },
+            descriptions: { en: { value: "GPU microarchitecture designed by Nvidia" } },
+            sitelinks: {},
+            claims: { P31: [instanceOf("Q259864")] },
+        },
+        // Wikidata took her English label away when it moved the name to "mul".
+        Q7186: {
+            labels: { mul: { value: "Marie Curie" } },
+            descriptions: { en: { value: "Polish-born French physicist (1867–1934)" } },
+            sitelinks: {},
+            claims: {
+                P31: [instanceOf("Q5")],
+                P569: [time("+1867-11-07T00:00:00Z", 11)],
+                P570: [time("+1934-07-04T00:00:00Z", 11)],
+            },
+        },
+        Q1541: entity("Cicero", "Roman statesman (106–43 BC)", {
+            P569: [time("-0106-01-03T00:00:00Z", 11)],
+            P570: [
+                time("-0043-12-07T00:00:00Z", 11, "preferred"),
+                time("-0043-12-03T00:00:00Z", 11),
+            ],
+        }),
+        Q17892: entity("Sappho", "ancient Greek poet from Lesbos (c. 630-c. 570 BC)", {
+            P569: [
+                time("-0650-00-00T00:00:00Z", 7),
+                time("-0650-00-00T00:00:00Z", 7, "preferred"),
+                time("-0630-00-00T00:00:00Z", 9),
+                time("-0628-00-00T00:00:00Z", 9),
+                time("-0625-00-00T00:00:00Z", 9),
+                time("-0450-00-00T00:00:00Z", 7, "deprecated"),
+            ],
+            P570: [
+                time("-0550-00-00T00:00:00Z", 7),
+                time("-0570-00-00T00:00:00Z", 9, "preferred"),
+                time("-0569-00-00T00:00:00Z", 9),
+            ],
+        }),
+    },
+};
+
+describe("wikidata years", () => {
+    test("reads a plain dated statement", () => {
+        assert.equal(resolveYear([time("+1815-12-10T00:00:00Z", 11)]), 1815);
+    });
+
+    test("BC comes back negative, as the codex stores it", () => {
+        assert.equal(resolveYear([time("-0106-01-03T00:00:00Z", 11)]), -106);
+    });
+
+    test("the preferred rank settles a disagreement", () => {
+        const year = resolveYear([
+            time("-0043-12-03T00:00:00Z", 11),
+            time("-0043-12-07T00:00:00Z", 11, "preferred"),
+        ]);
+        assert.equal(year, -43);
+    });
+
+    test("a deprecated statement is not an answer", () => {
+        assert.equal(resolveYear([time("-0450-00-00T00:00:00Z", 11, "deprecated")]), null);
+    });
+
+    test("a century is too coarse to write down", () => {
+        // Precision 7 is a century and 8 a decade; neither names a year.
+        assert.equal(resolveYear([time("-0650-00-00T00:00:00Z", 7)]), null);
+        assert.equal(resolveYear([time("+1890-00-00T00:00:00Z", 8)]), null);
+    });
+
+    test("knowing there is a date but not which one is not knowing", () => {
+        const unknown = { rank: "normal", mainsnak: { snaktype: "somevalue" } };
+        assert.equal(resolveYear([unknown]), null);
+    });
+
+    // Regression: taking the first statement, or the first preferred one, put a
+    // year in the field that Wikidata does not actually claim. Sappho carries
+    // eleven birth statements spread over two centuries.
+    test("statements that disagree resolve to nothing", () => {
+        const year = resolveYear([
+            time("-0630-00-00T00:00:00Z", 9),
+            time("-0628-00-00T00:00:00Z", 9),
+            time("-0625-00-00T00:00:00Z", 9),
+        ]);
+        assert.equal(year, null, "picked one of several candidate years");
+    });
+
+    test("agreement between statements is still an answer", () => {
+        const year = resolveYear([
+            time("+1815-12-10T00:00:00Z", 11),
+            time("+1815-06-01T00:00:00Z", 11),
+        ]);
+        assert.equal(year, 1815, "the same year twice was read as a disagreement");
+    });
+
+    test("nothing at all is null, not a crash", () => {
+        assert.equal(resolveYear(undefined), null);
+        assert.equal(resolveYear([]), null);
+    });
+});
+
+describe("wikidata candidates", () => {
+    test("takes the ids the search ranked, in order", () => {
+        const ids = candidateIds({ search: [{ id: "Q7259" }, { id: "Q114068528" }] });
+        assert.deepEqual(ids, ["Q7259", "Q114068528"]);
+    });
+
+    test("a search that matched nothing yields nothing", () => {
+        assert.deepEqual(candidateIds({ search: [] }), []);
+        assert.deepEqual(candidateIds({}), []);
+    });
+
+    test("reads a person out of the payload whole", () => {
+        const [ada] = parseCandidates(["Q7259"], ENTITIES);
+        assert.deepEqual(ada, {
+            id: "Q7259",
+            name: "Ada Lovelace",
+            description: "English mathematician (1815–1852)",
+            birth: 1815,
+            death: 1852,
+            url: "https://en.wikipedia.org/wiki/Ada_Lovelace",
+        });
+    });
+
+    // Regression: the second result for "Ada Lovelace" is a graphics card, and
+    // the search itself has no idea we are looking for a person.
+    test("keeps only the people", () => {
+        const found = parseCandidates(["Q7259", "Q114068528"], ENTITIES);
+        assert.deepEqual(
+            found.map((c) => c.id),
+            ["Q7259"],
+            "offered something that is not a person"
+        );
+    });
+
+    test("holds the order the search gave", () => {
+        const found = parseCandidates(["Q1541", "Q7259"], ENTITIES);
+        assert.deepEqual(
+            found.map((c) => c.id),
+            ["Q1541", "Q7259"]
+        );
+    });
+
+    test("offers a person whose dates it cannot settle, without dates", () => {
+        const [sappho] = parseCandidates(["Q17892"], ENTITIES);
+        assert.equal(sappho.birth, null, "invented a birth year");
+        assert.equal(sappho.death, -570, "lost the one year that is agreed");
+        assert.match(sappho.description, /c\. 630/, "dropped the description that says so");
+    });
+
+    test("an item the entities call did not answer for is skipped", () => {
+        assert.deepEqual(parseCandidates(["Q404"], ENTITIES), []);
+    });
+
+    // Regression: many people — Marie Curie, Douglas Adams — have no English
+    // label at all now that Wikidata keeps their name under "mul" instead, and
+    // reading only `en` put a bare Q-number in front of the author.
+    test("falls back to the multilingual name", () => {
+        const [curie] = parseCandidates(["Q7186"], ENTITIES);
+        assert.equal(curie.name, "Marie Curie", "offered a Q-number as a name");
+        assert.equal(curie.birth, 1867);
+    });
+
+    test("no article is null, not an empty link", () => {
+        const [cicero] = parseCandidates(["Q1541"], ENTITIES);
+        assert.equal(cicero.url, null);
+    });
+});
+
+describe("wikidata search term", () => {
+    test("a name too short to be worth a request is refused", () => {
+        assert.equal(lookupTerm(""), null);
+        assert.equal(lookupTerm(" a "), null);
+    });
+
+    test("trims and collapses, so one name is one cache entry", () => {
+        assert.equal(lookupTerm("  Ada   Lovelace  "), "Ada Lovelace");
+    });
+
+    test("a very long name is bounded", () => {
+        assert.equal(lookupTerm("x".repeat(500))?.length, 128);
+    });
+});
+
+describe("formatYear", () => {
+    test("prints AD plainly and BC in the codex's notation", () => {
+        assert.equal(formatYear(1815), "1815");
+        assert.equal(formatYear(-106), "BC106");
+    });
+
+    test("an unknown year is a dash, not a zero", () => {
+        assert.equal(formatYear(null), "—");
+        assert.equal(formatYear(undefined), "—");
     });
 });

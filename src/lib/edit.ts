@@ -44,6 +44,8 @@ export interface PersonInput {
     bio: string;
     birth: number | null;
     death: number | null;
+    /** Wikidata item id the dates were looked up from, if a lookup filled them. */
+    wikidata?: string;
     relation: { relatedPerson: string; relatedReason: string }[];
 }
 
@@ -157,6 +159,9 @@ export async function savePerson(input: PersonInput): Promise<{ slug: string }> 
         bio: input.bio,
         birth: input.birth,
         death: input.death,
+        // null rather than undefined, so the field tracks the form the way
+        // birth and death do — Mongoose skips an undefined path on update.
+        wikidata: input.wikidata || null,
         relation: (input.relation ?? [])
             .filter((entry) => entry.relatedPerson)
             .map((entry) => ({
@@ -187,6 +192,7 @@ export interface PersonDraft {
     name: string;
     birth: number | null;
     death: number | null;
+    wikidata?: string;
 }
 
 /**
@@ -222,6 +228,7 @@ export async function createPerson(
         name,
         birth: input.birth,
         death: input.death,
+        wikidata: input.wikidata || undefined,
     }).save();
     return { id: String(created._id), name: created.name, created: true };
 }

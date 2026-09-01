@@ -7,6 +7,7 @@ import CreatableSelect from "react-select/creatable";
 import { CodeEditor } from "./CodeEditor";
 import { Field, Checkbox, ColourField, asYear } from "./fields";
 import { FileUpload } from "./FileUpload";
+import { DateFinder } from "./DateFinder";
 import { WordFinder } from "./WordFinder";
 import { savePiece, deletePiece, createPerson, type PieceInput } from "@/app/editor-actions";
 import { buildCreateLink, segmentsFromPathname } from "@/lib/panes";
@@ -95,7 +96,12 @@ export function PieceEditor({
      * index reads as a chronology. Everything else about them — bio, relations
      * — belongs in their own editor, a pane away.
      */
-    const [draft, setDraft] = useState<{ name: string; birth: string; death: string } | null>(null);
+    const [draft, setDraft] = useState<{
+        name: string;
+        birth: string;
+        death: string;
+        wikidata: string;
+    } | null>(null);
     const [note, setNote] = useState<string | null>(null);
 
     const go = (target: string) => {
@@ -139,6 +145,7 @@ export function PieceEditor({
                     name: draft.name,
                     birth: asYear(draft.birth),
                     death: asYear(draft.death),
+                    wikidata: draft.wikidata,
                 });
                 setPeople((current) =>
                     current.some((o) => o.value === person.id)
@@ -227,7 +234,7 @@ export function PieceEditor({
                         onChange={(options) => setPersons(options.map((o) => o.value))}
                         onCreateOption={(name) => {
                             setNote(null);
-                            setDraft({ name, birth: "", death: "" });
+                            setDraft({ name, birth: "", death: "", wikidata: "" });
                         }}
                         formatCreateLabel={(input) => `Add ${input} as a new person`}
                     />
@@ -274,6 +281,36 @@ export function PieceEditor({
                                 Cancel
                             </button>
                         </div>
+                    )}
+
+                    {/*
+                      * Below the draft row, not inside it: .person-draft is a
+                      * single flex line of fixed-width inputs.
+                      */}
+                    {draft && (
+                        <DateFinder
+                            name={draft.name}
+                            birth={draft.birth}
+                            death={draft.death}
+                            onPick={(candidate) =>
+                                setDraft((current) =>
+                                    current === null
+                                        ? current
+                                        : {
+                                              ...current,
+                                              birth:
+                                                  candidate.birth !== null
+                                                      ? String(candidate.birth)
+                                                      : current.birth,
+                                              death:
+                                                  candidate.death !== null
+                                                      ? String(candidate.death)
+                                                      : current.death,
+                                              wikidata: candidate.id,
+                                          }
+                                )
+                            }
+                        />
                     )}
 
                     {note && <div className="person-note">{note}</div>}
