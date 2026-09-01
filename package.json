@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit && tsc --noEmit -p tests/tsconfig.json",
+    "typecheck": "next typegen && tsc --noEmit && tsc --noEmit -p tests/tsconfig.json",
     "test": "node --import tsx --test --test-concurrency=1 tests/*.test.mts",
     "test:unit": "node --import tsx --test tests/panes.test.mts tests/content.test.mts tests/lib.test.mts",
     "test:data": "node --import tsx --test --test-concurrency=1 tests/data.test.mts tests/editor.test.mts",
